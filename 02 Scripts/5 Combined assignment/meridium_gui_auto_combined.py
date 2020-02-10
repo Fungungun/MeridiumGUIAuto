@@ -64,12 +64,12 @@ def find_element(web_driver,value:str,by = "xpath",wait_time_sec=60,description=
                 return web_driver.find_element_by_id(value)
             elif by == "xpath":
                 if value[:2] != "//":
-                    print(f"ERROR[find_element] for {value} using {by} // was not set")
+                    logging.info(f"ERROR[find_element] for {value} using {by} // was not set")
                     break
                 return web_driver.find_element_by_xpath(value)
             elif by =="xpath_multi":
                 if value[:2] != "//":
-                    print(f"ERROR[find_element] for {value} using {by} // was not set")
+                    logging.info(f"ERROR[find_element] for {value} using {by} // was not set")
                     break
                 return web_driver.find_elements_by_xpath(value) # will return list
             elif by == "class":
@@ -321,7 +321,7 @@ def close_asm_overview_tab(driver):
 
 def break_list_into_chunks(lst,number_of_chunks:int):
     if number_of_chunks < 1: 
-        print(f"ERROR[break_list_into_chunks] number of chunks should be 1 or greater instead it was {number_of_chunks}")
+        logging.info(f"ERROR[break_list_into_chunks] number of chunks should be 1 or greater instead it was {number_of_chunks}")
 
     length_of_sub_lists = round(len(floc_asm_list)/number_of_chunks)
 
@@ -436,52 +436,90 @@ def run_selenium_instance(chrome_driver_path,url_home_page,base_path,floc_asm_li
         asm_template_name = row[1]
         system_id = row[2]
 
-        
-        
+        logging.info(f"Thread[{thread_num}] starts processing floc |{floc_name}| asm |{asm_template_name}| system |{system_id}|. [{row_index} of {len(floc_asm_list)} ~ %{round(row_index/len(floc_asm_list)*100,1)} complete]")
+
         if start_time == 0: # time logging for user interest
-            print(f"Thread[{thread_num}][{row_index} of {len(floc_asm_list)} ~ %{round(row_index/len(floc_asm_list)*100,1)} complete] ASM=|{asm_template_name}| assigning to FLOC=|{floc_name}|")
+            logging.info(f"Thread[{thread_num}] starts processing floc |{floc_name}| asm |{asm_template_name}| system |{system_id}|. [{row_index} of {len(floc_asm_list)} ~ %{round(row_index/len(floc_asm_list)*100,1)} complete]")
         else:
-            print(f"Thread[{thread_num}][{row_index} of {len(floc_asm_list)} ~ %{round(row_index/len(floc_asm_list)*100,1)} complete] ASM=|{asm_template_name}| assigning to FLOC=|{floc_name}| prior lap took {round(time.time()-start_time,2)} seconds")
+            logging.info(f"Thread[{thread_num}] starts processing floc |{floc_name}| asm |{asm_template_name}| system |{system_id}|. [{row_index} of {len(floc_asm_list)} ~ %{round(row_index/len(floc_asm_list)*100,1)} complete] prior lap took {round(time.time()-start_time,2)} seconds")
         start_time = time.time()
 
         if login_required:
+            logging.info("Opening incognito window")
             driver = open_incognito_window(chrome_driver_path,url_home_page,run_selenium_headless)
+
+        finished_steps = 0
 
         try: # Error handling
             if login_required == True:
+                logging.info("Logging into meridium")
                 log_into_meridium(url_home_page,base_path,run_selenium_headless,driver,username,password)
                 login_required = False
 
+            logging.info("Step 1: ASM Template -> FLOC Starts")
+            logging.info("Navigating to ASM Overview tab")
             navigate_to_asm_overview_tab(driver) # step 1, ASM Template -> FLOC
+            logging.info("Navigating to ASM Template tab")
             navigate_to_asm_template(driver,asm_template_name) # step 1, ASM Template -> FLOC
+            logging.info("Applying Template")
             apply_template(driver,floc_name,asm_template_name) # step 1 FINISHED YAY!
+            logging.info("Closing assigned ASM Template tab")
             close_assigned_asm_template_tab(driver,asm_template_name) # Close tab should be on ASM overivew tab now
+            logging.info("Closing ASM Overview tab")
             close_asm_overview_tab(driver)
 
-            navigate_to_asm_overview_tab(driver) # step 2, ASM Template -> FLOC
+            finished_steps = 1
+
+            logging.info("Step 2: Activate FLOC Strategy Starts")
+            logging.info("Navigating to ASM Overview tab")
+            navigate_to_asm_overview_tab(driver) # step 2, activate floc strategy
+            logging.info("Activating FLOC strategy")
             activate_floc_strategy(driver,floc_name) # Step 2 activation
+            logging.info("Closing Asset Strategy")
             close_asset_strategy(driver,floc_name) #End of step 2
+            logging.info("Closing ASM Overview tab")
             close_asm_overview_tab(driver)
 
+            finished_steps = 2
+
+            logging.info("Step 3: Asset Strategy -> System Starts")
+            logging.info("Navigating to ASM Overview tab")
             navigate_to_asm_overview_tab(driver) # step 3, Asset Strategy -> System
+            logging.info("Navigating to System Strategy Management")
             navigate_to_system_strategy_management(driver,system_id)
             if see_if_floc_has_already_been_assigned_to_system(driver,floc_name) == False:
+                logging.info("Linking FLOC strategy to system")
                 link_floc_strategy_to_system(driver,system_id,floc_name)
+                logging.info("Closing Strategy tab")
                 close_strategy_tab(driver,system_id)
+                logging.info("Closing ASM Overview tab")
                 close_asm_overview_tab(driver)
+                logging.info("Navigating to ASM Overview tab")
                 navigate_to_asm_overview_tab(driver)
-                print(f"Thread[{thread_num}] FLOC |{floc_name}| assigned to |{system_id}|")
+                logging.info(f"Thread[{thread_num}] FLOC |{floc_name}| assigned to |{system_id}|")
             else:
+                logging.info("Closing Strategy tab")
                 close_strategy_tab(driver,system_id)
+                logging.info("Closing ASM Overview tab")
                 close_asm_overview_tab(driver)
+                logging.info("Navigating to ASM Overview tab")
                 navigate_to_asm_overview_tab(driver)
-                print(f"Thread[{thread_num}] System |{system_id}| has already been assigned |{floc_name}|, no assignment was carried  out.")
+                logging.info(f"Thread[{thread_num}] System |{system_id}| has already been assigned |{floc_name}|, no assignment was carried  out.")
 
-
+            finished_steps = 3
+            
         except (ElementStale,ElementNotFoundError,InnerHTMLNotInElement) as e: 
-            error_log.append(f"{floc_name},{asm_template_name},\"{e}\"")
+            if finished_steps == 0:
+                err_msg = f"Error raised in STEP 1: ASM Template {asm_template_name} -> FLOC {floc_name}"
+            elif finished_steps == 1:
+                err_msg = f"Error raised in STEP 2: Activate FLOC Strategy {floc_name}"
+            elif finished_steps == 2:
+                err_msg = f"Error raised in STEP 3: Asset Strategy {floc_name]} -> System {system_id}"
+            else:
+                err_msg = f"Unknown error. Raise to alex."
+            error_log.append(err_msg)
             login_required = True
-            # driver.quit()
+            driver.quit()
         else:
             pass
 
@@ -496,7 +534,7 @@ def write_error_log(error_log,start_time,error_log_path:str,number_of_browsers_t
         print(f"Number of processes run in parallel ,{number_of_browsers_to_run_in_parallel}",file=fileobj)
         print(f"CSV File Path,{asm_to_floc_link_csv_path}",file=fileobj)
         print("",file=fileobj)
-        print("FLOC not assigned,Corresponding ASM Template not assigned",file=fileobj)
+        # print("FLOC not assigned,Corresponding ASM Template not assigned",file=fileobj)
         for error in error_log:
             print(error,file=fileobj)
         print("",file=fileobj)
@@ -507,7 +545,6 @@ if __name__ == "__main__":
     # TODO 2: Config, version control
     # TODO 3: Public repo only https://www.gitkraken.com/git-client otherwise classic github
 
-    # print("starting...")
     start_time = time.time()
     # --- User variables to change ----
     base_path = "C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/"
@@ -553,7 +590,7 @@ if __name__ == "__main__":
 
     # write err log
     write_error_log(error_log,start_time,error_log_path,number_of_browsers_to_run_in_parallel,username,asm_to_floc_link_csv_path)
-    # print(f"Finished in {round(time.time()-start_time,1)}")
+    
 
     logging.info(f"Finished in {round(time.time()-start_time,1)}")
 
