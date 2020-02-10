@@ -1,0 +1,39 @@
+FLOC,ASM,System
+4800-P-30,Pump-NARC,Narcoonowie Satellite - Export - Transfer Pump Package
+4800-PX-30,Parent Asset - Maintenance covered by children,Narcoonowie Satellite - Export - Transfer Pump Package
+4800-FQI-0001,Run To Failure-INDICATOR-FLOW,Narcoonowie Satellite - Storage - Control and Monitor
+4800-LT-0006,Run To Failure-TRANSMITTER-LEVEL,Narcoonowie Satellite - Storage - Control and Monitor
+4800-LT-0007,Run To Failure-TRANSMITTER-LEVEL,Narcoonowie Satellite - Storage - Control and Monitor
+4800-LT-0013,Run To Failure-TRANSMITTER-LEVEL,Narcoonowie Satellite - Storage - Control and Monitor
+4800-PSV-0016,Managed by Integrity,Narcoonowie Satellite - Storage - Control and Monitor
+4800-PSV-00053,Run To Failure-VALVE,Narcoonowie Satellite - Storage - REB Injection Package - 4800-PX-0001
+4800-P-0009,Run To Failure-PUMP,Narcoonowie Satellite - Storage - REB Injection Package - 4800-PX-0001
+4800-PSV-00052,Run To Failure-VALVE,Narcoonowie Satellite - Storage - REB Injection Package - 4800-PX-0001
+4800-P-0010,Run To Failure-PUMP,Narcoonowie Satellite - Storage - REB Injection Package - 4800-PX-0001
+4800-PX-0001,Run To Failure-PARENT ASSET,Narcoonowie Satellite - Storage - REB Injection Package - 4800-PX-0001
+4800-KX-0002,Run To Failure-PARENT ASSET,Narcoonowie Satellite - Storage - FEB Injection Package - 4800-PX-0002
+4800-PSV-00054,Run To Failure-VALVE,Narcoonowie Satellite - Storage - FEB Injection Package - 4800-PX-0002
+4800-P-0011,Run To Failure-PUMP,Narcoonowie Satellite - Storage - FEB Injection Package - 4800-PX-0002
+4800-PSV-00055,Run To Failure-VALVE,Narcoonowie Satellite - Storage - FEB Injection Package - 4800-PX-0002
+4800-P-0012,Run To Failure-PUMP,Narcoonowie Satellite - Storage - FEB Injection Package - 4800-PX-0002
+4800-PX-0002,Run To Failure-PARENT ASSET,Narcoonowie Satellite - Storage - FEB Injection Package - 4800-PX-0002
+4800-SAT-STO-BND-1,Parent Asset - Maintenance covered by children,Narcoonowie Satellite - Storage - Tanks
+4800-SAT-STO-BND-2,Parent Asset - Maintenance covered by children,Narcoonowie Satellite - Storage - Tanks
+4800-SAT-STO-PND,Parent Asset - Maintenance covered by children,Narcoonowie Satellite - Storage - Evaporation Pond
+4800-TK-001-BND,Run To Failure-TANK,Narcoonowie Satellite - Storage - Tanks
+4800-TK-001,Run To Failure-TANK,Narcoonowie Satellite - Storage - Tanks
+4800-TK-002,Managed by Integrity,Narcoonowie Satellite - Storage - Tanks
+4800-TK-003,Managed by Integrity,Narcoonowie Satellite - Storage - Tanks
+4800-TK-004,Run To Failure-TANK,Narcoonowie Satellite - Storage - Tanks
+4800-TK-005,Tank-NARC,Narcoonowie Satellite - Storage - Tanks
+4800-TK-006,Tank-NARC,Narcoonowie Satellite - Storage - Tanks
+4800-TK-007,Tank-NARC,Narcoonowie Satellite - Storage - Tanks
+4800-TK-008,Tank-NARC,Narcoonowie Satellite - Storage - Tanks
+4800-XSV-0008-VAAC-1,Managed by Parent Maintenance,Narcoonowie Satellite - Storage - Emergency Shutdown
+4800-XSV-0008-VABA-2,Managed by Parent Maintenance,Narcoonowie Satellite - Storage - Emergency Shutdown
+4800-XSV-0008,Managed by Integrity,Narcoonowie Satellite - Storage - Emergency Shutdown
+4800-XSV-0015-VAAC-2,Managed by Parent Maintenance,Narcoonowie Satellite - Storage - Emergency Shutdown
+4800-XSV-0015-VABA-1,Managed by Parent Maintenance,Narcoonowie Satellite - Storage - Emergency Shutdown
+4800-XSV-0015,Managed by Integrity,Narcoonowie Satellite - Storage - Emergency Shutdown
+4800-XY-0008,Run To Failure-RELAY,Narcoonowie Satellite - Storage - Emergency Shutdown
+4800-XY-0015,Run To Failure-RELAY,Narcoonowie Satellite - Storage - Emergency Shutdown
