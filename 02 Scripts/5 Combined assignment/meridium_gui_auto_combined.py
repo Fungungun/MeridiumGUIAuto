@@ -519,16 +519,16 @@ def run_selenium_instance(chrome_driver_path,url_home_page,floc_asm_list,run_sel
         except (ElementStale,ElementNotFoundError,InnerHTMLNotInElement) as e: 
             if finished_steps == 0:
                 err_msg = f"Thread[{thread_num}] STEP 1: ASM Template {asm_template_name} -> FLOC {floc_name}. {e}"
-                csv_err_msg = f"1,{asm_template_name},{floc_name},{e}"
+                csv_err_msg = f"STEP 1: ASM -> FLOC,{floc_name},{asm_template_name},{system_id},{e}"
             elif finished_steps == 1:
                 err_msg = f"Thread[{thread_num}] STEP 2: Activate FLOC Strategy {floc_name}. {e}"
-                csv_err_msg = f"2,{floc_name},{floc_name},{e}"
+                csv_err_msg = f"STEP 2: ACTIVATION,{floc_name},{asm_template_name},{system_id},{e}"
             elif finished_steps == 2:
                 err_msg = f"Thread[{thread_num}] STEP 3: Asset Strategy {floc_name} -> System {system_id}. {e}"
-                csv_err_msg = f"3,{floc_name},{system_id},{e}"
+                csv_err_msg = f"STEP 3: FLOC -> SYSTEM,{floc_name},{asm_template_name},{system_id},{e}"
             else:
                 err_msg = f"Thread[{thread_num}] Unknown error Raise to alex. {e}"
-                csv_err_msg = f"-1,{asm_template_name}, {floc_name}, {system_id}, {e}"
+                csv_err_msg = f"-1,{floc_name},{asm_template_name},{system_id}, {e}"
 
             logging.error(err_msg)
             error_log.append(csv_err_msg)
@@ -548,7 +548,8 @@ def write_error_log(error_log,start_time,error_log_path:str,number_of_browsers_t
         print(f"Number of processes run in parallel ,{number_of_browsers_to_run_in_parallel}",file=fileobj)
         print(f"CSV File Path,{asm_to_floc_link_csv_path}",file=fileobj)
         print("",file=fileobj)
-        # print("FLOC not assigned,Corresponding ASM Template not assigned",file=fileobj)
+
+        print("STEP_FAILED,FLOC,ASM,SYSTEM,ERROR",file=fileobj)
         for error in error_log:
             print(error,file=fileobj)
         print("",file=fileobj)

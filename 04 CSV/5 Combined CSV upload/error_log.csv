@@ -1,10 +1,11 @@
 User Name,"alex.shellabear"
-Start time,Tue Feb 11 12:16:06 2020
-End time,Tue Feb 11 12:20:22 2020
-Time Taken [s],256.333336353302
+Start time,Tue Feb 11 13:45:07 2020
+End time,Tue Feb 11 13:49:20 2020
+Time Taken [s],252.51482367515564
 Number of processes run in parallel ,1
 CSV File Path,C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/04 CSV/5 Combined CSV upload/4800-SAT Upload Test 1.csv
 
-1,HELLO,HELLO,ERROR[find_element] couldn't find element Row for template name HELLO: //td/a using with innerHTML of HELLO within 60 seconds
-3,4800-P-30,HELLO,ERROR[find_element] couldn't find element System strategy id which is searched for under 'System and Unit Strategies': //td[@aria-colindex='1']/a using with innerHTML of HELLO within 60 seconds. Description of element = System strategy id which is searched for under 'System and Unit Strategies'
+STEP_FAILED,FLOC,ASM,SYSTEM,ERROR
+STEP 1: ASM -> FLOC,HELLO,HELLO,HELLO,ERROR[find_element] couldn't find element Row for template name HELLO: //td/a using with innerHTML of HELLO within 60 seconds
+STEP 3: FLOC -> SYSTEM,4800-P-30,Pump-NARC,HELLO,ERROR[find_element] couldn't find element System strategy id which is searched for under 'System and Unit Strategies': //td[@aria-colindex='1']/a using with innerHTML of HELLO within 60 seconds. Description of element = System strategy id which is searched for under 'System and Unit Strategies'
 

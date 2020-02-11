@@ -1465,3 +1465,71 @@
 02-11 12:27 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
 02-11 12:27 INFO     Thread[0] Navigating to ASM Overview tab
 02-11 12:27 INFO     Thread[0] Navigating to ASM Template tab
+02-11 13:45 INFO     -----------------------------------New Session-------------------------------------
+02-11 13:45 INFO     User Name: "alex.shellabear"
+02-11 13:45 INFO     Start time: Tue Feb 11 13:45:07 2020
+02-11 13:45 INFO     Number of processes run in parallel: 1
+02-11 13:45 INFO     CSV File Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/04 CSV/5 Combined CSV upload/4800-SAT Upload Test 1.csv
+02-11 13:45 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+02-11 13:45 INFO     Total number of rows to process: 3
+02-11 13:45 INFO     Thread[0] starts processing: 
+02-11 13:45 INFO     Thread[0] FLOC |HELLO| 
+02-11 13:45 INFO     Thread[0] ASM |HELLO| 
+02-11 13:45 INFO     Thread[0] SYSTEM |HELLO| 
+02-11 13:45 INFO     Thread[0] [0 of 3 ~ %0.0 complete] 
+02-11 13:45 INFO     Thread[0] Opening incognito window
+02-11 13:45 INFO     Thread[0] Logging into meridium
+02-11 13:45 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
+02-11 13:45 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 13:45 INFO     Thread[0] Navigating to ASM Template tab
+02-11 13:46 ERROR    Thread[0] STEP 1: ASM Template HELLO -> FLOC HELLO. ERROR[find_element] couldn't find element Row for template name HELLO: //td/a using with innerHTML of HELLO within 60 seconds
+02-11 13:46 INFO     Thread[0] starts processing: 
+02-11 13:46 INFO     Thread[0] FLOC |4800-P-30| 
+02-11 13:46 INFO     Thread[0] ASM |Pump-NARC| 
+02-11 13:46 INFO     Thread[0] SYSTEM |HELLO| 
+02-11 13:46 INFO     Thread[0] [1 of 3 ~ %33.3 complete] 
+02-11 13:46 INFO     Thread[0] Prior lap took 85.7 seconds 
+02-11 13:46 INFO     Thread[0] Opening incognito window
+02-11 13:46 INFO     Thread[0] Logging into meridium
+02-11 13:46 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
+02-11 13:46 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 13:46 INFO     Thread[0] Navigating to ASM Template tab
+02-11 13:46 INFO     Thread[0] Applying Template
+02-11 13:47 INFO     Thread[0] Closing assigned ASM Template tab
+02-11 13:47 INFO     Thread[0] Closing ASM Overview tab
+02-11 13:47 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
+02-11 13:47 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 13:47 INFO     Thread[0] Activating FLOC strategy
+02-11 13:47 INFO     Thread[0] Closing Asset Strategy
+02-11 13:47 INFO     Thread[0] Closing ASM Overview tab
+02-11 13:47 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
+02-11 13:47 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 13:47 INFO     Thread[0] Navigating to System Strategy Management
+02-11 13:48 ERROR    Thread[0] STEP 3: Asset Strategy 4800-P-30 -> System HELLO. ERROR[find_element] couldn't find element System strategy id which is searched for under 'System and Unit Strategies': //td[@aria-colindex='1']/a using with innerHTML of HELLO within 60 seconds. Description of element = System strategy id which is searched for under 'System and Unit Strategies'
+02-11 13:48 INFO     Thread[0] starts processing: 
+02-11 13:48 INFO     Thread[0] FLOC |4800-P-30| 
+02-11 13:48 INFO     Thread[0] ASM |Pump-NARC| 
+02-11 13:48 INFO     Thread[0] SYSTEM |Narcoonowie Satellite - Export - Transfer Pump Package| 
+02-11 13:48 INFO     Thread[0] [2 of 3 ~ %66.7 complete] 
+02-11 13:48 INFO     Thread[0] Prior lap took 113.12 seconds 
+02-11 13:48 INFO     Thread[0] Opening incognito window
+02-11 13:48 INFO     Thread[0] Logging into meridium
+02-11 13:48 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
+02-11 13:48 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 13:48 INFO     Thread[0] Navigating to ASM Template tab
+02-11 13:48 INFO     Thread[0] Applying Template
+02-11 13:48 INFO     Thread[0] Closing assigned ASM Template tab
+02-11 13:48 INFO     Thread[0] Closing ASM Overview tab
+02-11 13:49 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
+02-11 13:49 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 13:49 INFO     Thread[0] Activating FLOC strategy
+02-11 13:49 INFO     Thread[0] Closing Asset Strategy
+02-11 13:49 INFO     Thread[0] Closing ASM Overview tab
+02-11 13:49 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
+02-11 13:49 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 13:49 INFO     Thread[0] Navigating to System Strategy Management
+02-11 13:49 INFO     Thread[0] Closing Strategy tab
+02-11 13:49 INFO     Thread[0] Closing ASM Overview tab
+02-11 13:49 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 13:49 INFO     Thread[0] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-P-30|, no assignment was carried  out.
+02-11 13:49 INFO     Finished in 252.5
