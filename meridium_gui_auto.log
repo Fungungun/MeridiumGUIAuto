@@ -1445,3 +1445,23 @@
 02-11 12:20 INFO     Thread[0] Navigating to ASM Overview tab
 02-11 12:20 INFO     Thread[0] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-P-30|, no assignment was carried  out.
 02-11 12:20 INFO     Finished in 256.3
+02-11 12:25 INFO     -----------------------------------New Session-------------------------------------
+02-11 12:25 INFO     -----------------------------------New Session-------------------------------------
+02-11 12:25 INFO     -----------------------------------New Session-------------------------------------
+02-11 12:26 INFO     -----------------------------------New Session-------------------------------------
+02-11 12:26 INFO     User Name: "alex.shellabear"
+02-11 12:26 INFO     Start time: Tue Feb 11 12:26:56 2020
+02-11 12:26 INFO     Number of processes run in parallel: 1
+02-11 12:26 INFO     CSV File Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/04 CSV/5 Combined CSV upload/4800-SAT Upload Test.csv
+02-11 12:26 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+02-11 12:26 INFO     Total number of rows to process: 40
+02-11 12:26 INFO     Thread[0] starts processing: 
+02-11 12:26 INFO     Thread[0] FLOC |HELLO| 
+02-11 12:26 INFO     Thread[0] ASM |HELLO| 
+02-11 12:26 INFO     Thread[0] SYSTEM |HELLO| 
+02-11 12:26 INFO     Thread[0] [0 of 40 ~ %0.0 complete] 
+02-11 12:26 INFO     Thread[0] Opening incognito window
+02-11 12:27 INFO     Thread[0] Logging into meridium
+02-11 12:27 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
+02-11 12:27 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 12:27 INFO     Thread[0] Navigating to ASM Template tab

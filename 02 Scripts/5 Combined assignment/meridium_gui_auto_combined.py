@@ -130,7 +130,7 @@ def find_elements_search_for_innerhtml_then_click(web_driver,xpath:str,innerhtml
     raise ElementNotFoundError(f"ERROR[find_element] couldn't find element {description}: {xpath} using with innerHTML of {innerhtml} within {wait_time_sec} seconds. Description of element = {description}")
 
 
-def log_into_meridium(url,base_path,run_selenium_headless,driver,username,password):
+def log_into_meridium(url,run_selenium_headless,driver,username,password):
     input_user_id = find_element(driver,"userid",by="id",description="User ID textbox")
     try:
         input_user_id.send_keys(username)
@@ -426,7 +426,7 @@ def see_if_floc_has_already_been_assigned_to_system(driver,floc:str):
 def close_strategy_tab(driver,strategy_id:str):
     find_element_and_click(driver,f"//li[@title='{strategy_id}']/i",description=f"The close button for the system strategy which has been opened, |{strategy_id}|")
 
-def run_selenium_instance(chrome_driver_path,url_home_page,base_path,floc_asm_list,run_selenium_headless,thread_num,username,password):
+def run_selenium_instance(chrome_driver_path,url_home_page,floc_asm_list,run_selenium_headless,thread_num,username,password):
     global error_log
     start_time = 0
     login_required = True
@@ -461,7 +461,7 @@ def run_selenium_instance(chrome_driver_path,url_home_page,base_path,floc_asm_li
         try: # Error handling
             if login_required == True:
                 logging.info(f"Thread[{thread_num}] Logging into meridium")
-                log_into_meridium(url_home_page,base_path,run_selenium_headless,driver,username,password)
+                log_into_meridium(url_home_page,run_selenium_headless,driver,username,password)
                 login_required = False
 
             logging.info(f"Thread[{thread_num}] Step 1: ASM Template -> FLOC Starts")
@@ -561,7 +561,6 @@ if __name__ == "__main__":
     
     username = os.getenv("MERIDIUM_USERNAME")
     password = os.getenv("MERIDIUM_PASSWORD")
-    base_path = os.getenv("MERIDIUM_BASE_PATH")
     chrome_driver_path = os.getenv("MERIDIUM_CHROME_DRIVER_PATH")
     asm_to_floc_link_csv_path = os.getenv("MERIDIUM_INPUT_CSV_PATH")
     error_log_path = os.getenv("MERIDIUM_ERROR_LOG_PATH")
@@ -569,9 +568,6 @@ if __name__ == "__main__":
     number_of_browsers_to_run_in_parallel = int(os.getenv("MERIDIUM_NUM_RUN_IN_PARALLEL"))
 
     error_log = []
-
-    if os.path.exists(base_path) == False:
-        raise FileExistsError(f"ERROR[MAIN] The base file path of {base_path} does not exist")
 
     floc_asm_list = get_asm_and_floc_assignment_from_csv(asm_to_floc_link_csv_path)
 
@@ -588,7 +584,7 @@ if __name__ == "__main__":
     threads = []
 
     for thread_num,partial_floc_asm_list in enumerate(broken_up_floc_asm_list):
-        x = threading.Thread(target=run_selenium_instance, args=(chrome_driver_path,url_home_page,base_path,partial_floc_asm_list,run_selenium_headless,thread_num,username,password))
+        x = threading.Thread(target=run_selenium_instance, args=(chrome_driver_path,url_home_page,partial_floc_asm_list,run_selenium_headless,thread_num,username,password))
         threads.append(x)
         x.start()
 
