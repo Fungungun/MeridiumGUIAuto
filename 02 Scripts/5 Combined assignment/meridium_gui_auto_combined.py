@@ -508,14 +508,14 @@ def run_selenium_instance(chrome_driver_path,url_home_page,base_path,floc_asm_li
             
         except (ElementStale,ElementNotFoundError,InnerHTMLNotInElement) as e: 
             if finished_steps == 0:
-                err_msg = f"Thread[{thread_num}] Error raised in STEP 1: ASM Template {asm_template_name} -> FLOC {floc_name}"
+                err_msg = f"Thread[{thread_num}] [Error] raised in STEP 1: ASM Template {asm_template_name} -> FLOC {floc_name}. {e}"
             elif finished_steps == 1:
-                err_msg = f"Thread[{thread_num}] Error raised in STEP 2: Activate FLOC Strategy {floc_name}"
+                err_msg = f"Thread[{thread_num}] [Error] raised in STEP 2: Activate FLOC Strategy {floc_name}. {e}"
             elif finished_steps == 2:
-                err_msg = f"Thread[{thread_num}] Error raised in STEP 3: Asset Strategy {floc_name} -> System {system_id}"
+                err_msg = f"Thread[{thread_num}] [Error] raised in STEP 3: Asset Strategy {floc_name} -> System {system_id}. {e}"
             else:
-                err_msg = f"Thread[{thread_num}] Unknown error. Raise to alex."
-            
+                err_msg = f"Thread[{thread_num}] [Error] Unknown error Raise to alex. {e}"
+
             logging.error(err_msg)
             error_log.append(err_msg)
             login_required = True
@@ -546,19 +546,18 @@ if __name__ == "__main__":
     # TODO 3: Public repo only https://www.gitkraken.com/git-client otherwise classic github
 
     start_time = time.time()
-    # --- User variables to change ----
-    base_path = "C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/"
+    run_selenium_headless = False  # must run with display up
+
+    
     username = os.getenv("MERIDIUM_USERNAME")
     password = os.getenv("MERIDIUM_PASSWORD")
+    base_path = os.getenv("MERIDIUM_BASE_PATH")
+    chrome_driver_path = os.getenv("MERIDIUM_CHROME_DRIVER_PATH")
+    asm_to_floc_link_csv_path = os.getenv("MERIDIUM_INPUT_CSV_PATH")
+    error_log_path = os.getenv("MERIDIUM_ERROR_LOG_PATH")
+    url_home_page = os.getenv("MERIDIUM_URL_HOME_PAGE")
+    number_of_browsers_to_run_in_parallel = int(os.getenv("MERIDIUM_NUM_RUN_IN_PARALLEL"))
 
-    # --- program variables ---
-    chrome_driver_path = f"{base_path}/02 Scripts/chromedriver.exe"
-    # asm_to_floc_link_csv_path = f"{base_path}/04 CSV/2 Assign ASM Template To FLOC/floc that didnt work for kecheng.csv"
-    asm_to_floc_link_csv_path = f"{base_path}/04 CSV/5 Combined CSV upload/4800-SAT Upload Test.csv"
-    error_log_path = f"{base_path}/04 CSV/5 Combined CSV upload/error_log.csv"
-    url_home_page = "https:\\meridium.nexusic.com\meridium\#2;rte=home;rte=assets\hierarchy\-1;rte=\strategy\overview;"
-    run_selenium_headless = False # must run with display up
-    number_of_browsers_to_run_in_parallel = 1
     error_log = []
 
     if os.path.exists(base_path) == False:
@@ -567,8 +566,6 @@ if __name__ == "__main__":
     floc_asm_list = get_asm_and_floc_assignment_from_csv(asm_to_floc_link_csv_path)
 
     broken_up_floc_asm_list = list(break_list_into_chunks(floc_asm_list,number_of_browsers_to_run_in_parallel))
-
-    # run_selenium_instance(chrome_driver_path,url_home_page,base_path,broken_up_floc_asm_list[0],run_selenium_headless,0,username,password)
 
     logging.info(f"User Name: \"{username}\"")
     logging.info(f"Start time: {time.ctime(start_time)}")
@@ -593,7 +590,3 @@ if __name__ == "__main__":
     
 
     logging.info(f"Finished in {round(time.time()-start_time,1)}")
-
-
-
-    
