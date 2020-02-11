@@ -519,16 +519,16 @@ def run_selenium_instance(chrome_driver_path,url_home_page,base_path,floc_asm_li
         except (ElementStale,ElementNotFoundError,InnerHTMLNotInElement) as e: 
             if finished_steps == 0:
                 err_msg = f"Thread[{thread_num}] STEP 1: ASM Template {asm_template_name} -> FLOC {floc_name}. {e}"
-                csv_err_msg = f"1,{asm_template_name,floc_name,{e}}"
+                csv_err_msg = f"1,{asm_template_name},{floc_name},{e}"
             elif finished_steps == 1:
                 err_msg = f"Thread[{thread_num}] STEP 2: Activate FLOC Strategy {floc_name}. {e}"
-                csv_err_msg = f"2,{floc_name,floc_name,{e}}"
+                csv_err_msg = f"2,{floc_name},{floc_name},{e}"
             elif finished_steps == 2:
                 err_msg = f"Thread[{thread_num}] STEP 3: Asset Strategy {floc_name} -> System {system_id}. {e}"
-                csv_err_msg = f"3,{floc_name,system_id,{e}}"
+                csv_err_msg = f"3,{floc_name},{system_id},{e}"
             else:
                 err_msg = f"Thread[{thread_num}] Unknown error Raise to alex. {e}"
-                csv_err_msg = f"-1,{asm_template_name, floc_name, system_id, {e}}"
+                csv_err_msg = f"-1,{asm_template_name}, {floc_name}, {system_id}, {e}"
 
             logging.error(err_msg)
             error_log.append(csv_err_msg)
@@ -540,7 +540,7 @@ def run_selenium_instance(chrome_driver_path,url_home_page,base_path,floc_asm_li
 
 def write_error_log(error_log,start_time,error_log_path:str,number_of_browsers_to_run_in_parallel:int,username:str,asm_to_floc_link_csv_path:str):
     
-    with open(error_log_path, 'a') as fileobj:
+    with open(error_log_path, 'a+') as fileobj:
         print(f"User Name,\"{username}\"",file=fileobj)
         print(f"Start time,{time.ctime(start_time)}",file=fileobj)
         print(f"End time,{time.ctime(time.time())}",file=fileobj)
@@ -555,10 +555,6 @@ def write_error_log(error_log,start_time,error_log_path:str,number_of_browsers_t
     
 
 if __name__ == "__main__": 
-    # TODO 1: Logging
-    # TODO 2: Config, version control
-    # TODO 3: Public repo only https://www.gitkraken.com/git-client otherwise classic github
-
     start_time = time.time()
     run_selenium_headless = False  # must run with display up
 
