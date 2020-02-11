@@ -1,200 +1,76 @@
-02-10 16:41 INFO     -----------------------------------New Session-------------------------------------
-02-10 16:41 INFO     User Name: "alex.shellabear"
-02-10 16:41 INFO     Start time: Mon Feb 10 16:41:59 2020
-02-10 16:41 INFO     Number of processes run in parallel: 1
-02-10 16:41 INFO     CSV File Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto//04 CSV/5 Combined CSV upload/4800-SAT Upload Test.csv
-02-10 16:41 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto//02 Scripts/chromedriver.exe
-02-10 16:41 INFO     Total number of rows to process: 38
-02-10 16:41 INFO     Thread[0] starts processing floc |4800-P-30| asm |Pump-NARC| system |Narcoonowie Satellite - Export - Transfer Pump Package|. [0 of 38 ~ %0.0 complete]
-02-10 16:41 INFO     Thread[0] starts processing floc |4800-P-30| asm |Pump-NARC| system |Narcoonowie Satellite - Export - Transfer Pump Package|. [0 of 38 ~ %0.0 complete]
-02-10 16:41 INFO     Opening incognito window
-02-10 16:43 INFO     Logging into meridium
-02-10 16:43 INFO     Step 1: ASM Template -> FLOC Starts
-02-10 16:43 INFO     Navigating to ASM Overview tab
-02-10 16:43 INFO     Navigating to ASM Template tab
-02-10 16:43 INFO     Applying Template
-02-10 16:43 INFO     Closing assigned ASM Template tab
-02-10 16:43 INFO     Closing ASM Overview tab
-02-10 16:43 INFO     Step 2: Activate FLOC Strategy Starts
-02-10 16:43 INFO     Navigating to ASM Overview tab
-02-10 16:43 INFO     Activating FLOC strategy
-02-10 16:44 INFO     Closing Asset Strategy
-02-10 16:44 INFO     Closing ASM Overview tab
-02-10 16:44 INFO     Step 3: Asset Strategy -> System Starts
-02-10 16:44 INFO     Navigating to ASM Overview tab
-02-10 16:44 INFO     Navigating to System Strategy Management
-02-10 16:44 INFO     Closing Strategy tab
-02-10 16:44 INFO     Closing ASM Overview tab
-02-10 16:44 INFO     Navigating to ASM Overview tab
-02-10 16:44 INFO     Thread[0] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-P-30|, no assignment was carried  out.
-02-10 16:44 INFO     Thread[0] starts processing floc |4800-PX-30| asm |Parent Asset - Maintenance covered by children| system |Narcoonowie Satellite - Export - Transfer Pump Package|. [1 of 38 ~ %2.6 complete]
-02-10 16:44 INFO     Thread[0] starts processing floc |4800-PX-30| asm |Parent Asset - Maintenance covered by children| system |Narcoonowie Satellite - Export - Transfer Pump Package|. [1 of 38 ~ %2.6 complete] prior lap took 141.33 seconds
-02-10 16:44 INFO     Step 1: ASM Template -> FLOC Starts
-02-10 16:44 INFO     Navigating to ASM Overview tab
-02-10 16:44 INFO     Navigating to ASM Template tab
-02-10 16:44 INFO     Applying Template
-02-10 16:44 INFO     Closing assigned ASM Template tab
-02-10 16:44 INFO     Closing ASM Overview tab
-02-10 16:44 INFO     Step 2: Activate FLOC Strategy Starts
-02-10 16:44 INFO     Navigating to ASM Overview tab
-02-10 16:44 INFO     Activating FLOC strategy
-02-10 16:44 INFO     Closing Asset Strategy
-02-10 16:44 INFO     Closing ASM Overview tab
-02-10 16:44 INFO     Step 3: Asset Strategy -> System Starts
-02-10 16:44 INFO     Navigating to ASM Overview tab
-02-10 16:44 INFO     Navigating to System Strategy Management
-02-10 16:45 INFO     Closing Strategy tab
-02-10 16:45 INFO     Closing ASM Overview tab
-02-10 16:45 INFO     Navigating to ASM Overview tab
-02-10 16:45 INFO     Thread[0] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-PX-30|, no assignment was carried  out.
-02-10 16:45 INFO     Thread[0] starts processing floc |4800-FQI-0001| asm |Run To Failure-INDICATOR-FLOW| system |Narcoonowie Satellite - Storage - Control and Monitor|. [2 of 38 ~ %5.3 complete]
-02-10 16:45 INFO     Thread[0] starts processing floc |4800-FQI-0001| asm |Run To Failure-INDICATOR-FLOW| system |Narcoonowie Satellite - Storage - Control and Monitor|. [2 of 38 ~ %5.3 complete] prior lap took 52.13 seconds
-02-10 16:45 INFO     Step 1: ASM Template -> FLOC Starts
-02-10 16:45 INFO     Navigating to ASM Overview tab
-02-10 16:45 INFO     Navigating to ASM Template tab
-02-10 16:45 INFO     Applying Template
-02-10 16:45 INFO     Closing assigned ASM Template tab
-02-10 16:45 INFO     Closing ASM Overview tab
-02-10 16:45 INFO     Step 2: Activate FLOC Strategy Starts
-02-10 16:45 INFO     Navigating to ASM Overview tab
-02-10 16:45 INFO     Activating FLOC strategy
-02-10 16:45 INFO     Closing Asset Strategy
-02-10 16:45 INFO     Closing ASM Overview tab
-02-10 16:45 INFO     Step 3: Asset Strategy -> System Starts
-02-10 16:45 INFO     Navigating to ASM Overview tab
-02-10 16:45 INFO     Navigating to System Strategy Management
-02-10 16:46 INFO     Closing Strategy tab
-02-10 16:46 INFO     Closing ASM Overview tab
-02-10 16:46 INFO     Navigating to ASM Overview tab
-02-10 16:46 INFO     Thread[0] System |Narcoonowie Satellite - Storage - Control and Monitor| has already been assigned |4800-FQI-0001|, no assignment was carried  out.
-02-10 16:46 INFO     Thread[0] starts processing floc |4800-LT-0006| asm |Run To Failure-TRANSMITTER-LEVEL| system |Narcoonowie Satellite - Storage - Control and Monitor|. [3 of 38 ~ %7.9 complete]
-02-10 16:46 INFO     Thread[0] starts processing floc |4800-LT-0006| asm |Run To Failure-TRANSMITTER-LEVEL| system |Narcoonowie Satellite - Storage - Control and Monitor|. [3 of 38 ~ %7.9 complete] prior lap took 54.06 seconds
-02-10 16:46 INFO     Step 1: ASM Template -> FLOC Starts
-02-10 16:46 INFO     Navigating to ASM Overview tab
-02-10 16:46 INFO     Navigating to ASM Template tab
-02-10 16:46 INFO     Applying Template
-02-10 16:46 INFO     Closing assigned ASM Template tab
-02-10 16:46 INFO     Closing ASM Overview tab
-02-10 16:46 INFO     Step 2: Activate FLOC Strategy Starts
-02-10 16:46 INFO     Navigating to ASM Overview tab
-02-10 16:46 INFO     Activating FLOC strategy
-02-10 16:46 INFO     Closing Asset Strategy
-02-10 16:46 INFO     Closing ASM Overview tab
-02-10 16:46 INFO     Step 3: Asset Strategy -> System Starts
-02-10 16:46 INFO     Navigating to ASM Overview tab
-02-10 16:46 INFO     Navigating to System Strategy Management
-02-10 16:46 INFO     Closing Strategy tab
-02-10 16:46 INFO     Closing ASM Overview tab
-02-10 16:47 INFO     Navigating to ASM Overview tab
-02-10 16:47 INFO     Thread[0] System |Narcoonowie Satellite - Storage - Control and Monitor| has already been assigned |4800-LT-0006|, no assignment was carried  out.
-02-10 16:47 INFO     Thread[0] starts processing floc |4800-LT-0007| asm |Run To Failure-TRANSMITTER-LEVEL| system |Narcoonowie Satellite - Storage - Control and Monitor|. [4 of 38 ~ %10.5 complete]
-02-10 16:47 INFO     Thread[0] starts processing floc |4800-LT-0007| asm |Run To Failure-TRANSMITTER-LEVEL| system |Narcoonowie Satellite - Storage - Control and Monitor|. [4 of 38 ~ %10.5 complete] prior lap took 55.02 seconds
-02-10 16:47 INFO     Step 1: ASM Template -> FLOC Starts
-02-10 16:47 INFO     Navigating to ASM Overview tab
-02-10 16:47 INFO     Navigating to ASM Template tab
-02-10 16:47 INFO     Applying Template
-02-10 16:47 INFO     Closing assigned ASM Template tab
-02-10 16:47 INFO     Closing ASM Overview tab
-02-10 16:47 INFO     Step 2: Activate FLOC Strategy Starts
-02-10 16:47 INFO     Navigating to ASM Overview tab
-02-10 16:47 INFO     Activating FLOC strategy
-02-10 16:47 INFO     Closing Asset Strategy
-02-10 16:47 INFO     Closing ASM Overview tab
-02-10 16:47 INFO     Step 3: Asset Strategy -> System Starts
-02-10 16:47 INFO     Navigating to ASM Overview tab
-02-10 16:47 INFO     Navigating to System Strategy Management
-02-10 16:47 INFO     Closing Strategy tab
-02-10 16:47 INFO     Closing ASM Overview tab
-02-10 16:47 INFO     Navigating to ASM Overview tab
-02-10 16:47 INFO     Thread[0] System |Narcoonowie Satellite - Storage - Control and Monitor| has already been assigned |4800-LT-0007|, no assignment was carried  out.
-02-10 16:47 INFO     Thread[0] starts processing floc |4800-LT-0013| asm |Run To Failure-TRANSMITTER-LEVEL| system |Narcoonowie Satellite - Storage - Control and Monitor|. [5 of 38 ~ %13.2 complete]
-02-10 16:47 INFO     Thread[0] starts processing floc |4800-LT-0013| asm |Run To Failure-TRANSMITTER-LEVEL| system |Narcoonowie Satellite - Storage - Control and Monitor|. [5 of 38 ~ %13.2 complete] prior lap took 51.76 seconds
-02-10 16:47 INFO     Step 1: ASM Template -> FLOC Starts
-02-10 16:47 INFO     Navigating to ASM Overview tab
-02-10 16:47 INFO     Navigating to ASM Template tab
-02-10 16:48 INFO     Applying Template
-02-10 16:48 INFO     Closing assigned ASM Template tab
-02-10 16:48 INFO     Closing ASM Overview tab
-02-10 16:48 INFO     Step 2: Activate FLOC Strategy Starts
-02-10 16:48 INFO     Navigating to ASM Overview tab
-02-10 16:48 INFO     Activating FLOC strategy
-02-10 16:48 INFO     Closing Asset Strategy
-02-10 16:48 INFO     Closing ASM Overview tab
-02-10 16:48 INFO     Step 3: Asset Strategy -> System Starts
-02-10 16:48 INFO     Navigating to ASM Overview tab
-02-10 16:48 INFO     Navigating to System Strategy Management
-02-10 16:48 INFO     Closing Strategy tab
-02-10 16:48 INFO     Closing ASM Overview tab
-02-10 16:48 INFO     Navigating to ASM Overview tab
-02-10 16:48 INFO     Thread[0] System |Narcoonowie Satellite - Storage - Control and Monitor| has already been assigned |4800-LT-0013|, no assignment was carried  out.
-02-10 16:48 INFO     Thread[0] starts processing floc |4800-PSV-0016| asm |Managed by Integrity| system |Narcoonowie Satellite - Storage - Control and Monitor|. [6 of 38 ~ %15.8 complete]
-02-10 16:48 INFO     Thread[0] starts processing floc |4800-PSV-0016| asm |Managed by Integrity| system |Narcoonowie Satellite - Storage - Control and Monitor|. [6 of 38 ~ %15.8 complete] prior lap took 49.75 seconds
-02-10 16:48 INFO     Step 1: ASM Template -> FLOC Starts
-02-10 16:48 INFO     Navigating to ASM Overview tab
-02-10 16:48 INFO     Navigating to ASM Template tab
-02-10 16:48 INFO     Applying Template
-02-10 16:49 INFO     Closing assigned ASM Template tab
-02-10 16:49 INFO     Closing ASM Overview tab
-02-10 16:49 INFO     Step 2: Activate FLOC Strategy Starts
-02-10 16:49 INFO     Navigating to ASM Overview tab
-02-10 16:49 INFO     Activating FLOC strategy
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6A60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6F70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6040>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160B700>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BCD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160B460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160B7C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6970>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E64F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160B0A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160B460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160B4F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160B7F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BD00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BE50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160B490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160F820>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160F970>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160F640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BD90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160B760>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BE50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BA00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BB20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160B640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160B220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15CCBB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6F40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E65E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160FAF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160FD90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160FFA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:49 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6B50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:50 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6A00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:50 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6BE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:50 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B15E6940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:50 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BF10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:50 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BCD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243/element
-02-10 16:50 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BD60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243
-02-10 16:50 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BB20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243
-02-10 16:50 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9B160BB50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5dc6f4e7f1e6e4608b6828b922f243
-02-10 16:50 INFO     Thread[0] starts processing floc |4800-PSV-00053| asm |Run To Failure-VALVE| system |Narcoonowie Satellite - Storage - REB Injection Package - 4800-PX-0001|. [7 of 38 ~ %18.4 complete]
-02-10 16:50 INFO     Thread[0] starts processing floc |4800-PSV-00053| asm |Run To Failure-VALVE| system |Narcoonowie Satellite - Storage - REB Injection Package - 4800-PX-0001|. [7 of 38 ~ %18.4 complete] prior lap took 91.7 seconds
-02-10 16:50 INFO     Opening incognito window
-02-10 16:51 INFO     Logging into meridium
-02-10 16:51 INFO     Step 1: ASM Template -> FLOC Starts
-02-10 16:51 INFO     Navigating to ASM Overview tab
-02-10 16:51 INFO     Navigating to ASM Template tab
-02-10 16:51 INFO     Applying Template
-02-10 16:51 INFO     Closing assigned ASM Template tab
-02-10 16:51 INFO     Closing ASM Overview tab
-02-10 16:51 INFO     Step 2: Activate FLOC Strategy Starts
-02-10 16:51 INFO     Navigating to ASM Overview tab
-02-10 16:51 INFO     Activating FLOC strategy
-02-10 16:52 INFO     Closing Asset Strategy
-02-10 16:52 INFO     Closing ASM Overview tab
+02-11 08:36 INFO     -----------------------------------New Session-------------------------------------
+02-11 08:36 INFO     User Name: "alex.shellabear"
+02-11 08:36 INFO     Start time: Tue Feb 11 08:36:18 2020
+02-11 08:36 INFO     Number of processes run in parallel: 1
+02-11 08:36 INFO     CSV File Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto//04 CSV/5 Combined CSV upload/4800-SAT Upload Test.csv
+02-11 08:36 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto//02 Scripts/chromedriver.exe
+02-11 08:36 INFO     Total number of rows to process: 38
+02-11 08:36 INFO     Thread[0] starts processing FLOC |4800-P-30| ASM |Pump-NARC| SYSTEM |Narcoonowie Satellite - Export - Transfer Pump Package|. [0 of 38 ~ %0.0 complete]
+02-11 08:36 INFO     Thread[0] Opening incognito window
+02-11 08:36 INFO     Thread[0] Logging into meridium
+02-11 08:37 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
+02-11 08:37 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:37 INFO     Thread[0] Navigating to ASM Template tab
+02-11 08:37 INFO     Thread[0] Applying Template
+02-11 08:37 INFO     Thread[0] Closing assigned ASM Template tab
+02-11 08:37 INFO     Thread[0] Closing ASM Overview tab
+02-11 08:37 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
+02-11 08:37 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:37 INFO     Thread[0] Activating FLOC strategy
+02-11 08:37 INFO     Thread[0] Closing Asset Strategy
+02-11 08:37 INFO     Thread[0] Closing ASM Overview tab
+02-11 08:37 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
+02-11 08:37 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:37 INFO     Thread[0] Navigating to System Strategy Management
+02-11 08:37 INFO     Thread[0] Closing Strategy tab
+02-11 08:37 INFO     Thread[0] Closing ASM Overview tab
+02-11 08:37 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:37 INFO     Thread[0] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-P-30|, no assignment was carried  out.
+02-11 08:37 INFO     Thread[0] starts processing FLOC |4800-PX-30| ASM |Parent Asset - Maintenance covered by children| SYSTEM |Narcoonowie Satellite - Export - Transfer Pump Package|. [1 of 38 ~ %2.6 complete] prior lap took 100.06 seconds
+02-11 08:37 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
+02-11 08:37 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:37 INFO     Thread[0] Navigating to ASM Template tab
+02-11 08:38 INFO     Thread[0] Applying Template
+02-11 08:38 INFO     Thread[0] Closing assigned ASM Template tab
+02-11 08:38 INFO     Thread[0] Closing ASM Overview tab
+02-11 08:38 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
+02-11 08:38 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:38 INFO     Thread[0] Activating FLOC strategy
+02-11 08:38 INFO     Thread[0] Closing Asset Strategy
+02-11 08:38 INFO     Thread[0] Closing ASM Overview tab
+02-11 08:38 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
+02-11 08:38 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:38 INFO     Thread[0] Navigating to System Strategy Management
+02-11 08:38 INFO     Thread[0] Closing Strategy tab
+02-11 08:38 INFO     Thread[0] Closing ASM Overview tab
+02-11 08:38 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:38 INFO     Thread[0] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-PX-30|, no assignment was carried  out.
+02-11 08:38 INFO     Thread[0] starts processing FLOC |4800-FQI-0001| ASM |Run To Failure-INDICATOR-FLOW| SYSTEM |Narcoonowie Satellite - Storage - Control and Monitor|. [2 of 38 ~ %5.3 complete] prior lap took 37.22 seconds
+02-11 08:38 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
+02-11 08:38 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:38 INFO     Thread[0] Navigating to ASM Template tab
+02-11 08:38 INFO     Thread[0] Applying Template
+02-11 08:38 INFO     Thread[0] Closing assigned ASM Template tab
+02-11 08:38 INFO     Thread[0] Closing ASM Overview tab
+02-11 08:38 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
+02-11 08:38 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:38 INFO     Thread[0] Activating FLOC strategy
+02-11 08:39 INFO     Thread[0] Closing Asset Strategy
+02-11 08:39 INFO     Thread[0] Closing ASM Overview tab
+02-11 08:39 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
+02-11 08:39 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:39 INFO     Thread[0] Navigating to System Strategy Management
+02-11 08:39 INFO     Thread[0] Closing Strategy tab
+02-11 08:39 INFO     Thread[0] Closing ASM Overview tab
+02-11 08:39 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:39 INFO     Thread[0] System |Narcoonowie Satellite - Storage - Control and Monitor| has already been assigned |4800-FQI-0001|, no assignment was carried  out.
+02-11 08:39 INFO     Thread[0] starts processing FLOC |4800-LT-0006| ASM |Run To Failure-TRANSMITTER-LEVEL| SYSTEM |Narcoonowie Satellite - Storage - Control and Monitor|. [3 of 38 ~ %7.9 complete] prior lap took 58.55 seconds
+02-11 08:39 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
+02-11 08:39 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:39 INFO     Thread[0] Navigating to ASM Template tab
+02-11 08:39 INFO     Thread[0] Applying Template
+02-11 08:39 INFO     Thread[0] Closing assigned ASM Template tab
+02-11 08:39 INFO     Thread[0] Closing ASM Overview tab
+02-11 08:39 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
+02-11 08:39 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 08:39 INFO     Thread[0] Activating FLOC strategy

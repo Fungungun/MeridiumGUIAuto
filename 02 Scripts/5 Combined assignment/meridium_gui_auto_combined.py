@@ -515,6 +515,8 @@ def run_selenium_instance(chrome_driver_path,url_home_page,base_path,floc_asm_li
                 err_msg = f"Thread[{thread_num}] Error raised in STEP 3: Asset Strategy {floc_name} -> System {system_id}"
             else:
                 err_msg = f"Thread[{thread_num}] Unknown error. Raise to alex."
+            
+            logging.error(err_msg)
             error_log.append(err_msg)
             login_required = True
             driver.quit()
