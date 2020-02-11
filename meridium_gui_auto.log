@@ -1,220 +1,25 @@
-02-11 08:36 INFO     -----------------------------------New Session-------------------------------------
-02-11 08:36 INFO     User Name: "alex.shellabear"
-02-11 08:36 INFO     Start time: Tue Feb 11 08:36:18 2020
-02-11 08:36 INFO     Number of processes run in parallel: 1
-02-11 08:36 INFO     CSV File Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto//04 CSV/5 Combined CSV upload/4800-SAT Upload Test.csv
-02-11 08:36 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto//02 Scripts/chromedriver.exe
-02-11 08:36 INFO     Total number of rows to process: 38
-02-11 08:36 INFO     Thread[0] starts processing FLOC |4800-P-30| ASM |Pump-NARC| SYSTEM |Narcoonowie Satellite - Export - Transfer Pump Package|. [0 of 38 ~ %0.0 complete]
-02-11 08:36 INFO     Thread[0] Opening incognito window
-02-11 08:36 INFO     Thread[0] Logging into meridium
-02-11 08:37 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
-02-11 08:37 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:37 INFO     Thread[0] Navigating to ASM Template tab
-02-11 08:37 INFO     Thread[0] Applying Template
-02-11 08:37 INFO     Thread[0] Closing assigned ASM Template tab
-02-11 08:37 INFO     Thread[0] Closing ASM Overview tab
-02-11 08:37 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
-02-11 08:37 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:37 INFO     Thread[0] Activating FLOC strategy
-02-11 08:37 INFO     Thread[0] Closing Asset Strategy
-02-11 08:37 INFO     Thread[0] Closing ASM Overview tab
-02-11 08:37 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
-02-11 08:37 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:37 INFO     Thread[0] Navigating to System Strategy Management
-02-11 08:37 INFO     Thread[0] Closing Strategy tab
-02-11 08:37 INFO     Thread[0] Closing ASM Overview tab
-02-11 08:37 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:37 INFO     Thread[0] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-P-30|, no assignment was carried  out.
-02-11 08:37 INFO     Thread[0] starts processing FLOC |4800-PX-30| ASM |Parent Asset - Maintenance covered by children| SYSTEM |Narcoonowie Satellite - Export - Transfer Pump Package|. [1 of 38 ~ %2.6 complete] prior lap took 100.06 seconds
-02-11 08:37 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
-02-11 08:37 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:37 INFO     Thread[0] Navigating to ASM Template tab
-02-11 08:38 INFO     Thread[0] Applying Template
-02-11 08:38 INFO     Thread[0] Closing assigned ASM Template tab
-02-11 08:38 INFO     Thread[0] Closing ASM Overview tab
-02-11 08:38 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
-02-11 08:38 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:38 INFO     Thread[0] Activating FLOC strategy
-02-11 08:38 INFO     Thread[0] Closing Asset Strategy
-02-11 08:38 INFO     Thread[0] Closing ASM Overview tab
-02-11 08:38 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
-02-11 08:38 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:38 INFO     Thread[0] Navigating to System Strategy Management
-02-11 08:38 INFO     Thread[0] Closing Strategy tab
-02-11 08:38 INFO     Thread[0] Closing ASM Overview tab
-02-11 08:38 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:38 INFO     Thread[0] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-PX-30|, no assignment was carried  out.
-02-11 08:38 INFO     Thread[0] starts processing FLOC |4800-FQI-0001| ASM |Run To Failure-INDICATOR-FLOW| SYSTEM |Narcoonowie Satellite - Storage - Control and Monitor|. [2 of 38 ~ %5.3 complete] prior lap took 37.22 seconds
-02-11 08:38 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
-02-11 08:38 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:38 INFO     Thread[0] Navigating to ASM Template tab
-02-11 08:38 INFO     Thread[0] Applying Template
-02-11 08:38 INFO     Thread[0] Closing assigned ASM Template tab
-02-11 08:38 INFO     Thread[0] Closing ASM Overview tab
-02-11 08:38 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
-02-11 08:38 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:38 INFO     Thread[0] Activating FLOC strategy
-02-11 08:39 INFO     Thread[0] Closing Asset Strategy
-02-11 08:39 INFO     Thread[0] Closing ASM Overview tab
-02-11 08:39 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
-02-11 08:39 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:39 INFO     Thread[0] Navigating to System Strategy Management
-02-11 08:39 INFO     Thread[0] Closing Strategy tab
-02-11 08:39 INFO     Thread[0] Closing ASM Overview tab
-02-11 08:39 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:39 INFO     Thread[0] System |Narcoonowie Satellite - Storage - Control and Monitor| has already been assigned |4800-FQI-0001|, no assignment was carried  out.
-02-11 08:39 INFO     Thread[0] starts processing FLOC |4800-LT-0006| ASM |Run To Failure-TRANSMITTER-LEVEL| SYSTEM |Narcoonowie Satellite - Storage - Control and Monitor|. [3 of 38 ~ %7.9 complete] prior lap took 58.55 seconds
-02-11 08:39 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
-02-11 08:39 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:39 INFO     Thread[0] Navigating to ASM Template tab
-02-11 08:39 INFO     Thread[0] Applying Template
-02-11 08:39 INFO     Thread[0] Closing assigned ASM Template tab
-02-11 08:39 INFO     Thread[0] Closing ASM Overview tab
-02-11 08:39 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
-02-11 08:39 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 08:39 INFO     Thread[0] Activating FLOC strategy
-02-11 09:47 INFO     -----------------------------------New Session-------------------------------------
-02-11 09:48 INFO     -----------------------------------New Session-------------------------------------
-02-11 09:48 INFO     User Name: "alex.shellabear"
-02-11 09:48 INFO     Start time: Tue Feb 11 09:48:05 2020
-02-11 09:48 INFO     Number of processes run in parallel: 1
-02-11 09:48 INFO     CSV File Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/04 CSV/5 Combined CSV upload/4800-SAT Upload Test.csv
-02-11 09:49 INFO     -----------------------------------New Session-------------------------------------
-02-11 09:49 INFO     User Name: "alex.shellabear"
-02-11 09:49 INFO     Start time: Tue Feb 11 09:49:05 2020
-02-11 09:49 INFO     Number of processes run in parallel: 1
-02-11 09:49 INFO     CSV File Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/04 CSV/5 Combined CSV upload/4800-SAT Upload Test.csv
-02-11 09:49 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
-02-11 09:49 INFO     Total number of rows to process: 38
-02-11 09:49 INFO     Thread[0] starts processing FLOC |4800-P-30| ASM |Pump-NARC| SYSTEM |Narcoonowie Satellite - Export - Transfer Pump Package|. [0 of 38 ~ %0.0 complete]
-02-11 09:49 INFO     Thread[0] Opening incognito window
-02-11 09:50 INFO     Thread[0] Logging into meridium
-02-11 09:50 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
-02-11 09:50 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:50 INFO     Thread[0] Navigating to ASM Template tab
-02-11 09:50 INFO     Thread[0] Applying Template
-02-11 09:51 INFO     Thread[0] Closing assigned ASM Template tab
-02-11 09:51 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:51 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
-02-11 09:51 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:51 INFO     Thread[0] Activating FLOC strategy
-02-11 09:51 INFO     Thread[0] Closing Asset Strategy
-02-11 09:51 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:51 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
-02-11 09:51 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:51 INFO     Thread[0] Navigating to System Strategy Management
-02-11 09:51 INFO     Thread[0] Closing Strategy tab
-02-11 09:51 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:51 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:51 INFO     Thread[0] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-P-30|, no assignment was carried  out.
-02-11 09:51 INFO     Thread[0] starts processing FLOC |4800-PX-30| ASM |Parent Asset - Maintenance covered by children| SYSTEM |Narcoonowie Satellite - Export - Transfer Pump Package|. [1 of 38 ~ %2.6 complete] prior lap took 159.72 seconds
-02-11 09:51 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
-02-11 09:51 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:51 INFO     Thread[0] Navigating to ASM Template tab
-02-11 09:51 INFO     Thread[0] Applying Template
-02-11 09:52 INFO     Thread[0] Closing assigned ASM Template tab
-02-11 09:52 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:52 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
-02-11 09:52 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:52 INFO     Thread[0] Activating FLOC strategy
-02-11 09:52 INFO     Thread[0] Closing Asset Strategy
-02-11 09:52 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:52 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
-02-11 09:52 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:52 INFO     Thread[0] Navigating to System Strategy Management
-02-11 09:52 INFO     Thread[0] Closing Strategy tab
-02-11 09:52 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:52 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:52 INFO     Thread[0] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-PX-30|, no assignment was carried  out.
-02-11 09:52 INFO     Thread[0] starts processing FLOC |4800-FQI-0001| ASM |Run To Failure-INDICATOR-FLOW| SYSTEM |Narcoonowie Satellite - Storage - Control and Monitor|. [2 of 38 ~ %5.3 complete] prior lap took 69.31 seconds
-02-11 09:52 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
-02-11 09:52 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:52 INFO     Thread[0] Navigating to ASM Template tab
-02-11 09:53 INFO     Thread[0] Applying Template
-02-11 09:53 INFO     Thread[0] Closing assigned ASM Template tab
-02-11 09:53 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:53 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
-02-11 09:53 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:53 INFO     Thread[0] Activating FLOC strategy
-02-11 09:53 INFO     Thread[0] Closing Asset Strategy
-02-11 09:53 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:53 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
-02-11 09:53 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:53 INFO     Thread[0] Navigating to System Strategy Management
-02-11 09:53 INFO     Thread[0] Closing Strategy tab
-02-11 09:53 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:53 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:53 INFO     Thread[0] System |Narcoonowie Satellite - Storage - Control and Monitor| has already been assigned |4800-FQI-0001|, no assignment was carried  out.
-02-11 09:53 INFO     Thread[0] starts processing FLOC |4800-LT-0006| ASM |Run To Failure-TRANSMITTER-LEVEL| SYSTEM |Narcoonowie Satellite - Storage - Control and Monitor|. [3 of 38 ~ %7.9 complete] prior lap took 58.64 seconds
-02-11 09:53 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
-02-11 09:53 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:53 INFO     Thread[0] Navigating to ASM Template tab
-02-11 09:54 INFO     Thread[0] Applying Template
-02-11 09:54 INFO     Thread[0] Closing assigned ASM Template tab
-02-11 09:54 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:54 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
-02-11 09:54 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:54 INFO     Thread[0] Activating FLOC strategy
-02-11 09:54 INFO     Thread[0] Closing Asset Strategy
-02-11 09:54 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:54 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
-02-11 09:54 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:54 INFO     Thread[0] Navigating to System Strategy Management
-02-11 09:54 INFO     Thread[0] Closing Strategy tab
-02-11 09:54 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:54 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:54 INFO     Thread[0] System |Narcoonowie Satellite - Storage - Control and Monitor| has already been assigned |4800-LT-0006|, no assignment was carried  out.
-02-11 09:54 INFO     Thread[0] starts processing FLOC |4800-LT-0007| ASM |Run To Failure-TRANSMITTER-LEVEL| SYSTEM |Narcoonowie Satellite - Storage - Control and Monitor|. [4 of 38 ~ %10.5 complete] prior lap took 53.34 seconds
-02-11 09:54 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
-02-11 09:54 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:54 INFO     Thread[0] Navigating to ASM Template tab
-02-11 09:54 INFO     Thread[0] Applying Template
-02-11 09:55 INFO     Thread[0] Closing assigned ASM Template tab
-02-11 09:55 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:55 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
-02-11 09:55 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:55 INFO     Thread[0] Activating FLOC strategy
-02-11 09:55 INFO     Thread[0] Closing Asset Strategy
-02-11 09:55 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:55 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
-02-11 09:55 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:55 INFO     Thread[0] Navigating to System Strategy Management
-02-11 09:55 INFO     Thread[0] Closing Strategy tab
-02-11 09:55 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:55 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:55 INFO     Thread[0] System |Narcoonowie Satellite - Storage - Control and Monitor| has already been assigned |4800-LT-0007|, no assignment was carried  out.
-02-11 09:55 INFO     Thread[0] starts processing FLOC |4800-LT-0013| ASM |Run To Failure-TRANSMITTER-LEVEL| SYSTEM |Narcoonowie Satellite - Storage - Control and Monitor|. [5 of 38 ~ %13.2 complete] prior lap took 60.14 seconds
-02-11 09:55 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
-02-11 09:55 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:55 INFO     Thread[0] Navigating to ASM Template tab
-02-11 09:55 INFO     Thread[0] Applying Template
-02-11 09:56 INFO     Thread[0] Closing assigned ASM Template tab
-02-11 09:56 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:56 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
-02-11 09:56 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:56 INFO     Thread[0] Activating FLOC strategy
-02-11 09:56 INFO     Thread[0] Closing Asset Strategy
-02-11 09:56 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:56 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
-02-11 09:56 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:56 INFO     Thread[0] Navigating to System Strategy Management
-02-11 09:56 INFO     Thread[0] Closing Strategy tab
-02-11 09:56 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:56 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:56 INFO     Thread[0] System |Narcoonowie Satellite - Storage - Control and Monitor| has already been assigned |4800-LT-0013|, no assignment was carried  out.
-02-11 09:56 INFO     Thread[0] starts processing FLOC |4800-PSV-0016| ASM |Managed by Integrity| SYSTEM |Narcoonowie Satellite - Storage - Control and Monitor|. [6 of 38 ~ %15.8 complete] prior lap took 63.72 seconds
-02-11 09:56 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
-02-11 09:56 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:56 INFO     Thread[0] Navigating to ASM Template tab
-02-11 09:57 INFO     Thread[0] Applying Template
-02-11 09:57 INFO     Thread[0] Closing assigned ASM Template tab
-02-11 09:57 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:57 INFO     Thread[0] Step 2: Activate FLOC Strategy Starts
-02-11 09:57 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:57 INFO     Thread[0] Activating FLOC strategy
-02-11 09:57 INFO     Thread[0] Closing Asset Strategy
-02-11 09:57 INFO     Thread[0] Closing ASM Overview tab
-02-11 09:57 INFO     Thread[0] Step 3: Asset Strategy -> System Starts
-02-11 09:57 INFO     Thread[0] Navigating to ASM Overview tab
-02-11 09:57 INFO     Thread[0] Navigating to System Strategy Management
+02-11 10:07 INFO     -----------------------------------New Session-------------------------------------
+02-11 10:07 INFO     User Name: "alex.shellabear"
+02-11 10:07 INFO     Start time: Tue Feb 11 10:07:22 2020
+02-11 10:07 INFO     Number of processes run in parallel: 1
+02-11 10:07 INFO     CSV File Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/04 CSV/5 Combined CSV upload/4800-SAT Upload Test.csv
+02-11 10:07 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+02-11 10:07 INFO     Total number of rows to process: 39
+02-11 10:07 INFO     Thread[0] starts processing: 
+02-11 10:07 INFO     Thread[0] FLOC |HELLORANDOMFLOCERRORTESTING| 
+02-11 10:07 INFO     Thread[0] ASM |HELLORANDOMASMFORERRORTESTING| 
+02-11 10:07 INFO     Thread[0] SYSTEM |HELLORANDOMSYSTEMFORERRORTESTING| 
+02-11 10:07 INFO     Thread[0] [0 of 39 ~ %0.0 complete] 
+02-11 10:07 INFO     Thread[0] Opening incognito window
+02-11 10:07 INFO     Thread[0] Logging into meridium
+02-11 10:07 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
+02-11 10:07 INFO     Thread[0] Navigating to ASM Overview tab
+02-11 10:08 INFO     Thread[0] Navigating to ASM Template tab
+02-11 10:09 ERROR    Thread[0] [Error] raised in STEP 1: ASM Template HELLORANDOMASMFORERRORTESTING -> FLOC HELLORANDOMFLOCERRORTESTING. ERROR[find_element] couldn't find element Row for template name HELLORANDOMASMFORERRORTESTING: //td/a using with innerHTML of HELLORANDOMASMFORERRORTESTING within 60 seconds
+02-11 10:09 INFO     Thread[0] starts processing: 
+02-11 10:09 INFO     Thread[0] FLOC |4800-P-30| 
+02-11 10:09 INFO     Thread[0] ASM |Pump-NARC| 
+02-11 10:09 INFO     Thread[0] SYSTEM |Narcoonowie Satellite - Export - Transfer Pump Package| 
+02-11 10:09 INFO     Thread[0] [1 of 39 ~ %2.6 complete] 
+02-11 10:09 INFO     Thread[0] Prior lap took 137.36 seconds 
+02-11 10:09 INFO     Thread[0] Opening incognito window

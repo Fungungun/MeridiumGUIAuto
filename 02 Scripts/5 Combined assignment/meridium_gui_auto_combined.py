@@ -437,9 +437,19 @@ def run_selenium_instance(chrome_driver_path,url_home_page,base_path,floc_asm_li
         system_id = row[2]
 
         if start_time == 0: # time logging for user interest
-            logging.info(f"Thread[{thread_num}] starts processing FLOC |{floc_name}| ASM |{asm_template_name}| SYSTEM |{system_id}|. [{row_index} of {len(floc_asm_list)} ~ %{round(row_index/len(floc_asm_list)*100,1)} complete]")
+            logging.info(f"Thread[{thread_num}] starts processing: ")
+            logging.info(f"Thread[{thread_num}] FLOC |{floc_name}| ")
+            logging.info(f"Thread[{thread_num}] ASM |{asm_template_name}| ")
+            logging.info(f"Thread[{thread_num}] SYSTEM |{system_id}| ")
+            logging.info(f"Thread[{thread_num}] [{row_index} of {len(floc_asm_list)} ~ %{round(row_index/len(floc_asm_list)*100,1)} complete] ")
+
         else:
-            logging.info(f"Thread[{thread_num}] starts processing FLOC |{floc_name}| ASM |{asm_template_name}| SYSTEM |{system_id}|. [{row_index} of {len(floc_asm_list)} ~ %{round(row_index/len(floc_asm_list)*100,1)} complete] prior lap took {round(time.time()-start_time,2)} seconds")
+            logging.info(f"Thread[{thread_num}] starts processing: ")
+            logging.info(f"Thread[{thread_num}] FLOC |{floc_name}| ")
+            logging.info(f"Thread[{thread_num}] ASM |{asm_template_name}| ")
+            logging.info(f"Thread[{thread_num}] SYSTEM |{system_id}| ")
+            logging.info(f"Thread[{thread_num}] [{row_index} of {len(floc_asm_list)} ~ %{round(row_index/len(floc_asm_list)*100,1)} complete] ")
+            logging.info(f"Thread[{thread_num}] Prior lap took {round(time.time()-start_time,2)} seconds ")
         start_time = time.time()
 
         if login_required:
@@ -508,13 +518,13 @@ def run_selenium_instance(chrome_driver_path,url_home_page,base_path,floc_asm_li
             
         except (ElementStale,ElementNotFoundError,InnerHTMLNotInElement) as e: 
             if finished_steps == 0:
-                err_msg = f"Thread[{thread_num}] [Error] raised in STEP 1: ASM Template {asm_template_name} -> FLOC {floc_name}. {e}"
+                err_msg = f"Thread[{thread_num}] STEP 1: ASM Template {asm_template_name} -> FLOC {floc_name}. {e}"
             elif finished_steps == 1:
-                err_msg = f"Thread[{thread_num}] [Error] raised in STEP 2: Activate FLOC Strategy {floc_name}. {e}"
+                err_msg = f"Thread[{thread_num}] STEP 2: Activate FLOC Strategy {floc_name}. {e}"
             elif finished_steps == 2:
-                err_msg = f"Thread[{thread_num}] [Error] raised in STEP 3: Asset Strategy {floc_name} -> System {system_id}. {e}"
+                err_msg = f"Thread[{thread_num}] STEP 3: Asset Strategy {floc_name} -> System {system_id}. {e}"
             else:
-                err_msg = f"Thread[{thread_num}] [Error] Unknown error Raise to alex. {e}"
+                err_msg = f"Thread[{thread_num}] Unknown error Raise to alex. {e}"
 
             logging.error(err_msg)
             error_log.append(err_msg)
