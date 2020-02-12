@@ -1533,3 +1533,69 @@
 02-11 13:49 INFO     Thread[0] Navigating to ASM Overview tab
 02-11 13:49 INFO     Thread[0] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-P-30|, no assignment was carried  out.
 02-11 13:49 INFO     Finished in 252.5
+02-12 12:38 INFO     -----------------------------------New Session-------------------------------------
+02-12 12:38 INFO     User Name: "alex.shellabear"
+02-12 12:38 INFO     Start time: Wed Feb 12 12:38:47 2020
+02-12 12:38 INFO     Number of processes run in parallel: 3
+02-12 12:38 INFO     CSV File Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/04 CSV/5 Combined CSV upload/4800-SAT Upload Test 1.csv
+02-12 12:38 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+02-12 12:38 INFO     Total number of rows to process: 3
+02-12 12:38 INFO     Thread[0] starts processing: 
+02-12 12:38 INFO     Thread[1] starts processing: 
+02-12 12:38 INFO     Thread[0] FLOC |HELLO| 
+02-12 12:38 INFO     Thread[1] FLOC |4800-P-30| 
+02-12 12:38 INFO     Thread[2] starts processing: 
+02-12 12:38 INFO     Thread[0] ASM |HELLO| 
+02-12 12:38 INFO     Thread[1] ASM |Pump-NARC| 
+02-12 12:38 INFO     Thread[1] SYSTEM |HELLO| 
+02-12 12:38 INFO     Thread[1] [0 of 1 ~ %0.0 complete] 
+02-12 12:38 INFO     Thread[2] FLOC |4800-P-30| 
+02-12 12:38 INFO     Thread[2] ASM |Pump-NARC| 
+02-12 12:38 INFO     Thread[1] Opening incognito window
+02-12 12:38 INFO     Thread[0] SYSTEM |HELLO| 
+02-12 12:38 INFO     Thread[2] SYSTEM |Narcoonowie Satellite - Export - Transfer Pump Package| 
+02-12 12:38 INFO     Thread[0] [0 of 1 ~ %0.0 complete] 
+02-12 12:38 INFO     Thread[2] [0 of 1 ~ %0.0 complete] 
+02-12 12:38 INFO     Thread[0] Opening incognito window
+02-12 12:38 INFO     Thread[2] Opening incognito window
+02-12 12:39 INFO     Thread[1] Logging into meridium
+02-12 12:39 INFO     Thread[0] Logging into meridium
+02-12 12:39 INFO     Thread[2] Logging into meridium
+02-12 12:39 INFO     Thread[1] Step 1: ASM Template -> FLOC Starts
+02-12 12:39 INFO     Thread[1] Navigating to ASM Overview tab
+02-12 12:39 INFO     Thread[0] Step 1: ASM Template -> FLOC Starts
+02-12 12:39 INFO     Thread[0] Navigating to ASM Overview tab
+02-12 12:39 INFO     Thread[2] Step 1: ASM Template -> FLOC Starts
+02-12 12:39 INFO     Thread[2] Navigating to ASM Overview tab
+02-12 12:40 INFO     Thread[1] Navigating to ASM Template tab
+02-12 12:40 INFO     Thread[0] Navigating to ASM Template tab
+02-12 12:40 INFO     Thread[2] Navigating to ASM Template tab
+02-12 12:40 INFO     Thread[1] Applying Template
+02-12 12:40 INFO     Thread[2] Applying Template
+02-12 12:40 INFO     Thread[1] Closing assigned ASM Template tab
+02-12 12:40 INFO     Thread[1] Closing ASM Overview tab
+02-12 12:40 INFO     Thread[1] Step 2: Activate FLOC Strategy Starts
+02-12 12:40 INFO     Thread[1] Navigating to ASM Overview tab
+02-12 12:40 INFO     Thread[1] Activating FLOC strategy
+02-12 12:40 INFO     Thread[2] Closing assigned ASM Template tab
+02-12 12:40 INFO     Thread[2] Closing ASM Overview tab
+02-12 12:40 INFO     Thread[2] Step 2: Activate FLOC Strategy Starts
+02-12 12:40 INFO     Thread[2] Navigating to ASM Overview tab
+02-12 12:40 INFO     Thread[2] Activating FLOC strategy
+02-12 12:40 INFO     Thread[1] Closing Asset Strategy
+02-12 12:40 INFO     Thread[1] Closing ASM Overview tab
+02-12 12:40 INFO     Thread[1] Step 3: Asset Strategy -> System Starts
+02-12 12:40 INFO     Thread[1] Navigating to ASM Overview tab
+02-12 12:41 INFO     Thread[1] Navigating to System Strategy Management
+02-12 12:41 INFO     Thread[2] Closing Asset Strategy
+02-12 12:41 INFO     Thread[2] Closing ASM Overview tab
+02-12 12:41 INFO     Thread[2] Step 3: Asset Strategy -> System Starts
+02-12 12:41 INFO     Thread[2] Navigating to ASM Overview tab
+02-12 12:41 INFO     Thread[2] Navigating to System Strategy Management
+02-12 12:41 ERROR    Thread[0] STEP 1: ASM Template HELLO -> FLOC HELLO. ERROR[find_element] couldn't find element Row for template name HELLO: //td/a using with innerHTML of HELLO within 60 seconds
+02-12 12:41 INFO     Thread[2] Closing Strategy tab
+02-12 12:41 INFO     Thread[2] Closing ASM Overview tab
+02-12 12:41 INFO     Thread[2] Navigating to ASM Overview tab
+02-12 12:41 INFO     Thread[2] System |Narcoonowie Satellite - Export - Transfer Pump Package| has already been assigned |4800-P-30|, no assignment was carried  out.
+02-12 12:42 ERROR    Thread[1] STEP 3: Asset Strategy 4800-P-30 -> System HELLO. ERROR[find_element] couldn't find element System strategy id which is searched for under 'System and Unit Strategies': //td[@aria-colindex='1']/a using with innerHTML of HELLO within 60 seconds. Description of element = System strategy id which is searched for under 'System and Unit Strategies'
+02-12 12:42 INFO     Finished in 214.9

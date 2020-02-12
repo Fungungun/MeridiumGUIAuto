@@ -9,3 +9,14 @@ STEP_FAILED,FLOC,ASM,SYSTEM,ERROR
 STEP 1: ASM -> FLOC,HELLO,HELLO,HELLO,ERROR[find_element] couldn't find element Row for template name HELLO: //td/a using with innerHTML of HELLO within 60 seconds
 STEP 3: FLOC -> SYSTEM,4800-P-30,Pump-NARC,HELLO,ERROR[find_element] couldn't find element System strategy id which is searched for under 'System and Unit Strategies': //td[@aria-colindex='1']/a using with innerHTML of HELLO within 60 seconds. Description of element = System strategy id which is searched for under 'System and Unit Strategies'
 
+User Name,"alex.shellabear"
+Start time,Wed Feb 12 12:38:47 2020
+End time,Wed Feb 12 12:42:22 2020
+Time Taken [s],214.93914079666138
+Number of processes run in parallel ,3
+CSV File Path,C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/04 CSV/5 Combined CSV upload/4800-SAT Upload Test 1.csv
+
+STEP_FAILED,FLOC,ASM,SYSTEM,ERROR
+STEP 1: ASM -> FLOC,HELLO,HELLO,HELLO,ERROR[find_element] couldn't find element Row for template name HELLO: //td/a using with innerHTML of HELLO within 60 seconds
+STEP 3: FLOC -> SYSTEM,4800-P-30,Pump-NARC,HELLO,ERROR[find_element] couldn't find element System strategy id which is searched for under 'System and Unit Strategies': //td[@aria-colindex='1']/a using with innerHTML of HELLO within 60 seconds. Description of element = System strategy id which is searched for under 'System and Unit Strategies'
+
