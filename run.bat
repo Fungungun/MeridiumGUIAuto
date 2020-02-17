@@ -1,0 +1,1 @@
+python3 "02 Scripts/5 Combined assignment/meridium_gui_auto_combined.py"

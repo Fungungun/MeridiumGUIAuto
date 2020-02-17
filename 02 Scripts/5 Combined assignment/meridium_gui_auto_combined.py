@@ -64,12 +64,12 @@ def find_element(web_driver,value:str,by = "xpath",wait_time_sec=60,description=
                 return web_driver.find_element_by_id(value)
             elif by == "xpath":
                 if value[:2] != "//":
-                    logging.info(f"ERROR[find_element] for {value} using {by} // was not set")
+                    logging.error(f"ERROR[find_element] for {value} using {by} // was not set")
                     break
                 return web_driver.find_element_by_xpath(value)
             elif by =="xpath_multi":
                 if value[:2] != "//":
-                    logging.info(f"ERROR[find_element] for {value} using {by} // was not set")
+                    logging.error(f"ERROR[find_element] for {value} using {by} // was not set")
                     break
                 return web_driver.find_elements_by_xpath(value) # will return list
             elif by == "class":
@@ -321,7 +321,7 @@ def close_asm_overview_tab(driver):
 
 def break_list_into_chunks(lst,number_of_chunks:int):
     if number_of_chunks < 1: 
-        logging.info(f"ERROR[break_list_into_chunks] number of chunks should be 1 or greater instead it was {number_of_chunks}")
+        logging.error(f"ERROR[break_list_into_chunks] number of chunks should be 1 or greater instead it was {number_of_chunks}")
 
     length_of_sub_lists = round(len(floc_asm_list)/number_of_chunks)
 
@@ -453,66 +453,66 @@ def run_selenium_instance(chrome_driver_path,url_home_page,floc_asm_list,run_sel
         start_time = time.time()
 
         if login_required:
-            logging.info(f"Thread[{thread_num}] Opening incognito window")
+            logging.debug(f"Thread[{thread_num}] Opening incognito window")
             driver = open_incognito_window(chrome_driver_path,url_home_page,run_selenium_headless)
 
         finished_steps = 0
 
         try: # Error handling
             if login_required == True:
-                logging.info(f"Thread[{thread_num}] Logging into meridium")
+                logging.debug(f"Thread[{thread_num}] Logging into meridium")
                 log_into_meridium(url_home_page,run_selenium_headless,driver,username,password)
                 login_required = False
 
-            logging.info(f"Thread[{thread_num}] Step 1: ASM Template -> FLOC Starts")
-            logging.info(f"Thread[{thread_num}] Navigating to ASM Overview tab")
+            logging.debug(f"Thread[{thread_num}] Step 1: ASM Template -> FLOC Starts")
+            logging.debug(f"Thread[{thread_num}] Navigating to ASM Overview tab")
             navigate_to_asm_overview_tab(driver) # step 1, ASM Template -> FLOC
-            logging.info(f"Thread[{thread_num}] Navigating to ASM Template tab")
+            logging.debug(f"Thread[{thread_num}] Navigating to ASM Template tab")
             navigate_to_asm_template(driver,asm_template_name) # step 1, ASM Template -> FLOC
-            logging.info(f"Thread[{thread_num}] Applying Template")
+            logging.debug(f"Thread[{thread_num}] Applying Template")
             apply_template(driver,floc_name,asm_template_name) # step 1 FINISHED YAY!
-            logging.info(f"Thread[{thread_num}] Closing assigned ASM Template tab")
+            logging.debug(f"Thread[{thread_num}] Closing assigned ASM Template tab")
             close_assigned_asm_template_tab(driver,asm_template_name) # Close tab should be on ASM overivew tab now
-            logging.info(f"Thread[{thread_num}] Closing ASM Overview tab")
+            logging.debug(f"Thread[{thread_num}] Closing ASM Overview tab")
             close_asm_overview_tab(driver)
 
             finished_steps = 1
 
-            logging.info(f"Thread[{thread_num}] Step 2: Activate FLOC Strategy Starts")
-            logging.info(f"Thread[{thread_num}] Navigating to ASM Overview tab")
+            logging.debug(f"Thread[{thread_num}] Step 2: Activate FLOC Strategy Starts")
+            logging.debug(f"Thread[{thread_num}] Navigating to ASM Overview tab")
             navigate_to_asm_overview_tab(driver) # step 2, activate floc strategy
-            logging.info(f"Thread[{thread_num}] Activating FLOC strategy")
+            logging.debug(f"Thread[{thread_num}] Activating FLOC strategy")
             activate_floc_strategy(driver,floc_name) # Step 2 activation
-            logging.info(f"Thread[{thread_num}] Closing Asset Strategy")
+            logging.debug(f"Thread[{thread_num}] Closing Asset Strategy")
             close_asset_strategy(driver,floc_name) #End of step 2
-            logging.info(f"Thread[{thread_num}] Closing ASM Overview tab")
+            logging.debug(f"Thread[{thread_num}] Closing ASM Overview tab")
             close_asm_overview_tab(driver)
 
             finished_steps = 2
 
-            logging.info(f"Thread[{thread_num}] Step 3: Asset Strategy -> System Starts")
-            logging.info(f"Thread[{thread_num}] Navigating to ASM Overview tab")
+            logging.debug(f"Thread[{thread_num}] Step 3: Asset Strategy -> System Starts")
+            logging.debug(f"Thread[{thread_num}] Navigating to ASM Overview tab")
             navigate_to_asm_overview_tab(driver) # step 3, Asset Strategy -> System
-            logging.info(f"Thread[{thread_num}] Navigating to System Strategy Management")
+            logging.debug(f"Thread[{thread_num}] Navigating to System Strategy Management")
             navigate_to_system_strategy_management(driver,system_id)
             if see_if_floc_has_already_been_assigned_to_system(driver,floc_name) == False:
-                logging.info(f"Thread[{thread_num}] Linking FLOC strategy to system")
+                logging.debug(f"Thread[{thread_num}] Linking FLOC strategy to system")
                 link_floc_strategy_to_system(driver,system_id,floc_name)
-                logging.info(f"Thread[{thread_num}] Closing Strategy tab")
+                logging.debug(f"Thread[{thread_num}] Closing Strategy tab")
                 close_strategy_tab(driver,system_id)
-                logging.info(f"Thread[{thread_num}] Closing ASM Overview tab")
+                logging.debug(f"Thread[{thread_num}] Closing ASM Overview tab")
                 close_asm_overview_tab(driver)
-                logging.info(f"Thread[{thread_num}] Navigating to ASM Overview tab")
+                logging.debug(f"Thread[{thread_num}] Navigating to ASM Overview tab")
                 navigate_to_asm_overview_tab(driver)
-                logging.info(f"Thread[{thread_num}] FLOC |{floc_name}| assigned to |{system_id}|")
+                logging.debug(f"Thread[{thread_num}] FLOC |{floc_name}| assigned to |{system_id}|")
             else:
-                logging.info(f"Thread[{thread_num}] Closing Strategy tab")
+                logging.debug(f"Thread[{thread_num}] Closing Strategy tab")
                 close_strategy_tab(driver,system_id)
-                logging.info(f"Thread[{thread_num}] Closing ASM Overview tab")
+                logging.debug(f"Thread[{thread_num}] Closing ASM Overview tab")
                 close_asm_overview_tab(driver)
-                logging.info(f"Thread[{thread_num}] Navigating to ASM Overview tab")
+                logging.debug(f"Thread[{thread_num}] Navigating to ASM Overview tab")
                 navigate_to_asm_overview_tab(driver)
-                logging.info(f"Thread[{thread_num}] System |{system_id}| has already been assigned |{floc_name}|, no assignment was carried  out.")
+                logging.debug(f"Thread[{thread_num}] System |{system_id}| has already been assigned |{floc_name}|, no assignment was carried  out.")
 
             finished_steps = 3
             
