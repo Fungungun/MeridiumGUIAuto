@@ -4,7 +4,7 @@ __mail__ = "chenghuan.liu@woodplc.com"
 '''
 
 import os
-
+import csv
 import time
 import logging
 
@@ -134,6 +134,15 @@ def find_elements_search_for_innerhtml_then_click(web_driver, xpath: str, innerh
         f"ERROR[find_element] couldn't find element {description}: {xpath} using with innerHTML of {innerhtml} within {wait_time_sec} seconds. Description of element = {description}")
 
 
+def navigate_to_asi_overview_tab(driver):
+    find_element_and_click(driver, "//div[@title='Strategy']", by="xpath", description="Strategy menu left hand pane",
+                           wait_time_sec=150)
+    print("Found Strategy Btn")
+    time.sleep(0.5)  # Little bit of wait to allow loading of data so it doesn't open it in a new tab
+    find_element_and_click(driver, "//a[@href='#/asi/overview']", by="xpath",
+                           description="Drop down strategy overview from strategy menu")
+    print("Found ASI Btn")
+
 def log_into_meridium(url, run_selenium_headless, driver, username, password):
     input_user_id = find_element(driver, "userid", by="id", description="User ID textbox", wait_time_sec=150,
                                  sleep_time=1)
@@ -150,10 +159,13 @@ def log_into_meridium(url, run_selenium_headless, driver, username, password):
     except:
         raise Exception(f"ERROR[log_into_meridium] Could not send keys to Password textbox")
 
-    find_elements_search_for_innerhtml_then_click(driver, "//select[@tabindex=3]/option", "APMPROD",
-                                                  description="Selecting APMPROD, server which all information is stored")
+    # no need for this step on the Wood Test Server
+    # find_elements_search_for_innerhtml_then_click(driver, "//select[@tabindex=3]/option", "APMPROD",
+    #                                               description="Selecting APMPROD, server which all information is stored")
 
+    time.sleep(5)  # Account for slow santos system
     find_element_and_click(driver, "//button[@type='submit']", by="xpath")
+
 
 
 def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run_selenium_headless, username,
@@ -161,17 +173,22 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
     global error_log
     login_required = True
 
-    for row_index, row in enumerate(floc_asm_list):
+    for row_index, row in enumerate(input_csv_list):
 
         start_time = time.time()
 
         if login_required:
             driver = open_incognito_window(chrome_driver_path, url_home_page, run_selenium_headless)
+            driver.implicitly_wait(300)
 
         try:  # Error handling
             if login_required:
                 log_into_meridium(url_home_page, run_selenium_headless, driver, username, password)
                 login_required = False
+
+            navigate_to_asi_overview_tab(driver)
+
+            time.sleep(20)
 
         except Exception as e:
             logging.error(e)
@@ -188,26 +205,21 @@ def get_input_csv_list(csv_path_file: str):
 
     file_obj = open(csv_path_file, "r")
     data_lines = file_obj.readlines()
-    print(data_lines)
     file_obj.close()
 
     ret_list = []
 
     for i, line in enumerate(data_lines):
-        print(line)
-        exit()
-
         line = line.strip("\n")
         columns = line.split(",")
-        if i == 0:  # first row
-            floc_header = columns[0]
-            asm_header = columns[1]
-            system_header = columns[2]
+        if i == 0:
+            header_list = columns
+            print(header_list)
         else:
-            floc = columns[0]
-            asm = columns[1]
-            system = columns[2]
-            ret_list.append([floc, asm, system])
+            row_dict = {}
+            for j in range(len(header_list)):
+                row_dict[header_list[j]] = columns[j]
+            ret_list.append(row_dict)
     return ret_list
 
 

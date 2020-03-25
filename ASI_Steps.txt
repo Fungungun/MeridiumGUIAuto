@@ -1,0 +1,63 @@
+Opening Meridium
+
+Go to Strategy
+
+then to ASI
+
+Create new package
+
+Package ID = ID
+
+** Ask santos which one to select for SAP Reference **
+
+Description = Package ID
+
+Datasheet ID = Implementation Package
+
+Click save
+
+Click plus icon near top left binoculars
+
+drop down menu is the job plan (Santos server)
+
+Job ID = Job Plan
+
+Don't fill Plan Description
+
+myPlant Document number
+
+This will match with mydoc number (new column)
+
+oracle activity comes from far right
+
+Hit save
+
+To add another job plan go back
+
+the back button next to the binoculars
+
+and then add another job plan
+
+Once finished job plans
+
+go to detais
+
+then go to top right with the import icon
+
+Search for Strategy ID
+** Not strategy ID but the asset ID (or FLOC name)
+
+Use functional location to select
+
+
+Confirm which selection with santos for
+1) First two drop down, Oem
+2) and action creation which one, import maintenance items as actions or import operations as actions
+Once assigned FLOC
+
+
+Select actions related to FLOC
+
+then link
+
+in top right hand corner

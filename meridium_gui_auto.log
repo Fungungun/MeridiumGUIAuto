@@ -1696,3 +1696,72 @@
 03-24 14:38 INFO     -----------------------------------New Session-------------------------------------
 03-24 14:38 INFO     -----------------------------------New Session-------------------------------------
 03-24 14:39 INFO     -----------------------------------New Session-------------------------------------
+03-24 14:58 INFO     -----------------------------------New Session-------------------------------------
+03-24 16:01 INFO     -----------------------------------New Session-------------------------------------
+03-24 16:05 INFO     -----------------------------------New Session-------------------------------------
+03-24 16:05 INFO     -----------------------------------New Session-------------------------------------
+03-24 16:05 INFO     -----------------------------------New Session-------------------------------------
+03-25 08:38 INFO     -----------------------------------New Session-------------------------------------
+03-25 08:39 INFO     -----------------------------------New Session-------------------------------------
+03-25 08:50 INFO     -----------------------------------New Session-------------------------------------
+03-25 08:50 INFO     User Name: "alex.shellabear"
+03-25 08:50 INFO     Start time: Wed Mar 25 08:50:05 2020
+03-25 08:50 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 08:50 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 08:51 INFO     -----------------------------------New Session-------------------------------------
+03-25 08:51 INFO     User Name: "alex.shellabear"
+03-25 08:51 INFO     Start time: Wed Mar 25 08:51:44 2020
+03-25 08:51 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 08:51 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 08:52 INFO     -----------------------------------New Session-------------------------------------
+03-25 08:52 INFO     User Name: "alex.shellabear"
+03-25 08:52 INFO     Start time: Wed Mar 25 08:52:53 2020
+03-25 08:52 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 08:52 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 08:56 ERROR    couldn't find element : //button[@type='submit'] using xpath within 120 seconds
+03-25 08:56 INFO     -----------------------------------New Session-------------------------------------
+03-25 08:56 INFO     User Name: "alex.shellabear"
+03-25 08:56 INFO     Start time: Wed Mar 25 08:56:25 2020
+03-25 08:56 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 08:56 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 08:59 INFO     -----------------------------------New Session-------------------------------------
+03-25 08:59 INFO     User Name: "alex.shellabear"
+03-25 08:59 INFO     Start time: Wed Mar 25 08:59:02 2020
+03-25 08:59 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 08:59 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 09:00 INFO     -----------------------------------New Session-------------------------------------
+03-25 09:00 INFO     User Name: "alex.shellabear"
+03-25 09:00 INFO     Start time: Wed Mar 25 09:00:03 2020
+03-25 09:00 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 09:00 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 09:07 INFO     -----------------------------------New Session-------------------------------------
+03-25 09:07 INFO     User Name: "alex.shellabear"
+03-25 09:07 INFO     Start time: Wed Mar 25 09:07:35 2020
+03-25 09:07 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 09:07 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 09:08 INFO     -----------------------------------New Session-------------------------------------
+03-25 09:08 INFO     User Name: "alex.shellabear"
+03-25 09:08 INFO     Start time: Wed Mar 25 09:08:28 2020
+03-25 09:08 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 09:08 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 09:08 INFO     Finished in 19.3
+03-25 09:15 INFO     -----------------------------------New Session-------------------------------------
+03-25 09:15 INFO     User Name: "alex.shellabear"
+03-25 09:15 INFO     Start time: Wed Mar 25 09:15:55 2020
+03-25 09:15 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 09:15 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 09:18 INFO     -----------------------------------New Session-------------------------------------
+03-25 09:18 INFO     User Name: "alex.shellabear"
+03-25 09:18 INFO     Start time: Wed Mar 25 09:18:59 2020
+03-25 09:18 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 09:18 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 09:25 INFO     -----------------------------------New Session-------------------------------------
+03-25 09:25 INFO     User Name: "alex.shellabear"
+03-25 09:25 INFO     Start time: Wed Mar 25 09:25:01 2020
+03-25 09:25 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 09:25 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 09:26 INFO     -----------------------------------New Session-------------------------------------
+03-25 09:26 INFO     User Name: "alex.shellabear"
+03-25 09:26 INFO     Start time: Wed Mar 25 09:26:13 2020
+03-25 09:26 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 09:26 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
