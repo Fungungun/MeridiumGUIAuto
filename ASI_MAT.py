@@ -160,18 +160,80 @@ def log_into_meridium(url, run_selenium_headless, driver, username, password):
         raise Exception(f"ERROR[log_into_meridium] Could not send keys to Password textbox")
 
     # no need for this step on the Wood Test Server
-    # find_elements_search_for_innerhtml_then_click(driver, "//select[@tabindex=3]/option", "APMPROD",
-    #                                               description="Selecting APMPROD, server which all information is stored")
+    find_elements_search_for_innerhtml_then_click(driver, "//select[@tabindex=3]/option", "APMPROD",
+                                                  description="Selecting APMPROD, server which all information is stored")
 
-    time.sleep(5)  # Account for slow santos system
+    # time.sleep(5)  # Account for slow santos system
     find_element_and_click(driver, "//button[@type='submit']", by="xpath")
 
+def create_new_package(driver, row):
+    
+    # Package ID = ID
+    package_id = find_element(driver, "//input[@placeholder='Text input']", by="xpath", description="Package ID")
+    try:
+        package_id.send_keys(row['Package ID'])
+    except:
+        raise Exception(f"ERROR[create_new_package] Could not send keys to Package ID textbox")
 
+    # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    # ** Ask santos which one to select for SAP Reference **
+    find_element_and_click(driver, "//div[@class='layout-control block-group columns-10']//mi-select//i[@class='icon-arrow pull-right']", by="xpath")
+    find_element_and_click(driver, "//div[@class='select-outer-container']//p[contains(text(), 'MERIDIUM APM')]", by="xpath")
+    # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    # Description = Package ID
+    description = find_element(driver, "//textarea[@placeholder='Text area']", by="xpath", description="Description")
+    try:
+        description.send_keys(row['Package ID'])
+    except:
+        raise Exception(f"ERROR[create_new_package] Could not send keys to Description textbox")
+
+    # Click save
+    find_element_and_click(driver, "//i[@class='icon-save']", by="xpath")
+
+def add_job_plan(driver, row):
+    # Job ID = Job Plan
+    job_id = find_element(driver, "//div[@class='layout-element-caption block'][contains(text(), 'ID:')]/following::input[1]", by="xpath", description="Job ID")
+    try:
+        job_id.send_keys(row['Job Plan'])
+    except:
+        raise Exception(f"ERROR[add_job_plan] Could not send keys to Job ID textbox")
+
+    # don't fill in plan description
+
+    # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    # myPlant Document number this will match with mydoc number (new column)
+    myPlant = find_element(driver, "//div[@class='layout-element-caption block'][contains(text(), 'myPlant Document')]/following::input[1]", by="xpath", description="myPlant Document Number")
+    try:
+        myPlant.send_keys(row['mydoc'])
+    except:
+        raise Exception(f"ERROR[add_job_plan] Could not send keys to myPlant Document Number textbox")
+    # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    # oracle activity comes from far right 
+    oracle_activity = find_element(driver, "//div[@class='layout-element-caption block'][contains(text(), 'Oracle Activity')]/following::input[1]", by="xpath", description="Oracle Activity")
+    try:
+        oracle_activity.send_keys(row['oracle activity'])
+    except:
+        raise Exception(f"ERROR[add_job_plan] Could not send keys to myPlant Document Number textbox")
+    # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    # Click save
+    find_element_and_click(driver, "//button[@title='Save']", by="xpath")
 
 def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run_selenium_headless, username,
                           password):
     global error_log
     login_required = True
+
+    unique_package_id_list = list(set([x['package_id'] for x in input_csv_list]))
+    packages_created_dic = {p:False for p in unique_package_id_list}
+
+    package_job_plan_dict = {p:[] for p in unique_package_id_list}
+    for row in input_csv_list:
+        packages_created_dic[row['Package ID']].append(row['Job Plan'])
+
 
     for row_index, row in enumerate(input_csv_list):
 
@@ -188,7 +250,33 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
 
             navigate_to_asi_overview_tab(driver)
 
-            time.sleep(20)
+            # click create new package 
+            find_element_and_click(driver, "//div[@class='block-group page-filter-tools']//button[contains(text(),'New')]", by="xpath")
+
+            if not packages_created_dic[row['Package ID']]:
+                create_new_package(driver, row)
+                packages_created_dic[row['Package ID']] = True
+
+                for job_plan_idx in range(len(package_job_plan_dict[row['Package ID']])):
+                    # click the plus button
+                    find_element_and_click(driver, "//section[@class='expanded active border-right']//mi-more-options-noko//i[@class='icon-plus']", by="xpath")
+
+                    # click "Job Plan"
+                    find_element_and_click(driver, "//div[@class='more-options-outer-container']//span[contains(text(), 'Job Plan')]", by="xpath")
+
+                    # add new job plan
+                    add_job_plan(driver, row)
+
+                    # Go Back
+                    find_element_and_click(driver, "//button[@data-action='backInHistory']//i[@class='icon-back-arrow']", by="xpath")
+            else:
+                continue
+
+            # Once finished job plans go to detais
+            find_element_and_click(driver, "//span[contains(text(),'Details')]", by="xpath")
+
+
+            exit()
 
         except Exception as e:
             logging.error(e)
