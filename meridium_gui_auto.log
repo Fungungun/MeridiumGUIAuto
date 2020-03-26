@@ -1765,3 +1765,59 @@
 03-25 09:26 INFO     Start time: Wed Mar 25 09:26:13 2020
 03-25 09:26 INFO     CSV File Path: 1015_ASI_work.csv
 03-25 09:26 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 15:12 INFO     -----------------------------------New Session-------------------------------------
+03-25 15:12 INFO     User Name: "alex.shellabear"
+03-25 15:12 INFO     Start time: Wed Mar 25 15:12:23 2020
+03-25 15:12 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 15:12 INFO     ChromeDriver Path: C:/Users/chenghuanliu/Desktop/Projects/MeridiumGUIAuto/02 Scripts/chromedriver.exe
+03-25 15:13 INFO     -----------------------------------New Session-------------------------------------
+03-25 15:13 INFO     User Name: "alex.shellabear"
+03-25 15:13 INFO     Start time: Wed Mar 25 15:13:27 2020
+03-25 15:13 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 15:13 INFO     ChromeDriver Path: chromedriver.exe
+03-25 15:25 INFO     -----------------------------------New Session-------------------------------------
+03-25 15:25 INFO     User Name: "shekx"
+03-25 15:25 INFO     Start time: Wed Mar 25 15:25:07 2020
+03-25 15:25 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 15:25 INFO     ChromeDriver Path: chromedriver.exe
+03-25 15:35 INFO     -----------------------------------New Session-------------------------------------
+03-25 15:35 INFO     User Name: "shekx"
+03-25 15:35 INFO     Start time: Wed Mar 25 15:35:03 2020
+03-25 15:35 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 15:35 INFO     ChromeDriver Path: chromedriver.exe
+03-25 15:55 INFO     -----------------------------------New Session-------------------------------------
+03-25 15:55 INFO     User Name: "shekx"
+03-25 15:55 INFO     Start time: Wed Mar 25 15:55:42 2020
+03-25 15:55 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 15:55 INFO     ChromeDriver Path: chromedriver.exe
+03-25 15:58 INFO     -----------------------------------New Session-------------------------------------
+03-25 15:58 INFO     User Name: "shekx"
+03-25 15:58 INFO     Start time: Wed Mar 25 15:58:02 2020
+03-25 15:58 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 15:58 INFO     ChromeDriver Path: chromedriver.exe
+03-25 16:15 INFO     -----------------------------------New Session-------------------------------------
+03-25 16:16 INFO     User Name: "shekx"
+03-25 16:16 INFO     Start time: Wed Mar 25 16:16:00 2020
+03-25 16:16 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 16:16 INFO     ChromeDriver Path: chromedriver.exe
+03-25 16:17 INFO     -----------------------------------New Session-------------------------------------
+03-25 16:17 INFO     User Name: "shekx"
+03-25 16:17 INFO     Start time: Wed Mar 25 16:17:17 2020
+03-25 16:17 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 16:17 INFO     ChromeDriver Path: chromedriver.exe
+03-25 16:20 INFO     -----------------------------------New Session-------------------------------------
+03-25 16:20 INFO     User Name: "shekx"
+03-25 16:20 INFO     Start time: Wed Mar 25 16:20:54 2020
+03-25 16:20 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 16:20 INFO     ChromeDriver Path: chromedriver.exe
+03-25 16:38 INFO     -----------------------------------New Session-------------------------------------
+03-25 16:38 INFO     User Name: "shekx"
+03-25 16:38 INFO     Start time: Wed Mar 25 16:38:30 2020
+03-25 16:38 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 16:38 INFO     ChromeDriver Path: chromedriver.exe
+03-25 16:40 ERROR    ERROR[log_into_meridium] Could not send keys to User ID textbox
+03-25 16:40 INFO     -----------------------------------New Session-------------------------------------
+03-25 16:40 INFO     User Name: "shekx"
+03-25 16:40 INFO     Start time: Wed Mar 25 16:40:32 2020
+03-25 16:40 INFO     CSV File Path: 1015_ASI_work.csv
+03-25 16:40 INFO     ChromeDriver Path: chromedriver.exe
