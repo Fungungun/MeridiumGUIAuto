@@ -8,7 +8,7 @@ Create new package
 
 Package ID = ID
 
-** Ask santos which one to select for SAP Reference **
+** Ask santos which one to select for SAP Reference ** OeAM2
 
 Description = Package ID
 
