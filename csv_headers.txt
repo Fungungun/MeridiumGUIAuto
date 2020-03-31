@@ -1,0 +1,20 @@
+Action ID
+Template ID
+Package ID
+Package Description
+Package Groups
+Strategy ID
+Strategy 
+ID
+Asset Name
+Interval
+Interval Units
+Recommended Resource
+Shutdown Required
+Reference Column
+Job Plan ID
+Action Name
+Plan Description
+MyPlant Document Number
+Oracle Activity
+Tmp

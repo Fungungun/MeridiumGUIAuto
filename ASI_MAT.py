@@ -7,12 +7,14 @@ import os
 import csv
 import time
 import logging
+import pandas as pd
 
 from selenium import webdriver  # Selenium tools
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.keys import Keys
 
 from dotenv import load_dotenv
 
@@ -143,6 +145,7 @@ def navigate_to_asi_overview_tab(driver):
                            description="Drop down strategy overview from strategy menu")
     print("Found ASI Btn")
 
+
 def log_into_meridium(url, run_selenium_headless, driver, username, password):
     input_user_id = find_element(driver, "userid", by="id", description="User ID textbox", wait_time_sec=150,
                                  sleep_time=1)
@@ -166,149 +169,272 @@ def log_into_meridium(url, run_selenium_headless, driver, username, password):
     # time.sleep(5)  # Account for slow santos system
     find_element_and_click(driver, "//button[@type='submit']", by="xpath")
 
-def create_new_package(driver, row):
-    
+
+def create_new_package(driver, package_id):
     # Package ID = ID
     package_id = find_element(driver, "//input[@placeholder='Text input']", by="xpath", description="Package ID")
     try:
-        package_id.send_keys(row['Package ID'])
+        package_id.send_keys(package_id)
     except:
         raise Exception(f"ERROR[create_new_package] Could not send keys to Package ID textbox")
 
-    # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-    # ** Ask santos which one to select for SAP Reference **
-    find_element_and_click(driver, "//div[@class='layout-control block-group columns-10']//mi-select//i[@class='icon-arrow pull-right']", by="xpath")
-    find_element_and_click(driver, "//div[@class='select-outer-container']//p[contains(text(), 'MERIDIUM APM')]", by="xpath")
-    # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    # SAP Reference
+    find_element_and_click(driver,
+                           "//div[@class='layout-control block-group columns-10']//mi-select//i[@class='icon-arrow pull-right']",
+                           by="xpath")
+    find_element_and_click(driver, "//div[@class='select-outer-container']//p[contains(text(), 'OeAM2')]", by="xpath")
 
     # Description = Package ID
     description = find_element(driver, "//textarea[@placeholder='Text area']", by="xpath", description="Description")
     try:
-        description.send_keys(row['Package ID'])
+        description.send_keys(package_id)
     except:
         raise Exception(f"ERROR[create_new_package] Could not send keys to Description textbox")
 
     # Click save
     find_element_and_click(driver, "//i[@class='icon-save']", by="xpath")
 
+
 def add_job_plan(driver, row):
     # Job ID = Job Plan
-    job_id = find_element(driver, "//div[@class='layout-element-caption block'][contains(text(), 'ID:')]/following::input[1]", by="xpath", description="Job ID")
+    print(row)
+    job_id = find_element(driver,
+                          "//div[@class='layout-element-caption block'][contains(text(), 'ID:')]/following::input[1]",
+                          by="xpath", description="Job ID")
     try:
-        job_id.send_keys(row['Job Plan'])
+        job_id.send_keys(row['Job Plan ID'])
     except:
         raise Exception(f"ERROR[add_job_plan] Could not send keys to Job ID textbox")
 
-    # don't fill in plan description
+    # Plan Description
+    plan_description = find_element(driver,
+                                    "//div[@class='layout-element-caption block'][contains(text(), 'Plan Description')]/following::textarea[1]",
+                                    by="xpath", description="Plan Descriptionr")
+    try:
+        plan_description.send_keys(row['Plan Description'])
+    except:
+        raise Exception(f"ERROR[add_job_plan] Could not send keys to Plan Description textbox")
 
-    # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     # myPlant Document number this will match with mydoc number (new column)
-    myPlant = find_element(driver, "//div[@class='layout-element-caption block'][contains(text(), 'myPlant Document')]/following::input[1]", by="xpath", description="myPlant Document Number")
+    myPlant = find_element(driver,
+                           "//div[@class='layout-element-caption block'][contains(text(), 'myPlant Document')]/following::input[1]",
+                           by="xpath", description="myPlant Document Number")
     try:
-        myPlant.send_keys(row['mydoc'])
+        myPlant.send_keys(row['MyPlant Document Number'])
     except:
         raise Exception(f"ERROR[add_job_plan] Could not send keys to myPlant Document Number textbox")
-    # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-    # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-    # oracle activity comes from far right 
-    oracle_activity = find_element(driver, "//div[@class='layout-element-caption block'][contains(text(), 'Oracle Activity')]/following::input[1]", by="xpath", description="Oracle Activity")
+    # oracle activity comes from far right
+    oracle_activity = find_element(driver,
+                                   "//div[@class='layout-element-caption block'][contains(text(), 'Oracle Activity')]/following::input[1]",
+                                   by="xpath", description="Oracle Activity")
     try:
-        oracle_activity.send_keys(row['oracle activity'])
+        oracle_activity.send_keys(row['Oracle Activity'])
     except:
         raise Exception(f"ERROR[add_job_plan] Could not send keys to myPlant Document Number textbox")
-    # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
     # Click save
     find_element_and_click(driver, "//button[@title='Save']", by="xpath")
 
+
+def link_actions_to_jobplan(driver, job_plan_data):
+    # Get all the action names
+    action_name_list = job_plan_data["Action Name"].unique().tolist()
+
+    # Click Linked Actions
+    find_element_and_click(driver, "//span[contains(text(),'Linked Actions')]", by="xpath")
+
+    # Click the plus button
+    find_element_and_click(driver, "//button[@data-action='link-action']//i[@class='icon-plus']", by="xpath")
+
+    # get all the rows
+    potential_action_check_box_list = find_element(driver, "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='1']//span[@class='dx-checkbox-icon']", by="xpath")
+    potential_action_name_list = find_element(driver, "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='2']", by="xpath")
+
+    assert(len(potential_action_check_box_list) == len(potential_action_name_list))
+
+    for i in range(len(potential_action_check_box_list)):
+        if potential_action_name_list[i].text in action_name_list:
+            potential_action_check_box_list[i].click()
+
+    # Click the Link button
+    find_element_and_click(driver, "//button//span[contains(text(),'Link')]", by="xpath")
+
+
+
+def manage_actions_with_floc(driver, asset_list):
+    # click "Manage actions"
+    find_element_and_click(driver, "//span[contains(text(),'Manage Actions')]", by="xpath")
+
+    for asset in asset_list:
+        # click the plus button
+        find_element_and_click(driver, "//button[@title='Add Actions']//i", by="xpath")
+
+        # click the search button
+        find_element_and_click(driver, "//div[@class='add-bulk-actions']//i[@class='icon-search']", by="xpath")
+
+        # search with floc text area
+        asset_name = find_element(driver,
+                                  "//td[@aria-label='Column Asset, Filter cell']//input",
+                                  by="xpath", description="asset name")
+        try:
+            asset_name.send_keys(Keys.CONTROL + "a")
+            asset_name.send_keys(Keys.DELETE)
+            asset_name.send_keys(asset)
+        except:
+            raise Exception(f"ERROR[add_job_plan] Could not send keys to asset textbox")
+
+        while True:  # this is to make sure the search is finish
+            first_filter_result = find_element(driver, "//tr[@aria-rowindex='1']//td[@aria-colindex='3']", by="xpath",
+                                               description="make sure search is finish")
+            if asset in first_filter_result.text:
+                break
+            else:
+                time.sleep(5)
+
+        # click select all action
+        find_element_and_click(driver,
+                               "//tr[@class='dx-row dx-column-lines dx-header-row']//span[@class='dx-checkbox-icon']",
+                               by="xpath")
+
+    # click Add
+    find_element_and_click(driver, "//span[contains(text(), 'Add')]", by="xpath")
+
+
 def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run_selenium_headless, username,
                           password):
     global error_log
-    login_required = True
+    # login_required = True
 
-    unique_package_id_list = list(set([x['package_id'] for x in input_csv_list]))
-    packages_created_dic = {p:False for p in unique_package_id_list}
+    unique_package_id_list = input_csv_list['Package ID'].unique().tolist()
+    unique_jobplan_id_list = input_csv_list['Job Plan ID'].unique().tolist()
 
-    package_job_plan_dict = {p:[] for p in unique_package_id_list}
-    for row in input_csv_list:
-        packages_created_dic[row['Package ID']].append(row['Job Plan'])
+    package_job_plan_dict = {p: input_csv_list.loc[input_csv_list['Package ID'] == p]['Job Plan ID'].unique().tolist()
+                             for p in unique_package_id_list}
 
+    package_floc_dict = {p: input_csv_list.loc[input_csv_list['Package ID'] == p]['Asset Name'].unique().tolist() for p
+                         in unique_package_id_list}
 
-    for row_index, row in enumerate(input_csv_list):
+    driver = open_incognito_window(chrome_driver_path, url_home_page, run_selenium_headless)
+    driver.implicitly_wait(300)
 
-        start_time = time.time()
+    log_into_meridium(url_home_page, run_selenium_headless, driver, username, password)
 
-        if login_required:
-            driver = open_incognito_window(chrome_driver_path, url_home_page, run_selenium_headless)
-            driver.implicitly_wait(300)
+    navigate_to_asi_overview_tab(driver)
 
-        try:  # Error handling
-            if login_required:
-                log_into_meridium(url_home_page, run_selenium_headless, driver, username, password)
-                login_required = False
+    for i, package_id in enumerate(unique_package_id_list):
+        # click create new package 
+        find_element_and_click(driver, "//div[@class='block-group page-filter-tools']//button[contains(text(),'New')]",
+                               by="xpath")
 
-            navigate_to_asi_overview_tab(driver)
+        # create new package
+        create_new_package(driver, package_id)
 
-            # click create new package 
-            find_element_and_click(driver, "//div[@class='block-group page-filter-tools']//button[contains(text(),'New')]", by="xpath")
+        # manage actions using floc
+        manage_actions_with_floc(driver, package_floc_dict[package_id])  # each package should have at least one floc
 
-            if not packages_created_dic[row['Package ID']]:
-                create_new_package(driver, row)
-                packages_created_dic[row['Package ID']] = True
+        for job_plan_id in package_job_plan_dict[package_id]:
+            # click the plus button
+            find_element_and_click(driver,
+                                   "//section[@class='expanded active border-right']//mi-more-options-noko//i[@class='icon-plus']",
+                                   by="xpath")
 
-                for job_plan_idx in range(len(package_job_plan_dict[row['Package ID']])):
-                    # click the plus button
-                    find_element_and_click(driver, "//section[@class='expanded active border-right']//mi-more-options-noko//i[@class='icon-plus']", by="xpath")
+            # click "Job Plan"
+            find_element_and_click(driver,
+                                   "//div[@class='more-options-outer-container']//span[contains(text(), 'Job Plan')]",
+                                   by="xpath")
 
-                    # click "Job Plan"
-                    find_element_and_click(driver, "//div[@class='more-options-outer-container']//span[contains(text(), 'Job Plan')]", by="xpath")
+            job_plan_data = input_csv_list.loc[
+                (input_csv_list['Package ID'] == package_id) & (input_csv_list['Job Plan ID'] == job_plan_id)]
+            # add new job plan
+            add_job_plan(driver, job_plan_data.iloc[0])
 
-                    # add new job plan
-                    add_job_plan(driver, row)
+            # add actions
+            link_actions_to_jobplan(driver, job_plan_data)
 
-                    # Go Back
-                    find_element_and_click(driver, "//button[@data-action='backInHistory']//i[@class='icon-back-arrow']", by="xpath")
-            else:
-                continue
+            # Go Back
+            find_element_and_click(driver, "//button[@data-action='backInHistory']//i[@class='icon-back-arrow']",
+                                   by="xpath")
 
-            # Once finished job plans go to detais
-            find_element_and_click(driver, "//span[contains(text(),'Details')]", by="xpath")
+    # for row_index, row in enumerate(input_csv_list):
 
+    #     start_time = time.time()
 
-            exit()
+    #     if login_required:
+    #         driver = open_incognito_window(chrome_driver_path, url_home_page, run_selenium_headless)
+    #         driver.implicitly_wait(300)
 
-        except Exception as e:
-            logging.error(e)
-            error_log.append(e)
-            login_required = True
-            driver.quit()
-        else:
-            pass
+    #     try:  # Error handling
+    #         if login_required:
+    #             log_into_meridium(url_home_page, run_selenium_headless, driver, username, password)
+    #             login_required = False
+
+    #         navigate_to_asi_overview_tab(driver)
+
+    #         # click create new package 
+    #         find_element_and_click(driver, "//div[@class='block-group page-filter-tools']//button[contains(text(),'New')]", by="xpath")
+
+    #         if not packages_created_dic[row['Package ID']]:
+    #             create_new_package(driver, row)
+    #             packages_created_dic[row['Package ID']] = True
+
+    # for job_plan_idx in range(len(package_job_plan_dict[row['Package ID']])):
+    #     # click the plus button
+    #     find_element_and_click(driver, "//section[@class='expanded active border-right']//mi-more-options-noko//i[@class='icon-plus']", by="xpath")
+
+    #     # click "Job Plan"
+    #     find_element_and_click(driver, "//div[@class='more-options-outer-container']//span[contains(text(), 'Job Plan')]", by="xpath")
+
+    #     # add new job plan
+    #     add_job_plan(driver, row)
+
+    #     # Go Back
+    #     find_element_and_click(driver, "//button[@data-action='backInHistory']//i[@class='icon-back-arrow']", by="xpath")
+    #         else:
+    #             continue
+
+    #         # Once finished job plans go to detais
+    #         find_element_and_click(driver, "//span[contains(text(),'Details')]", by="xpath")
+
+    #         import_package(driver, row)
+
+    #         exit()
+
+    #     except Exception as e:
+    #         logging.error(e)
+    #         error_log.append(e)
+    #         login_required = True
+    #         driver.quit()
+    #     else:
+    #         pass
 
 
 def get_input_csv_list(csv_path_file: str):
     if not os.path.exists(csv_path_file):
         raise Exception(f"ERROR[get_input_csv_list] {csv_path_file} does not exist")
 
-    file_obj = open(csv_path_file, "r")
-    data_lines = file_obj.readlines()
-    file_obj.close()
+    data = pd.read_csv(csv_path_file)
 
-    ret_list = []
+    return data
 
-    for i, line in enumerate(data_lines):
-        line = line.strip("\n")
-        columns = line.split(",")
-        if i == 0:
-            header_list = columns
-            print(header_list)
-        else:
-            row_dict = {}
-            for j in range(len(header_list)):
-                row_dict[header_list[j]] = columns[j]
-            ret_list.append(row_dict)
-    return ret_list
+    # file_obj = open(csv_path_file, "r")
+    # data_lines = file_obj.readlines()
+    # file_obj.close()
+
+    # ret_list = []
+
+    # for i, line in enumerate(data_lines):
+    #     line = line.strip("\n")
+    #     columns = line.split(",")
+    #     if i == 0:
+    #         header_list = columns
+    #         print(header_list)
+    #     else:
+    #         row_dict = {}
+    #         for j in range(len(header_list)):
+    #             row_dict[header_list[j]] = columns[j]
+    #         ret_list.append(row_dict)
+    # return ret_list
 
 
 if __name__ == "__main__":

@@ -1,0 +1,59 @@
+Opening Meridium
+
+Go to Strategy
+
+then to ASI
+
+Create new package
+
+Package ID = ID
+
+** Ask santos which one to select for SAP Reference ** OeAM2
+
+Description = Package ID
+
+Datasheet ID = Implementation Package
+
+Click save
+
+Click plus icon near top left binoculars
+
+drop down menu is the job plan (Santos server)
+
+Job ID = Job Plan
+
+Don't fill Plan Description
+
+myPlant Document number
+
+This will match with mydoc number (new column)
+
+oracle activity comes from far right
+
+Hit save
+
+To add another job plan go back
+
+the back button next to the binoculars
+
+and then add another job plan
+
+Once finished job plans
+
+
+-----------------------------------
+one package id  - many floc
+one package id  - many job plan
+one floc - many actions
+one job plan - many actions
+-----------------------------------
+
+
+manage actions
+
+search for floc name(use any of the floc)
+
+add all the actions
+
+for each job plan:
+
