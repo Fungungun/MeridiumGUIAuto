@@ -248,10 +248,14 @@ def link_actions_to_jobplan(driver, job_plan_data):
     find_element_and_click(driver, "//button[@data-action='link-action']//i[@class='icon-plus']", by="xpath")
 
     # get all the rows
-    potential_action_check_box_list = find_element(driver, "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='1']//span[@class='dx-checkbox-icon']", by="xpath")
-    potential_action_name_list = find_element(driver, "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='2']", by="xpath")
+    potential_action_check_box_list = find_element(driver,
+                                                   "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='1']//span[@class='dx-checkbox-icon']",
+                                                   by="xpath")
+    potential_action_name_list = find_element(driver,
+                                              "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='2']",
+                                              by="xpath")
 
-    assert(len(potential_action_check_box_list) == len(potential_action_name_list))
+    assert (len(potential_action_check_box_list) == len(potential_action_name_list))
 
     for i in range(len(potential_action_check_box_list)):
         if potential_action_name_list[i].text in action_name_list:
@@ -259,7 +263,6 @@ def link_actions_to_jobplan(driver, job_plan_data):
 
     # Click the Link button
     find_element_and_click(driver, "//button//span[contains(text(),'Link')]", by="xpath")
-
 
 
 def manage_actions_with_floc(driver, asset_list):
@@ -303,11 +306,7 @@ def manage_actions_with_floc(driver, asset_list):
 
 def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run_selenium_headless, username,
                           password):
-    global error_log
-    # login_required = True
-
     unique_package_id_list = input_csv_list['Package ID'].unique().tolist()
-    unique_jobplan_id_list = input_csv_list['Job Plan ID'].unique().tolist()
 
     package_job_plan_dict = {p: input_csv_list.loc[input_csv_list['Package ID'] == p]['Job Plan ID'].unique().tolist()
                              for p in unique_package_id_list}
@@ -356,58 +355,6 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
             find_element_and_click(driver, "//button[@data-action='backInHistory']//i[@class='icon-back-arrow']",
                                    by="xpath")
 
-    # for row_index, row in enumerate(input_csv_list):
-
-    #     start_time = time.time()
-
-    #     if login_required:
-    #         driver = open_incognito_window(chrome_driver_path, url_home_page, run_selenium_headless)
-    #         driver.implicitly_wait(300)
-
-    #     try:  # Error handling
-    #         if login_required:
-    #             log_into_meridium(url_home_page, run_selenium_headless, driver, username, password)
-    #             login_required = False
-
-    #         navigate_to_asi_overview_tab(driver)
-
-    #         # click create new package 
-    #         find_element_and_click(driver, "//div[@class='block-group page-filter-tools']//button[contains(text(),'New')]", by="xpath")
-
-    #         if not packages_created_dic[row['Package ID']]:
-    #             create_new_package(driver, row)
-    #             packages_created_dic[row['Package ID']] = True
-
-    # for job_plan_idx in range(len(package_job_plan_dict[row['Package ID']])):
-    #     # click the plus button
-    #     find_element_and_click(driver, "//section[@class='expanded active border-right']//mi-more-options-noko//i[@class='icon-plus']", by="xpath")
-
-    #     # click "Job Plan"
-    #     find_element_and_click(driver, "//div[@class='more-options-outer-container']//span[contains(text(), 'Job Plan')]", by="xpath")
-
-    #     # add new job plan
-    #     add_job_plan(driver, row)
-
-    #     # Go Back
-    #     find_element_and_click(driver, "//button[@data-action='backInHistory']//i[@class='icon-back-arrow']", by="xpath")
-    #         else:
-    #             continue
-
-    #         # Once finished job plans go to detais
-    #         find_element_and_click(driver, "//span[contains(text(),'Details')]", by="xpath")
-
-    #         import_package(driver, row)
-
-    #         exit()
-
-    #     except Exception as e:
-    #         logging.error(e)
-    #         error_log.append(e)
-    #         login_required = True
-    #         driver.quit()
-    #     else:
-    #         pass
-
 
 def get_input_csv_list(csv_path_file: str):
     if not os.path.exists(csv_path_file):
@@ -417,25 +364,6 @@ def get_input_csv_list(csv_path_file: str):
 
     return data
 
-    # file_obj = open(csv_path_file, "r")
-    # data_lines = file_obj.readlines()
-    # file_obj.close()
-
-    # ret_list = []
-
-    # for i, line in enumerate(data_lines):
-    #     line = line.strip("\n")
-    #     columns = line.split(",")
-    #     if i == 0:
-    #         header_list = columns
-    #         print(header_list)
-    #     else:
-    #         row_dict = {}
-    #         for j in range(len(header_list)):
-    #             row_dict[header_list[j]] = columns[j]
-    #         ret_list.append(row_dict)
-    # return ret_list
-
 
 if __name__ == "__main__":
     # Get environmental variables
@@ -443,12 +371,11 @@ if __name__ == "__main__":
     password = os.getenv("MERIDIUM_PASSWORD")
     chrome_driver_path = os.getenv("MERIDIUM_CHROME_DRIVER_PATH")
     input_csv_path = os.getenv("MERIDIUM_INPUT_CSV_PATH")
-    error_log_path = os.getenv("MERIDIUM_ERROR_LOG_PATH")
+
     url_home_page = os.getenv("MERIDIUM_URL_HOME_PAGE")
 
     input_csv_list = get_input_csv_list(input_csv_path)
 
-    error_log = []
     restart_system_error = False
 
     start_time = time.time()
@@ -458,7 +385,6 @@ if __name__ == "__main__":
     logging.info(f"Start time: {time.ctime(start_time)}")
     logging.info(f"CSV File Path: {input_csv_path}")
     logging.info(f"ChromeDriver Path: {chrome_driver_path}")
-    # logging.info(f"Total number of rows to process: {len(floc_asm_list)}")
 
     run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run_selenium_headless, username, password)
 
