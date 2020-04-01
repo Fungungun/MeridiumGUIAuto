@@ -97,7 +97,7 @@ def find_elements_search_for_innerhtml(web_driver, xpath: str, innerhtml: str, a
     start_time = time.time()
     while time.time() - start_time < wait_time_sec:
         try:
-            elements_list = find_element(web_driver, xpath, by="xpath_multi",
+            elements_list, _ = find_element(web_driver, xpath, by="xpath_multi",
                                          wait_time_sec=2)  # Assume that the list will be short enough to load without typing anything
             for element in elements_list:
                 if upper_case:
@@ -122,7 +122,7 @@ def find_elements_search_for_innerhtml_then_click(web_driver, xpath: str, innerh
     start_time = time.time()
     while time.time() - start_time < wait_time_sec:
         try:
-            elements_list = find_element(web_driver, xpath, by="xpath_multi",
+            elements_list, _ = find_element(web_driver, xpath, by="xpath_multi",
                                          wait_time_sec=2)  # Assume that the list will be short enough to load without typing anything
             for element in elements_list:
                 if element.text == innerhtml:
@@ -138,15 +138,14 @@ def find_elements_search_for_innerhtml_then_click(web_driver, xpath: str, innerh
 def navigate_to_asi_overview_tab(driver):
     find_element_and_click(driver, "//div[@title='Strategy']", by="xpath", description="Strategy menu left hand pane",
                            wait_time_sec=150)
-    print("Found Strategy Btn")
     time.sleep(0.5)  # Little bit of wait to allow loading of data so it doesn't open it in a new tab
     find_element_and_click(driver, "//a[@href='#/asi/overview']", by="xpath",
                            description="Drop down strategy overview from strategy menu")
-    print("Found ASI Btn")
+
 
 
 def log_into_meridium(url, run_selenium_headless, driver, username, password):
-    input_user_id = find_element(driver, "userid", by="id", description="User ID textbox", wait_time_sec=150,
+    input_user_id, _ = find_element(driver, "userid", by="id", description="User ID textbox", wait_time_sec=150,
                                  sleep_time=1)
     try:
         input_user_id.send_keys(username)
@@ -154,7 +153,7 @@ def log_into_meridium(url, run_selenium_headless, driver, username, password):
         raise Exception(f"ERROR[log_into_meridium] Could not send keys to User ID textbox")
 
     time.sleep(1)  # Account for slow santos system
-    input_password = find_element(driver, "password", by="id", description="Password textbox")
+    input_password, _ = find_element(driver, "password", by="id", description="Password textbox")
 
     try:
         input_password.send_keys(password)
@@ -171,9 +170,10 @@ def log_into_meridium(url, run_selenium_headless, driver, username, password):
 
 def create_new_package(driver, package_id):
     # Package ID = ID
-    package_id = find_element(driver, "//input[@placeholder='Text input']", by="xpath", description="Package ID")
+    package_id_input, _ = find_element(driver, "//input[@placeholder='Text input']", by="xpath", description="Package ID")
+    loggin.info("Send package ID")
     try:
-        package_id.send_keys(package_id)
+        package_id_input.send_keys(package_id)
     except:
         raise Exception(f"ERROR[create_new_package] Could not send keys to Package ID textbox")
 
@@ -182,51 +182,54 @@ def create_new_package(driver, package_id):
                            "//div[@class='layout-control block-group columns-10']//mi-select//i[@class='icon-arrow pull-right']",
                            by="xpath")
     find_element_and_click(driver, "//div[@class='select-outer-container']//p[contains(text(), 'OeAM2')]", by="xpath")
-
+    logging.info("Select SAP Reference")
     # Description = Package ID
-    description = find_element(driver, "//textarea[@placeholder='Text area']", by="xpath", description="Description")
+    description, _ = find_element(driver, "//textarea[@placeholder='Text area']", by="xpath", description="Description")
     try:
         description.send_keys(package_id)
     except:
         raise Exception(f"ERROR[create_new_package] Could not send keys to Description textbox")
-
-    # Click save
+    loggin.info("Send description")
+    # Click save    
     find_element_and_click(driver, "//i[@class='icon-save']", by="xpath")
-
+    loggin.info("Click Save")
 
 def add_job_plan(driver, row):
     # Job ID = Job Plan
-    print(row)
-    job_id = find_element(driver,
+    job_id, _ = find_element(driver,
                           "//div[@class='layout-element-caption block'][contains(text(), 'ID:')]/following::input[1]",
                           by="xpath", description="Job ID")
+    logging.info("Send job id")
     try:
         job_id.send_keys(row['Job Plan ID'])
     except:
         raise Exception(f"ERROR[add_job_plan] Could not send keys to Job ID textbox")
 
     # Plan Description
-    plan_description = find_element(driver,
+    plan_description, _ = find_element(driver,
                                     "//div[@class='layout-element-caption block'][contains(text(), 'Plan Description')]/following::textarea[1]",
                                     by="xpath", description="Plan Descriptionr")
+    loggin.info("Send plan description")
     try:
         plan_description.send_keys(row['Plan Description'])
     except:
         raise Exception(f"ERROR[add_job_plan] Could not send keys to Plan Description textbox")
 
     # myPlant Document number this will match with mydoc number (new column)
-    myPlant = find_element(driver,
+    myPlant, _ = find_element(driver,
                            "//div[@class='layout-element-caption block'][contains(text(), 'myPlant Document')]/following::input[1]",
                            by="xpath", description="myPlant Document Number")
+    loggin.info("Send my plant document number")
     try:
         myPlant.send_keys(row['MyPlant Document Number'])
     except:
         raise Exception(f"ERROR[add_job_plan] Could not send keys to myPlant Document Number textbox")
 
     # oracle activity comes from far right
-    oracle_activity = find_element(driver,
+    oracle_activity, _ = find_element(driver,
                                    "//div[@class='layout-element-caption block'][contains(text(), 'Oracle Activity')]/following::input[1]",
                                    by="xpath", description="Oracle Activity")
+    loggin.info("Send oracle activity")
     try:
         oracle_activity.send_keys(row['Oracle Activity'])
     except:
@@ -234,31 +237,40 @@ def add_job_plan(driver, row):
 
     # Click save
     find_element_and_click(driver, "//button[@title='Save']", by="xpath")
+    loggin.info("Click save button")
 
 
 def link_actions_to_jobplan(driver, job_plan_data):
     # Get all the action names
     action_name_list = job_plan_data["Action Name"].unique().tolist()
+    loggin.info(f"link {action_name_list} to this job plan")
 
     # Click Linked Actions
     find_element_and_click(driver, "//span[contains(text(),'Linked Actions')]", by="xpath")
+    loggin.info("Click linked actions")
 
     # Click the plus button
     find_element_and_click(driver, "//button[@data-action='link-action']//i[@class='icon-plus']", by="xpath")
+    loggin.info("Click the plus button")
 
     # get all the rows
-    potential_action_check_box_list = find_element(driver,
+    potential_action_check_box_list, _ = find_element(driver,
                                                    "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='1']//span[@class='dx-checkbox-icon']",
                                                    by="xpath")
-    potential_action_name_list = find_element(driver,
+    loggin.info("Get all the check box")
+    potential_action_name_list, _ = find_element(driver,
                                               "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='2']",
                                               by="xpath")
+    loggin.info("Get all the action names")
 
     assert (len(potential_action_check_box_list) == len(potential_action_name_list))
+    loggin.info("Number of rows assertion passed")
 
     for i in range(len(potential_action_check_box_list)):
+        logging.info(f"Checking {potential_action_name_list[i].text} in {action_name_list}")
         if potential_action_name_list[i].text in action_name_list:
             potential_action_check_box_list[i].click()
+            loggin.info("Selection this action ")
 
     # Click the Link button
     find_element_and_click(driver, "//button//span[contains(text(),'Link')]", by="xpath")
@@ -271,37 +283,47 @@ def manage_actions_with_floc(driver, asset_list):
     for asset in asset_list:
         # click the plus button
         find_element_and_click(driver, "//button[@title='Add Actions']//i", by="xpath")
+        logging.info("click the plus button")
 
         # click the search button
         find_element_and_click(driver, "//div[@class='add-bulk-actions']//i[@class='icon-search']", by="xpath")
+        logging.info("click the search button")
 
         # search with floc text area
-        asset_name = find_element(driver,
+        asset_name, _ = find_element(driver,
                                   "//td[@aria-label='Column Asset, Filter cell']//input",
                                   by="xpath", description="asset name")
+        logging.info("find asset text area")
         try:
             asset_name.send_keys(Keys.CONTROL + "a")
             asset_name.send_keys(Keys.DELETE)
             asset_name.send_keys(asset)
+            logging.info("send keys to asset text area")
         except:
             raise Exception(f"ERROR[add_job_plan] Could not send keys to asset textbox")
 
         while True:  # this is to make sure the search is finish
-            first_filter_result = find_element(driver, "//tr[@aria-rowindex='1']//td[@aria-colindex='3']", by="xpath",
+            first_filter_result, _ = find_element(driver, "//tr[@aria-rowindex='1']//td[@aria-colindex='3']", by="xpath",
                                                description="make sure search is finish")
+            logging.info("Get search results")
             if asset in first_filter_result.text:
+                logging.info("Filter finish")
                 break
             else:
+                loggin.info("Wait for the next search")
                 time.sleep(5)
+                
 
         # click select all action
         find_element_and_click(driver,
                                "//tr[@class='dx-row dx-column-lines dx-header-row']//span[@class='dx-checkbox-icon']",
                                by="xpath")
+        logging.info("Click select all action button")
+                        
 
-    # click Add
-    find_element_and_click(driver, "//span[contains(text(), 'Add')]", by="xpath")
-
+        # click Add
+        find_element_and_click(driver, "//span[contains(text(), 'Add')]", by="xpath")
+        logging.info("Click Add button")
 
 def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run_selenium_headless, username,
                           password):
@@ -332,15 +354,18 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
         manage_actions_with_floc(driver, package_floc_dict[package_id])  # each package should have at least one floc
 
         for job_plan_id in package_job_plan_dict[package_id]:
+            loggin.info(f"Adding job_plan {job_plan_id}")
             # click the plus button
             find_element_and_click(driver,
                                    "//section[@class='expanded active border-right']//mi-more-options-noko//i[@class='icon-plus']",
                                    by="xpath")
+            logging.info("Click the plus button")
 
             # click "Job Plan"
             find_element_and_click(driver,
                                    "//div[@class='more-options-outer-container']//span[contains(text(), 'Job Plan')]",
                                    by="xpath")
+            logging.info("Click 'job Plan'")
 
             job_plan_data = input_csv_list.loc[
                 (input_csv_list['Package ID'] == package_id) & (input_csv_list['Job Plan ID'] == job_plan_id)]
