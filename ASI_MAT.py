@@ -42,54 +42,53 @@ def open_incognito_window(chrome_driver_exe, url, run_selenium_headless):
     return driver
 
 
-def find_element(web_driver, value: str, by="xpath", wait_time_sec=90, description="", sleep_time=0):
+def find_element(driver, value: str, by="xpath", wait_time_sec=90, description="", sleep_time=0):
     # Note 1: Always forgot to put in by, changed it so that it defaults to xpath
     # Note 2: Always forgot to put in // at the front of xpath, added if statement to catch that mistake
-    if by not in ['id', 'xpath', 'xpath_multi', 'class']:
-        raise Exception(
-            f"ERROR[find_element] couldn't find element {description}: {value} using {by} within {wait_time_sec} seconds")
-
-    start_time = time.time()
-    while time.time() - start_time < wait_time_sec:
-        try:
-            if by == "id":
-                return web_driver.find_element_by_id(value)
-            elif by == "xpath":
-                if value[:2] != "//":
-                    logging.error(f"ERROR[find_element] for {value} using {by} // was not set")
-                    break
-                return web_driver.find_element_by_xpath(value)
-            elif by == "xpath_multi":
-                if value[:2] != "//":
-                    logging.error(f"ERROR[find_element] for {value} using {by} // was not set")
-                    break
-                return web_driver.find_elements_by_xpath(value)  # will return list
-            elif by == "class":
-                return web_driver.find_element_by_class_name(value)
-            else:
-                raise Exception(
-                    f"ERROR[find_element] couldn't find element {description}: {value} using {by} within {wait_time_sec} seconds")
-        except:
-            pass
-
-        if sleep_time:
-            time.sleep(sleep_time)
-
-
-def find_element_and_click(web_driver, value: str, by="xpath", wait_time_sec=120, description="", sleep_time=0):
-    start_time = time.time()
-    while time.time() - start_time < wait_time_sec:
-        try:
-            element = find_element(web_driver, value, by=by, wait_time_sec=wait_time_sec)
-            element.click()
-        except:
-            pass
+    # Note 3: There is a WebDriverWait function which allows for cpu to not be churned using a while loop
+    try:
+        if by == "id":
+            element_present = EC.presence_of_element_located((By.ID, value))
+            WebDriverWait(driver, wait_time_sec).until(element_present)
+            return driver.find_element_by_id(value), EC.presence_of_element_located((By.ID, value))
+        elif by == "xpath":
+            if value[:2] != "//":
+                logging.error(f"ERROR[find_element] for {value} using {by} // was not set")
+                raise Exception(f"ERROR[find_element] for {value} using {by} // was not set")
+            element_present = EC.presence_of_element_located((By.XPATH, value))
+            WebDriverWait(driver, wait_time_sec).until(element_present)
+            return driver.find_element_by_xpath(value), EC.presence_of_element_located((By.XPATH, value))
+        elif by == "xpath_multi":
+            if value[:2] != "//":
+                logging.error(f"ERROR[find_element] for {value} using {by} // was not set")
+                raise Exception(f"ERROR[find_element] for {value} using {by} // was not set")
+            element_present = EC.presence_of_element_located((By.XPATH, value))
+            WebDriverWait(driver, wait_time_sec).until(element_present)
+            return driver.find_elements_by_xpath(value), EC.presence_of_element_located(
+                (By.XPATH, value))  # will return list
+        elif by == "class":
+            element_present = EC.presence_of_element_located((By.CLASS_NAME, value))
+            WebDriverWait(driver, wait_time_sec).until(element_present)
+            return driver.find_element_by_class_name(value), EC.presence_of_element_located((By.CLASS_NAME, value))
         else:
-            return
+            raise Exception(f"ERROR[find_element] By: |{by}| was not out of the options for {value}|{description}")
+    except:
+        raise Exception(f"ERROR[find_element] By: |{by}| was not out of the options for {value}|{description}")
+    return None, None
 
-        if sleep_time != 0:
-            time.sleep(sleep_time)
-    raise Exception(f"couldn't find element {description}: {value} using {by} within {wait_time_sec} seconds")
+
+def find_element_and_click(driver, value: str, by="xpath", wait_time_sec=120, description="", sleep_time=0):
+    start_time = time.time()
+    while time.time() - start_time < wait_time_sec:
+        element, element_clickable = find_element(driver, value, by=by, wait_time_sec=wait_time_sec)
+        time_left = wait_time_sec - (time.time() - start_time)
+        WebDriverWait(driver, time_left).until(element_clickable)
+        try:
+            element.click()
+            return
+        except:
+            pass
+    raise Exception(f"ERROR[find_element_and_click]: |{value}|{description}| was not clickable")
 
 
 def find_elements_search_for_innerhtml(web_driver, xpath: str, innerhtml: str, action="click", wait_time_sec=120,
