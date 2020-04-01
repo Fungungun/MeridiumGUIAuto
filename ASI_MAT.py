@@ -171,7 +171,7 @@ def log_into_meridium(url, run_selenium_headless, driver, username, password):
 def create_new_package(driver, package_id):
     # Package ID = ID
     package_id_input, _ = find_element(driver, "//input[@placeholder='Text input']", by="xpath", description="Package ID")
-    loggin.info("Send package ID")
+    logging.info("Send package ID")
     try:
         package_id_input.send_keys(package_id)
     except:
@@ -189,10 +189,10 @@ def create_new_package(driver, package_id):
         description.send_keys(package_id)
     except:
         raise Exception(f"ERROR[create_new_package] Could not send keys to Description textbox")
-    loggin.info("Send description")
+    logging.info("Send description")
     # Click save    
     find_element_and_click(driver, "//i[@class='icon-save']", by="xpath")
-    loggin.info("Click Save")
+    logging.info("Click Save")
 
 def add_job_plan(driver, row):
     # Job ID = Job Plan
@@ -209,7 +209,7 @@ def add_job_plan(driver, row):
     plan_description, _ = find_element(driver,
                                     "//div[@class='layout-element-caption block'][contains(text(), 'Plan Description')]/following::textarea[1]",
                                     by="xpath", description="Plan Descriptionr")
-    loggin.info("Send plan description")
+    logging.info("Send plan description")
     try:
         plan_description.send_keys(row['Plan Description'])
     except:
@@ -219,7 +219,7 @@ def add_job_plan(driver, row):
     myPlant, _ = find_element(driver,
                            "//div[@class='layout-element-caption block'][contains(text(), 'myPlant Document')]/following::input[1]",
                            by="xpath", description="myPlant Document Number")
-    loggin.info("Send my plant document number")
+    logging.info("Send my plant document number")
     try:
         myPlant.send_keys(row['MyPlant Document Number'])
     except:
@@ -229,7 +229,7 @@ def add_job_plan(driver, row):
     oracle_activity, _ = find_element(driver,
                                    "//div[@class='layout-element-caption block'][contains(text(), 'Oracle Activity')]/following::input[1]",
                                    by="xpath", description="Oracle Activity")
-    loggin.info("Send oracle activity")
+    logging.info("Send oracle activity")
     try:
         oracle_activity.send_keys(row['Oracle Activity'])
     except:
@@ -237,40 +237,40 @@ def add_job_plan(driver, row):
 
     # Click save
     find_element_and_click(driver, "//button[@title='Save']", by="xpath")
-    loggin.info("Click save button")
+    logging.info("Click save button")
 
 
 def link_actions_to_jobplan(driver, job_plan_data):
     # Get all the action names
     action_name_list = job_plan_data["Action Name"].unique().tolist()
-    loggin.info(f"link {action_name_list} to this job plan")
+    logging.info(f"link {action_name_list} to this job plan")
 
     # Click Linked Actions
     find_element_and_click(driver, "//span[contains(text(),'Linked Actions')]", by="xpath")
-    loggin.info("Click linked actions")
+    logging.info("Click linked actions")
 
     # Click the plus button
     find_element_and_click(driver, "//button[@data-action='link-action']//i[@class='icon-plus']", by="xpath")
-    loggin.info("Click the plus button")
+    logging.info("Click the plus button")
 
     # get all the rows
     potential_action_check_box_list, _ = find_element(driver,
                                                    "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='1']//span[@class='dx-checkbox-icon']",
                                                    by="xpath")
-    loggin.info("Get all the check box")
+    logging.info("Get all the check box")
     potential_action_name_list, _ = find_element(driver,
                                               "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='2']",
                                               by="xpath")
-    loggin.info("Get all the action names")
+    logging.info("Get all the action names")
 
     assert (len(potential_action_check_box_list) == len(potential_action_name_list))
-    loggin.info("Number of rows assertion passed")
+    logging.info("Number of rows assertion passed")
 
     for i in range(len(potential_action_check_box_list)):
         logging.info(f"Checking {potential_action_name_list[i].text} in {action_name_list}")
         if potential_action_name_list[i].text in action_name_list:
             potential_action_check_box_list[i].click()
-            loggin.info("Selection this action ")
+            logging.info("Selection this action ")
 
     # Click the Link button
     find_element_and_click(driver, "//button//span[contains(text(),'Link')]", by="xpath")
@@ -310,7 +310,7 @@ def manage_actions_with_floc(driver, asset_list):
                 logging.info("Filter finish")
                 break
             else:
-                loggin.info("Wait for the next search")
+                logging.info("Wait for the next search")
                 time.sleep(5)
                 
 
@@ -354,7 +354,7 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
         manage_actions_with_floc(driver, package_floc_dict[package_id])  # each package should have at least one floc
 
         for job_plan_id in package_job_plan_dict[package_id]:
-            loggin.info(f"Adding job_plan {job_plan_id}")
+            logging.info(f"Adding job_plan {job_plan_id}")
             # click the plus button
             find_element_and_click(driver,
                                    "//section[@class='expanded active border-right']//mi-more-options-noko//i[@class='icon-plus']",
