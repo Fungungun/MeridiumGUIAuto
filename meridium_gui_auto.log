@@ -1938,3 +1938,118 @@
 04-01 15:45 INFO     Start time: Wed Apr  1 15:45:58 2020
 04-01 15:45 INFO     CSV File Path: 4800-for ASI Packaging.csv
 04-01 15:45 INFO     ChromeDriver Path: chromedriver.exe
+04-01 16:46 INFO     -----------------------------------New Session-------------------------------------
+04-01 16:46 INFO     User Name: "shekx"
+04-01 16:46 INFO     Start time: Wed Apr  1 16:46:18 2020
+04-01 16:46 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-01 16:46 INFO     ChromeDriver Path: chromedriver.exe
+04-01 16:46 INFO     Send package ID
+04-01 16:46 INFO     Select SAP Reference
+04-01 16:46 INFO     Send description
+04-01 16:46 INFO     Click Save
+04-01 16:49 INFO     -----------------------------------New Session-------------------------------------
+04-01 16:49 INFO     User Name: "shekx"
+04-01 16:49 INFO     Start time: Wed Apr  1 16:49:17 2020
+04-01 16:49 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-01 16:49 INFO     ChromeDriver Path: chromedriver.exe
+04-01 16:49 INFO     Send package ID
+04-01 16:49 INFO     Select SAP Reference
+04-01 16:49 INFO     Send description
+04-01 16:49 INFO     Click Save
+04-01 16:49 INFO     click the plus button
+04-01 16:50 INFO     click the search button
+04-01 16:50 INFO     find asset text area
+04-01 16:50 INFO     send keys to asset text area
+04-01 16:50 INFO     Get search results
+04-01 16:50 INFO     Wait for the next search
+04-01 16:50 INFO     Get search results
+04-01 16:50 INFO     Wait for the next search
+04-01 16:50 INFO     Get search results
+04-01 16:50 INFO     Wait for the next search
+04-01 16:50 INFO     Get search results
+04-01 16:50 INFO     Wait for the next search
+04-01 16:50 INFO     Get search results
+04-01 16:50 INFO     Wait for the next search
+04-01 16:50 INFO     Get search results
+04-01 16:50 INFO     Wait for the next search
+04-01 16:50 INFO     Get search results
+04-01 16:50 INFO     Wait for the next search
+04-01 16:50 INFO     Get search results
+04-01 16:50 INFO     Wait for the next search
+04-01 16:50 INFO     Get search results
+04-01 16:50 INFO     Filter finish
+04-01 16:50 INFO     Click select all action button
+04-01 16:50 INFO     Click Add button
+04-01 16:50 INFO     click the plus button
+04-01 16:51 INFO     click the search button
+04-01 16:51 INFO     find asset text area
+04-01 16:51 INFO     send keys to asset text area
+04-01 16:51 INFO     Get search results
+04-01 16:51 INFO     Wait for the next search
+04-01 16:51 INFO     Get search results
+04-01 16:51 INFO     Wait for the next search
+04-01 16:51 INFO     Get search results
+04-01 16:51 INFO     Wait for the next search
+04-01 16:51 INFO     Get search results
+04-01 16:51 INFO     Wait for the next search
+04-01 16:51 INFO     Get search results
+04-01 16:51 INFO     Wait for the next search
+04-01 16:51 INFO     Get search results
+04-01 16:51 INFO     Wait for the next search
+04-01 16:51 INFO     Get search results
+04-01 16:51 INFO     Wait for the next search
+04-01 16:51 INFO     Get search results
+04-01 16:51 INFO     Wait for the next search
+04-01 16:51 INFO     Get search results
+04-01 16:51 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:52 INFO     Get search results
+04-01 16:52 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:53 INFO     Get search results
+04-01 16:53 INFO     Wait for the next search
+04-01 16:54 INFO     Get search results
+04-01 16:54 INFO     Wait for the next search
+04-01 16:54 INFO     Get search results
