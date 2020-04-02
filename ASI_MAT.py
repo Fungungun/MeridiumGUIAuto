@@ -277,11 +277,7 @@ def manage_actions_with_floc(driver, asset_list):
     # click "Manage actions"
     find_element_and_click(driver, "//span[contains(text(),'Manage Actions')]", by="xpath")
 
-    count = 0
     for asset in asset_list:
-        count += 1
-        if count > 1:
-            break
         # click the plus button
         find_element_and_click(driver, "//button[@title='Add Actions']//i", by="xpath")
         logging.info("click the plus button")
