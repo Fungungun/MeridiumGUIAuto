@@ -2053,3 +2053,830 @@
 04-01 16:54 INFO     Get search results
 04-01 16:54 INFO     Wait for the next search
 04-01 16:54 INFO     Get search results
+04-01 17:00 INFO     -----------------------------------New Session-------------------------------------
+04-01 17:00 INFO     User Name: "shekx"
+04-01 17:00 INFO     Start time: Wed Apr  1 17:00:47 2020
+04-01 17:00 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-01 17:00 INFO     ChromeDriver Path: chromedriver.exe
+04-01 17:01 INFO     Send package ID
+04-01 17:01 INFO     Select SAP Reference
+04-01 17:01 INFO     Send description
+04-01 17:01 INFO     Click Save
+04-01 17:01 INFO     click the plus button
+04-01 17:01 INFO     click the search button
+04-01 17:01 INFO     find asset text area
+04-01 17:01 INFO     send keys to asset text area
+04-01 17:01 INFO     Get search results
+04-01 17:01 INFO     Wait for the next search
+04-01 17:01 INFO     Get search results
+04-01 17:01 INFO     Wait for the next search
+04-01 17:01 INFO     Get search results
+04-01 17:01 INFO     Wait for the next search
+04-01 17:02 INFO     Get search results
+04-01 17:02 INFO     Wait for the next search
+04-01 17:02 INFO     Get search results
+04-01 17:02 INFO     Wait for the next search
+04-01 17:02 INFO     Get search results
+04-01 17:02 INFO     Wait for the next search
+04-01 17:02 INFO     Get search results
+04-01 17:02 INFO     Wait for the next search
+04-01 17:02 INFO     Get search results
+04-01 17:02 INFO     Filter finish
+04-01 17:02 INFO     Click select all action button
+04-01 17:02 INFO     Click Add button
+04-01 17:02 INFO     click the plus button
+04-01 17:03 INFO     click the search button
+04-01 17:03 INFO     find asset text area
+04-01 17:03 INFO     send keys to asset text area
+04-01 17:03 INFO     Get search results
+04-01 17:03 INFO     Wait for the next search
+04-01 17:03 INFO     Get search results
+04-01 17:03 INFO     Wait for the next search
+04-01 17:03 INFO     Get search results
+04-01 17:03 INFO     Wait for the next search
+04-01 17:03 INFO     Get search results
+04-01 17:03 INFO     Wait for the next search
+04-01 17:03 INFO     Get search results
+04-01 17:03 INFO     Wait for the next search
+04-01 17:03 INFO     Get search results
+04-01 17:03 INFO     Wait for the next search
+04-01 17:04 INFO     Get search results
+04-01 17:04 INFO     Wait for the next search
+04-01 17:04 INFO     Get search results
+04-01 17:04 INFO     Wait for the next search
+04-01 17:04 INFO     Get search results
+04-01 17:04 INFO     Filter finish
+04-01 18:25 INFO     -----------------------------------New Session-------------------------------------
+04-01 18:25 INFO     User Name: "shekx"
+04-01 18:25 INFO     Start time: Wed Apr  1 18:25:16 2020
+04-01 18:25 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-01 18:25 INFO     ChromeDriver Path: chromedriver.exe
+04-01 18:26 INFO     -----------------------------------New Session-------------------------------------
+04-01 18:26 INFO     User Name: "shekx"
+04-01 18:26 INFO     Start time: Wed Apr  1 18:26:46 2020
+04-01 18:26 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-01 18:26 INFO     ChromeDriver Path: chromedriver.exe
+04-01 18:27 INFO     Send package ID
+04-01 18:27 INFO     Select SAP Reference
+04-01 18:27 INFO     Send description
+04-01 18:27 INFO     Click Save
+04-01 18:27 INFO     click the plus button
+04-01 18:28 INFO     click the search button
+04-01 18:28 INFO     find asset text area
+04-01 18:28 INFO     send keys to asset text area
+04-01 18:28 INFO     Get search results
+04-01 18:28 INFO     Wait for the next search
+04-01 18:28 INFO     Get search results
+04-01 18:28 INFO     Wait for the next search
+04-01 18:28 INFO     Get search results
+04-01 18:28 INFO     Wait for the next search
+04-01 18:28 INFO     Get search results
+04-01 18:28 INFO     Wait for the next search
+04-01 18:28 INFO     Get search results
+04-01 18:28 INFO     Wait for the next search
+04-01 18:28 INFO     Get search results
+04-01 18:28 INFO     Wait for the next search
+04-01 18:28 INFO     Get search results
+04-01 18:28 INFO     Wait for the next search
+04-01 18:28 INFO     Get search results
+04-01 18:28 INFO     Filter finish
+04-01 18:28 INFO     Click select all action button
+04-01 18:28 INFO     Click Add button
+04-01 18:29 INFO     click the plus button
+04-01 18:29 INFO     click the search button
+04-01 18:29 INFO     find asset text area
+04-01 18:29 INFO     send keys to asset text area
+04-01 18:29 INFO     Get search results
+04-01 18:29 INFO     Wait for the next search
+04-01 18:29 INFO     Get search results
+04-01 18:29 INFO     Wait for the next search
+04-01 18:29 INFO     Get search results
+04-01 18:29 INFO     Wait for the next search
+04-01 18:29 INFO     Get search results
+04-01 18:29 INFO     Wait for the next search
+04-01 18:29 INFO     Get search results
+04-01 18:29 INFO     Wait for the next search
+04-01 18:29 INFO     Get search results
+04-01 18:29 INFO     Wait for the next search
+04-01 18:30 INFO     Get search results
+04-01 18:30 INFO     Wait for the next search
+04-01 18:30 INFO     Get search results
+04-01 18:30 INFO     Wait for the next search
+04-01 18:30 INFO     Get search results
+04-01 18:30 INFO     Wait for the next search
+04-01 18:30 INFO     Get search results
+04-01 18:30 INFO     Wait for the next search
+04-01 18:30 INFO     Get search results
+04-01 18:30 INFO     Wait for the next search
+04-01 18:30 INFO     Get search results
+04-01 18:30 INFO     Wait for the next search
+04-01 18:30 INFO     Get search results
+04-01 18:30 INFO     Wait for the next search
+04-01 18:30 INFO     Get search results
+04-01 18:30 INFO     Wait for the next search
+04-01 18:30 INFO     Get search results
+04-01 18:30 INFO     Filter finish
+04-01 18:48 ERROR    ERROR[find_element] for dx-scrollable-scroll-content using xpath // was not set
+04-01 18:48 ERROR    ERROR[find_element] for dx-scrollable-scroll-content using xpath // was not set
+04-02 12:55 INFO     -----------------------------------New Session-------------------------------------
+04-02 12:55 INFO     User Name: "shekx"
+04-02 12:55 INFO     Start time: Thu Apr  2 12:55:02 2020
+04-02 12:55 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 12:55 INFO     ChromeDriver Path: chromedriver.exe
+04-02 12:55 INFO     Send package ID
+04-02 12:55 INFO     Select SAP Reference
+04-02 12:55 INFO     Send description
+04-02 12:55 INFO     Click Save
+04-02 12:57 INFO     click the plus button
+04-02 12:57 INFO     -----------------------------------New Session-------------------------------------
+04-02 12:57 INFO     User Name: "shekx"
+04-02 12:57 INFO     Start time: Thu Apr  2 12:57:51 2020
+04-02 12:57 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 12:57 INFO     ChromeDriver Path: chromedriver.exe
+04-02 12:58 INFO     Send package ID
+04-02 12:58 INFO     Select SAP Reference
+04-02 12:58 INFO     Send description
+04-02 12:58 INFO     Click Save
+04-02 12:58 INFO     click the plus button
+04-02 12:58 INFO     click the search button
+04-02 12:58 INFO     find asset text area
+04-02 12:58 INFO     send keys to asset text area
+04-02 12:58 INFO     Get search results
+04-02 12:58 INFO     Wait for the next search
+04-02 12:58 INFO     Get search results
+04-02 12:58 INFO     Wait for the next search
+04-02 12:58 INFO     Get search results
+04-02 12:58 INFO     Wait for the next search
+04-02 12:58 INFO     Get search results
+04-02 12:58 INFO     Wait for the next search
+04-02 12:58 INFO     Get search results
+04-02 12:58 INFO     Wait for the next search
+04-02 12:59 INFO     Get search results
+04-02 12:59 INFO     Wait for the next search
+04-02 12:59 INFO     Get search results
+04-02 12:59 INFO     Filter finish
+04-02 12:59 INFO     Looking for Select All action
+04-02 13:03 INFO     Click select all action button
+04-02 13:03 INFO     Click Add button
+04-02 13:03 INFO     click the plus button
+04-02 13:04 INFO     click the search button
+04-02 13:04 INFO     find asset text area
+04-02 13:04 INFO     send keys to asset text area
+04-02 13:04 INFO     Get search results
+04-02 13:04 INFO     Wait for the next search
+04-02 13:04 INFO     Get search results
+04-02 13:04 INFO     Wait for the next search
+04-02 13:04 INFO     Get search results
+04-02 13:04 INFO     Wait for the next search
+04-02 13:05 INFO     Get search results
+04-02 13:05 INFO     Wait for the next search
+04-02 13:05 INFO     Get search results
+04-02 13:05 INFO     Wait for the next search
+04-02 13:05 INFO     Get search results
+04-02 13:05 INFO     Wait for the next search
+04-02 13:05 INFO     Get search results
+04-02 13:05 INFO     Wait for the next search
+04-02 13:05 INFO     Get search results
+04-02 13:05 INFO     Wait for the next search
+04-02 13:05 INFO     Get search results
+04-02 13:05 INFO     Wait for the next search
+04-02 13:05 INFO     Get search results
+04-02 13:05 INFO     Filter finish
+04-02 13:05 INFO     Looking for Select All action
+04-02 13:10 INFO     Click select all action button
+04-02 13:10 INFO     Click Add button
+04-02 13:10 INFO     click the plus button
+04-02 13:10 INFO     click the search button
+04-02 13:10 INFO     find asset text area
+04-02 13:30 INFO     -----------------------------------New Session-------------------------------------
+04-02 13:30 INFO     User Name: "shekx"
+04-02 13:30 INFO     Start time: Thu Apr  2 13:30:16 2020
+04-02 13:30 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 13:30 INFO     ChromeDriver Path: chromedriver.exe
+04-02 13:30 INFO     Send package ID
+04-02 13:30 INFO     Select SAP Reference
+04-02 13:30 INFO     Send description
+04-02 13:30 INFO     Click Save
+04-02 13:30 INFO     click the plus button
+04-02 13:31 INFO     click the search button
+04-02 13:31 INFO     find asset text area
+04-02 13:31 INFO     send keys to asset text area
+04-02 13:31 INFO     Get search results
+04-02 13:31 INFO     Wait for the next search
+04-02 13:31 INFO     Get search results
+04-02 13:31 INFO     Wait for the next search
+04-02 13:31 INFO     Get search results
+04-02 13:31 INFO     Wait for the next search
+04-02 13:31 INFO     Get search results
+04-02 13:31 INFO     Wait for the next search
+04-02 13:31 INFO     Get search results
+04-02 13:31 INFO     Wait for the next search
+04-02 13:31 INFO     Get search results
+04-02 13:31 INFO     Wait for the next search
+04-02 13:31 INFO     Get search results
+04-02 13:31 INFO     Wait for the next search
+04-02 13:32 INFO     Get search results
+04-02 13:32 INFO     Wait for the next search
+04-02 13:32 INFO     Get search results
+04-02 13:32 INFO     Wait for the next search
+04-02 13:32 INFO     Get search results
+04-02 13:32 INFO     Filter finish
+04-02 13:32 INFO     find action text area
+04-02 13:32 INFO     send keys to action text area
+04-02 15:36 INFO     -----------------------------------New Session-------------------------------------
+04-02 15:36 INFO     User Name: "shekx"
+04-02 15:36 INFO     Start time: Thu Apr  2 15:36:18 2020
+04-02 15:36 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 15:36 INFO     ChromeDriver Path: chromedriver.exe
+04-02 15:36 INFO     Send package ID
+04-02 15:36 INFO     Select SAP Reference
+04-02 15:36 INFO     Send description
+04-02 15:36 INFO     Click Save
+04-02 15:36 INFO     click the plus button
+04-02 15:37 INFO     click the search button
+04-02 15:37 INFO     find asset text area
+04-02 15:37 INFO     send keys to asset text area
+04-02 15:37 INFO     Get search results
+04-02 15:37 INFO     Wait for the next search
+04-02 15:37 INFO     Get search results
+04-02 15:37 INFO     Wait for the next search
+04-02 15:37 INFO     Get search results
+04-02 15:37 INFO     Wait for the next search
+04-02 15:37 INFO     Get search results
+04-02 15:37 INFO     Wait for the next search
+04-02 15:37 INFO     Get search results
+04-02 15:37 INFO     Wait for the next search
+04-02 15:37 INFO     Get search results
+04-02 15:37 INFO     Wait for the next search
+04-02 15:37 INFO     Get search results
+04-02 15:37 INFO     Wait for the next search
+04-02 15:38 INFO     Get search results
+04-02 15:38 INFO     Filter finish
+04-02 15:39 INFO     -----------------------------------New Session-------------------------------------
+04-02 15:39 INFO     User Name: "shekx"
+04-02 15:39 INFO     Start time: Thu Apr  2 15:39:06 2020
+04-02 15:39 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 15:39 INFO     ChromeDriver Path: chromedriver.exe
+04-02 15:39 INFO     Send package ID
+04-02 15:39 INFO     Select SAP Reference
+04-02 15:39 INFO     Send description
+04-02 15:39 INFO     Click Save
+04-02 15:39 INFO     click the plus button
+04-02 15:39 INFO     click the search button
+04-02 15:39 INFO     find asset text area
+04-02 15:39 INFO     send keys to asset text area
+04-02 15:39 INFO     Get search results
+04-02 15:39 INFO     Wait for the next search
+04-02 15:39 INFO     Get search results
+04-02 15:39 INFO     Wait for the next search
+04-02 15:40 INFO     Get search results
+04-02 15:40 INFO     Wait for the next search
+04-02 15:40 INFO     Get search results
+04-02 15:40 INFO     Wait for the next search
+04-02 15:40 INFO     Get search results
+04-02 15:40 INFO     Wait for the next search
+04-02 15:40 INFO     Get search results
+04-02 15:40 INFO     Wait for the next search
+04-02 15:40 INFO     Get search results
+04-02 15:40 INFO     Filter finish
+04-02 15:40 INFO     find action text area
+04-02 15:40 INFO     send keys to action text area
+04-02 15:40 INFO     Looking for Select All action
+04-02 15:42 INFO     -----------------------------------New Session-------------------------------------
+04-02 15:42 INFO     User Name: "shekx"
+04-02 15:42 INFO     Start time: Thu Apr  2 15:42:08 2020
+04-02 15:42 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 15:42 INFO     ChromeDriver Path: chromedriver.exe
+04-02 15:42 INFO     Send package ID
+04-02 15:42 INFO     Select SAP Reference
+04-02 15:42 INFO     Send description
+04-02 15:42 INFO     Click Save
+04-02 15:42 INFO     click the plus button
+04-02 15:42 INFO     click the search button
+04-02 15:42 INFO     find asset text area
+04-02 15:42 INFO     send keys to asset text area
+04-02 15:42 INFO     Get search results
+04-02 15:42 INFO     Wait for the next search
+04-02 15:42 INFO     Get search results
+04-02 15:42 INFO     Wait for the next search
+04-02 15:43 INFO     Get search results
+04-02 15:43 INFO     Wait for the next search
+04-02 15:43 INFO     Get search results
+04-02 15:43 INFO     Wait for the next search
+04-02 15:43 INFO     Get search results
+04-02 15:43 INFO     Wait for the next search
+04-02 15:43 INFO     Get search results
+04-02 15:43 INFO     Filter finish
+04-02 15:43 INFO     find action text area
+04-02 15:43 INFO     send keys to action text area
+04-02 15:43 INFO     Looking for Select All action
+04-02 15:43 INFO     Click select all action button
+04-02 15:43 INFO     Click Add button
+04-02 15:43 INFO     click the plus button
+04-02 15:43 INFO     click the search button
+04-02 15:43 INFO     find asset text area
+04-02 15:43 INFO     send keys to asset text area
+04-02 15:43 INFO     Get search results
+04-02 15:43 INFO     Wait for the next search
+04-02 15:43 INFO     Get search results
+04-02 15:43 INFO     Wait for the next search
+04-02 15:43 INFO     Get search results
+04-02 15:43 INFO     Wait for the next search
+04-02 15:44 INFO     Get search results
+04-02 15:44 INFO     Wait for the next search
+04-02 15:44 INFO     Get search results
+04-02 15:44 INFO     Wait for the next search
+04-02 15:44 INFO     Get search results
+04-02 15:44 INFO     Wait for the next search
+04-02 15:44 INFO     Get search results
+04-02 15:44 INFO     Filter finish
+04-02 15:44 INFO     find action text area
+04-02 15:44 INFO     send keys to action text area
+04-02 15:44 INFO     Looking for Select All action
+04-02 15:44 INFO     Click select all action button
+04-02 15:44 INFO     Click Add button
+04-02 15:44 INFO     click the plus button
+04-02 15:44 INFO     click the search button
+04-02 15:44 INFO     find asset text area
+04-02 15:44 INFO     send keys to asset text area
+04-02 15:44 INFO     Get search results
+04-02 15:44 INFO     Wait for the next search
+04-02 15:44 INFO     Get search results
+04-02 15:44 INFO     Wait for the next search
+04-02 15:44 INFO     Get search results
+04-02 15:44 INFO     Wait for the next search
+04-02 15:45 INFO     Get search results
+04-02 15:45 INFO     Wait for the next search
+04-02 15:45 INFO     Get search results
+04-02 15:45 INFO     Wait for the next search
+04-02 15:45 INFO     Get search results
+04-02 15:45 INFO     Filter finish
+04-02 15:45 INFO     find action text area
+04-02 15:45 INFO     send keys to action text area
+04-02 15:45 INFO     Looking for Select All action
+04-02 15:45 INFO     Click select all action button
+04-02 15:45 INFO     Click Add button
+04-02 15:45 INFO     click the plus button
+04-02 15:45 INFO     click the search button
+04-02 15:45 INFO     find asset text area
+04-02 15:45 INFO     send keys to asset text area
+04-02 15:45 INFO     Get search results
+04-02 15:45 INFO     Wait for the next search
+04-02 15:45 INFO     Get search results
+04-02 15:45 INFO     Wait for the next search
+04-02 15:45 INFO     Get search results
+04-02 15:45 INFO     Wait for the next search
+04-02 15:46 INFO     Get search results
+04-02 15:46 INFO     Wait for the next search
+04-02 15:46 INFO     Get search results
+04-02 15:46 INFO     Wait for the next search
+04-02 15:46 INFO     Get search results
+04-02 15:46 INFO     Wait for the next search
+04-02 15:46 INFO     Get search results
+04-02 15:46 INFO     Filter finish
+04-02 15:46 INFO     find action text area
+04-02 15:46 INFO     send keys to action text area
+04-02 15:46 INFO     Looking for Select All action
+04-02 15:46 INFO     Click select all action button
+04-02 15:46 INFO     Click Add button
+04-02 15:46 INFO     Adding job_plan NARC STRG 10Y-04-00-001
+04-02 15:46 INFO     Click the plus button
+04-02 15:46 INFO     Click 'job Plan'
+04-02 15:46 INFO     Send job id
+04-02 15:46 INFO     Send plan description
+04-02 15:46 INFO     Send my plant document number
+04-02 15:46 INFO     Send oracle activity
+04-02 15:46 INFO     Click save button
+04-02 15:46 INFO     link ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door'] to this job plan
+04-02 15:46 INFO     Click linked actions
+04-02 15:46 INFO     Click the plus button
+04-02 15:46 INFO     Get all the check box
+04-02 15:46 INFO     Get all the action names
+04-02 15:51 INFO     -----------------------------------New Session-------------------------------------
+04-02 15:51 INFO     User Name: "shekx"
+04-02 15:51 INFO     Start time: Thu Apr  2 15:51:32 2020
+04-02 15:51 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 15:51 INFO     ChromeDriver Path: chromedriver.exe
+04-02 15:51 INFO     Send package ID
+04-02 15:51 INFO     Select SAP Reference
+04-02 15:51 INFO     Send description
+04-02 15:51 INFO     Click Save
+04-02 15:51 INFO     click the plus button
+04-02 15:52 INFO     click the search button
+04-02 15:52 INFO     find asset text area
+04-02 15:52 INFO     send keys to asset text area
+04-02 15:52 INFO     Get search results
+04-02 15:52 INFO     Wait for the next search
+04-02 15:52 INFO     Get search results
+04-02 15:52 INFO     Wait for the next search
+04-02 15:52 INFO     Get search results
+04-02 15:52 INFO     Wait for the next search
+04-02 15:52 INFO     Get search results
+04-02 15:52 INFO     Wait for the next search
+04-02 15:52 INFO     Get search results
+04-02 15:52 INFO     Wait for the next search
+04-02 15:52 INFO     Get search results
+04-02 15:52 INFO     Wait for the next search
+04-02 15:52 INFO     Get search results
+04-02 15:52 INFO     Filter finish
+04-02 15:52 INFO     find action text area
+04-02 15:52 INFO     send keys to action text area
+04-02 15:52 INFO     Looking for Select All action
+04-02 15:52 INFO     Click select all action button
+04-02 15:52 INFO     Click Add button
+04-02 15:52 INFO     click the plus button
+04-02 15:53 INFO     click the search button
+04-02 15:53 INFO     find asset text area
+04-02 15:53 INFO     send keys to asset text area
+04-02 15:53 INFO     Get search results
+04-02 15:53 INFO     Wait for the next search
+04-02 15:53 INFO     Get search results
+04-02 15:53 INFO     Wait for the next search
+04-02 15:53 INFO     Get search results
+04-02 15:53 INFO     Wait for the next search
+04-02 15:53 INFO     Get search results
+04-02 15:53 INFO     Wait for the next search
+04-02 15:53 INFO     Get search results
+04-02 15:53 INFO     Wait for the next search
+04-02 15:53 INFO     Get search results
+04-02 15:53 INFO     Filter finish
+04-02 15:53 INFO     find action text area
+04-02 15:53 INFO     send keys to action text area
+04-02 15:53 INFO     Looking for Select All action
+04-02 15:53 INFO     Click select all action button
+04-02 15:53 INFO     Click Add button
+04-02 15:53 INFO     click the plus button
+04-02 15:54 INFO     click the search button
+04-02 15:54 INFO     find asset text area
+04-02 15:54 INFO     send keys to asset text area
+04-02 15:54 INFO     Get search results
+04-02 15:54 INFO     Wait for the next search
+04-02 15:54 INFO     Get search results
+04-02 15:54 INFO     Wait for the next search
+04-02 15:54 INFO     Get search results
+04-02 15:54 INFO     Wait for the next search
+04-02 15:54 INFO     Get search results
+04-02 15:54 INFO     Wait for the next search
+04-02 15:54 INFO     Get search results
+04-02 15:54 INFO     Wait for the next search
+04-02 15:54 INFO     Get search results
+04-02 15:54 INFO     Filter finish
+04-02 15:54 INFO     find action text area
+04-02 15:54 INFO     send keys to action text area
+04-02 15:54 INFO     Looking for Select All action
+04-02 15:54 INFO     Click select all action button
+04-02 15:54 INFO     Click Add button
+04-02 15:54 INFO     click the plus button
+04-02 15:54 INFO     click the search button
+04-02 15:54 INFO     find asset text area
+04-02 15:54 INFO     send keys to asset text area
+04-02 15:54 INFO     Get search results
+04-02 15:54 INFO     Wait for the next search
+04-02 15:55 INFO     Get search results
+04-02 15:55 INFO     Wait for the next search
+04-02 15:55 INFO     Get search results
+04-02 15:55 INFO     Wait for the next search
+04-02 15:55 INFO     Get search results
+04-02 15:55 INFO     Wait for the next search
+04-02 15:55 INFO     Get search results
+04-02 15:55 INFO     Wait for the next search
+04-02 15:55 INFO     Get search results
+04-02 15:55 INFO     Filter finish
+04-02 15:55 INFO     find action text area
+04-02 15:55 INFO     send keys to action text area
+04-02 15:55 INFO     Looking for Select All action
+04-02 15:55 INFO     Click select all action button
+04-02 15:55 INFO     Click Add button
+04-02 15:55 INFO     Adding job_plan NARC STRG 10Y-04-00-001
+04-02 15:55 INFO     Click the plus button
+04-02 15:55 INFO     Click 'job Plan'
+04-02 15:55 INFO     Send job id
+04-02 15:55 INFO     Send plan description
+04-02 15:55 INFO     Send my plant document number
+04-02 15:55 INFO     Send oracle activity
+04-02 15:55 INFO     Click save button
+04-02 15:55 INFO     link ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door'] to this job plan
+04-02 15:55 INFO     Click linked actions
+04-02 15:55 INFO     Click the plus button
+04-02 15:55 INFO     Get all the check box
+04-02 15:55 INFO     Get all the action names
+04-02 15:55 INFO     Number of rows assertion passed
+04-02 15:55 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 15:55 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 15:55 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 15:55 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 15:55 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 15:55 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 15:55 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 15:55 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 15:55 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 15:55 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 15:55 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 15:55 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 15:55 INFO     Selection this action 
+04-02 16:15 INFO     -----------------------------------New Session-------------------------------------
+04-02 16:15 INFO     User Name: "shekx"
+04-02 16:15 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 16:15 INFO     ChromeDriver Path: chromedriver.exe
+04-02 16:15 INFO     unique_package_id_list : ['Narcoonowie Satellite - Storage - Tanks', 'Narcoonowie Satellite - Export - Transfer Pump Package']
+04-02 16:15 INFO     package_job_plan_dict : {'Narcoonowie Satellite - Storage - Tanks': ['NARC STRG 10Y-04-00-001'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['NARC EXP 3M-04-00-001']}
+04-02 16:15 INFO     package_floc_dict : {'Narcoonowie Satellite - Storage - Tanks': ['4800-TK-005', '4800-TK-008', '4800-TK-007', '4800-TK-006'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['4800-P-30']}
+04-02 16:15 INFO     Start processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 16:15 INFO     Send package ID
+04-02 16:15 INFO     Select SAP Reference
+04-02 16:15 INFO     Send description
+04-02 16:15 INFO     Click Save
+04-02 16:15 INFO     click the plus button
+04-02 16:16 INFO     click the search button
+04-02 16:16 INFO     find asset text area
+04-02 16:16 INFO     send keys to asset text area
+04-02 16:16 INFO     Get search results
+04-02 16:16 INFO     Wait for the next search
+04-02 16:16 INFO     Get search results
+04-02 16:16 INFO     Wait for the next search
+04-02 16:16 INFO     Get search results
+04-02 16:16 INFO     Wait for the next search
+04-02 16:16 INFO     Get search results
+04-02 16:16 INFO     Wait for the next search
+04-02 16:16 INFO     Get search results
+04-02 16:16 INFO     Wait for the next search
+04-02 16:16 INFO     Get search results
+04-02 16:16 INFO     Filter finish
+04-02 16:16 INFO     find action text area
+04-02 16:16 INFO     send keys to action text area
+04-02 16:16 INFO     Looking for Select All action
+04-02 16:16 INFO     Click select all action button
+04-02 16:16 INFO     Click Add button
+04-02 16:16 INFO     click the plus button
+04-02 16:16 INFO     click the search button
+04-02 16:16 INFO     find asset text area
+04-02 16:16 INFO     send keys to asset text area
+04-02 16:16 INFO     Get search results
+04-02 16:16 INFO     Wait for the next search
+04-02 16:17 INFO     Get search results
+04-02 16:17 INFO     Wait for the next search
+04-02 16:17 INFO     Get search results
+04-02 16:17 INFO     Wait for the next search
+04-02 16:17 INFO     Get search results
+04-02 16:17 INFO     Wait for the next search
+04-02 16:17 INFO     Get search results
+04-02 16:17 INFO     Wait for the next search
+04-02 16:17 INFO     Get search results
+04-02 16:17 INFO     Wait for the next search
+04-02 16:17 INFO     Get search results
+04-02 16:17 INFO     Filter finish
+04-02 16:17 INFO     find action text area
+04-02 16:17 INFO     send keys to action text area
+04-02 16:17 INFO     Looking for Select All action
+04-02 16:17 INFO     Click select all action button
+04-02 16:17 INFO     Click Add button
+04-02 16:17 INFO     click the plus button
+04-02 16:18 INFO     click the search button
+04-02 16:18 INFO     find asset text area
+04-02 16:18 INFO     send keys to asset text area
+04-02 16:18 INFO     Get search results
+04-02 16:18 INFO     Wait for the next search
+04-02 16:18 INFO     Get search results
+04-02 16:18 INFO     Wait for the next search
+04-02 16:18 INFO     Get search results
+04-02 16:18 INFO     Wait for the next search
+04-02 16:18 INFO     Get search results
+04-02 16:18 INFO     Wait for the next search
+04-02 16:18 INFO     Get search results
+04-02 16:18 INFO     Wait for the next search
+04-02 16:18 INFO     Get search results
+04-02 16:18 INFO     Wait for the next search
+04-02 16:18 INFO     Get search results
+04-02 16:18 INFO     Filter finish
+04-02 16:18 INFO     find action text area
+04-02 16:18 INFO     send keys to action text area
+04-02 16:18 INFO     Looking for Select All action
+04-02 16:18 INFO     Click select all action button
+04-02 16:18 INFO     Click Add button
+04-02 16:18 INFO     click the plus button
+04-02 16:18 INFO     click the search button
+04-02 16:18 INFO     find asset text area
+04-02 16:18 INFO     send keys to asset text area
+04-02 16:18 INFO     Get search results
+04-02 16:18 INFO     Wait for the next search
+04-02 16:19 INFO     Get search results
+04-02 16:19 INFO     Wait for the next search
+04-02 16:19 INFO     Get search results
+04-02 16:19 INFO     Wait for the next search
+04-02 16:19 INFO     Get search results
+04-02 16:19 INFO     Wait for the next search
+04-02 16:19 INFO     Get search results
+04-02 16:19 INFO     Wait for the next search
+04-02 16:19 INFO     Get search results
+04-02 16:19 INFO     Filter finish
+04-02 16:19 INFO     find action text area
+04-02 16:19 INFO     send keys to action text area
+04-02 16:19 INFO     Looking for Select All action
+04-02 16:19 INFO     Click select all action button
+04-02 16:19 INFO     Click Add button
+04-02 16:19 INFO     Adding job_plan NARC STRG 10Y-04-00-001
+04-02 16:19 INFO     Click the plus button
+04-02 16:19 INFO     Click 'job Plan'
+04-02 16:19 INFO     Send job id
+04-02 16:19 INFO     Send plan description
+04-02 16:19 INFO     Send my plant document number
+04-02 16:19 INFO     Send oracle activity
+04-02 16:19 INFO     Click save button
+04-02 16:19 INFO     link ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door'] to this job plan
+04-02 16:19 INFO     Click linked actions
+04-02 16:19 INFO     Click the plus button
+04-02 16:19 INFO     Get all the check box
+04-02 16:19 INFO     Get all the action names
+04-02 16:19 INFO     Number of rows assertion passed
+04-02 16:19 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:19 INFO     Selecte this action 
+04-02 16:19 INFO     Go back to the package tab
+04-02 16:19 INFO     Closing the current package tab
+04-02 16:19 INFO     Finish processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 16:19 INFO     Finish processing current package in 251.39184641838074 seconds
+04-02 16:19 INFO     Start processing package 'Narcoonowie Satellite - Export - Transfer Pump Package' with 1 flocs and 1 job plans
+04-02 16:34 INFO     -----------------------------------New Session-------------------------------------
+04-02 16:34 INFO     User Name: "shekx"
+04-02 16:34 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 16:34 INFO     ChromeDriver Path: chromedriver.exe
+04-02 16:34 INFO     unique_package_id_list : ['Narcoonowie Satellite - Storage - Tanks', 'Narcoonowie Satellite - Export - Transfer Pump Package']
+04-02 16:34 INFO     package_job_plan_dict : {'Narcoonowie Satellite - Storage - Tanks': ['NARC STRG 10Y-04-00-001'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['NARC EXP 3M-04-00-001']}
+04-02 16:34 INFO     package_floc_dict : {'Narcoonowie Satellite - Storage - Tanks': ['4800-TK-005', '4800-TK-008', '4800-TK-007', '4800-TK-006'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['4800-P-30']}
+04-02 16:34 INFO     Start processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 16:34 INFO     Send package ID
+04-02 16:34 INFO     Select SAP Reference
+04-02 16:34 INFO     Send description
+04-02 16:34 INFO     Click Save
+04-02 16:34 INFO     click the plus button
+04-02 16:35 INFO     click the search button
+04-02 16:35 INFO     find asset text area
+04-02 16:35 INFO     send keys to asset text area
+04-02 16:35 INFO     Get search results
+04-02 16:35 INFO     Wait for the next search
+04-02 16:35 INFO     Get search results
+04-02 16:35 INFO     Wait for the next search
+04-02 16:35 INFO     Get search results
+04-02 16:35 INFO     Wait for the next search
+04-02 16:35 INFO     Get search results
+04-02 16:35 INFO     Wait for the next search
+04-02 16:35 INFO     Get search results
+04-02 16:35 INFO     Wait for the next search
+04-02 16:35 INFO     Get search results
+04-02 16:35 INFO     Wait for the next search
+04-02 16:35 INFO     Get search results
+04-02 16:35 INFO     Wait for the next search
+04-02 16:35 INFO     Get search results
+04-02 16:35 INFO     Wait for the next search
+04-02 16:35 INFO     Get search results
+04-02 16:35 INFO     Filter finish
+04-02 16:35 INFO     find action text area
+04-02 16:35 INFO     send keys to action text area
+04-02 16:35 INFO     Looking for Select All action
+04-02 16:35 INFO     Click select all action button
+04-02 16:35 INFO     Click Add button
+04-02 16:35 INFO     click the plus button
+04-02 16:36 INFO     click the search button
+04-02 16:36 INFO     find asset text area
+04-02 16:36 INFO     send keys to asset text area
+04-02 16:36 INFO     Get search results
+04-02 16:36 INFO     Wait for the next search
+04-02 16:36 INFO     Get search results
+04-02 16:36 INFO     Wait for the next search
+04-02 16:36 INFO     Get search results
+04-02 16:36 INFO     Wait for the next search
+04-02 16:36 INFO     Get search results
+04-02 16:36 INFO     Wait for the next search
+04-02 16:36 INFO     Get search results
+04-02 16:36 INFO     Wait for the next search
+04-02 16:36 INFO     Get search results
+04-02 16:36 INFO     Wait for the next search
+04-02 16:36 INFO     Get search results
+04-02 16:36 INFO     Wait for the next search
+04-02 16:36 INFO     Get search results
+04-02 16:36 INFO     Filter finish
+04-02 16:36 INFO     find action text area
+04-02 16:36 INFO     send keys to action text area
+04-02 16:36 INFO     Looking for Select All action
+04-02 16:36 INFO     Click select all action button
+04-02 16:36 INFO     Click Add button
+04-02 16:36 INFO     click the plus button
+04-02 16:37 INFO     click the search button
+04-02 16:37 INFO     find asset text area
+04-02 16:37 INFO     send keys to asset text area
+04-02 16:37 INFO     Get search results
+04-02 16:37 INFO     Wait for the next search
+04-02 16:37 INFO     Get search results
+04-02 16:37 INFO     Wait for the next search
+04-02 16:37 INFO     Get search results
+04-02 16:37 INFO     Wait for the next search
+04-02 16:37 INFO     Get search results
+04-02 16:37 INFO     Wait for the next search
+04-02 16:37 INFO     Get search results
+04-02 16:37 INFO     Wait for the next search
+04-02 16:37 INFO     Get search results
+04-02 16:37 INFO     Wait for the next search
+04-02 16:37 INFO     Get search results
+04-02 16:37 INFO     Wait for the next search
+04-02 16:37 INFO     Get search results
+04-02 16:37 INFO     Filter finish
+04-02 16:37 INFO     find action text area
+04-02 16:37 INFO     send keys to action text area
+04-02 16:37 INFO     Looking for Select All action
+04-02 16:37 INFO     Click select all action button
+04-02 16:37 INFO     Click Add button
+04-02 16:38 INFO     click the plus button
+04-02 16:38 INFO     click the search button
+04-02 16:38 INFO     find asset text area
+04-02 16:38 INFO     send keys to asset text area
+04-02 16:38 INFO     Get search results
+04-02 16:38 INFO     Wait for the next search
+04-02 16:38 INFO     Get search results
+04-02 16:38 INFO     Wait for the next search
+04-02 16:38 INFO     Get search results
+04-02 16:38 INFO     Wait for the next search
+04-02 16:38 INFO     Get search results
+04-02 16:38 INFO     Wait for the next search
+04-02 16:38 INFO     Get search results
+04-02 16:38 INFO     Wait for the next search
+04-02 16:38 INFO     Get search results
+04-02 16:38 INFO     Wait for the next search
+04-02 16:39 INFO     Get search results
+04-02 16:39 INFO     Filter finish
+04-02 16:39 INFO     find action text area
+04-02 16:39 INFO     send keys to action text area
+04-02 16:39 INFO     Looking for Select All action
+04-02 16:39 INFO     Click select all action button
+04-02 16:39 INFO     Click Add button
+04-02 16:39 INFO     Adding job_plan NARC STRG 10Y-04-00-001
+04-02 16:39 INFO     Click the plus button
+04-02 16:39 INFO     Click 'job Plan'
+04-02 16:39 INFO     Send job id
+04-02 16:39 INFO     Send plan description
+04-02 16:39 INFO     Send my plant document number
+04-02 16:39 INFO     Send oracle activity
+04-02 16:39 INFO     Click save button
+04-02 16:39 INFO     link ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door'] to this job plan
+04-02 16:39 INFO     Click linked actions
+04-02 16:39 INFO     Click the plus button
+04-02 16:39 INFO     Get all the check box
+04-02 16:39 INFO     Get all the action names
+04-02 16:39 INFO     Number of rows assertion passed
+04-02 16:39 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:39 INFO     Selecte this action 
+04-02 16:39 INFO     Go back to the package tab
+04-02 16:39 INFO     Closing the current package tab

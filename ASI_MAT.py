@@ -15,6 +15,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 
 from dotenv import load_dotenv
 
@@ -254,13 +255,9 @@ def link_actions_to_jobplan(driver, job_plan_data):
     logging.info("Click the plus button")
 
     # get all the rows
-    potential_action_check_box_list, _ = find_element(driver,
-                                                   "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='1']//span[@class='dx-checkbox-icon']",
-                                                   by="xpath")
+    potential_action_check_box_list = driver.find_elements_by_xpath("//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='1']//span[@class='dx-checkbox-icon']")
     logging.info("Get all the check box")
-    potential_action_name_list, _ = find_element(driver,
-                                              "//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='2']",
-                                              by="xpath")
+    potential_action_name_list = driver.find_elements_by_xpath("//tbody//tr[@class='dx-row dx-data-row dx-column-lines'][@role='row']//td[@aria-colindex='2']")
     logging.info("Get all the action names")
 
     assert (len(potential_action_check_box_list) == len(potential_action_name_list))
@@ -270,7 +267,7 @@ def link_actions_to_jobplan(driver, job_plan_data):
         logging.info(f"Checking {potential_action_name_list[i].text} in {action_name_list}")
         if potential_action_name_list[i].text in action_name_list:
             potential_action_check_box_list[i].click()
-            logging.info("Selection this action ")
+            logging.info("Selecte this action ")
 
     # Click the Link button
     find_element_and_click(driver, "//button//span[contains(text(),'Link')]", by="xpath")
@@ -295,15 +292,15 @@ def manage_actions_with_floc(driver, asset_list):
                                   by="xpath", description="asset name")
         logging.info("find asset text area")
         try:
-            asset_name.send_keys(Keys.CONTROL + "a")
-            asset_name.send_keys(Keys.DELETE)
+            # asset_name.send_keys(Keys.CONTROL + "a")
+            # asset_name.send_keys(Keys.DELETE)
             asset_name.send_keys(asset)
             logging.info("send keys to asset text area")
         except:
             raise Exception(f"ERROR[add_job_plan] Could not send keys to asset textbox")
 
         while True:  # this is to make sure the search is finish
-            first_filter_result, _ = find_element(driver, "//tr[@aria-rowindex='1']//td[@aria-colindex='3']", by="xpath",
+            first_filter_result, _ = find_element(driver, "//div[@class='add-bulk-actions-container']//tr[@aria-rowindex='1']//td[@aria-colindex='3']", by="xpath",
                                                description="make sure search is finish")
             logging.info("Get search results")
             if asset in first_filter_result.text:
@@ -314,9 +311,31 @@ def manage_actions_with_floc(driver, asset_list):
                 time.sleep(5)
                 
 
+        # scroll bar 
+        scrollbar, clickable = find_element(driver,
+                               "//div[@class='add-bulk-actions']//div[@class='dx-scrollable-scrollbar dx-widget dx-scrollbar-horizontal dx-scrollbar-hoverable']//div[@class='dx-scrollable-scroll-content']",
+                               by="xpath")
+        ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-250, 0).release().perform()
+
+
+        #  This is to drag the select all button into view
+        action_name, _ = find_element(driver,
+                                  "//td[@aria-label='Column Action, Filter cell']//input",
+                                  by="xpath", description="action name")
+        logging.info("find action text area")
+        try:
+            action_name.send_keys("")
+            logging.info("send keys to action text area")
+        except:
+            raise Exception(f"ERROR[add_job_plan] Could not send keys to action textbox")
+        #  This is to drag the select all button into view
+
+        ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-50, 0).release().perform()
+
+        logging.info("Looking for Select All action")
         # click select all action
         find_element_and_click(driver,
-                               "//tr[@class='dx-row dx-column-lines dx-header-row']//span[@class='dx-checkbox-icon']",
+                               "//div[@class='add-bulk-actions-container']//tr[@class='dx-row dx-column-lines dx-header-row']//span[@class='dx-checkbox-icon']",
                                by="xpath")
         logging.info("Click select all action button")
                         
@@ -329,11 +348,17 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
                           password):
     unique_package_id_list = input_csv_list['Package ID'].unique().tolist()
 
+    logging.info(f"unique_package_id_list : {unique_package_id_list}")
+
     package_job_plan_dict = {p: input_csv_list.loc[input_csv_list['Package ID'] == p]['Job Plan ID'].unique().tolist()
                              for p in unique_package_id_list}
 
+    logging.info(f"package_job_plan_dict : {package_job_plan_dict}")
+
     package_floc_dict = {p: input_csv_list.loc[input_csv_list['Package ID'] == p]['Asset Name'].unique().tolist() for p
                          in unique_package_id_list}
+    
+    logging.info(f"package_floc_dict : {package_floc_dict}")
 
     driver = open_incognito_window(chrome_driver_path, url_home_page, run_selenium_headless)
     driver.implicitly_wait(300)
@@ -342,7 +367,12 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
 
     navigate_to_asi_overview_tab(driver)
 
+    
+
     for i, package_id in enumerate(unique_package_id_list):
+        logging.info(f"Start processing package '{package_id}' with {len(package_floc_dict[package_id])} flocs and {len(package_job_plan_dict[package_id])} job plans")
+        start_time = time.time()
+
         # click create new package 
         find_element_and_click(driver, "//div[@class='block-group page-filter-tools']//button[contains(text(),'New')]",
                                by="xpath")
@@ -375,9 +405,17 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
             # add actions
             link_actions_to_jobplan(driver, job_plan_data)
 
+            logging.info("Go back to the package tab")
             # Go Back
             find_element_and_click(driver, "//button[@data-action='backInHistory']//i[@class='icon-back-arrow']",
                                    by="xpath")
+        
+        logging.info("Closing the current package tab")
+        find_element_and_click(driver, f"//li[@title='{package_id}']//i")
+        
+        logging.info(f"Finish processing package '{package_id}' with {len(package_floc_dict[package_id])} flocs and {len(package_job_plan_dict[package_id])} job plans")
+        logging.info(f"Finish processing current package in {time.time() - start_time} seconds")
+
 
 
 def get_input_csv_list(csv_path_file: str):
@@ -406,10 +444,9 @@ if __name__ == "__main__":
     run_selenium_headless = False  # must run with display up
 
     logging.info(f"User Name: \"{username}\"")
-    logging.info(f"Start time: {time.ctime(start_time)}")
     logging.info(f"CSV File Path: {input_csv_path}")
     logging.info(f"ChromeDriver Path: {chrome_driver_path}")
 
     run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run_selenium_headless, username, password)
 
-    logging.info(f"Finished in {round(time.time() - start_time, 1)}")
+    logging.info(f"Finished processing {input_csv_path} in {time.time() - start_time} seconds")
