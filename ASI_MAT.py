@@ -165,7 +165,7 @@ def log_into_meridium(url, run_selenium_headless, driver, username, password):
     find_elements_search_for_innerhtml_then_click(driver, "//select[@tabindex=3]/option", "APMPROD",
                                                   description="Selecting APMPROD, server which all information is stored")
 
-    # time.sleep(5)  # Account for slow santos system
+    
     find_element_and_click(driver, "//button[@type='submit']", by="xpath")
 
 
@@ -277,7 +277,11 @@ def manage_actions_with_floc(driver, asset_list):
     # click "Manage actions"
     find_element_and_click(driver, "//span[contains(text(),'Manage Actions')]", by="xpath")
 
+    count = 0
     for asset in asset_list:
+        count += 1
+        if count > 1:
+            break
         # click the plus button
         find_element_and_click(driver, "//button[@title='Add Actions']//i", by="xpath")
         logging.info("click the plus button")
@@ -411,7 +415,12 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
                                    by="xpath")
         
         logging.info("Closing the current package tab")
-        find_element_and_click(driver, f"//li[@title='{package_id}']//i")
+        
+        time.sleep(3) # Account for slow santos system
+        close_btn, _ = find_element(driver, f"//li[@title='{package_id}']//i[@class='tab-close ds ds-cross']",by="xpath")
+        close_btn.click()
+                
+        # find_element_and_click(driver, f"//li[@title='{package_id}']//i[@class='tab-close ds ds-cross']",by="xpath")
         
         logging.info(f"Finish processing package '{package_id}' with {len(package_floc_dict[package_id])} flocs and {len(package_job_plan_dict[package_id])} job plans")
         logging.info(f"Finish processing current package in {time.time() - start_time} seconds")

@@ -2880,3 +2880,612 @@
 04-02 16:39 INFO     Selecte this action 
 04-02 16:39 INFO     Go back to the package tab
 04-02 16:39 INFO     Closing the current package tab
+04-02 16:43 INFO     -----------------------------------New Session-------------------------------------
+04-02 16:43 INFO     User Name: "shekx"
+04-02 16:43 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 16:43 INFO     ChromeDriver Path: chromedriver.exe
+04-02 16:43 INFO     unique_package_id_list : ['Narcoonowie Satellite - Storage - Tanks', 'Narcoonowie Satellite - Export - Transfer Pump Package']
+04-02 16:43 INFO     package_job_plan_dict : {'Narcoonowie Satellite - Storage - Tanks': ['NARC STRG 10Y-04-00-001'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['NARC EXP 3M-04-00-001']}
+04-02 16:43 INFO     package_floc_dict : {'Narcoonowie Satellite - Storage - Tanks': ['4800-TK-005', '4800-TK-008', '4800-TK-007', '4800-TK-006'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['4800-P-30']}
+04-02 16:43 INFO     Start processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 16:43 INFO     Send package ID
+04-02 16:43 INFO     Select SAP Reference
+04-02 16:43 INFO     Send description
+04-02 16:43 INFO     Click Save
+04-02 16:43 INFO     click the plus button
+04-02 16:43 INFO     click the search button
+04-02 16:43 INFO     find asset text area
+04-02 16:43 INFO     send keys to asset text area
+04-02 16:43 INFO     Get search results
+04-02 16:43 INFO     Wait for the next search
+04-02 16:44 INFO     Get search results
+04-02 16:44 INFO     Wait for the next search
+04-02 16:44 INFO     Get search results
+04-02 16:44 INFO     Wait for the next search
+04-02 16:44 INFO     Get search results
+04-02 16:44 INFO     Wait for the next search
+04-02 16:44 INFO     Get search results
+04-02 16:44 INFO     Wait for the next search
+04-02 16:44 INFO     Get search results
+04-02 16:44 INFO     Wait for the next search
+04-02 16:44 INFO     Get search results
+04-02 16:44 INFO     Filter finish
+04-02 16:44 INFO     find action text area
+04-02 16:44 INFO     send keys to action text area
+04-02 16:44 INFO     Looking for Select All action
+04-02 16:44 INFO     Click select all action button
+04-02 16:44 INFO     Click Add button
+04-02 16:44 INFO     click the plus button
+04-02 16:44 INFO     click the search button
+04-02 16:44 INFO     find asset text area
+04-02 16:44 INFO     send keys to asset text area
+04-02 16:45 INFO     Get search results
+04-02 16:45 INFO     Wait for the next search
+04-02 16:45 INFO     Get search results
+04-02 16:45 INFO     Wait for the next search
+04-02 16:45 INFO     Get search results
+04-02 16:45 INFO     Wait for the next search
+04-02 16:45 INFO     Get search results
+04-02 16:45 INFO     Wait for the next search
+04-02 16:45 INFO     Get search results
+04-02 16:45 INFO     Wait for the next search
+04-02 16:45 INFO     Get search results
+04-02 16:45 INFO     Wait for the next search
+04-02 16:45 INFO     Get search results
+04-02 16:45 INFO     Filter finish
+04-02 16:45 INFO     find action text area
+04-02 16:45 INFO     send keys to action text area
+04-02 16:45 INFO     Looking for Select All action
+04-02 16:45 INFO     Click select all action button
+04-02 16:45 INFO     Click Add button
+04-02 16:45 INFO     click the plus button
+04-02 16:46 INFO     click the search button
+04-02 16:46 INFO     find asset text area
+04-02 16:46 INFO     send keys to asset text area
+04-02 16:46 INFO     Get search results
+04-02 16:46 INFO     Wait for the next search
+04-02 16:46 INFO     Get search results
+04-02 16:46 INFO     Wait for the next search
+04-02 16:46 INFO     Get search results
+04-02 16:46 INFO     Wait for the next search
+04-02 16:46 INFO     Get search results
+04-02 16:46 INFO     Wait for the next search
+04-02 16:46 INFO     Get search results
+04-02 16:46 INFO     Wait for the next search
+04-02 16:46 INFO     Get search results
+04-02 16:46 INFO     Wait for the next search
+04-02 16:46 INFO     Get search results
+04-02 16:46 INFO     Filter finish
+04-02 16:46 INFO     find action text area
+04-02 16:46 INFO     send keys to action text area
+04-02 16:46 INFO     Looking for Select All action
+04-02 16:46 INFO     Click select all action button
+04-02 16:46 INFO     Click Add button
+04-02 16:46 INFO     click the plus button
+04-02 16:47 INFO     click the search button
+04-02 16:47 INFO     find asset text area
+04-02 16:47 INFO     send keys to asset text area
+04-02 16:47 INFO     Get search results
+04-02 16:47 INFO     Wait for the next search
+04-02 16:47 INFO     Get search results
+04-02 16:47 INFO     Wait for the next search
+04-02 16:47 INFO     Get search results
+04-02 16:47 INFO     Wait for the next search
+04-02 16:47 INFO     Get search results
+04-02 16:47 INFO     Wait for the next search
+04-02 16:47 INFO     Get search results
+04-02 16:47 INFO     Wait for the next search
+04-02 16:47 INFO     Get search results
+04-02 16:47 INFO     Wait for the next search
+04-02 16:47 INFO     Get search results
+04-02 16:47 INFO     Filter finish
+04-02 16:47 INFO     find action text area
+04-02 16:47 INFO     send keys to action text area
+04-02 16:47 INFO     Looking for Select All action
+04-02 16:47 INFO     Click select all action button
+04-02 16:47 INFO     Click Add button
+04-02 16:47 INFO     Adding job_plan NARC STRG 10Y-04-00-001
+04-02 16:47 INFO     Click the plus button
+04-02 16:47 INFO     Click 'job Plan'
+04-02 16:47 INFO     Send job id
+04-02 16:47 INFO     Send plan description
+04-02 16:47 INFO     Send my plant document number
+04-02 16:47 INFO     Send oracle activity
+04-02 16:47 INFO     Click save button
+04-02 16:47 INFO     link ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door'] to this job plan
+04-02 16:47 INFO     Click linked actions
+04-02 16:47 INFO     Click the plus button
+04-02 16:47 INFO     Get all the check box
+04-02 16:47 INFO     Get all the action names
+04-02 16:47 INFO     Number of rows assertion passed
+04-02 16:47 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:47 INFO     Selecte this action 
+04-02 16:47 INFO     Go back to the package tab
+04-02 16:47 INFO     Closing the current package tab
+04-02 16:47 INFO     Finish processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 16:47 INFO     Finish processing current package in 267.8879930973053 seconds
+04-02 16:47 INFO     Start processing package 'Narcoonowie Satellite - Export - Transfer Pump Package' with 1 flocs and 1 job plans
+04-02 16:51 INFO     Send package ID
+04-02 16:51 INFO     Select SAP Reference
+04-02 16:51 INFO     Send description
+04-02 16:51 INFO     Click Save
+04-02 16:51 INFO     -----------------------------------New Session-------------------------------------
+04-02 16:51 INFO     User Name: "shekx"
+04-02 16:51 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 16:51 INFO     ChromeDriver Path: chromedriver.exe
+04-02 16:51 INFO     unique_package_id_list : ['Narcoonowie Satellite - Storage - Tanks', 'Narcoonowie Satellite - Export - Transfer Pump Package']
+04-02 16:51 INFO     package_job_plan_dict : {'Narcoonowie Satellite - Storage - Tanks': ['NARC STRG 10Y-04-00-001'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['NARC EXP 3M-04-00-001']}
+04-02 16:51 INFO     package_floc_dict : {'Narcoonowie Satellite - Storage - Tanks': ['4800-TK-005', '4800-TK-008', '4800-TK-007', '4800-TK-006'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['4800-P-30']}
+04-02 16:51 INFO     Start processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 16:51 INFO     Send package ID
+04-02 16:51 INFO     Select SAP Reference
+04-02 16:51 INFO     Send description
+04-02 16:51 INFO     Click Save
+04-02 16:51 INFO     click the plus button
+04-02 16:52 INFO     click the search button
+04-02 16:52 INFO     find asset text area
+04-02 16:52 INFO     send keys to asset text area
+04-02 16:52 INFO     Get search results
+04-02 16:52 INFO     Wait for the next search
+04-02 16:52 INFO     Get search results
+04-02 16:52 INFO     Wait for the next search
+04-02 16:52 INFO     Get search results
+04-02 16:52 INFO     Wait for the next search
+04-02 16:52 INFO     Get search results
+04-02 16:52 INFO     Wait for the next search
+04-02 16:52 INFO     Get search results
+04-02 16:52 INFO     Wait for the next search
+04-02 16:52 INFO     Get search results
+04-02 16:52 INFO     Wait for the next search
+04-02 16:52 INFO     Get search results
+04-02 16:52 INFO     Wait for the next search
+04-02 16:53 INFO     Get search results
+04-02 16:53 INFO     Wait for the next search
+04-02 16:53 INFO     Get search results
+04-02 16:53 INFO     Filter finish
+04-02 16:53 INFO     find action text area
+04-02 16:53 INFO     send keys to action text area
+04-02 16:53 INFO     Looking for Select All action
+04-02 16:53 INFO     Click select all action button
+04-02 16:53 INFO     Click Add button
+04-02 16:53 INFO     click the plus button
+04-02 16:53 INFO     click the search button
+04-02 16:53 INFO     find asset text area
+04-02 16:53 INFO     send keys to asset text area
+04-02 16:53 INFO     Get search results
+04-02 16:53 INFO     Wait for the next search
+04-02 16:53 INFO     Get search results
+04-02 16:53 INFO     Wait for the next search
+04-02 16:53 INFO     Get search results
+04-02 16:53 INFO     Wait for the next search
+04-02 16:53 INFO     Get search results
+04-02 16:53 INFO     Wait for the next search
+04-02 16:54 INFO     Get search results
+04-02 16:54 INFO     Wait for the next search
+04-02 16:54 INFO     Get search results
+04-02 16:54 INFO     Wait for the next search
+04-02 16:54 INFO     Get search results
+04-02 16:54 INFO     Wait for the next search
+04-02 16:54 INFO     Get search results
+04-02 16:54 INFO     Filter finish
+04-02 16:54 INFO     find action text area
+04-02 16:54 INFO     send keys to action text area
+04-02 16:54 INFO     Looking for Select All action
+04-02 16:54 INFO     Click select all action button
+04-02 16:54 INFO     Click Add button
+04-02 16:54 INFO     click the plus button
+04-02 16:54 INFO     click the search button
+04-02 16:54 INFO     find asset text area
+04-02 16:54 INFO     send keys to asset text area
+04-02 16:54 INFO     Get search results
+04-02 16:54 INFO     Wait for the next search
+04-02 16:54 INFO     Get search results
+04-02 16:54 INFO     Wait for the next search
+04-02 16:55 INFO     Get search results
+04-02 16:55 INFO     Wait for the next search
+04-02 16:55 INFO     Get search results
+04-02 16:55 INFO     Wait for the next search
+04-02 16:55 INFO     Get search results
+04-02 16:55 INFO     Wait for the next search
+04-02 16:55 INFO     Get search results
+04-02 16:55 INFO     Wait for the next search
+04-02 16:55 INFO     Get search results
+04-02 16:55 INFO     Wait for the next search
+04-02 16:55 INFO     Get search results
+04-02 16:55 INFO     Filter finish
+04-02 16:55 INFO     find action text area
+04-02 16:55 INFO     send keys to action text area
+04-02 16:55 INFO     Looking for Select All action
+04-02 16:55 INFO     Click select all action button
+04-02 16:55 INFO     Click Add button
+04-02 16:55 INFO     click the plus button
+04-02 16:56 INFO     click the search button
+04-02 16:56 INFO     find asset text area
+04-02 16:56 INFO     send keys to asset text area
+04-02 16:56 INFO     Get search results
+04-02 16:56 INFO     Wait for the next search
+04-02 16:56 INFO     Get search results
+04-02 16:56 INFO     Wait for the next search
+04-02 16:56 INFO     Get search results
+04-02 16:56 INFO     Wait for the next search
+04-02 16:56 INFO     Get search results
+04-02 16:56 INFO     Wait for the next search
+04-02 16:56 INFO     Get search results
+04-02 16:56 INFO     Wait for the next search
+04-02 16:56 INFO     Get search results
+04-02 16:56 INFO     Filter finish
+04-02 16:56 INFO     find action text area
+04-02 16:56 INFO     send keys to action text area
+04-02 16:56 INFO     Looking for Select All action
+04-02 16:56 INFO     Click select all action button
+04-02 16:56 INFO     Click Add button
+04-02 16:56 INFO     Adding job_plan NARC STRG 10Y-04-00-001
+04-02 16:56 INFO     Click the plus button
+04-02 16:56 INFO     Click 'job Plan'
+04-02 16:56 INFO     Send job id
+04-02 16:56 INFO     Send plan description
+04-02 16:56 INFO     Send my plant document number
+04-02 16:56 INFO     Send oracle activity
+04-02 16:56 INFO     Click save button
+04-02 16:56 INFO     link ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door'] to this job plan
+04-02 16:56 INFO     Click linked actions
+04-02 16:56 INFO     Click the plus button
+04-02 16:56 INFO     Get all the check box
+04-02 16:56 INFO     Get all the action names
+04-02 16:56 INFO     Number of rows assertion passed
+04-02 16:56 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 16:56 INFO     Selecte this action 
+04-02 16:56 INFO     Go back to the package tab
+04-02 16:56 INFO     Closing the current package tab
+04-02 16:56 INFO     Finish processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 16:56 INFO     Finish processing current package in 292.4644856452942 seconds
+04-02 16:56 INFO     Start processing package 'Narcoonowie Satellite - Export - Transfer Pump Package' with 1 flocs and 1 job plans
+04-02 16:58 INFO     Send package ID
+04-02 16:58 INFO     Select SAP Reference
+04-02 16:58 INFO     Send description
+04-02 16:58 INFO     Click Save
+04-02 16:59 INFO     click the plus button
+04-02 17:01 INFO     -----------------------------------New Session-------------------------------------
+04-02 17:01 INFO     User Name: "shekx"
+04-02 17:01 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 17:01 INFO     ChromeDriver Path: chromedriver.exe
+04-02 17:01 INFO     unique_package_id_list : ['Narcoonowie Satellite - Storage - Tanks', 'Narcoonowie Satellite - Export - Transfer Pump Package']
+04-02 17:01 INFO     package_job_plan_dict : {'Narcoonowie Satellite - Storage - Tanks': ['NARC STRG 10Y-04-00-001'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['NARC EXP 3M-04-00-001']}
+04-02 17:01 INFO     package_floc_dict : {'Narcoonowie Satellite - Storage - Tanks': ['4800-TK-005', '4800-TK-008', '4800-TK-007', '4800-TK-006'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['4800-P-30']}
+04-02 17:03 INFO     -----------------------------------New Session-------------------------------------
+04-02 17:03 INFO     User Name: "shekx"
+04-02 17:03 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 17:03 INFO     ChromeDriver Path: chromedriver.exe
+04-02 17:03 INFO     unique_package_id_list : ['Narcoonowie Satellite - Storage - Tanks', 'Narcoonowie Satellite - Export - Transfer Pump Package']
+04-02 17:03 INFO     package_job_plan_dict : {'Narcoonowie Satellite - Storage - Tanks': ['NARC STRG 10Y-04-00-001'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['NARC EXP 3M-04-00-001']}
+04-02 17:03 INFO     package_floc_dict : {'Narcoonowie Satellite - Storage - Tanks': ['4800-TK-005', '4800-TK-008', '4800-TK-007', '4800-TK-006'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['4800-P-30']}
+04-02 17:03 INFO     Start processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 17:03 INFO     Send package ID
+04-02 17:03 INFO     Select SAP Reference
+04-02 17:03 INFO     Send description
+04-02 17:03 INFO     Click Save
+04-02 17:03 INFO     click the plus button
+04-02 17:04 INFO     click the search button
+04-02 17:04 INFO     find asset text area
+04-02 17:04 INFO     send keys to asset text area
+04-02 17:04 INFO     Get search results
+04-02 17:04 INFO     Wait for the next search
+04-02 17:04 INFO     Get search results
+04-02 17:04 INFO     Wait for the next search
+04-02 17:04 INFO     Get search results
+04-02 17:04 INFO     Wait for the next search
+04-02 17:04 INFO     Get search results
+04-02 17:04 INFO     Wait for the next search
+04-02 17:04 INFO     Get search results
+04-02 17:04 INFO     Wait for the next search
+04-02 17:04 INFO     Get search results
+04-02 17:04 INFO     Wait for the next search
+04-02 17:04 INFO     Get search results
+04-02 17:04 INFO     Wait for the next search
+04-02 17:04 INFO     Get search results
+04-02 17:04 INFO     Wait for the next search
+04-02 17:04 INFO     Get search results
+04-02 17:04 INFO     Filter finish
+04-02 17:04 INFO     find action text area
+04-02 17:04 INFO     send keys to action text area
+04-02 17:04 INFO     Looking for Select All action
+04-02 17:04 INFO     Click select all action button
+04-02 17:04 INFO     Click Add button
+04-02 17:04 INFO     Adding job_plan NARC STRG 10Y-04-00-001
+04-02 17:04 INFO     Click the plus button
+04-02 17:04 INFO     Click 'job Plan'
+04-02 17:04 INFO     Send job id
+04-02 17:04 INFO     Send plan description
+04-02 17:04 INFO     Send my plant document number
+04-02 17:05 INFO     Send oracle activity
+04-02 17:05 INFO     Click save button
+04-02 17:05 INFO     link ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door'] to this job plan
+04-02 17:05 INFO     Click linked actions
+04-02 17:05 INFO     Click the plus button
+04-02 17:05 INFO     Get all the check box
+04-02 17:05 INFO     Get all the action names
+04-02 17:05 INFO     Number of rows assertion passed
+04-02 17:05 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:05 INFO     Selecte this action 
+04-02 17:05 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:05 INFO     Selecte this action 
+04-02 17:05 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:05 INFO     Selecte this action 
+04-02 17:05 INFO     Go back to the package tab
+04-02 17:05 INFO     Closing the current package tab
+04-02 17:07 INFO     -----------------------------------New Session-------------------------------------
+04-02 17:07 INFO     User Name: "shekx"
+04-02 17:07 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 17:07 INFO     ChromeDriver Path: chromedriver.exe
+04-02 17:07 INFO     unique_package_id_list : ['Narcoonowie Satellite - Storage - Tanks', 'Narcoonowie Satellite - Export - Transfer Pump Package']
+04-02 17:07 INFO     package_job_plan_dict : {'Narcoonowie Satellite - Storage - Tanks': ['NARC STRG 10Y-04-00-001'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['NARC EXP 3M-04-00-001']}
+04-02 17:07 INFO     package_floc_dict : {'Narcoonowie Satellite - Storage - Tanks': ['4800-TK-005', '4800-TK-008', '4800-TK-007', '4800-TK-006'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['4800-P-30']}
+04-02 17:07 INFO     Start processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 17:07 INFO     Send package ID
+04-02 17:07 INFO     Select SAP Reference
+04-02 17:07 INFO     Send description
+04-02 17:07 INFO     Click Save
+04-02 17:07 INFO     click the plus button
+04-02 17:08 INFO     click the search button
+04-02 17:08 INFO     find asset text area
+04-02 17:08 INFO     send keys to asset text area
+04-02 17:08 INFO     Get search results
+04-02 17:08 INFO     Wait for the next search
+04-02 17:08 INFO     Get search results
+04-02 17:08 INFO     Wait for the next search
+04-02 17:08 INFO     Get search results
+04-02 17:08 INFO     Wait for the next search
+04-02 17:08 INFO     Get search results
+04-02 17:08 INFO     Wait for the next search
+04-02 17:08 INFO     Get search results
+04-02 17:08 INFO     Wait for the next search
+04-02 17:08 INFO     Get search results
+04-02 17:08 INFO     Wait for the next search
+04-02 17:08 INFO     Get search results
+04-02 17:08 INFO     Filter finish
+04-02 17:08 INFO     find action text area
+04-02 17:08 INFO     send keys to action text area
+04-02 17:08 INFO     Looking for Select All action
+04-02 17:08 INFO     Click select all action button
+04-02 17:08 INFO     Click Add button
+04-02 17:08 INFO     Adding job_plan NARC STRG 10Y-04-00-001
+04-02 17:08 INFO     Click the plus button
+04-02 17:08 INFO     Click 'job Plan'
+04-02 17:08 INFO     Send job id
+04-02 17:08 INFO     Send plan description
+04-02 17:08 INFO     Send my plant document number
+04-02 17:08 INFO     Send oracle activity
+04-02 17:08 INFO     Click save button
+04-02 17:08 INFO     link ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door'] to this job plan
+04-02 17:08 INFO     Click linked actions
+04-02 17:08 INFO     Click the plus button
+04-02 17:08 INFO     Get all the check box
+04-02 17:08 INFO     Get all the action names
+04-02 17:08 INFO     Number of rows assertion passed
+04-02 17:08 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:08 INFO     Selecte this action 
+04-02 17:08 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:08 INFO     Selecte this action 
+04-02 17:08 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:08 INFO     Selecte this action 
+04-02 17:08 INFO     Go back to the package tab
+04-02 17:08 INFO     Closing the current package tab
+04-02 17:12 INFO     -----------------------------------New Session-------------------------------------
+04-02 17:12 INFO     User Name: "shekx"
+04-02 17:12 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 17:12 INFO     ChromeDriver Path: chromedriver.exe
+04-02 17:12 INFO     unique_package_id_list : ['Narcoonowie Satellite - Storage - Tanks', 'Narcoonowie Satellite - Export - Transfer Pump Package']
+04-02 17:12 INFO     package_job_plan_dict : {'Narcoonowie Satellite - Storage - Tanks': ['NARC STRG 10Y-04-00-001'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['NARC EXP 3M-04-00-001']}
+04-02 17:12 INFO     package_floc_dict : {'Narcoonowie Satellite - Storage - Tanks': ['4800-TK-005', '4800-TK-008', '4800-TK-007', '4800-TK-006'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['4800-P-30']}
+04-02 17:12 INFO     Start processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 17:12 INFO     Send package ID
+04-02 17:12 INFO     Select SAP Reference
+04-02 17:12 INFO     Send description
+04-02 17:12 INFO     Click Save
+04-02 17:12 INFO     click the plus button
+04-02 17:12 INFO     click the search button
+04-02 17:12 INFO     find asset text area
+04-02 17:12 INFO     send keys to asset text area
+04-02 17:12 INFO     Get search results
+04-02 17:12 INFO     Wait for the next search
+04-02 17:13 INFO     Get search results
+04-02 17:13 INFO     Wait for the next search
+04-02 17:13 INFO     Get search results
+04-02 17:13 INFO     Wait for the next search
+04-02 17:13 INFO     Get search results
+04-02 17:13 INFO     Wait for the next search
+04-02 17:13 INFO     Get search results
+04-02 17:13 INFO     Wait for the next search
+04-02 17:13 INFO     Get search results
+04-02 17:13 INFO     Wait for the next search
+04-02 17:13 INFO     Get search results
+04-02 17:13 INFO     Filter finish
+04-02 17:13 INFO     find action text area
+04-02 17:13 INFO     send keys to action text area
+04-02 17:13 INFO     Looking for Select All action
+04-02 17:13 INFO     Click select all action button
+04-02 17:13 INFO     Click Add button
+04-02 17:13 INFO     Adding job_plan NARC STRG 10Y-04-00-001
+04-02 17:13 INFO     Click the plus button
+04-02 17:13 INFO     Click 'job Plan'
+04-02 17:13 INFO     Send job id
+04-02 17:13 INFO     Send plan description
+04-02 17:13 INFO     Send my plant document number
+04-02 17:13 INFO     Send oracle activity
+04-02 17:13 INFO     Click save button
+04-02 17:13 INFO     link ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door'] to this job plan
+04-02 17:13 INFO     Click linked actions
+04-02 17:13 INFO     Click the plus button
+04-02 17:13 INFO     Get all the check box
+04-02 17:13 INFO     Get all the action names
+04-02 17:13 INFO     Number of rows assertion passed
+04-02 17:13 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:13 INFO     Selecte this action 
+04-02 17:13 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:13 INFO     Selecte this action 
+04-02 17:13 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:13 INFO     Selecte this action 
+04-02 17:13 INFO     Go back to the package tab
+04-02 17:13 INFO     Closing the current package tab
+04-02 17:23 INFO     -----------------------------------New Session-------------------------------------
+04-02 17:23 INFO     User Name: "shekx"
+04-02 17:23 INFO     CSV File Path: 4800-for ASI Packaging.csv
+04-02 17:23 INFO     ChromeDriver Path: chromedriver.exe
+04-02 17:23 INFO     unique_package_id_list : ['Narcoonowie Satellite - Storage - Tanks', 'Narcoonowie Satellite - Export - Transfer Pump Package']
+04-02 17:23 INFO     package_job_plan_dict : {'Narcoonowie Satellite - Storage - Tanks': ['NARC STRG 10Y-04-00-001'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['NARC EXP 3M-04-00-001']}
+04-02 17:23 INFO     package_floc_dict : {'Narcoonowie Satellite - Storage - Tanks': ['4800-TK-005', '4800-TK-008', '4800-TK-007', '4800-TK-006'], 'Narcoonowie Satellite - Export - Transfer Pump Package': ['4800-P-30']}
+04-02 17:23 INFO     Start processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 17:23 INFO     Send package ID
+04-02 17:23 INFO     Select SAP Reference
+04-02 17:23 INFO     Send description
+04-02 17:23 INFO     Click Save
+04-02 17:23 INFO     click the plus button
+04-02 17:24 INFO     click the search button
+04-02 17:24 INFO     find asset text area
+04-02 17:24 INFO     send keys to asset text area
+04-02 17:24 INFO     Get search results
+04-02 17:24 INFO     Wait for the next search
+04-02 17:24 INFO     Get search results
+04-02 17:24 INFO     Wait for the next search
+04-02 17:24 INFO     Get search results
+04-02 17:24 INFO     Wait for the next search
+04-02 17:24 INFO     Get search results
+04-02 17:24 INFO     Wait for the next search
+04-02 17:24 INFO     Get search results
+04-02 17:24 INFO     Wait for the next search
+04-02 17:24 INFO     Get search results
+04-02 17:24 INFO     Wait for the next search
+04-02 17:24 INFO     Get search results
+04-02 17:24 INFO     Wait for the next search
+04-02 17:24 INFO     Get search results
+04-02 17:24 INFO     Filter finish
+04-02 17:24 INFO     find action text area
+04-02 17:24 INFO     send keys to action text area
+04-02 17:24 INFO     Looking for Select All action
+04-02 17:24 INFO     Click select all action button
+04-02 17:24 INFO     Click Add button
+04-02 17:24 INFO     Adding job_plan NARC STRG 10Y-04-00-001
+04-02 17:24 INFO     Click the plus button
+04-02 17:24 INFO     Click 'job Plan'
+04-02 17:24 INFO     Send job id
+04-02 17:24 INFO     Send plan description
+04-02 17:24 INFO     Send my plant document number
+04-02 17:24 INFO     Send oracle activity
+04-02 17:24 INFO     Click save button
+04-02 17:24 INFO     link ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door'] to this job plan
+04-02 17:24 INFO     Click linked actions
+04-02 17:24 INFO     Click the plus button
+04-02 17:24 INFO     Get all the check box
+04-02 17:24 INFO     Get all the action names
+04-02 17:24 INFO     Number of rows assertion passed
+04-02 17:24 INFO     Checking Enter Tank If Required And Clean Internal Surfaces As Required in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:24 INFO     Selecte this action 
+04-02 17:24 INFO     Checking Clean Debis And Build Up From Tank Through Manway Door in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:24 INFO     Selecte this action 
+04-02 17:24 INFO     Checking Inspect All Flanges And Joints For Leaks Once Tank Back In Operation in ['Enter Tank If Required And Clean Internal Surfaces As Required', 'Inspect All Flanges And Joints For Leaks Once Tank Back In Operation', 'Clean Debis And Build Up From Tank Through Manway Door']
+04-02 17:24 INFO     Selecte this action 
+04-02 17:25 INFO     Go back to the package tab
+04-02 17:25 INFO     Closing the current package tab
+04-02 17:25 INFO     Finish processing package 'Narcoonowie Satellite - Storage - Tanks' with 4 flocs and 1 job plans
+04-02 17:25 INFO     Finish processing current package in 83.2197892665863 seconds
+04-02 17:25 INFO     Start processing package 'Narcoonowie Satellite - Export - Transfer Pump Package' with 1 flocs and 1 job plans
+04-02 17:25 INFO     Send package ID
+04-02 17:25 INFO     Select SAP Reference
+04-02 17:25 INFO     Send description
+04-02 17:25 INFO     Click Save
+04-02 17:25 INFO     click the plus button
+04-02 17:25 INFO     click the search button
+04-02 17:25 INFO     find asset text area
+04-02 17:25 INFO     send keys to asset text area
+04-02 17:25 INFO     Get search results
+04-02 17:25 INFO     Wait for the next search
+04-02 17:25 INFO     Get search results
+04-02 17:25 INFO     Wait for the next search
+04-02 17:25 INFO     Get search results
+04-02 17:25 INFO     Wait for the next search
+04-02 17:25 INFO     Get search results
+04-02 17:25 INFO     Wait for the next search
+04-02 17:26 INFO     Get search results
+04-02 17:26 INFO     Wait for the next search
+04-02 17:26 INFO     Get search results
+04-02 17:26 INFO     Wait for the next search
+04-02 17:26 INFO     Get search results
+04-02 17:26 INFO     Filter finish
+04-02 17:26 INFO     find action text area
+04-02 17:26 INFO     send keys to action text area
+04-02 17:26 INFO     Looking for Select All action
+04-02 17:26 INFO     Click select all action button
+04-02 17:26 INFO     Click Add button
+04-02 17:26 INFO     Adding job_plan NARC EXP 3M-04-00-001
+04-02 17:26 INFO     Click the plus button
+04-02 17:26 INFO     Click 'job Plan'
+04-02 17:26 INFO     Send job id
+04-02 17:26 INFO     Send plan description
+04-02 17:26 INFO     Send my plant document number
+04-02 17:26 INFO     Send oracle activity
+04-02 17:26 INFO     Click save button
+04-02 17:26 INFO     link ['Check and adjust inlet and exhaust tappets to the following inlet (cold)0.004, exhaust (cold)', 'Carry out oil change (RIMULAX)', 'Fit new oil filter', 'Check pump and engine number', 'Remove and inspect air filter (dry type) replace if necessary', 'Fit new fuel filter'] to this job plan
+04-02 17:26 INFO     Click linked actions
+04-02 17:26 INFO     Click the plus button
+04-02 17:26 INFO     Get all the check box
+04-02 17:26 INFO     Get all the action names
+04-02 17:26 INFO     Number of rows assertion passed
+04-02 17:26 INFO     Checking Remove and inspect air filter (dry type) replace if necessary in ['Check and adjust inlet and exhaust tappets to the following inlet (cold)0.004, exhaust (cold)', 'Carry out oil change (RIMULAX)', 'Fit new oil filter', 'Check pump and engine number', 'Remove and inspect air filter (dry type) replace if necessary', 'Fit new fuel filter']
+04-02 17:26 INFO     Selecte this action 
+04-02 17:26 INFO     Checking Fit new fuel filter in ['Check and adjust inlet and exhaust tappets to the following inlet (cold)0.004, exhaust (cold)', 'Carry out oil change (RIMULAX)', 'Fit new oil filter', 'Check pump and engine number', 'Remove and inspect air filter (dry type) replace if necessary', 'Fit new fuel filter']
+04-02 17:26 INFO     Selecte this action 
+04-02 17:26 INFO     Checking Check pump and engine number in ['Check and adjust inlet and exhaust tappets to the following inlet (cold)0.004, exhaust (cold)', 'Carry out oil change (RIMULAX)', 'Fit new oil filter', 'Check pump and engine number', 'Remove and inspect air filter (dry type) replace if necessary', 'Fit new fuel filter']
+04-02 17:26 INFO     Selecte this action 
+04-02 17:26 INFO     Checking Fit new oil filter in ['Check and adjust inlet and exhaust tappets to the following inlet (cold)0.004, exhaust (cold)', 'Carry out oil change (RIMULAX)', 'Fit new oil filter', 'Check pump and engine number', 'Remove and inspect air filter (dry type) replace if necessary', 'Fit new fuel filter']
+04-02 17:26 INFO     Selecte this action 
+04-02 17:26 INFO     Checking Check and adjust inlet and exhaust tappets to the following inlet (cold) 0.004, exhaust (cold) 0.006 in ['Check and adjust inlet and exhaust tappets to the following inlet (cold)0.004, exhaust (cold)', 'Carry out oil change (RIMULAX)', 'Fit new oil filter', 'Check pump and engine number', 'Remove and inspect air filter (dry type) replace if necessary', 'Fit new fuel filter']
+04-02 17:26 INFO     Checking Carry out oil change (RIMULA X) in ['Check and adjust inlet and exhaust tappets to the following inlet (cold)0.004, exhaust (cold)', 'Carry out oil change (RIMULAX)', 'Fit new oil filter', 'Check pump and engine number', 'Remove and inspect air filter (dry type) replace if necessary', 'Fit new fuel filter']
+04-02 17:26 INFO     Go back to the package tab
+04-02 17:26 INFO     Closing the current package tab
+04-02 17:26 INFO     Finish processing package 'Narcoonowie Satellite - Export - Transfer Pump Package' with 1 flocs and 1 job plans
+04-02 17:26 INFO     Finish processing current package in 80.00301170349121 seconds
+04-02 17:26 INFO     Finished processing 4800-for ASI Packaging.csv in 175.69679021835327 seconds
