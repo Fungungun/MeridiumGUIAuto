@@ -264,11 +264,12 @@ def link_actions_to_jobplan(driver, job_plan_data):
     logging.info("Number of rows assertion passed")
 
     for i in range(len(potential_action_check_box_list)):
-        logging.info(f"Checking {potential_action_name_list[i].text} in {action_name_list}")
         if potential_action_name_list[i].text in action_name_list:
             potential_action_check_box_list[i].click()
-            logging.info("Selecte this action ")
-
+            logging.info(f"'{potential_action_name_list[i].text}' found in action name list {action_name_list} - Select this action ")
+        else:
+            logging.info(f"'{potential_action_name_list[i].text}' not in action name list {action_name_list} - Skip this action ")
+            
     # Click the Link button
     find_element_and_click(driver, "//button//span[contains(text(),'Link')]", by="xpath")
 
