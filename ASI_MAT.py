@@ -278,7 +278,8 @@ def manage_actions_with_floc(driver, asset_list):
     # click "Manage actions"
     find_element_and_click(driver, "//span[contains(text(),'Manage Actions')]", by="xpath")
 
-    for asset in asset_list:
+    for i, asset in enumerate(asset_list):
+        logging.info(f"Processing {i}/{len(asset_list)} flocs: {asset}")
         # click the plus button
         find_element_and_click(driver, "//button[@title='Add Actions']//i", by="xpath")
         logging.info("click the plus button")
@@ -316,7 +317,7 @@ def manage_actions_with_floc(driver, asset_list):
         scrollbar, clickable = find_element(driver,
                                "//div[@class='add-bulk-actions']//div[@class='dx-scrollable-scrollbar dx-widget dx-scrollbar-horizontal dx-scrollbar-hoverable']//div[@class='dx-scrollable-scroll-content']",
                                by="xpath")
-        ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-250, 0).release().perform()
+        ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-300, 0).release().perform()
 
 
         #  This is to drag the select all button into view
@@ -347,7 +348,7 @@ def manage_actions_with_floc(driver, asset_list):
 
 def get_created_package_and_job_plan():
     created_package = {}
-    with open("created_job_plan.csv", "r") as f:
+    with open("created_package.csv", "r") as f:
         for line in f:
             line.strip("\n")
             package_id, package_url = line.split(",")
