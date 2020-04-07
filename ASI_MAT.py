@@ -456,6 +456,7 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
             manage_actions_with_floc(driver, asset)  # each package should have at least one floc
             linked_asset[package_id].append(asset)
             f_linked_asset.write(f"{package_id},{asset}\n")
+            logging.info(f"Package {package_id} has linked asset {linked_asset[package_id]}")
             
         
         job_plan_list = package_job_plan_dict[package_id]
@@ -490,7 +491,7 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
             f_created_job_plan.write(f"{package_id},{job_plan_id}\n") 
             # record created job plan
             created_job_plan[package_id].append(job_plan_id)
-
+            logging.info(f"Package {package_id} has job plans {created_job_plan[package_id]}")
 
             # add actions
             link_actions_to_jobplan(driver, job_plan_data)
