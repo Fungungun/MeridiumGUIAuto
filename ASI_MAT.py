@@ -465,7 +465,7 @@ def get_input_csv_list(csv_path_file: str):
     if not os.path.exists(csv_path_file):
         raise Exception(f"ERROR[get_input_csv_list] {csv_path_file} does not exist")
 
-    data = pd.read_csv(csv_path_file)
+    data = pd.read_csv(csv_path_file, encoding= 'unicode_escape')
 
     return data
 
