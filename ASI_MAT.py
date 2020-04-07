@@ -449,14 +449,18 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
             for l_a in linked_asset[package_id]:
                 if l_a in asset:
                     n_substrings += 1
+                    logging.info(F"Asset {asset} has already been added due to substring {l_a}")
+                    linked_asset[package_id].append(asset)
+                    f_linked_asset.write(f"{package_id},{asset}\n")
+                    break
             if n_substrings > 0:
                 continue
             # -----------------------------
-
-            manage_actions_with_floc(driver, asset)  # each package should have at least one floc
-            linked_asset[package_id].append(asset)
-            f_linked_asset.write(f"{package_id},{asset}\n")
-            logging.info(f"Package {package_id} has linked asset {linked_asset[package_id]}")
+            else:
+                manage_actions_with_floc(driver, asset)  # each package should have at least one floc
+                linked_asset[package_id].append(asset)
+                f_linked_asset.write(f"{package_id},{asset}\n")
+                logging.info(f"Package {package_id} has linked asset {linked_asset[package_id]}")
             
         
         job_plan_list = package_job_plan_dict[package_id]
