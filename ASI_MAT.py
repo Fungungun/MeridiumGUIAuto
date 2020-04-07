@@ -345,6 +345,26 @@ def manage_actions_with_floc(driver, asset_list):
         find_element_and_click(driver, "//span[contains(text(), 'Add')]", by="xpath")
         logging.info("Click Add button")
 
+def get_created_package_and_job_plan():
+    created_package = {}
+    with open("created_job_plan.csv", "r") as f:
+        for line in f:
+            line.strip("\n")
+            package_id, package_url = line.split(",")
+            created_package[package_id] = package_url
+    
+    created_job_plan = {}
+    with open("created_job_plan.csv", "r") as f:
+        for line in f:
+            line.strip("\n")
+            package_id, job_plan = line.split(",")
+            if package_url not in created_job_plan:
+                created_job_plan[package_id] = []
+            else:
+                created_job_plan[package_id].append(job_plan)
+    
+    return created_package, created_job_plan
+
 def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run_selenium_headless, username,
                           password):
     unique_package_id_list = input_csv_list['Package ID'].unique().tolist()
@@ -368,7 +388,10 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
 
     navigate_to_asi_overview_tab(driver)
 
-    
+    created_package, created_job_plan = get_created_package_and_job_plan()
+
+    f_created_package = open("created_package.csv", "a")
+    f_created_job_plan = open("created_job_plan.csv", "a")
 
     for i, package_id in enumerate(unique_package_id_list):
         logging.info(f"Start processing package '{package_id}' with {len(package_floc_dict[package_id])} flocs and {len(package_job_plan_dict[package_id])} job plans")
@@ -378,14 +401,24 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
         find_element_and_click(driver, "//div[@class='block-group page-filter-tools']//button[contains(text(),'New')]",
                                by="xpath")
 
-        # create new package
-        create_new_package(driver, package_id)
+        if package_id not in created_package:
+            # create new package
+            create_new_package(driver, package_id)
+            # write created package id to csv 
+            f_created_package.write(f"{package_id},{driver.current_url}\n")
+        else:
+            logging.info("package created. Jump with url")
+            driver.get(created_package[package_id])
 
         # manage actions using floc
         manage_actions_with_floc(driver, package_floc_dict[package_id])  # each package should have at least one floc
 
         for job_plan_id in package_job_plan_dict[package_id]:
             logging.info(f"Adding job_plan {job_plan_id}")
+            if job_plan_id in created_job_plan[package_id]:
+                logging.info(f"Job plan already created. Skip {job_plan_id}")
+                continue
+
             # click the plus button
             find_element_and_click(driver,
                                    "//section[@class='expanded active border-right']//mi-more-options-noko//i[@class='icon-plus']",
@@ -400,8 +433,12 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
 
             job_plan_data = input_csv_list.loc[
                 (input_csv_list['Package ID'] == package_id) & (input_csv_list['Job Plan ID'] == job_plan_id)]
+
             # add new job plan
             add_job_plan(driver, job_plan_data.iloc[0])
+
+            # write created job plan to csv 
+            f_created_job_plan.write(f"{package_id},{job_plan_id}\n") 
 
             # add actions
             link_actions_to_jobplan(driver, job_plan_data)
