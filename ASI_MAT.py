@@ -390,6 +390,9 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
 
     created_package, created_job_plan = get_created_package_and_job_plan()
 
+    logging.info(f"created_package: {created_package}")
+    logging.info(f"created_job_plan: {created_job_plan}")
+
     f_created_package = open("created_package.csv", "a")
     f_created_job_plan = open("created_job_plan.csv", "a")
 
@@ -406,6 +409,9 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
             create_new_package(driver, package_id)
             # write created package id to csv 
             f_created_package.write(f"{package_id},{driver.current_url}\n")
+            # record created_package
+            created_package[package_id] = driver.current_url
+            created_job_plan[package_id] = []
         else:
             logging.info("package created. Jump with url")
             driver.get(created_package[package_id])
@@ -439,6 +445,9 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
 
             # write created job plan to csv 
             f_created_job_plan.write(f"{package_id},{job_plan_id}\n") 
+            # record created job plan
+            created_job_plan[package_id].append(job_plan_id)
+
 
             # add actions
             link_actions_to_jobplan(driver, job_plan_data)
