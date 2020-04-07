@@ -274,77 +274,74 @@ def link_actions_to_jobplan(driver, job_plan_data):
     find_element_and_click(driver, "//button//span[contains(text(),'Link')]", by="xpath")
 
 
-def manage_actions_with_floc(driver, asset_list):
-    # click "Manage actions"
-    find_element_and_click(driver, "//span[contains(text(),'Manage Actions')]", by="xpath")
+def manage_actions_with_floc(driver, asset):
 
-    for i, asset in enumerate(asset_list):
-        logging.info(f"Processing {i}/{len(asset_list)} flocs: {asset}")
-        # click the plus button
-        find_element_and_click(driver, "//button[@title='Add Actions']//i", by="xpath")
-        logging.info("click the plus button")
+    # click the plus button
+    find_element_and_click(driver, "//button[@title='Add Actions']//i", by="xpath")
+    logging.info("click the plus button")
 
-        # click the search button
-        find_element_and_click(driver, "//div[@class='add-bulk-actions']//i[@class='icon-search']", by="xpath")
-        logging.info("click the search button")
+    # click the search button
+    find_element_and_click(driver, "//div[@class='add-bulk-actions']//i[@class='icon-search']", by="xpath")
+    logging.info("click the search button")
 
-        # search with floc text area
-        asset_name, _ = find_element(driver,
-                                  "//td[@aria-label='Column Asset, Filter cell']//input",
-                                  by="xpath", description="asset name")
-        logging.info("find asset text area")
-        try:
-            # asset_name.send_keys(Keys.CONTROL + "a")
-            # asset_name.send_keys(Keys.DELETE)
-            asset_name.send_keys(asset)
-            logging.info("send keys to asset text area")
-        except:
-            raise Exception(f"ERROR[add_job_plan] Could not send keys to asset textbox")
+    # search with floc text area
+    asset_name, _ = find_element(driver,
+                                "//td[@aria-label='Column Asset, Filter cell']//input",
+                                by="xpath", description="asset name")
+    logging.info("find asset text area")
+    try:
+        # asset_name.send_keys(Keys.CONTROL + "a")
+        # asset_name.send_keys(Keys.DELETE)
+        asset_name.send_keys(asset)
+        logging.info("send keys to asset text area")
+    except:
+        raise Exception(f"ERROR[add_job_plan] Could not send keys to asset textbox")
 
-        while True:  # this is to make sure the search is finish
-            first_filter_result, _ = find_element(driver, "//div[@class='add-bulk-actions-container']//tr[@aria-rowindex='1']//td[@aria-colindex='3']", by="xpath",
-                                               description="make sure search is finish")
-            logging.info("Get search results")
-            if asset in first_filter_result.text:
-                logging.info("Filter finish")
-                break
-            else:
-                logging.info("Wait for the next search")
-                time.sleep(5)
-                
+    while True:  # this is to make sure the search is finish
+        first_filter_result, _ = find_element(driver, "//div[@class='add-bulk-actions-container']//tr[@aria-rowindex='1']//td[@aria-colindex='3']", by="xpath",
+                                            description="make sure search is finish")
+        logging.info("Get search results")
+        if asset in first_filter_result.text:
+            logging.info("Filter finish")
+            break
+        else:
+            logging.info("Wait for the next search")
+            time.sleep(5)
+            
 
-        # scroll bar 
-        scrollbar, clickable = find_element(driver,
-                               "//div[@class='add-bulk-actions']//div[@class='dx-scrollable-scrollbar dx-widget dx-scrollbar-horizontal dx-scrollbar-hoverable']//div[@class='dx-scrollable-scroll-content']",
-                               by="xpath")
-        ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-300, 0).release().perform()
+    # scroll bar 
+    scrollbar, clickable = find_element(driver,
+                            "//div[@class='add-bulk-actions']//div[@class='dx-scrollable-scrollbar dx-widget dx-scrollbar-horizontal dx-scrollbar-hoverable']//div[@class='dx-scrollable-scroll-content']",
+                            by="xpath")
+    ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-300, 0).release().perform()
 
 
-        #  This is to drag the select all button into view
-        action_name, _ = find_element(driver,
-                                  "//td[@aria-label='Column Action, Filter cell']//input",
-                                  by="xpath", description="action name")
-        logging.info("find action text area")
-        try:
-            action_name.send_keys("")
-            logging.info("send keys to action text area")
-        except:
-            raise Exception(f"ERROR[add_job_plan] Could not send keys to action textbox")
-        #  This is to drag the select all button into view
+    #  This is to drag the select all button into view
+    action_name, _ = find_element(driver,
+                                "//td[@aria-label='Column Action, Filter cell']//input",
+                                by="xpath", description="action name")
+    logging.info("find action text area")
+    try:
+        action_name.send_keys("")
+        logging.info("send keys to action text area")
+    except:
+        raise Exception(f"ERROR[add_job_plan] Could not send keys to action textbox")
+    #  This is to drag the select all button into view
 
-        ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-50, 0).release().perform()
+    ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-50, 0).release().perform()
 
-        logging.info("Looking for Select All action")
-        # click select all action
-        find_element_and_click(driver,
-                               "//div[@class='add-bulk-actions-container']//tr[@class='dx-row dx-column-lines dx-header-row']//span[@class='dx-checkbox-icon']",
-                               by="xpath")
-        logging.info("Click select all action button")
-                        
+    logging.info("Looking for Select All action")
+    # click select all action
+    find_element_and_click(driver,
+                            "//div[@class='add-bulk-actions-container']//tr[@class='dx-row dx-column-lines dx-header-row']//span[@class='dx-checkbox-icon']",
+                            by="xpath")
+    logging.info("Click select all action button")
+                    
 
-        # click Add
-        find_element_and_click(driver, "//span[contains(text(), 'Add')]", by="xpath")
-        logging.info("Click Add button")
+    # click Add
+    find_element_and_click(driver, "//span[contains(text(), 'Add')]", by="xpath")
+    logging.info("Click Add button")
+
 
 def get_created_package_and_job_plan():
     created_package = {}
@@ -359,12 +356,25 @@ def get_created_package_and_job_plan():
         for line in f:
             line.strip("\n")
             package_id, job_plan = line.split(",")
-            if package_url not in created_job_plan:
-                created_job_plan[package_id] = []
+            if package_id not in created_job_plan:
+                created_job_plan[package_id] = [job_plan]
             else:
                 created_job_plan[package_id].append(job_plan)
     
-    return created_package, created_job_plan
+    linked_asset = {}
+    with open("linked_asset.csv", "r") as f:
+        for line in f:
+            line.strip("\n")
+            package_id, asset = line.split(",")
+            if package_id not in linked_asset:
+                linked_asset[package_id] = [asset]
+            else:
+                linked_asset[package_id].append(asset)
+
+
+    return created_package, created_job_plan, linked_asset
+
+    
 
 def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run_selenium_headless, username,
                           password):
@@ -382,20 +392,22 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
     
     logging.info(f"package_floc_dict : {package_floc_dict}")
 
+    created_package, created_job_plan, linked_asset = get_created_package_and_job_plan()
+
+    logging.info(f"created_package: {created_package}")
+    logging.info(f"created_job_plan: {created_job_plan}")
+    logging.info(f"linked_asset: {linked_asset}")
+
+    f_created_package = open("created_package.csv", "a")
+    f_created_job_plan = open("created_job_plan.csv", "a")
+    f_linked_asset = open("linked_asset.csv", "a")
+
     driver = open_incognito_window(chrome_driver_path, url_home_page, run_selenium_headless)
     driver.implicitly_wait(300)
 
     log_into_meridium(url_home_page, run_selenium_headless, driver, username, password)
 
     navigate_to_asi_overview_tab(driver)
-
-    created_package, created_job_plan = get_created_package_and_job_plan()
-
-    logging.info(f"created_package: {created_package}")
-    logging.info(f"created_job_plan: {created_job_plan}")
-
-    f_created_package = open("created_package.csv", "a")
-    f_created_job_plan = open("created_job_plan.csv", "a")
 
     for i, package_id in enumerate(unique_package_id_list):
         logging.info(f"Start processing package '{package_id}' with {len(package_floc_dict[package_id])} flocs and {len(package_job_plan_dict[package_id])} job plans")
@@ -413,18 +425,37 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
             # record created_package
             created_package[package_id] = driver.current_url
             created_job_plan[package_id] = []
+            linked_asset[package_id] = []
         else:
             logging.info("package created. Jump with url")
             driver.get(created_package[package_id])
 
         # manage actions using floc
-        manage_actions_with_floc(driver, package_floc_dict[package_id])  # each package should have at least one floc
+        # click "Manage actions"
+        find_element_and_click(driver, "//span[contains(text(),'Manage Actions')]", by="xpath")
 
-        for job_plan_id in package_job_plan_dict[package_id]:
-            logging.info(f"Adding job_plan {job_plan_id}")
-            if job_plan_id in created_job_plan[package_id]:
-                logging.info(f"Job plan already created. Skip {job_plan_id}")
-                continue
+        asset_list = package_floc_dict[package_id]
+        for j, asset in enumerate(asset_list):
+            logging.info(f"Processing {j}/{len(asset_list)} flocs: {asset}")
+            if package_id in linked_asset.keys():
+                if asset in linked_asset[package_id]:
+                    logging.info(f"Asset {asset} already linked to package {package_id}. Skip this one")
+                    continue
+            else:
+                linked_asset[package_id] = []
+
+            manage_actions_with_floc(driver, asset)  # each package should have at least one floc
+            f_linked_asset.write(f"{package_id},{asset}")
+        
+        job_plan_list = package_job_plan_dict[package_id]
+        for j, job_plan_id in enumerate(job_plan_list):
+            logging.info(f"Adding {j}/{len(job_plan_list)} job_plan: {job_plan_id}")
+            if package_id in created_job_plan.keys():
+                if job_plan_id in created_job_plan[package_id]:
+                    logging.info(f"Job plan already created. Skip {job_plan_id}")
+                    continue
+            else:
+                created_job_plan[package_id] = []
 
             # click the plus button
             find_element_and_click(driver,
