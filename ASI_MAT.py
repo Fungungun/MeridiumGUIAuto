@@ -347,14 +347,14 @@ def get_created_package_and_job_plan():
     created_package = {}
     with open("created_package.csv", "r") as f:
         for line in f:
-            line.strip("\n")
+            line = line.strip("\n")
             package_id, package_url = line.split(",")
             created_package[package_id] = package_url
     
     created_job_plan = {}
     with open("created_job_plan.csv", "r") as f:
         for line in f:
-            line.strip("\n")
+            line = line.strip("\n")
             package_id, job_plan = line.split(",")
             if package_id not in created_job_plan:
                 created_job_plan[package_id] = [job_plan]
@@ -364,7 +364,7 @@ def get_created_package_and_job_plan():
     linked_asset = {}
     with open("linked_asset.csv", "r") as f:
         for line in f:
-            line.strip("\n")
+            line = line.strip("\n")
             package_id, asset = line.split(",")
             if package_id not in linked_asset:
                 linked_asset[package_id] = [asset]
@@ -410,14 +410,13 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
     navigate_to_asi_overview_tab(driver)
 
     for i, package_id in enumerate(unique_package_id_list):
-        logging.info(f"Start processing package '{package_id}' with {len(package_floc_dict[package_id])} flocs and {len(package_job_plan_dict[package_id])} job plans")
+        logging.info(f"Start processing package {i+1}/{len(unique_package_id_list)} '{package_id}' with {len(package_floc_dict[package_id])} flocs and {len(package_job_plan_dict[package_id])} job plans")
         start_time = time.time()
 
-        # click create new package 
-        find_element_and_click(driver, "//div[@class='block-group page-filter-tools']//button[contains(text(),'New')]",
-                               by="xpath")
-
         if package_id not in created_package:
+            # click create new package 
+            find_element_and_click(driver, "//div[@class='block-group page-filter-tools']//button[contains(text(),'New')]",
+                                by="xpath")
             # create new package
             create_new_package(driver, package_id)
             # write created package id to csv 
@@ -436,7 +435,7 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
 
         asset_list = package_floc_dict[package_id]
         for j, asset in enumerate(asset_list):
-            logging.info(f"Processing {j}/{len(asset_list)} flocs: {asset}")
+            logging.info(f"Processing {j+1}/{len(asset_list)} flocs: {asset}")
             if package_id in linked_asset.keys():
                 if asset in linked_asset[package_id]:
                     logging.info(f"Asset {asset} already linked to package {package_id}. Skip this one")
@@ -444,12 +443,24 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
             else:
                 linked_asset[package_id] = []
 
+            # -----------------------------
+            # this is to skip the asset that has already been added due to substrings
+            n_substrings = 0
+            for l_a in linked_asset[package_id]:
+                if l_a in asset:
+                    n_substrings += 1
+            if n_substrings > 0:
+                continue
+            # -----------------------------
+
             manage_actions_with_floc(driver, asset)  # each package should have at least one floc
-            f_linked_asset.write(f"{package_id},{asset}")
+            linked_asset[package_id].append(asset)
+            f_linked_asset.write(f"{package_id},{asset}\n")
+            
         
         job_plan_list = package_job_plan_dict[package_id]
         for j, job_plan_id in enumerate(job_plan_list):
-            logging.info(f"Adding {j}/{len(job_plan_list)} job_plan: {job_plan_id}")
+            logging.info(f"Adding {j+1}/{len(job_plan_list)} job_plan: {job_plan_id}")
             if package_id in created_job_plan.keys():
                 if job_plan_id in created_job_plan[package_id]:
                     logging.info(f"Job plan already created. Skip {job_plan_id}")

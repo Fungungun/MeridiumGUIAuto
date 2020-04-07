@@ -4795,3 +4795,519 @@
 04-07 13:44 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
 04-07 13:44 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
 04-07 13:44 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 13:45 INFO     -----------------------------------New Session-------------------------------------
+04-07 13:45 INFO     User Name: "shekx"
+04-07 13:45 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 13:45 INFO     ChromeDriver Path: chromedriver.exe
+04-07 13:45 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 13:45 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 13:45 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 13:45 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610\n', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707\n'}
+04-07 13:45 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001']}
+04-07 13:45 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001']}
+04-07 13:46 INFO     Start processing package 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 13:46 INFO     package created. Jump with url
+04-07 13:46 INFO     Processing 0/2 flocs: 1650-EPL-001
+04-07 13:46 INFO     Asset 1650-EPL-001 already linked to package Tintaburra Satellite - Alternator  - Diesel Engine. Skip this one
+04-07 13:46 INFO     Processing 1/2 flocs: 1650-SWBD-001
+04-07 13:46 INFO     click the plus button
+04-07 13:47 INFO     click the search button
+04-07 13:47 INFO     find asset text area
+04-07 13:47 INFO     send keys to asset text area
+04-07 13:47 INFO     Get search results
+04-07 13:47 INFO     Wait for the next search
+04-07 13:47 INFO     Get search results
+04-07 13:47 INFO     Wait for the next search
+04-07 13:47 INFO     Get search results
+04-07 13:47 INFO     Wait for the next search
+04-07 13:47 INFO     Get search results
+04-07 13:47 INFO     Wait for the next search
+04-07 13:47 INFO     Get search results
+04-07 13:47 INFO     Wait for the next search
+04-07 13:47 INFO     Get search results
+04-07 13:47 INFO     Wait for the next search
+04-07 13:47 INFO     Get search results
+04-07 13:47 INFO     Wait for the next search
+04-07 13:47 INFO     Get search results
+04-07 13:47 INFO     Wait for the next search
+04-07 13:47 INFO     Get search results
+04-07 13:47 INFO     Wait for the next search
+04-07 13:48 INFO     Get search results
+04-07 13:48 INFO     Wait for the next search
+04-07 13:48 INFO     Get search results
+04-07 13:48 INFO     Wait for the next search
+04-07 13:48 INFO     Get search results
+04-07 13:48 INFO     Wait for the next search
+04-07 13:48 INFO     Get search results
+04-07 13:48 INFO     Wait for the next search
+04-07 13:48 INFO     Get search results
+04-07 13:48 INFO     Wait for the next search
+04-07 13:48 INFO     Get search results
+04-07 13:48 INFO     Filter finish
+04-07 13:48 INFO     find action text area
+04-07 13:48 INFO     send keys to action text area
+04-07 13:48 INFO     Looking for Select All action
+04-07 13:48 INFO     Click select all action button
+04-07 13:48 INFO     Click Add button
+04-07 13:48 INFO     Adding 0/2 job_plan: TINTA ALT 5Y-01-00-001
+04-07 13:48 INFO     Job plan already created. Skip TINTA ALT 5Y-01-00-001
+04-07 13:48 INFO     Adding 1/2 job_plan: Parent Asset
+04-07 13:48 INFO     Click the plus button
+04-07 13:48 INFO     Click 'job Plan'
+04-07 13:48 INFO     Send job id
+04-07 13:48 INFO     Send plan description
+04-07 13:48 INFO     Send my plant document number
+04-07 13:48 INFO     Send oracle activity
+04-07 13:48 INFO     Click save button
+04-07 13:48 INFO     link ['Parent Asset - Maintenance covered by children'] to this job plan
+04-07 13:48 INFO     Click linked actions
+04-07 13:48 INFO     Click the plus button
+04-07 13:49 INFO     Get all the check box
+04-07 13:49 INFO     Get all the action names
+04-07 13:49 INFO     Number of rows assertion passed
+04-07 13:49 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 13:49 INFO     Go back to the package tab
+04-07 13:49 INFO     Closing the current package tab
+04-07 13:49 INFO     Finish processing package 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 13:49 INFO     Finish processing current package in 180.4214186668396 seconds
+04-07 13:49 INFO     Start processing package 'Tintaburra Satellite - Crude Oil Storage - Tanks' with 14 flocs and 4 job plans
+04-07 13:49 INFO     package created. Jump with url
+04-07 13:55 INFO     -----------------------------------New Session-------------------------------------
+04-07 13:55 INFO     User Name: "shekx"
+04-07 13:55 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 13:55 INFO     ChromeDriver Path: chromedriver.exe
+04-07 13:55 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 13:55 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 13:55 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 13:55 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610\n', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707\n'}
+04-07 13:55 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001\n', 'Parent Asset\n']}
+04-07 13:55 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001\n', '1650-SWBD-001']}
+04-07 13:56 INFO     Start processing package 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 13:56 INFO     package created. Jump with url
+04-07 13:57 INFO     Processing 0/2 flocs: 1650-EPL-001
+04-07 13:57 INFO     click the plus button
+04-07 13:58 INFO     -----------------------------------New Session-------------------------------------
+04-07 13:58 INFO     User Name: "shekx"
+04-07 13:58 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 13:58 INFO     ChromeDriver Path: chromedriver.exe
+04-07 13:58 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 13:58 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 13:58 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 13:59 INFO     -----------------------------------New Session-------------------------------------
+04-07 13:59 INFO     User Name: "shekx"
+04-07 13:59 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 13:59 INFO     ChromeDriver Path: chromedriver.exe
+04-07 13:59 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 13:59 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 13:59 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 13:59 INFO     -----------------------------------New Session-------------------------------------
+04-07 13:59 INFO     User Name: "shekx"
+04-07 13:59 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 13:59 INFO     ChromeDriver Path: chromedriver.exe
+04-07 13:59 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 13:59 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 13:59 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 14:00 INFO     -----------------------------------New Session-------------------------------------
+04-07 14:00 INFO     User Name: "shekx"
+04-07 14:00 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 14:00 INFO     ChromeDriver Path: chromedriver.exe
+04-07 14:00 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 14:00 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 14:00 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 14:00 INFO     -----------------------------------New Session-------------------------------------
+04-07 14:00 INFO     User Name: "shekx"
+04-07 14:00 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 14:00 INFO     ChromeDriver Path: chromedriver.exe
+04-07 14:00 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 14:00 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 14:00 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 14:02 INFO     -----------------------------------New Session-------------------------------------
+04-07 14:02 INFO     User Name: "shekx"
+04-07 14:02 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 14:02 INFO     ChromeDriver Path: chromedriver.exe
+04-07 14:02 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 14:02 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 14:02 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 14:02 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610\n', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707\n'}
+04-07 14:02 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001\n', 'Parent Asset\n']}
+04-07 14:02 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001\n', '1650-SWBD-001']}
+04-07 14:03 INFO     Start processing package 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 14:03 INFO     package created. Jump with url
+04-07 14:03 INFO     Processing 1/2 flocs: 1650-EPL-001
+04-07 14:03 INFO     click the plus button
+04-07 14:03 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024B9D4756C8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f8f4fc25c33ca105774e4742141cecaf/element
+04-07 14:04 INFO     -----------------------------------New Session-------------------------------------
+04-07 14:04 INFO     User Name: "shekx"
+04-07 14:04 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 14:04 INFO     ChromeDriver Path: chromedriver.exe
+04-07 14:04 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 14:04 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 14:04 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 14:05 INFO     -----------------------------------New Session-------------------------------------
+04-07 14:05 INFO     User Name: "shekx"
+04-07 14:05 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 14:05 INFO     ChromeDriver Path: chromedriver.exe
+04-07 14:05 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 14:05 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 14:05 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 14:05 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707'}
+04-07 14:05 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset']}
+04-07 14:05 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001']}
+04-07 14:06 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD0D3F5F48>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f37bfc60dc8e34ee5844cdf8f261fa98/element
+04-07 14:06 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD0D408AC8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f37bfc60dc8e34ee5844cdf8f261fa98/element
+04-07 14:06 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD0D408D08>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f37bfc60dc8e34ee5844cdf8f261fa98/element
+04-07 14:07 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD0D3F5348>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f37bfc60dc8e34ee5844cdf8f261fa98/element
+04-07 14:07 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD0D41C908>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f37bfc60dc8e34ee5844cdf8f261fa98/element
+04-07 14:07 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD0D41CA88>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f37bfc60dc8e34ee5844cdf8f261fa98/element
+04-07 14:07 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD0D422C48>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f37bfc60dc8e34ee5844cdf8f261fa98/element
+04-07 14:07 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD0D4291C8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f37bfc60dc8e34ee5844cdf8f261fa98/element
+04-07 14:07 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD0D429088>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f37bfc60dc8e34ee5844cdf8f261fa98/element
+04-07 14:07 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD0D422BC8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f37bfc60dc8e34ee5844cdf8f261fa98/element
+04-07 14:07 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BD0D42E748>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f37bfc60dc8e34ee5844cdf8f261fa98/element
+04-07 14:07 INFO     -----------------------------------New Session-------------------------------------
+04-07 14:07 INFO     User Name: "shekx"
+04-07 14:07 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 14:07 INFO     ChromeDriver Path: chromedriver.exe
+04-07 14:07 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 14:07 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 14:07 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 14:07 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707'}
+04-07 14:07 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset']}
+04-07 14:07 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001']}
+04-07 14:07 INFO     -----------------------------------New Session-------------------------------------
+04-07 14:07 INFO     User Name: "shekx"
+04-07 14:07 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 14:07 INFO     ChromeDriver Path: chromedriver.exe
+04-07 14:07 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 14:07 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 14:07 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 14:07 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707'}
+04-07 14:07 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset']}
+04-07 14:07 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001']}
+04-07 14:07 INFO     Start processing package 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 14:07 INFO     package created. Jump with url
+04-07 14:07 INFO     Processing 1/2 flocs: 1650-EPL-001
+04-07 14:07 INFO     Asset 1650-EPL-001 already linked to package Tintaburra Satellite - Alternator  - Diesel Engine. Skip this one
+04-07 14:07 INFO     Processing 2/2 flocs: 1650-SWBD-001
+04-07 14:07 INFO     Asset 1650-SWBD-001 already linked to package Tintaburra Satellite - Alternator  - Diesel Engine. Skip this one
+04-07 14:07 INFO     Adding 1/2 job_plan: TINTA ALT 5Y-01-00-001
+04-07 14:07 INFO     Job plan already created. Skip TINTA ALT 5Y-01-00-001
+04-07 14:07 INFO     Adding 2/2 job_plan: Parent Asset
+04-07 14:07 INFO     Job plan already created. Skip Parent Asset
+04-07 14:07 INFO     Closing the current package tab
+04-07 14:07 INFO     Finish processing package 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 14:07 INFO     Finish processing current package in 7.468265533447266 seconds
+04-07 14:07 INFO     Start processing package 'Tintaburra Satellite - Crude Oil Storage - Tanks' with 14 flocs and 4 job plans
+04-07 14:08 INFO     package created. Jump with url
+04-07 14:09 INFO     -----------------------------------New Session-------------------------------------
+04-07 14:09 INFO     User Name: "shekx"
+04-07 14:09 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 14:09 INFO     ChromeDriver Path: chromedriver.exe
+04-07 14:09 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 14:09 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 14:09 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 14:09 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707'}
+04-07 14:09 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset']}
+04-07 14:09 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001']}
+04-07 14:09 INFO     Start processing package 1/10 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 14:09 INFO     package created. Jump with url
+04-07 14:09 INFO     Processing 1/2 flocs: 1650-EPL-001
+04-07 14:09 INFO     Asset 1650-EPL-001 already linked to package Tintaburra Satellite - Alternator  - Diesel Engine. Skip this one
+04-07 14:09 INFO     Processing 2/2 flocs: 1650-SWBD-001
+04-07 14:09 INFO     Asset 1650-SWBD-001 already linked to package Tintaburra Satellite - Alternator  - Diesel Engine. Skip this one
+04-07 14:09 INFO     Adding 1/2 job_plan: TINTA ALT 5Y-01-00-001
+04-07 14:09 INFO     Job plan already created. Skip TINTA ALT 5Y-01-00-001
+04-07 14:09 INFO     Adding 2/2 job_plan: Parent Asset
+04-07 14:09 INFO     Job plan already created. Skip Parent Asset
+04-07 14:09 INFO     Closing the current package tab
+04-07 14:09 INFO     Finish processing package 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 14:09 INFO     Finish processing current package in 5.0928053855896 seconds
+04-07 14:09 INFO     Start processing package 2/10 'Tintaburra Satellite - Crude Oil Storage - Tanks' with 14 flocs and 4 job plans
+04-07 14:09 INFO     package created. Jump with url
+04-07 14:09 INFO     Processing 1/14 flocs: 1650-LIT-1062
+04-07 14:09 INFO     click the plus button
+04-07 14:10 INFO     click the search button
+04-07 14:10 INFO     find asset text area
+04-07 14:10 INFO     send keys to asset text area
+04-07 14:10 INFO     Get search results
+04-07 14:10 INFO     Wait for the next search
+04-07 14:10 INFO     Get search results
+04-07 14:10 INFO     Wait for the next search
+04-07 14:10 INFO     Get search results
+04-07 14:10 INFO     Wait for the next search
+04-07 14:10 INFO     Get search results
+04-07 14:10 INFO     Wait for the next search
+04-07 14:10 INFO     Get search results
+04-07 14:10 INFO     Wait for the next search
+04-07 14:10 INFO     Get search results
+04-07 14:10 INFO     Filter finish
+04-07 14:10 INFO     find action text area
+04-07 14:10 INFO     send keys to action text area
+04-07 14:10 INFO     Looking for Select All action
+04-07 14:10 INFO     Click select all action button
+04-07 14:10 INFO     Click Add button
+04-07 14:10 INFO     Processing 2/14 flocs: 1650-LSHH-1065
+04-07 14:10 INFO     click the plus button
+04-07 14:11 INFO     click the search button
+04-07 14:11 INFO     find asset text area
+04-07 14:11 INFO     send keys to asset text area
+04-07 14:11 INFO     Get search results
+04-07 14:11 INFO     Wait for the next search
+04-07 14:11 INFO     Get search results
+04-07 14:11 INFO     Wait for the next search
+04-07 14:11 INFO     Get search results
+04-07 14:11 INFO     Wait for the next search
+04-07 14:11 INFO     Get search results
+04-07 14:11 INFO     Wait for the next search
+04-07 14:11 INFO     Get search results
+04-07 14:11 INFO     Wait for the next search
+04-07 14:11 INFO     Get search results
+04-07 14:11 INFO     Wait for the next search
+04-07 14:11 INFO     Get search results
+04-07 14:11 INFO     Filter finish
+04-07 14:11 INFO     find action text area
+04-07 14:11 INFO     send keys to action text area
+04-07 14:11 INFO     Looking for Select All action
+04-07 14:11 INFO     Click select all action button
+04-07 14:11 INFO     Click Add button
+04-07 14:11 INFO     Processing 3/14 flocs: 1650-LSHH-1064
+04-07 14:11 INFO     click the plus button
+04-07 14:12 INFO     click the search button
+04-07 14:12 INFO     find asset text area
+04-07 14:12 INFO     send keys to asset text area
+04-07 14:12 INFO     Get search results
+04-07 14:12 INFO     Wait for the next search
+04-07 14:12 INFO     Get search results
+04-07 14:12 INFO     Wait for the next search
+04-07 14:12 INFO     Get search results
+04-07 14:12 INFO     Wait for the next search
+04-07 14:12 INFO     Get search results
+04-07 14:12 INFO     Wait for the next search
+04-07 14:12 INFO     Get search results
+04-07 14:12 INFO     Wait for the next search
+04-07 14:12 INFO     Get search results
+04-07 14:12 INFO     Wait for the next search
+04-07 14:12 INFO     Get search results
+04-07 14:12 INFO     Wait for the next search
+04-07 14:12 INFO     Get search results
+04-07 14:12 INFO     Wait for the next search
+04-07 14:12 INFO     Get search results
+04-07 14:12 INFO     Wait for the next search
+04-07 14:12 INFO     Get search results
+04-07 14:12 INFO     Filter finish
+04-07 14:13 INFO     find action text area
+04-07 14:13 INFO     send keys to action text area
+04-07 14:13 INFO     Looking for Select All action
+04-07 14:13 INFO     Click select all action button
+04-07 14:13 INFO     Click Add button
+04-07 14:13 INFO     Processing 4/14 flocs: 1650-TK-001B-CO
+04-07 14:13 INFO     click the plus button
+04-07 14:13 INFO     click the search button
+04-07 14:13 INFO     find asset text area
+04-07 14:13 INFO     send keys to asset text area
+04-07 14:13 INFO     Get search results
+04-07 14:13 INFO     Wait for the next search
+04-07 14:13 INFO     Get search results
+04-07 14:13 INFO     Wait for the next search
+04-07 14:13 INFO     Get search results
+04-07 14:13 INFO     Wait for the next search
+04-07 14:13 INFO     Get search results
+04-07 14:13 INFO     Wait for the next search
+04-07 14:13 INFO     Get search results
+04-07 14:13 INFO     Wait for the next search
+04-07 14:13 INFO     Get search results
+04-07 14:13 INFO     Wait for the next search
+04-07 14:14 INFO     Get search results
+04-07 14:14 INFO     Filter finish
+04-07 14:14 INFO     find action text area
+04-07 14:14 INFO     send keys to action text area
+04-07 14:14 INFO     Looking for Select All action
+04-07 14:14 INFO     Click select all action button
+04-07 14:14 INFO     Click Add button
+04-07 14:14 INFO     Processing 5/14 flocs: 1650-PRV-001
+04-07 14:14 INFO     click the plus button
+04-07 14:14 INFO     click the search button
+04-07 14:14 INFO     find asset text area
+04-07 14:14 INFO     send keys to asset text area
+04-07 14:14 INFO     Get search results
+04-07 14:14 INFO     Wait for the next search
+04-07 14:14 INFO     Get search results
+04-07 14:14 INFO     Wait for the next search
+04-07 14:14 INFO     Get search results
+04-07 14:14 INFO     Wait for the next search
+04-07 14:14 INFO     Get search results
+04-07 14:14 INFO     Wait for the next search
+04-07 14:14 INFO     Get search results
+04-07 14:14 INFO     Wait for the next search
+04-07 14:15 INFO     Get search results
+04-07 14:15 INFO     Wait for the next search
+04-07 14:15 INFO     Get search results
+04-07 14:15 INFO     Filter finish
+04-07 14:15 INFO     find action text area
+04-07 14:15 INFO     send keys to action text area
+04-07 14:15 INFO     Looking for Select All action
+04-07 14:15 INFO     Click select all action button
+04-07 14:15 INFO     Click Add button
+04-07 14:15 INFO     Processing 6/14 flocs: 1650-SAT-STO-BND
+04-07 14:15 INFO     click the plus button
+04-07 14:15 INFO     click the search button
+04-07 14:15 INFO     find asset text area
+04-07 14:15 INFO     send keys to asset text area
+04-07 14:15 INFO     Get search results
+04-07 14:15 INFO     Wait for the next search
+04-07 14:15 INFO     Get search results
+04-07 14:15 INFO     Wait for the next search
+04-07 14:15 INFO     Get search results
+04-07 14:15 INFO     Wait for the next search
+04-07 14:15 INFO     Get search results
+04-07 14:15 INFO     Wait for the next search
+04-07 14:15 INFO     Get search results
+04-07 14:15 INFO     Wait for the next search
+04-07 14:15 INFO     Get search results
+04-07 14:15 INFO     Wait for the next search
+04-07 14:16 INFO     Get search results
+04-07 14:16 INFO     Filter finish
+04-07 14:16 INFO     find action text area
+04-07 14:16 INFO     send keys to action text area
+04-07 14:16 INFO     Looking for Select All action
+04-07 14:16 INFO     Click select all action button
+04-07 14:16 INFO     Click Add button
+04-07 14:16 INFO     Processing 7/14 flocs: 1650-LI-1062A
+04-07 14:16 INFO     click the plus button
+04-07 14:16 INFO     click the search button
+04-07 14:16 INFO     find asset text area
+04-07 14:16 INFO     send keys to asset text area
+04-07 14:16 INFO     Get search results
+04-07 14:16 INFO     Wait for the next search
+04-07 14:16 INFO     Get search results
+04-07 14:16 INFO     Wait for the next search
+04-07 14:16 INFO     Get search results
+04-07 14:16 INFO     Wait for the next search
+04-07 14:16 INFO     Get search results
+04-07 14:16 INFO     Wait for the next search
+04-07 14:16 INFO     Get search results
+04-07 14:16 INFO     Wait for the next search
+04-07 14:16 INFO     Get search results
+04-07 14:16 INFO     Wait for the next search
+04-07 14:16 INFO     Get search results
+04-07 14:16 INFO     Filter finish
+04-07 14:17 INFO     find action text area
+04-07 14:17 INFO     send keys to action text area
+04-07 14:17 INFO     Looking for Select All action
+04-07 14:17 INFO     Click select all action button
+04-07 14:17 INFO     Click Add button
+04-07 14:17 INFO     Processing 8/14 flocs: 1650-PSV-0269
+04-07 14:17 INFO     click the plus button
+04-07 14:17 INFO     click the search button
+04-07 14:17 INFO     find asset text area
+04-07 14:17 INFO     send keys to asset text area
+04-07 14:17 INFO     Get search results
+04-07 14:17 INFO     Wait for the next search
+04-07 14:17 INFO     Get search results
+04-07 14:17 INFO     Wait for the next search
+04-07 14:17 INFO     Get search results
+04-07 14:17 INFO     Wait for the next search
+04-07 14:17 INFO     Get search results
+04-07 14:17 INFO     Wait for the next search
+04-07 14:17 INFO     Get search results
+04-07 14:17 INFO     Wait for the next search
+04-07 14:17 INFO     Get search results
+04-07 14:17 INFO     Wait for the next search
+04-07 14:18 INFO     Get search results
+04-07 14:18 INFO     Filter finish
+04-07 14:18 INFO     find action text area
+04-07 14:18 INFO     send keys to action text area
+04-07 14:18 INFO     Looking for Select All action
+04-07 14:18 INFO     Click select all action button
+04-07 14:18 INFO     Click Add button
+04-07 14:18 INFO     Processing 9/14 flocs: 1650-TK-001A
+04-07 14:18 INFO     click the plus button
+04-07 14:18 INFO     click the search button
+04-07 14:18 INFO     find asset text area
+04-07 14:18 INFO     send keys to asset text area
+04-07 14:18 INFO     Get search results
+04-07 14:18 INFO     Wait for the next search
+04-07 14:18 INFO     Get search results
+04-07 14:18 INFO     Wait for the next search
+04-07 14:18 INFO     Get search results
+04-07 14:18 INFO     Wait for the next search
+04-07 14:18 INFO     Get search results
+04-07 14:18 INFO     Wait for the next search
+04-07 14:18 INFO     Get search results
+04-07 14:18 INFO     Wait for the next search
+04-07 14:18 INFO     Get search results
+04-07 14:18 INFO     Wait for the next search
+04-07 14:19 INFO     Get search results
+04-07 14:19 INFO     Wait for the next search
+04-07 14:19 INFO     Get search results
+04-07 14:19 INFO     Filter finish
+04-07 14:19 INFO     find action text area
+04-07 14:19 INFO     send keys to action text area
+04-07 14:19 INFO     Looking for Select All action
+04-07 14:19 INFO     Click select all action button
+04-07 14:19 INFO     Click Add button
+04-07 14:19 INFO     Processing 10/14 flocs: 1650-PSV-001
+04-07 14:19 INFO     click the plus button
+04-07 14:19 INFO     click the search button
+04-07 14:19 INFO     find asset text area
+04-07 14:19 INFO     send keys to asset text area
+04-07 14:19 INFO     Get search results
+04-07 14:19 INFO     Wait for the next search
+04-07 14:19 INFO     Get search results
+04-07 14:19 INFO     Wait for the next search
+04-07 14:19 INFO     Get search results
+04-07 14:19 INFO     Wait for the next search
+04-07 14:19 INFO     Get search results
+04-07 14:19 INFO     Wait for the next search
+04-07 14:19 INFO     Get search results
+04-07 14:19 INFO     Wait for the next search
+04-07 14:19 INFO     Get search results
+04-07 14:19 INFO     Wait for the next search
+04-07 14:20 INFO     Get search results
+04-07 14:20 INFO     Filter finish
+04-07 14:20 INFO     find action text area
+04-07 14:20 INFO     send keys to action text area
+04-07 14:20 INFO     Looking for Select All action
+04-07 14:20 INFO     Click select all action button
+04-07 14:20 INFO     Click Add button
+04-07 14:20 INFO     Processing 11/14 flocs: 1650-TK-001B
+04-07 14:20 INFO     click the plus button
+04-07 14:20 INFO     click the search button
+04-07 14:20 INFO     find asset text area
+04-07 14:20 INFO     send keys to asset text area
+04-07 14:20 INFO     Get search results
+04-07 14:20 INFO     Wait for the next search
+04-07 14:20 INFO     Get search results
+04-07 14:20 INFO     Wait for the next search
+04-07 14:20 INFO     Get search results
+04-07 14:20 INFO     Wait for the next search
+04-07 14:20 INFO     Get search results
+04-07 14:20 INFO     Wait for the next search
+04-07 14:20 INFO     Get search results
+04-07 14:20 INFO     Wait for the next search
+04-07 14:20 INFO     Get search results
+04-07 14:20 INFO     Filter finish
+04-07 14:20 INFO     find action text area
+04-07 14:20 INFO     send keys to action text area
+04-07 14:20 INFO     Looking for Select All action
+04-07 14:20 INFO     Click select all action button
+04-07 14:20 INFO     Click Add button
+04-07 14:20 INFO     Processing 12/14 flocs: 1650-TK-001A-CO
+04-07 14:20 INFO     click the plus button
+04-07 14:21 INFO     click the search button
+04-07 14:21 INFO     find asset text area
+04-07 14:21 INFO     send keys to asset text area
+04-07 14:21 INFO     Get search results
+04-07 14:21 INFO     Wait for the next search
+04-07 14:21 INFO     Get search results
+04-07 14:21 INFO     Wait for the next search
+04-07 14:21 INFO     Get search results
+04-07 14:21 INFO     Wait for the next search
+04-07 14:21 INFO     Get search results
+04-07 14:21 INFO     Wait for the next search
+04-07 14:21 INFO     Get search results
+04-07 14:21 INFO     Wait for the next search
+04-07 14:21 INFO     Get search results
+04-07 14:21 INFO     Wait for the next search
+04-07 14:21 INFO     Get search results
+04-07 14:21 INFO     Wait for the next search
