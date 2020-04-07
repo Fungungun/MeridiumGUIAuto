@@ -5311,3 +5311,1398 @@
 04-07 14:21 INFO     Wait for the next search
 04-07 14:21 INFO     Get search results
 04-07 14:21 INFO     Wait for the next search
+04-07 15:21 INFO     -----------------------------------New Session-------------------------------------
+04-07 15:21 INFO     User Name: "shekx"
+04-07 15:21 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 15:21 INFO     ChromeDriver Path: chromedriver.exe
+04-07 15:21 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 15:21 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 15:21 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 15:22 INFO     -----------------------------------New Session-------------------------------------
+04-07 15:22 INFO     User Name: "shekx"
+04-07 15:22 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 15:22 INFO     ChromeDriver Path: chromedriver.exe
+04-07 15:22 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 15:22 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 15:22 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 15:24 INFO     -----------------------------------New Session-------------------------------------
+04-07 15:24 INFO     User Name: "shekx"
+04-07 15:24 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 15:24 INFO     ChromeDriver Path: chromedriver.exe
+04-07 15:24 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 15:24 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 15:24 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 15:24 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707'}
+04-07 15:24 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset']}
+04-07 15:24 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B']}
+04-07 15:25 INFO     Start processing package 1/10 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 15:25 INFO     package created. Jump with url
+04-07 15:25 INFO     Processing 1/2 flocs: 1650-EPL-001
+04-07 15:25 INFO     Asset 1650-EPL-001 already linked to package Tintaburra Satellite - Alternator  - Diesel Engine. Skip this one
+04-07 15:25 INFO     Processing 2/2 flocs: 1650-SWBD-001
+04-07 15:25 INFO     Asset 1650-SWBD-001 already linked to package Tintaburra Satellite - Alternator  - Diesel Engine. Skip this one
+04-07 15:25 INFO     Adding 1/2 job_plan: TINTA ALT 5Y-01-00-001
+04-07 15:25 INFO     Job plan already created. Skip TINTA ALT 5Y-01-00-001
+04-07 15:25 INFO     Adding 2/2 job_plan: Parent Asset
+04-07 15:25 INFO     Job plan already created. Skip Parent Asset
+04-07 15:25 INFO     Closing the current package tab
+04-07 15:25 INFO     Finish processing package 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 15:25 INFO     Finish processing current package in 4.7227232456207275 seconds
+04-07 15:25 INFO     Start processing package 2/10 'Tintaburra Satellite - Crude Oil Storage - Tanks' with 14 flocs and 4 job plans
+04-07 15:25 INFO     package created. Jump with url
+04-07 15:26 INFO     Processing 1/14 flocs: 1650-LIT-1062
+04-07 15:26 INFO     Asset 1650-LIT-1062 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 15:26 INFO     Processing 2/14 flocs: 1650-LSHH-1065
+04-07 15:26 INFO     Asset 1650-LSHH-1065 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 15:26 INFO     Processing 3/14 flocs: 1650-LSHH-1064
+04-07 15:26 INFO     Asset 1650-LSHH-1064 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 15:26 INFO     Processing 4/14 flocs: 1650-TK-001B-CO
+04-07 15:26 INFO     Asset 1650-TK-001B-CO already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 15:26 INFO     Processing 5/14 flocs: 1650-PRV-001
+04-07 15:26 INFO     Asset 1650-PRV-001 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 15:26 INFO     Processing 6/14 flocs: 1650-SAT-STO-BND
+04-07 15:26 INFO     Asset 1650-SAT-STO-BND already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 15:26 INFO     Processing 7/14 flocs: 1650-LI-1062A
+04-07 15:26 INFO     Asset 1650-LI-1062A already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 15:26 INFO     Processing 8/14 flocs: 1650-PSV-0269
+04-07 15:26 INFO     Asset 1650-PSV-0269 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 15:26 INFO     Processing 9/14 flocs: 1650-TK-001A
+04-07 15:26 INFO     Asset 1650-TK-001A already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 15:26 INFO     Processing 10/14 flocs: 1650-PSV-001
+04-07 15:26 INFO     Asset 1650-PSV-001 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 15:26 INFO     Processing 11/14 flocs: 1650-TK-001B
+04-07 15:26 INFO     Asset 1650-TK-001B already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 15:26 INFO     Processing 12/14 flocs: 1650-TK-001A-CO
+04-07 15:26 INFO     Asset 1650-TK-001A-CO has already been added due to substring 1650-TK-001A
+04-07 15:26 INFO     Processing 13/14 flocs: 1650-SAT-STO
+04-07 15:26 INFO     click the plus button
+04-07 15:27 INFO     click the search button
+04-07 15:27 INFO     find asset text area
+04-07 15:27 INFO     send keys to asset text area
+04-07 15:27 INFO     Get search results
+04-07 15:27 INFO     Wait for the next search
+04-07 15:27 INFO     Get search results
+04-07 15:27 INFO     Wait for the next search
+04-07 15:27 INFO     Get search results
+04-07 15:27 INFO     Wait for the next search
+04-07 15:27 INFO     Get search results
+04-07 15:27 INFO     Wait for the next search
+04-07 15:27 INFO     Get search results
+04-07 15:27 INFO     Wait for the next search
+04-07 15:27 INFO     Get search results
+04-07 15:27 INFO     Wait for the next search
+04-07 15:27 INFO     Get search results
+04-07 15:27 INFO     Wait for the next search
+04-07 15:27 INFO     Get search results
+04-07 15:27 INFO     Wait for the next search
+04-07 15:27 INFO     Get search results
+04-07 15:27 INFO     Wait for the next search
+04-07 15:27 INFO     Get search results
+04-07 15:27 INFO     Wait for the next search
+04-07 15:27 INFO     Get search results
+04-07 15:27 INFO     Filter finish
+04-07 15:27 INFO     find action text area
+04-07 15:27 INFO     send keys to action text area
+04-07 15:27 INFO     Looking for Select All action
+04-07 15:27 INFO     Click select all action button
+04-07 15:27 INFO     Click Add button
+04-07 15:27 INFO     Package Tintaburra Satellite - Crude Oil Storage - Tanks has linked asset ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO']
+04-07 15:27 INFO     Processing 14/14 flocs: 1650-PSV-006
+04-07 15:28 INFO     click the plus button
+04-07 15:28 INFO     click the search button
+04-07 15:28 INFO     find asset text area
+04-07 15:28 INFO     send keys to asset text area
+04-07 15:28 INFO     Get search results
+04-07 15:28 INFO     Wait for the next search
+04-07 15:28 INFO     Get search results
+04-07 15:28 INFO     Wait for the next search
+04-07 15:28 INFO     Get search results
+04-07 15:28 INFO     Wait for the next search
+04-07 15:28 INFO     Get search results
+04-07 15:28 INFO     Wait for the next search
+04-07 15:28 INFO     Get search results
+04-07 15:28 INFO     Wait for the next search
+04-07 15:28 INFO     Get search results
+04-07 15:28 INFO     Wait for the next search
+04-07 15:28 INFO     Get search results
+04-07 15:28 INFO     Wait for the next search
+04-07 15:29 INFO     Get search results
+04-07 15:29 INFO     Wait for the next search
+04-07 15:29 INFO     Get search results
+04-07 15:29 INFO     Wait for the next search
+04-07 15:29 INFO     Get search results
+04-07 15:29 INFO     Filter finish
+04-07 15:29 INFO     find action text area
+04-07 15:29 INFO     send keys to action text area
+04-07 15:29 INFO     Looking for Select All action
+04-07 15:29 INFO     Click select all action button
+04-07 15:29 INFO     Click Add button
+04-07 15:29 INFO     Package Tintaburra Satellite - Crude Oil Storage - Tanks has linked asset ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006']
+04-07 15:29 INFO     Adding 1/4 job_plan: TINTA CRUDE STRG 2Y-01-00-001
+04-07 15:29 INFO     Click the plus button
+04-07 15:29 INFO     Click 'job Plan'
+04-07 15:29 INFO     Send job id
+04-07 15:29 INFO     Send plan description
+04-07 15:29 INFO     Send my plant document number
+04-07 15:29 INFO     Send oracle activity
+04-07 15:29 INFO     Click save button
+04-07 15:29 INFO     Package Tintaburra Satellite - Crude Oil Storage - Tanks has job plans ['TINTA CRUDE STRG 2Y-01-00-001']
+04-07 15:29 INFO     link ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] to this job plan
+04-07 15:29 INFO     Click linked actions
+04-07 15:29 INFO     Click the plus button
+04-07 15:30 INFO     Get all the check box
+04-07 15:30 INFO     Get all the action names
+04-07 15:30 INFO     Number of rows assertion passed
+04-07 15:30 INFO     'Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)' found in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Select this action 
+04-07 15:30 INFO     'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable' found in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Select this action 
+04-07 15:30 INFO     'Managed by Parent Maintenance' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Parent Asset - Maintenance covered by children' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Managed by Parent Maintenance' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Managed by Integrity' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Managed by Integrity' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Managed by Parent Maintenance' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Managed by Integrity' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Managed by Integrity' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Managed by Integrity' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Parent Asset - Maintenance covered by children' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Managed by Integrity' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Run To Failure' not in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Skip this action 
+04-07 15:30 INFO     'Function Test LSHH switch' found in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Select this action 
+04-07 15:30 INFO     'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable' found in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Select this action 
+04-07 15:30 INFO     'Function Test LSHH switch' found in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Select this action 
+04-07 15:30 INFO     'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable' found in action name list ['Function Test of 1650-LIT-1062 as per test procedure - High Level Trip Setpoint : 6800 mm and Low Level Trip Setpoint : 400 mm (as found / as left)', 'Function Test LSHH switch', 'Inspect physical connections and verify the fittings are in good condition, check all labels are intact and readable', 'Inspect 1650-LIT-1062 physical connections and verify the fittings are in good condition, check all labels are intact and readable'] - Select this action 
+04-07 15:30 INFO     Go back to the package tab
+04-07 15:30 INFO     Adding 2/4 job_plan: Managed by Parent Maintenance
+04-07 15:30 INFO     Click the plus button
+04-07 15:30 INFO     Click 'job Plan'
+04-07 15:30 INFO     Send job id
+04-07 15:30 INFO     Send plan description
+04-07 15:30 INFO     Send my plant document number
+04-07 15:30 INFO     Send oracle activity
+04-07 15:30 INFO     Click save button
+04-07 15:30 INFO     Package Tintaburra Satellite - Crude Oil Storage - Tanks has job plans ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance']
+04-07 15:30 INFO     link ['Managed by Parent Maintenance'] to this job plan
+04-07 15:30 INFO     Click linked actions
+04-07 15:30 INFO     Click the plus button
+04-07 15:30 INFO     Get all the check box
+04-07 15:30 INFO     Get all the action names
+04-07 15:30 INFO     Number of rows assertion passed
+04-07 15:31 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 15:31 INFO     'Parent Asset - Maintenance covered by children' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 15:31 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 15:31 INFO     'Managed by Integrity' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 15:31 INFO     'Managed by Integrity' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 15:31 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 15:31 INFO     'Managed by Integrity' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 15:31 INFO     'Managed by Integrity' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 15:31 INFO     'Managed by Integrity' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 15:31 INFO     'Parent Asset - Maintenance covered by children' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 15:31 INFO     'Managed by Integrity' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 15:31 INFO     'Run To Failure' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 15:31 INFO     Go back to the package tab
+04-07 15:31 INFO     Adding 3/4 job_plan: Managed by Integrity
+04-07 15:31 INFO     Click the plus button
+04-07 15:31 INFO     Click 'job Plan'
+04-07 15:31 INFO     Send job id
+04-07 15:31 INFO     Send plan description
+04-07 15:31 INFO     Send my plant document number
+04-07 15:31 INFO     Send oracle activity
+04-07 15:31 INFO     Click save button
+04-07 15:31 INFO     Package Tintaburra Satellite - Crude Oil Storage - Tanks has job plans ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity']
+04-07 15:31 INFO     link ['Managed by Integrity'] to this job plan
+04-07 15:31 INFO     Click linked actions
+04-07 15:31 INFO     Click the plus button
+04-07 15:32 INFO     Get all the check box
+04-07 15:32 INFO     Get all the action names
+04-07 15:32 INFO     Number of rows assertion passed
+04-07 15:32 INFO     'Parent Asset - Maintenance covered by children' not in action name list ['Managed by Integrity'] - Skip this action 
+04-07 15:32 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 15:32 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 15:32 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 15:32 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 15:32 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 15:32 INFO     'Parent Asset - Maintenance covered by children' not in action name list ['Managed by Integrity'] - Skip this action 
+04-07 15:32 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 15:32 INFO     'Run To Failure' not in action name list ['Managed by Integrity'] - Skip this action 
+04-07 15:32 INFO     Go back to the package tab
+04-07 15:32 INFO     Adding 4/4 job_plan: Parent Asset
+04-07 15:32 INFO     Click the plus button
+04-07 15:32 INFO     Click 'job Plan'
+04-07 15:32 INFO     Send job id
+04-07 15:32 INFO     Send plan description
+04-07 15:32 INFO     Send my plant document number
+04-07 15:32 INFO     Send oracle activity
+04-07 15:32 INFO     Click save button
+04-07 15:32 INFO     Package Tintaburra Satellite - Crude Oil Storage - Tanks has job plans ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset']
+04-07 15:32 INFO     link ['Parent Asset - Maintenance covered by children'] to this job plan
+04-07 15:32 INFO     Click linked actions
+04-07 15:32 INFO     Click the plus button
+04-07 15:32 INFO     Get all the check box
+04-07 15:32 INFO     Get all the action names
+04-07 15:32 INFO     Number of rows assertion passed
+04-07 15:32 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 15:32 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 15:32 INFO     'Run To Failure' not in action name list ['Parent Asset - Maintenance covered by children'] - Skip this action 
+04-07 15:32 INFO     Go back to the package tab
+04-07 15:32 INFO     Closing the current package tab
+04-07 15:32 INFO     Finish processing package 'Tintaburra Satellite - Crude Oil Storage - Tanks' with 14 flocs and 4 job plans
+04-07 15:32 INFO     Finish processing current package in 403.4279143810272 seconds
+04-07 15:32 INFO     Start processing package 3/10 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package' with 11 flocs and 4 job plans
+04-07 15:32 INFO     Send package ID
+04-07 15:32 INFO     Select SAP Reference
+04-07 15:32 INFO     Send description
+04-07 15:32 INFO     Click Save
+04-07 16:08 INFO     -----------------------------------New Session-------------------------------------
+04-07 16:08 INFO     User Name: "shekx"
+04-07 16:08 INFO     CSV File Path: 04 CSV/ASI/Tintaburra_prep_for_ASI.csv
+04-07 16:08 INFO     ChromeDriver Path: chromedriver.exe
+04-07 16:08 INFO     unique_package_id_list : ['Tintaburra Satellite - Alternator  - Diesel Engine', 'Tintaburra Satellite - Crude Oil Storage - Tanks', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package', 'Tintaburra Satellite - (Review Items)', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor', 'Tintaburra Satellite - Fire Water Pump', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages']
+04-07 16:08 INFO     package_job_plan_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 16:08 INFO     package_floc_dict : {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 16:08 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238910783'}
+04-07 16:08 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset']}
+04-07 16:08 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006']}
+04-07 16:08 INFO     Start processing package 1/10 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 16:08 INFO     package created. Jump with url
+04-07 16:09 INFO     Processing 1/2 flocs: 1650-EPL-001
+04-07 16:09 INFO     Asset 1650-EPL-001 already linked to package Tintaburra Satellite - Alternator  - Diesel Engine. Skip this one
+04-07 16:09 INFO     Processing 2/2 flocs: 1650-SWBD-001
+04-07 16:09 INFO     Asset 1650-SWBD-001 already linked to package Tintaburra Satellite - Alternator  - Diesel Engine. Skip this one
+04-07 16:09 INFO     Adding 1/2 job_plan: TINTA ALT 5Y-01-00-001
+04-07 16:09 INFO     Job plan already created. Skip TINTA ALT 5Y-01-00-001
+04-07 16:09 INFO     Adding 2/2 job_plan: Parent Asset
+04-07 16:09 INFO     Job plan already created. Skip Parent Asset
+04-07 16:09 INFO     Closing the current package tab
+04-07 16:10 INFO     Finish processing package 'Tintaburra Satellite - Alternator  - Diesel Engine' with 2 flocs and 2 job plans
+04-07 16:10 INFO     Finish processing current package in 63.60478973388672 seconds
+04-07 16:10 INFO     Start processing package 2/10 'Tintaburra Satellite - Crude Oil Storage - Tanks' with 14 flocs and 4 job plans
+04-07 16:10 INFO     package created. Jump with url
+04-07 16:10 INFO     Processing 1/14 flocs: 1650-LIT-1062
+04-07 16:10 INFO     Asset 1650-LIT-1062 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 2/14 flocs: 1650-LSHH-1065
+04-07 16:10 INFO     Asset 1650-LSHH-1065 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 3/14 flocs: 1650-LSHH-1064
+04-07 16:10 INFO     Asset 1650-LSHH-1064 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 4/14 flocs: 1650-TK-001B-CO
+04-07 16:10 INFO     Asset 1650-TK-001B-CO already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 5/14 flocs: 1650-PRV-001
+04-07 16:10 INFO     Asset 1650-PRV-001 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 6/14 flocs: 1650-SAT-STO-BND
+04-07 16:10 INFO     Asset 1650-SAT-STO-BND already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 7/14 flocs: 1650-LI-1062A
+04-07 16:10 INFO     Asset 1650-LI-1062A already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 8/14 flocs: 1650-PSV-0269
+04-07 16:10 INFO     Asset 1650-PSV-0269 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 9/14 flocs: 1650-TK-001A
+04-07 16:10 INFO     Asset 1650-TK-001A already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 10/14 flocs: 1650-PSV-001
+04-07 16:10 INFO     Asset 1650-PSV-001 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 11/14 flocs: 1650-TK-001B
+04-07 16:10 INFO     Asset 1650-TK-001B already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 12/14 flocs: 1650-TK-001A-CO
+04-07 16:10 INFO     Asset 1650-TK-001A-CO already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 13/14 flocs: 1650-SAT-STO
+04-07 16:10 INFO     Asset 1650-SAT-STO already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Processing 14/14 flocs: 1650-PSV-006
+04-07 16:10 INFO     Asset 1650-PSV-006 already linked to package Tintaburra Satellite - Crude Oil Storage - Tanks. Skip this one
+04-07 16:10 INFO     Adding 1/4 job_plan: TINTA CRUDE STRG 2Y-01-00-001
+04-07 16:10 INFO     Job plan already created. Skip TINTA CRUDE STRG 2Y-01-00-001
+04-07 16:10 INFO     Adding 2/4 job_plan: Managed by Parent Maintenance
+04-07 16:10 INFO     Job plan already created. Skip Managed by Parent Maintenance
+04-07 16:10 INFO     Adding 3/4 job_plan: Managed by Integrity
+04-07 16:10 INFO     Job plan already created. Skip Managed by Integrity
+04-07 16:10 INFO     Adding 4/4 job_plan: Parent Asset
+04-07 16:10 INFO     Job plan already created. Skip Parent Asset
+04-07 16:10 INFO     Closing the current package tab
+04-07 16:10 INFO     Finish processing package 'Tintaburra Satellite - Crude Oil Storage - Tanks' with 14 flocs and 4 job plans
+04-07 16:10 INFO     Finish processing current package in 4.23689341545105 seconds
+04-07 16:10 INFO     Start processing package 3/10 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package' with 11 flocs and 4 job plans
+04-07 16:10 INFO     package created. Jump with url
+04-07 16:10 INFO     Processing 1/11 flocs: 1650-P-002
+04-07 16:10 INFO     click the plus button
+04-07 16:11 INFO     click the search button
+04-07 16:11 INFO     find asset text area
+04-07 16:11 INFO     send keys to asset text area
+04-07 16:11 INFO     Get search results
+04-07 16:11 INFO     Wait for the next search
+04-07 16:11 INFO     Get search results
+04-07 16:11 INFO     Wait for the next search
+04-07 16:11 INFO     Get search results
+04-07 16:11 INFO     Wait for the next search
+04-07 16:11 INFO     Get search results
+04-07 16:11 INFO     Wait for the next search
+04-07 16:11 INFO     Get search results
+04-07 16:11 INFO     Wait for the next search
+04-07 16:11 INFO     Get search results
+04-07 16:11 INFO     Wait for the next search
+04-07 16:11 INFO     Get search results
+04-07 16:11 INFO     Wait for the next search
+04-07 16:11 INFO     Get search results
+04-07 16:11 INFO     Wait for the next search
+04-07 16:12 INFO     Get search results
+04-07 16:12 INFO     Wait for the next search
+04-07 16:12 INFO     Get search results
+04-07 16:12 INFO     Filter finish
+04-07 16:12 INFO     find action text area
+04-07 16:12 INFO     send keys to action text area
+04-07 16:12 INFO     Looking for Select All action
+04-07 16:12 INFO     Click select all action button
+04-07 16:12 INFO     Click Add button
+04-07 16:12 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has linked asset ['1650-P-002']
+04-07 16:12 INFO     Processing 2/11 flocs: 1650-SP18-0003
+04-07 16:12 INFO     click the plus button
+04-07 16:13 INFO     click the search button
+04-07 16:13 INFO     find asset text area
+04-07 16:13 INFO     send keys to asset text area
+04-07 16:13 INFO     Get search results
+04-07 16:13 INFO     Wait for the next search
+04-07 16:13 INFO     Get search results
+04-07 16:13 INFO     Wait for the next search
+04-07 16:13 INFO     Get search results
+04-07 16:13 INFO     Wait for the next search
+04-07 16:13 INFO     Get search results
+04-07 16:13 INFO     Wait for the next search
+04-07 16:13 INFO     Get search results
+04-07 16:13 INFO     Wait for the next search
+04-07 16:13 INFO     Get search results
+04-07 16:13 INFO     Wait for the next search
+04-07 16:13 INFO     Get search results
+04-07 16:13 INFO     Wait for the next search
+04-07 16:13 INFO     Get search results
+04-07 16:13 INFO     Wait for the next search
+04-07 16:14 INFO     Get search results
+04-07 16:14 INFO     Wait for the next search
+04-07 16:14 INFO     Get search results
+04-07 16:14 INFO     Wait for the next search
+04-07 16:14 INFO     Get search results
+04-07 16:14 INFO     Wait for the next search
+04-07 16:14 INFO     Get search results
+04-07 16:14 INFO     Wait for the next search
+04-07 16:14 INFO     Get search results
+04-07 16:14 INFO     Filter finish
+04-07 16:14 INFO     find action text area
+04-07 16:14 INFO     send keys to action text area
+04-07 16:14 INFO     Looking for Select All action
+04-07 16:14 INFO     Click select all action button
+04-07 16:14 INFO     Click Add button
+04-07 16:14 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has linked asset ['1650-P-002', '1650-SP18-0003']
+04-07 16:14 INFO     Processing 3/11 flocs: 1650-SP62-0001
+04-07 16:14 INFO     click the plus button
+04-07 16:15 INFO     click the search button
+04-07 16:15 INFO     find asset text area
+04-07 16:15 INFO     send keys to asset text area
+04-07 16:15 INFO     Get search results
+04-07 16:15 INFO     Wait for the next search
+04-07 16:15 INFO     Get search results
+04-07 16:15 INFO     Wait for the next search
+04-07 16:15 INFO     Get search results
+04-07 16:15 INFO     Wait for the next search
+04-07 16:15 INFO     Get search results
+04-07 16:15 INFO     Wait for the next search
+04-07 16:15 INFO     Get search results
+04-07 16:15 INFO     Wait for the next search
+04-07 16:15 INFO     Get search results
+04-07 16:15 INFO     Wait for the next search
+04-07 16:15 INFO     Get search results
+04-07 16:15 INFO     Wait for the next search
+04-07 16:15 INFO     Get search results
+04-07 16:15 INFO     Wait for the next search
+04-07 16:15 INFO     Get search results
+04-07 16:15 INFO     Wait for the next search
+04-07 16:15 INFO     Get search results
+04-07 16:15 INFO     Wait for the next search
+04-07 16:15 INFO     Get search results
+04-07 16:15 INFO     Filter finish
+04-07 16:15 INFO     find action text area
+04-07 16:15 INFO     send keys to action text area
+04-07 16:15 INFO     Looking for Select All action
+04-07 16:15 INFO     Click select all action button
+04-07 16:15 INFO     Click Add button
+04-07 16:15 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has linked asset ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001']
+04-07 16:15 INFO     Processing 4/11 flocs: 1650-SAT-EXP
+04-07 16:16 INFO     click the plus button
+04-07 16:16 INFO     click the search button
+04-07 16:16 INFO     find asset text area
+04-07 16:16 INFO     send keys to asset text area
+04-07 16:16 INFO     Get search results
+04-07 16:16 INFO     Wait for the next search
+04-07 16:16 INFO     Get search results
+04-07 16:16 INFO     Wait for the next search
+04-07 16:16 INFO     Get search results
+04-07 16:16 INFO     Wait for the next search
+04-07 16:16 INFO     Get search results
+04-07 16:16 INFO     Wait for the next search
+04-07 16:17 INFO     Get search results
+04-07 16:17 INFO     Wait for the next search
+04-07 16:17 INFO     Get search results
+04-07 16:17 INFO     Wait for the next search
+04-07 16:17 INFO     Get search results
+04-07 16:17 INFO     Wait for the next search
+04-07 16:17 INFO     Get search results
+04-07 16:17 INFO     Filter finish
+04-07 16:17 INFO     find action text area
+04-07 16:17 INFO     send keys to action text area
+04-07 16:17 INFO     Looking for Select All action
+04-07 16:17 INFO     Click select all action button
+04-07 16:17 INFO     Click Add button
+04-07 16:17 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has linked asset ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP']
+04-07 16:17 INFO     Processing 5/11 flocs: 1650-SP18-0004
+04-07 16:17 INFO     click the plus button
+04-07 16:17 INFO     click the search button
+04-07 16:17 INFO     find asset text area
+04-07 16:17 INFO     send keys to asset text area
+04-07 16:17 INFO     Get search results
+04-07 16:17 INFO     Wait for the next search
+04-07 16:17 INFO     Get search results
+04-07 16:17 INFO     Wait for the next search
+04-07 16:17 INFO     Get search results
+04-07 16:17 INFO     Wait for the next search
+04-07 16:17 INFO     Get search results
+04-07 16:17 INFO     Wait for the next search
+04-07 16:18 INFO     Get search results
+04-07 16:18 INFO     Wait for the next search
+04-07 16:18 INFO     Get search results
+04-07 16:18 INFO     Wait for the next search
+04-07 16:18 INFO     Get search results
+04-07 16:18 INFO     Wait for the next search
+04-07 16:18 INFO     Get search results
+04-07 16:18 INFO     Filter finish
+04-07 16:18 INFO     find action text area
+04-07 16:18 INFO     send keys to action text area
+04-07 16:18 INFO     Looking for Select All action
+04-07 16:18 INFO     Click select all action button
+04-07 16:18 INFO     Click Add button
+04-07 16:18 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has linked asset ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004']
+04-07 16:18 INFO     Processing 6/11 flocs: 1650-PX-002
+04-07 16:18 INFO     click the plus button
+04-07 16:18 INFO     click the search button
+04-07 16:18 INFO     find asset text area
+04-07 16:18 INFO     send keys to asset text area
+04-07 16:18 INFO     Get search results
+04-07 16:18 INFO     Wait for the next search
+04-07 16:18 INFO     Get search results
+04-07 16:18 INFO     Wait for the next search
+04-07 16:19 INFO     Get search results
+04-07 16:19 INFO     Wait for the next search
+04-07 16:19 INFO     Get search results
+04-07 16:19 INFO     Wait for the next search
+04-07 16:19 INFO     Get search results
+04-07 16:19 INFO     Wait for the next search
+04-07 16:19 INFO     Get search results
+04-07 16:19 INFO     Wait for the next search
+04-07 16:19 INFO     Get search results
+04-07 16:19 INFO     Filter finish
+04-07 16:19 INFO     find action text area
+04-07 16:19 INFO     send keys to action text area
+04-07 16:19 INFO     Looking for Select All action
+04-07 16:19 INFO     Click select all action button
+04-07 16:19 INFO     Click Add button
+04-07 16:19 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has linked asset ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002']
+04-07 16:19 INFO     Processing 7/11 flocs: 1650-SP67-0001
+04-07 16:19 INFO     click the plus button
+04-07 16:19 INFO     click the search button
+04-07 16:19 INFO     find asset text area
+04-07 16:19 INFO     send keys to asset text area
+04-07 16:19 INFO     Get search results
+04-07 16:19 INFO     Wait for the next search
+04-07 16:19 INFO     Get search results
+04-07 16:19 INFO     Wait for the next search
+04-07 16:20 INFO     Get search results
+04-07 16:20 INFO     Wait for the next search
+04-07 16:20 INFO     Get search results
+04-07 16:20 INFO     Wait for the next search
+04-07 16:20 INFO     Get search results
+04-07 16:20 INFO     Wait for the next search
+04-07 16:20 INFO     Get search results
+04-07 16:20 INFO     Wait for the next search
+04-07 16:20 INFO     Get search results
+04-07 16:20 INFO     Filter finish
+04-07 16:20 INFO     find action text area
+04-07 16:20 INFO     send keys to action text area
+04-07 16:20 INFO     Looking for Select All action
+04-07 16:20 INFO     Click select all action button
+04-07 16:20 INFO     Click Add button
+04-07 16:20 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has linked asset ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001']
+04-07 16:20 INFO     Processing 8/11 flocs: 1650-PSV-259
+04-07 16:20 INFO     click the plus button
+04-07 16:20 INFO     click the search button
+04-07 16:20 INFO     find asset text area
+04-07 16:20 INFO     send keys to asset text area
+04-07 16:20 INFO     Get search results
+04-07 16:20 INFO     Wait for the next search
+04-07 16:20 INFO     Get search results
+04-07 16:20 INFO     Wait for the next search
+04-07 16:21 INFO     Get search results
+04-07 16:21 INFO     Wait for the next search
+04-07 16:21 INFO     Get search results
+04-07 16:21 INFO     Wait for the next search
+04-07 16:21 INFO     Get search results
+04-07 16:21 INFO     Wait for the next search
+04-07 16:21 INFO     Get search results
+04-07 16:21 INFO     Wait for the next search
+04-07 16:21 INFO     Get search results
+04-07 16:21 INFO     Wait for the next search
+04-07 16:21 INFO     Get search results
+04-07 16:21 INFO     Filter finish
+04-07 16:21 INFO     find action text area
+04-07 16:21 INFO     send keys to action text area
+04-07 16:21 INFO     Looking for Select All action
+04-07 16:21 INFO     Click select all action button
+04-07 16:21 INFO     Click Add button
+04-07 16:21 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has linked asset ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259']
+04-07 16:21 INFO     Processing 9/11 flocs: 1650-SP62-0002
+04-07 16:21 INFO     click the plus button
+04-07 16:22 INFO     click the search button
+04-07 16:22 INFO     find asset text area
+04-07 16:22 INFO     send keys to asset text area
+04-07 16:22 INFO     Get search results
+04-07 16:22 INFO     Wait for the next search
+04-07 16:22 INFO     Get search results
+04-07 16:22 INFO     Wait for the next search
+04-07 16:22 INFO     Get search results
+04-07 16:22 INFO     Wait for the next search
+04-07 16:22 INFO     Get search results
+04-07 16:22 INFO     Wait for the next search
+04-07 16:22 INFO     Get search results
+04-07 16:22 INFO     Wait for the next search
+04-07 16:22 INFO     Get search results
+04-07 16:22 INFO     Wait for the next search
+04-07 16:22 INFO     Get search results
+04-07 16:22 INFO     Wait for the next search
+04-07 16:22 INFO     Get search results
+04-07 16:22 INFO     Filter finish
+04-07 16:22 INFO     find action text area
+04-07 16:22 INFO     send keys to action text area
+04-07 16:22 INFO     Looking for Select All action
+04-07 16:22 INFO     Click select all action button
+04-07 16:22 INFO     Click Add button
+04-07 16:22 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has linked asset ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002']
+04-07 16:22 INFO     Processing 10/11 flocs: 1650-PSV-257
+04-07 16:22 INFO     click the plus button
+04-07 16:23 INFO     click the search button
+04-07 16:23 INFO     find asset text area
+04-07 16:23 INFO     send keys to asset text area
+04-07 16:23 INFO     Get search results
+04-07 16:23 INFO     Wait for the next search
+04-07 16:23 INFO     Get search results
+04-07 16:23 INFO     Wait for the next search
+04-07 16:23 INFO     Get search results
+04-07 16:23 INFO     Wait for the next search
+04-07 16:23 INFO     Get search results
+04-07 16:23 INFO     Wait for the next search
+04-07 16:23 INFO     Get search results
+04-07 16:23 INFO     Wait for the next search
+04-07 16:23 INFO     Get search results
+04-07 16:23 INFO     Filter finish
+04-07 16:23 INFO     find action text area
+04-07 16:23 INFO     send keys to action text area
+04-07 16:23 INFO     Looking for Select All action
+04-07 16:23 INFO     Click select all action button
+04-07 16:23 INFO     Click Add button
+04-07 16:23 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has linked asset ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257']
+04-07 16:23 INFO     Processing 11/11 flocs: 1650-PSV-263
+04-07 16:23 INFO     click the plus button
+04-07 16:24 INFO     click the search button
+04-07 16:24 INFO     find asset text area
+04-07 16:24 INFO     send keys to asset text area
+04-07 16:24 INFO     Get search results
+04-07 16:24 INFO     Wait for the next search
+04-07 16:24 INFO     Get search results
+04-07 16:24 INFO     Wait for the next search
+04-07 16:24 INFO     Get search results
+04-07 16:24 INFO     Wait for the next search
+04-07 16:24 INFO     Get search results
+04-07 16:24 INFO     Wait for the next search
+04-07 16:24 INFO     Get search results
+04-07 16:24 INFO     Wait for the next search
+04-07 16:24 INFO     Get search results
+04-07 16:24 INFO     Wait for the next search
+04-07 16:24 INFO     Get search results
+04-07 16:24 INFO     Filter finish
+04-07 16:24 INFO     find action text area
+04-07 16:24 INFO     send keys to action text area
+04-07 16:24 INFO     Looking for Select All action
+04-07 16:24 INFO     Click select all action button
+04-07 16:24 INFO     Click Add button
+04-07 16:24 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has linked asset ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263']
+04-07 16:24 INFO     Adding 1/4 job_plan: TINTA EXP 6M-01-00-001
+04-07 16:24 INFO     Click the plus button
+04-07 16:24 INFO     Click 'job Plan'
+04-07 16:24 INFO     Send job id
+04-07 16:24 INFO     Send plan description
+04-07 16:24 INFO     Send my plant document number
+04-07 16:24 INFO     Send oracle activity
+04-07 16:24 INFO     Click save button
+04-07 16:24 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has job plans ['TINTA EXP 6M-01-00-001']
+04-07 16:24 INFO     link ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] to this job plan
+04-07 16:24 INFO     Click linked actions
+04-07 16:24 INFO     Click the plus button
+04-07 16:24 INFO     Get all the check box
+04-07 16:24 INFO     Get all the action names
+04-07 16:24 INFO     Number of rows assertion passed
+04-07 16:24 INFO     'Managed by Parent Maintenance' not in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Skip this action 
+04-07 16:24 INFO     'Managed by Parent Maintenance' not in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Skip this action 
+04-07 16:24 INFO     'Parent Asset - Maintenance covered by children' not in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Skip this action 
+04-07 16:24 INFO     'Managed by Parent Maintenance' not in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Skip this action 
+04-07 16:24 INFO     'Parent Asset - Maintenance covered by children' not in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Skip this action 
+04-07 16:24 INFO     'Managed by Integrity' not in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Skip this action 
+04-07 16:24 INFO     'Managed by Parent Maintenance' not in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Skip this action 
+04-07 16:24 INFO     'Managed by Integrity' not in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Skip this action 
+04-07 16:24 INFO     'Managed by Integrity' not in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Skip this action 
+04-07 16:24 INFO     'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged' found in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Select this action 
+04-07 16:24 INFO     'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting' found in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Select this action 
+04-07 16:24 INFO     'Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).' found in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Select this action 
+04-07 16:24 INFO     'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified' found in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Select this action 
+04-07 16:24 INFO     'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ‘Fall of Potential’ Earth Electrode Tester (reference test procedure in WI Task 80)' not in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Skip this action 
+04-07 16:24 INFO     'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation' found in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Select this action 
+04-07 16:24 INFO     'Managed by Parent Maintenance' not in action name list ['Inspect the static earth cable from the Earth Reel to the on / off static earth switch, renew / repair if U/V damaged (10sq mm Earth cable).', 'Check the static earth switch for on / off operation, visually inspect the on / off Ex rated switch housing overall condition and mounting', 'Inspect the overall condition of the Cable Reel to truck connector, earth reel stand, earth reel clamp, earth reel mounting bar / fixings and insulated cable, check for physical damage / deterioration in insulation', 'Visually inspect standoff insulators between the Earth Reel bar and the main stand, renew if U/V or physically damaged', 'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ï¿½Fall of Potentialï¿½ Earth Electrode Tester (reference test procedure in WI Task 80)', 'Carry out Earth Continuity Test and verify that the resistance between the earth lead clamp and Earth Electrode (or connection to earth electrode) is less than 10 ohms, manually flex the cable to ensure weakened conductors are identified'] - Skip this action 
+04-07 16:24 INFO     Go back to the package tab
+04-07 16:24 INFO     Adding 2/4 job_plan: Managed by Parent Maintenance
+04-07 16:24 INFO     Click the plus button
+04-07 16:24 INFO     Click 'job Plan'
+04-07 16:24 INFO     Send job id
+04-07 16:24 INFO     Send plan description
+04-07 16:24 INFO     Send my plant document number
+04-07 16:24 INFO     Send oracle activity
+04-07 16:24 INFO     Click save button
+04-07 16:24 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has job plans ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance']
+04-07 16:24 INFO     link ['Managed by Parent Maintenance'] to this job plan
+04-07 16:24 INFO     Click linked actions
+04-07 16:24 INFO     Click the plus button
+04-07 16:24 INFO     Get all the check box
+04-07 16:24 INFO     Get all the action names
+04-07 16:24 INFO     Number of rows assertion passed
+04-07 16:24 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 16:24 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 16:24 INFO     'Parent Asset - Maintenance covered by children' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 16:24 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 16:24 INFO     'Parent Asset - Maintenance covered by children' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 16:24 INFO     'Managed by Integrity' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 16:24 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 16:24 INFO     'Managed by Integrity' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 16:24 INFO     'Managed by Integrity' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 16:24 INFO     'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ‘Fall of Potential’ Earth Electrode Tester (reference test procedure in WI Task 80)' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 16:24 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 16:24 INFO     Go back to the package tab
+04-07 16:24 INFO     Adding 3/4 job_plan: Parent Asset
+04-07 16:24 INFO     Click the plus button
+04-07 16:24 INFO     Click 'job Plan'
+04-07 16:24 INFO     Send job id
+04-07 16:24 INFO     Send plan description
+04-07 16:24 INFO     Send my plant document number
+04-07 16:24 INFO     Send oracle activity
+04-07 16:24 INFO     Click save button
+04-07 16:24 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has job plans ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset']
+04-07 16:24 INFO     link ['Parent Asset - Maintenance covered by children'] to this job plan
+04-07 16:24 INFO     Click linked actions
+04-07 16:24 INFO     Click the plus button
+04-07 16:25 INFO     Get all the check box
+04-07 16:25 INFO     Get all the action names
+04-07 16:25 INFO     Number of rows assertion passed
+04-07 16:25 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 16:25 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 16:25 INFO     'Managed by Integrity' not in action name list ['Parent Asset - Maintenance covered by children'] - Skip this action 
+04-07 16:25 INFO     'Managed by Integrity' not in action name list ['Parent Asset - Maintenance covered by children'] - Skip this action 
+04-07 16:25 INFO     'Managed by Integrity' not in action name list ['Parent Asset - Maintenance covered by children'] - Skip this action 
+04-07 16:25 INFO     'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ‘Fall of Potential’ Earth Electrode Tester (reference test procedure in WI Task 80)' not in action name list ['Parent Asset - Maintenance covered by children'] - Skip this action 
+04-07 16:25 INFO     Go back to the package tab
+04-07 16:25 INFO     Adding 4/4 job_plan: Managed by Integrity
+04-07 16:25 INFO     Click the plus button
+04-07 16:25 INFO     Click 'job Plan'
+04-07 16:25 INFO     Send job id
+04-07 16:25 INFO     Send plan description
+04-07 16:25 INFO     Send my plant document number
+04-07 16:25 INFO     Send oracle activity
+04-07 16:25 INFO     Click save button
+04-07 16:25 INFO     Package Tintaburra Satellite - Export - Crude Oil Loadout Pump Package has job plans ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity']
+04-07 16:25 INFO     link ['Managed by Integrity'] to this job plan
+04-07 16:25 INFO     Click linked actions
+04-07 16:25 INFO     Click the plus button
+04-07 16:25 INFO     Get all the check box
+04-07 16:25 INFO     Get all the action names
+04-07 16:25 INFO     Number of rows assertion passed
+04-07 16:25 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 16:25 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 16:25 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 16:25 INFO     'Inspect the Earth Electrode and cable connection, perform Earth Electrode earth resistance test with ‘Fall of Potential’ Earth Electrode Tester (reference test procedure in WI Task 80)' not in action name list ['Managed by Integrity'] - Skip this action 
+04-07 16:25 INFO     Go back to the package tab
+04-07 16:25 INFO     Closing the current package tab
+04-07 16:25 INFO     Finish processing package 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package' with 11 flocs and 4 job plans
+04-07 16:25 INFO     Finish processing current package in 907.366641998291 seconds
+04-07 16:25 INFO     Start processing package 4/10 'Tintaburra Satellite - (Review Items)' with 3 flocs and 1 job plans
+04-07 16:25 INFO     Send package ID
+04-07 16:25 INFO     Select SAP Reference
+04-07 16:25 INFO     Send description
+04-07 16:25 INFO     Click Save
+04-07 16:26 INFO     Processing 1/3 flocs: 1650-SAT-REV-VSCA-1
+04-07 16:26 INFO     click the plus button
+04-07 16:27 INFO     click the search button
+04-07 16:27 INFO     find asset text area
+04-07 16:27 INFO     send keys to asset text area
+04-07 16:27 INFO     Get search results
+04-07 16:27 INFO     Wait for the next search
+04-07 16:27 INFO     Get search results
+04-07 16:27 INFO     Wait for the next search
+04-07 16:27 INFO     Get search results
+04-07 16:27 INFO     Wait for the next search
+04-07 16:27 INFO     Get search results
+04-07 16:27 INFO     Wait for the next search
+04-07 16:27 INFO     Get search results
+04-07 16:27 INFO     Wait for the next search
+04-07 16:27 INFO     Get search results
+04-07 16:27 INFO     Wait for the next search
+04-07 16:27 INFO     Get search results
+04-07 16:27 INFO     Filter finish
+04-07 16:27 INFO     find action text area
+04-07 16:27 INFO     send keys to action text area
+04-07 16:27 INFO     Looking for Select All action
+04-07 16:27 INFO     Click select all action button
+04-07 16:27 INFO     Click Add button
+04-07 16:27 INFO     Package Tintaburra Satellite - (Review Items) has linked asset ['1650-SAT-REV-VSCA-1']
+04-07 16:27 INFO     Processing 2/3 flocs: 1650-SAT-REV-VSCA-2
+04-07 16:27 INFO     click the plus button
+04-07 16:28 INFO     click the search button
+04-07 16:28 INFO     find asset text area
+04-07 16:28 INFO     send keys to asset text area
+04-07 16:28 INFO     Get search results
+04-07 16:28 INFO     Wait for the next search
+04-07 16:28 INFO     Get search results
+04-07 16:28 INFO     Wait for the next search
+04-07 16:28 INFO     Get search results
+04-07 16:28 INFO     Wait for the next search
+04-07 16:28 INFO     Get search results
+04-07 16:28 INFO     Wait for the next search
+04-07 16:28 INFO     Get search results
+04-07 16:28 INFO     Wait for the next search
+04-07 16:28 INFO     Get search results
+04-07 16:28 INFO     Wait for the next search
+04-07 16:28 INFO     Get search results
+04-07 16:28 INFO     Filter finish
+04-07 16:28 INFO     find action text area
+04-07 16:28 INFO     send keys to action text area
+04-07 16:28 INFO     Looking for Select All action
+04-07 16:28 INFO     Click select all action button
+04-07 16:28 INFO     Click Add button
+04-07 16:28 INFO     Package Tintaburra Satellite - (Review Items) has linked asset ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2']
+04-07 16:28 INFO     Processing 3/3 flocs: 1650-SAT-REV
+04-07 16:28 INFO     click the plus button
+04-07 16:29 INFO     click the search button
+04-07 16:29 INFO     find asset text area
+04-07 16:29 INFO     send keys to asset text area
+04-07 16:29 INFO     Get search results
+04-07 16:29 INFO     Wait for the next search
+04-07 16:29 INFO     Get search results
+04-07 16:29 INFO     Wait for the next search
+04-07 16:29 INFO     Get search results
+04-07 16:29 INFO     Wait for the next search
+04-07 16:29 INFO     Get search results
+04-07 16:29 INFO     Wait for the next search
+04-07 16:29 INFO     Get search results
+04-07 16:29 INFO     Wait for the next search
+04-07 16:29 INFO     Get search results
+04-07 16:29 INFO     Wait for the next search
+04-07 16:29 INFO     Get search results
+04-07 16:29 INFO     Wait for the next search
+04-07 16:29 INFO     Get search results
+04-07 16:29 INFO     Filter finish
+04-07 16:29 INFO     find action text area
+04-07 16:29 INFO     send keys to action text area
+04-07 16:29 INFO     Looking for Select All action
+04-07 16:29 INFO     Click select all action button
+04-07 16:29 INFO     Click Add button
+04-07 16:29 INFO     Package Tintaburra Satellite - (Review Items) has linked asset ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV']
+04-07 16:29 INFO     Adding 1/1 job_plan: Parent Asset
+04-07 16:29 INFO     Click the plus button
+04-07 16:29 INFO     Click 'job Plan'
+04-07 16:30 INFO     Send job id
+04-07 16:30 INFO     Send plan description
+04-07 16:30 INFO     Send my plant document number
+04-07 16:30 INFO     Send oracle activity
+04-07 16:30 INFO     Click save button
+04-07 16:30 INFO     Package Tintaburra Satellite - (Review Items) has job plans ['Parent Asset']
+04-07 16:30 INFO     link ['Parent Asset - Maintenance covered by children'] to this job plan
+04-07 16:30 INFO     Click linked actions
+04-07 16:30 INFO     Click the plus button
+04-07 16:30 INFO     Get all the check box
+04-07 16:30 INFO     Get all the action names
+04-07 16:30 INFO     Number of rows assertion passed
+04-07 16:30 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 16:30 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 16:30 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 16:30 INFO     Go back to the package tab
+04-07 16:30 INFO     Closing the current package tab
+04-07 16:30 INFO     Finish processing package 'Tintaburra Satellite - (Review Items)' with 3 flocs and 1 job plans
+04-07 16:30 INFO     Finish processing current package in 316.24245619773865 seconds
+04-07 16:30 INFO     Start processing package 5/10 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor' with 5 flocs and 2 job plans
+04-07 16:30 INFO     Send package ID
+04-07 16:30 INFO     Select SAP Reference
+04-07 16:30 INFO     Send description
+04-07 16:30 INFO     Click Save
+04-07 16:30 INFO     Processing 1/5 flocs: 1658-SP58-003
+04-07 16:30 INFO     click the plus button
+04-07 16:33 INFO     click the search button
+04-07 16:33 INFO     find asset text area
+04-07 16:33 INFO     send keys to asset text area
+04-07 16:33 INFO     Get search results
+04-07 16:33 INFO     Wait for the next search
+04-07 16:33 INFO     Get search results
+04-07 16:33 INFO     Wait for the next search
+04-07 16:33 INFO     Get search results
+04-07 16:33 INFO     Wait for the next search
+04-07 16:33 INFO     Get search results
+04-07 16:33 INFO     Wait for the next search
+04-07 16:33 INFO     Get search results
+04-07 16:33 INFO     Wait for the next search
+04-07 16:33 INFO     Get search results
+04-07 16:33 INFO     Wait for the next search
+04-07 16:33 INFO     Get search results
+04-07 16:33 INFO     Wait for the next search
+04-07 16:33 INFO     Get search results
+04-07 16:33 INFO     Wait for the next search
+04-07 16:33 INFO     Get search results
+04-07 16:33 INFO     Wait for the next search
+04-07 16:33 INFO     Get search results
+04-07 16:33 INFO     Wait for the next search
+04-07 16:34 INFO     Get search results
+04-07 16:34 INFO     Wait for the next search
+04-07 16:34 INFO     Get search results
+04-07 16:34 INFO     Filter finish
+04-07 16:34 INFO     find action text area
+04-07 16:34 INFO     send keys to action text area
+04-07 16:34 INFO     Looking for Select All action
+04-07 16:34 INFO     Click select all action button
+04-07 16:34 INFO     Click Add button
+04-07 16:34 INFO     Package Tintaburra Satellite - Crude Fuel Storage - Control and Monitor has linked asset ['1658-SP58-003']
+04-07 16:34 INFO     Processing 2/5 flocs: 1650-TK-002-BND
+04-07 16:34 INFO     click the plus button
+04-07 16:35 INFO     click the search button
+04-07 16:35 INFO     find asset text area
+04-07 16:35 INFO     send keys to asset text area
+04-07 16:35 INFO     Get search results
+04-07 16:35 INFO     Wait for the next search
+04-07 16:35 INFO     Get search results
+04-07 16:35 INFO     Wait for the next search
+04-07 16:35 INFO     Get search results
+04-07 16:35 INFO     Wait for the next search
+04-07 16:35 INFO     Get search results
+04-07 16:35 INFO     Wait for the next search
+04-07 16:35 INFO     Get search results
+04-07 16:35 INFO     Wait for the next search
+04-07 16:35 INFO     Get search results
+04-07 16:35 INFO     Wait for the next search
+04-07 16:35 INFO     Get search results
+04-07 16:35 INFO     Filter finish
+04-07 16:35 INFO     find action text area
+04-07 16:35 INFO     send keys to action text area
+04-07 16:35 INFO     Looking for Select All action
+04-07 16:35 INFO     Click select all action button
+04-07 16:35 INFO     Click Add button
+04-07 16:35 INFO     Package Tintaburra Satellite - Crude Fuel Storage - Control and Monitor has linked asset ['1658-SP58-003', '1650-TK-002-BND']
+04-07 16:35 INFO     Processing 3/5 flocs: 1650-TK-002
+04-07 16:36 INFO     click the plus button
+04-07 16:37 INFO     click the search button
+04-07 16:37 INFO     find asset text area
+04-07 16:37 INFO     send keys to asset text area
+04-07 16:37 INFO     Get search results
+04-07 16:37 INFO     Wait for the next search
+04-07 16:37 INFO     Get search results
+04-07 16:37 INFO     Wait for the next search
+04-07 16:37 INFO     Get search results
+04-07 16:37 INFO     Wait for the next search
+04-07 16:37 INFO     Get search results
+04-07 16:37 INFO     Wait for the next search
+04-07 16:37 INFO     Get search results
+04-07 16:37 INFO     Wait for the next search
+04-07 16:37 INFO     Get search results
+04-07 16:37 INFO     Wait for the next search
+04-07 16:37 INFO     Get search results
+04-07 16:37 INFO     Wait for the next search
+04-07 16:37 INFO     Get search results
+04-07 16:37 INFO     Wait for the next search
+04-07 16:37 INFO     Get search results
+04-07 16:37 INFO     Wait for the next search
+04-07 16:37 INFO     Get search results
+04-07 16:37 INFO     Wait for the next search
+04-07 16:37 INFO     Get search results
+04-07 16:37 INFO     Wait for the next search
+04-07 16:38 INFO     Get search results
+04-07 16:38 INFO     Wait for the next search
+04-07 16:38 INFO     Get search results
+04-07 16:38 INFO     Wait for the next search
+04-07 16:38 INFO     Get search results
+04-07 16:38 INFO     Filter finish
+04-07 16:38 INFO     find action text area
+04-07 16:38 INFO     send keys to action text area
+04-07 16:38 INFO     Looking for Select All action
+04-07 16:38 INFO     Click select all action button
+04-07 16:38 INFO     Click Add button
+04-07 16:38 INFO     Package Tintaburra Satellite - Crude Fuel Storage - Control and Monitor has linked asset ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002']
+04-07 16:38 INFO     Processing 4/5 flocs: 1650-PSV-1079
+04-07 16:39 INFO     click the plus button
+04-07 16:39 INFO     click the search button
+04-07 16:39 INFO     find asset text area
+04-07 16:39 INFO     send keys to asset text area
+04-07 16:39 INFO     Get search results
+04-07 16:39 INFO     Wait for the next search
+04-07 16:39 INFO     Get search results
+04-07 16:39 INFO     Wait for the next search
+04-07 16:39 INFO     Get search results
+04-07 16:39 INFO     Wait for the next search
+04-07 16:39 INFO     Get search results
+04-07 16:39 INFO     Wait for the next search
+04-07 16:39 INFO     Get search results
+04-07 16:39 INFO     Wait for the next search
+04-07 16:40 INFO     Get search results
+04-07 16:40 INFO     Wait for the next search
+04-07 16:40 INFO     Get search results
+04-07 16:40 INFO     Wait for the next search
+04-07 16:40 INFO     Get search results
+04-07 16:40 INFO     Wait for the next search
+04-07 16:40 INFO     Get search results
+04-07 16:40 INFO     Wait for the next search
+04-07 16:40 INFO     Get search results
+04-07 16:40 INFO     Wait for the next search
+04-07 16:40 INFO     Get search results
+04-07 16:40 INFO     Wait for the next search
+04-07 16:40 INFO     Get search results
+04-07 16:40 INFO     Filter finish
+04-07 16:40 INFO     find action text area
+04-07 16:40 INFO     send keys to action text area
+04-07 16:40 INFO     Looking for Select All action
+04-07 16:40 INFO     Click select all action button
+04-07 16:40 INFO     Click Add button
+04-07 16:40 INFO     Package Tintaburra Satellite - Crude Fuel Storage - Control and Monitor has linked asset ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079']
+04-07 16:40 INFO     Processing 5/5 flocs: 1650-SP36-001
+04-07 16:40 INFO     click the plus button
+04-07 16:41 INFO     click the search button
+04-07 16:41 INFO     find asset text area
+04-07 16:41 INFO     send keys to asset text area
+04-07 16:41 INFO     Get search results
+04-07 16:41 INFO     Wait for the next search
+04-07 16:41 INFO     Get search results
+04-07 16:41 INFO     Wait for the next search
+04-07 16:41 INFO     Get search results
+04-07 16:41 INFO     Wait for the next search
+04-07 16:41 INFO     Get search results
+04-07 16:41 INFO     Wait for the next search
+04-07 16:41 INFO     Get search results
+04-07 16:41 INFO     Wait for the next search
+04-07 16:41 INFO     Get search results
+04-07 16:41 INFO     Wait for the next search
+04-07 16:41 INFO     Get search results
+04-07 16:41 INFO     Filter finish
+04-07 16:41 INFO     find action text area
+04-07 16:41 INFO     send keys to action text area
+04-07 16:41 INFO     Looking for Select All action
+04-07 16:41 INFO     Click select all action button
+04-07 16:41 INFO     Click Add button
+04-07 16:41 INFO     Package Tintaburra Satellite - Crude Fuel Storage - Control and Monitor has linked asset ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001']
+04-07 16:41 INFO     Adding 1/2 job_plan: Managed by Parent Maintenance
+04-07 16:41 INFO     Click the plus button
+04-07 16:41 INFO     Click 'job Plan'
+04-07 16:41 INFO     Send job id
+04-07 16:41 INFO     Send plan description
+04-07 16:41 INFO     Send my plant document number
+04-07 16:41 INFO     Send oracle activity
+04-07 16:41 INFO     Click save button
+04-07 16:41 INFO     Package Tintaburra Satellite - Crude Fuel Storage - Control and Monitor has job plans ['Managed by Parent Maintenance']
+04-07 16:41 INFO     link ['Managed by Parent Maintenance'] to this job plan
+04-07 16:41 INFO     Click linked actions
+04-07 16:41 INFO     Click the plus button
+04-07 16:41 INFO     Get all the check box
+04-07 16:42 INFO     Get all the action names
+04-07 16:42 INFO     Number of rows assertion passed
+04-07 16:42 INFO     'Managed by Integrity' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 16:42 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 16:42 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 16:42 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 16:42 INFO     'Managed by Integrity' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 16:42 INFO     Go back to the package tab
+04-07 16:42 INFO     Adding 2/2 job_plan: Managed by Integrity
+04-07 16:42 INFO     Click the plus button
+04-07 16:42 INFO     Click 'job Plan'
+04-07 16:42 INFO     Send job id
+04-07 16:42 INFO     Send plan description
+04-07 16:42 INFO     Send my plant document number
+04-07 16:42 INFO     Send oracle activity
+04-07 16:42 INFO     Click save button
+04-07 16:42 INFO     Package Tintaburra Satellite - Crude Fuel Storage - Control and Monitor has job plans ['Managed by Parent Maintenance', 'Managed by Integrity']
+04-07 16:42 INFO     link ['Managed by Integrity'] to this job plan
+04-07 16:42 INFO     Click linked actions
+04-07 16:42 INFO     Click the plus button
+04-07 16:42 INFO     Get all the check box
+04-07 16:42 INFO     Get all the action names
+04-07 16:42 INFO     Number of rows assertion passed
+04-07 16:42 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 16:42 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 16:42 INFO     Go back to the package tab
+04-07 16:42 INFO     Closing the current package tab
+04-07 16:42 INFO     Finish processing package 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor' with 5 flocs and 2 job plans
+04-07 16:42 INFO     Finish processing current package in 704.2640328407288 seconds
+04-07 16:42 INFO     Start processing package 6/10 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor' with 1 flocs and 1 job plans
+04-07 16:42 INFO     Send package ID
+04-07 16:42 INFO     Select SAP Reference
+04-07 16:42 INFO     Send description
+04-07 16:42 INFO     Click Save
+04-07 16:42 INFO     Processing 1/1 flocs: 1650-HS-1067
+04-07 16:42 INFO     click the plus button
+04-07 16:42 INFO     click the search button
+04-07 16:42 INFO     find asset text area
+04-07 16:42 INFO     send keys to asset text area
+04-07 16:42 INFO     Get search results
+04-07 16:42 INFO     Wait for the next search
+04-07 16:42 INFO     Get search results
+04-07 16:42 INFO     Wait for the next search
+04-07 16:42 INFO     Get search results
+04-07 16:42 INFO     Wait for the next search
+04-07 16:43 INFO     Get search results
+04-07 16:43 INFO     Wait for the next search
+04-07 16:43 INFO     Get search results
+04-07 16:43 INFO     Wait for the next search
+04-07 16:43 INFO     Get search results
+04-07 16:43 INFO     Filter finish
+04-07 16:43 INFO     find action text area
+04-07 16:43 INFO     send keys to action text area
+04-07 16:43 INFO     Looking for Select All action
+04-07 16:43 INFO     Click select all action button
+04-07 16:43 INFO     Click Add button
+04-07 16:43 INFO     Package Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor has linked asset ['1650-HS-1067']
+04-07 16:43 INFO     Adding 1/1 job_plan: Managed by Integrity
+04-07 16:43 INFO     Click the plus button
+04-07 16:43 INFO     Click 'job Plan'
+04-07 16:43 INFO     Send job id
+04-07 16:43 INFO     Send plan description
+04-07 16:43 INFO     Send my plant document number
+04-07 16:43 INFO     Send oracle activity
+04-07 16:43 INFO     Click save button
+04-07 16:43 INFO     Package Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor has job plans ['Managed by Integrity']
+04-07 16:43 INFO     link ['Managed by Integrity'] to this job plan
+04-07 16:43 INFO     Click linked actions
+04-07 16:43 INFO     Click the plus button
+04-07 16:43 INFO     Get all the check box
+04-07 16:43 INFO     Get all the action names
+04-07 16:43 INFO     Number of rows assertion passed
+04-07 16:43 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 16:43 INFO     Go back to the package tab
+04-07 16:43 INFO     Closing the current package tab
+04-07 16:43 INFO     Finish processing package 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor' with 1 flocs and 1 job plans
+04-07 16:43 INFO     Finish processing current package in 73.63918709754944 seconds
+04-07 16:43 INFO     Start processing package 7/10 'Tintaburra Satellite - Fire Water Tank - Control and Monitor' with 2 flocs and 2 job plans
+04-07 16:43 INFO     Send package ID
+04-07 16:43 INFO     Select SAP Reference
+04-07 16:43 INFO     Send description
+04-07 16:43 INFO     Click Save
+04-07 16:43 INFO     Processing 1/2 flocs: 1650-TK-003
+04-07 16:43 INFO     click the plus button
+04-07 16:43 INFO     click the search button
+04-07 16:43 INFO     find asset text area
+04-07 16:43 INFO     send keys to asset text area
+04-07 16:43 INFO     Get search results
+04-07 16:43 INFO     Wait for the next search
+04-07 16:44 INFO     Get search results
+04-07 16:44 INFO     Wait for the next search
+04-07 16:44 INFO     Get search results
+04-07 16:44 INFO     Wait for the next search
+04-07 16:44 INFO     Get search results
+04-07 16:44 INFO     Wait for the next search
+04-07 16:44 INFO     Get search results
+04-07 16:44 INFO     Wait for the next search
+04-07 16:44 INFO     Get search results
+04-07 16:44 INFO     Filter finish
+04-07 16:44 INFO     find action text area
+04-07 16:44 INFO     send keys to action text area
+04-07 16:44 INFO     Looking for Select All action
+04-07 16:44 INFO     Click select all action button
+04-07 16:44 INFO     Click Add button
+04-07 16:44 INFO     Package Tintaburra Satellite - Fire Water Tank - Control and Monitor has linked asset ['1650-TK-003']
+04-07 16:44 INFO     Processing 2/2 flocs: 1650-LG-0502
+04-07 16:44 INFO     click the plus button
+04-07 16:44 INFO     click the search button
+04-07 16:44 INFO     find asset text area
+04-07 16:44 INFO     send keys to asset text area
+04-07 16:44 INFO     Get search results
+04-07 16:44 INFO     Wait for the next search
+04-07 16:44 INFO     Get search results
+04-07 16:44 INFO     Wait for the next search
+04-07 16:44 INFO     Get search results
+04-07 16:44 INFO     Wait for the next search
+04-07 16:45 INFO     Get search results
+04-07 16:45 INFO     Wait for the next search
+04-07 16:45 INFO     Get search results
+04-07 16:45 INFO     Wait for the next search
+04-07 16:45 INFO     Get search results
+04-07 16:45 INFO     Wait for the next search
+04-07 16:45 INFO     Get search results
+04-07 16:45 INFO     Wait for the next search
+04-07 16:45 INFO     Get search results
+04-07 16:45 INFO     Wait for the next search
+04-07 16:45 INFO     Get search results
+04-07 16:45 INFO     Filter finish
+04-07 16:45 INFO     find action text area
+04-07 16:45 INFO     send keys to action text area
+04-07 16:45 INFO     Looking for Select All action
+04-07 16:45 INFO     Click select all action button
+04-07 16:45 INFO     Click Add button
+04-07 16:45 INFO     Package Tintaburra Satellite - Fire Water Tank - Control and Monitor has linked asset ['1650-TK-003', '1650-LG-0502']
+04-07 16:45 INFO     Adding 1/2 job_plan: Managed by Integrity
+04-07 16:45 INFO     Click the plus button
+04-07 16:45 INFO     Click 'job Plan'
+04-07 16:45 INFO     Send job id
+04-07 16:45 INFO     Send plan description
+04-07 16:45 INFO     Send my plant document number
+04-07 16:45 INFO     Send oracle activity
+04-07 16:45 INFO     Click save button
+04-07 16:45 INFO     Package Tintaburra Satellite - Fire Water Tank - Control and Monitor has job plans ['Managed by Integrity']
+04-07 16:45 INFO     link ['Managed by Integrity'] to this job plan
+04-07 16:45 INFO     Click linked actions
+04-07 16:46 INFO     Click the plus button
+04-07 16:46 INFO     Get all the check box
+04-07 16:46 INFO     Get all the action names
+04-07 16:46 INFO     Number of rows assertion passed
+04-07 16:46 INFO     'Managed by Parent Maintenance' not in action name list ['Managed by Integrity'] - Skip this action 
+04-07 16:46 INFO     'Managed by Integrity' found in action name list ['Managed by Integrity'] - Select this action 
+04-07 16:46 INFO     Go back to the package tab
+04-07 16:46 INFO     Adding 2/2 job_plan: Managed by Parent Maintenance
+04-07 16:46 INFO     Click the plus button
+04-07 16:46 INFO     Click 'job Plan'
+04-07 16:46 INFO     Send job id
+04-07 16:46 INFO     Send plan description
+04-07 16:46 INFO     Send my plant document number
+04-07 16:46 INFO     Send oracle activity
+04-07 16:46 INFO     Click save button
+04-07 16:46 INFO     Package Tintaburra Satellite - Fire Water Tank - Control and Monitor has job plans ['Managed by Integrity', 'Managed by Parent Maintenance']
+04-07 16:46 INFO     link ['Managed by Parent Maintenance'] to this job plan
+04-07 16:46 INFO     Click linked actions
+04-07 16:46 INFO     Click the plus button
+04-07 16:46 INFO     Get all the check box
+04-07 16:46 INFO     Get all the action names
+04-07 16:46 INFO     Number of rows assertion passed
+04-07 16:46 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 16:46 INFO     Go back to the package tab
+04-07 16:46 INFO     Closing the current package tab
+04-07 16:46 INFO     Finish processing package 'Tintaburra Satellite - Fire Water Tank - Control and Monitor' with 2 flocs and 2 job plans
+04-07 16:46 INFO     Finish processing current package in 210.14737749099731 seconds
+04-07 16:46 INFO     Start processing package 8/10 'Tintaburra Satellite - Fire Water Pump' with 1 flocs and 1 job plans
+04-07 16:47 INFO     Send package ID
+04-07 16:47 INFO     Select SAP Reference
+04-07 16:47 INFO     Send description
+04-07 16:47 INFO     Click Save
+04-07 16:47 INFO     Processing 1/1 flocs: 1650-SAT-FIR
+04-07 16:47 INFO     click the plus button
+04-07 16:47 INFO     click the search button
+04-07 16:47 INFO     find asset text area
+04-07 16:47 INFO     send keys to asset text area
+04-07 16:47 INFO     Get search results
+04-07 16:47 INFO     Wait for the next search
+04-07 16:47 INFO     Get search results
+04-07 16:47 INFO     Wait for the next search
+04-07 16:47 INFO     Get search results
+04-07 16:47 INFO     Wait for the next search
+04-07 16:47 INFO     Get search results
+04-07 16:47 INFO     Wait for the next search
+04-07 16:47 INFO     Get search results
+04-07 16:47 INFO     Wait for the next search
+04-07 16:47 INFO     Get search results
+04-07 16:47 INFO     Wait for the next search
+04-07 16:48 INFO     Get search results
+04-07 16:48 INFO     Wait for the next search
+04-07 16:48 INFO     Get search results
+04-07 16:48 INFO     Wait for the next search
+04-07 16:48 INFO     Get search results
+04-07 16:48 INFO     Wait for the next search
+04-07 16:48 INFO     Get search results
+04-07 16:48 INFO     Wait for the next search
+04-07 16:48 INFO     Get search results
+04-07 16:48 INFO     Wait for the next search
+04-07 16:48 INFO     Get search results
+04-07 16:48 INFO     Wait for the next search
+04-07 16:48 INFO     Get search results
+04-07 16:48 INFO     Filter finish
+04-07 16:48 INFO     find action text area
+04-07 16:48 INFO     send keys to action text area
+04-07 16:48 INFO     Looking for Select All action
+04-07 16:48 INFO     Click select all action button
+04-07 16:48 INFO     Click Add button
+04-07 16:48 INFO     Package Tintaburra Satellite - Fire Water Pump has linked asset ['1650-SAT-FIR']
+04-07 16:48 INFO     Adding 1/1 job_plan: Parent Asset
+04-07 16:48 INFO     Click the plus button
+04-07 16:48 INFO     Click 'job Plan'
+04-07 16:49 INFO     Send job id
+04-07 16:49 INFO     Send plan description
+04-07 16:49 INFO     Send my plant document number
+04-07 16:49 INFO     Send oracle activity
+04-07 16:49 INFO     Click save button
+04-07 16:49 INFO     Package Tintaburra Satellite - Fire Water Pump has job plans ['Parent Asset']
+04-07 16:49 INFO     link ['Parent Asset - Maintenance covered by children'] to this job plan
+04-07 16:49 INFO     Click linked actions
+04-07 16:49 INFO     Click the plus button
+04-07 16:49 INFO     Get all the check box
+04-07 16:49 INFO     Get all the action names
+04-07 16:49 INFO     Number of rows assertion passed
+04-07 16:49 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 16:50 INFO     Go back to the package tab
+04-07 16:50 INFO     Closing the current package tab
+04-07 16:50 INFO     Finish processing package 'Tintaburra Satellite - Fire Water Pump' with 1 flocs and 1 job plans
+04-07 16:50 INFO     Finish processing current package in 187.50626707077026 seconds
+04-07 16:50 INFO     Start processing package 9/10 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures' with 2 flocs and 1 job plans
+04-07 16:50 INFO     Send package ID
+04-07 16:50 INFO     Select SAP Reference
+04-07 16:50 INFO     Send description
+04-07 16:50 INFO     Click Save
+04-07 16:50 INFO     Processing 1/2 flocs: 1650-SAT-PIP
+04-07 16:50 INFO     click the plus button
+04-07 16:51 INFO     click the search button
+04-07 16:51 INFO     find asset text area
+04-07 16:51 INFO     send keys to asset text area
+04-07 16:51 INFO     Get search results
+04-07 16:51 INFO     Wait for the next search
+04-07 16:51 INFO     Get search results
+04-07 16:51 INFO     Wait for the next search
+04-07 16:51 INFO     Get search results
+04-07 16:51 INFO     Wait for the next search
+04-07 16:51 INFO     Get search results
+04-07 16:51 INFO     Wait for the next search
+04-07 16:51 INFO     Get search results
+04-07 16:51 INFO     Wait for the next search
+04-07 16:51 INFO     Get search results
+04-07 16:51 INFO     Wait for the next search
+04-07 16:51 INFO     Get search results
+04-07 16:51 INFO     Wait for the next search
+04-07 16:51 INFO     Get search results
+04-07 16:51 INFO     Wait for the next search
+04-07 16:51 INFO     Get search results
+04-07 16:51 INFO     Wait for the next search
+04-07 16:51 INFO     Get search results
+04-07 16:51 INFO     Wait for the next search
+04-07 16:52 INFO     Get search results
+04-07 16:52 INFO     Wait for the next search
+04-07 16:52 INFO     Get search results
+04-07 16:52 INFO     Wait for the next search
+04-07 16:52 INFO     Get search results
+04-07 16:52 INFO     Wait for the next search
+04-07 16:52 INFO     Get search results
+04-07 16:52 INFO     Wait for the next search
+04-07 16:52 INFO     Get search results
+04-07 16:52 INFO     Filter finish
+04-07 16:52 INFO     find action text area
+04-07 16:52 INFO     send keys to action text area
+04-07 16:52 INFO     Looking for Select All action
+04-07 16:52 INFO     Click select all action button
+04-07 16:52 INFO     Click Add button
+04-07 16:52 INFO     Package Tintaburra Satellite - Piping Area - Pipe Supports And Structures has linked asset ['1650-SAT-PIP']
+04-07 16:52 INFO     Processing 2/2 flocs: 1650-SAT-PIP-STRUCT
+04-07 16:52 INFO     Asset 1650-SAT-PIP-STRUCT has already been added due to substring 1650-SAT-PIP
+04-07 16:52 INFO     Adding 1/1 job_plan: Parent Asset
+04-07 16:52 INFO     Click the plus button
+04-07 16:52 INFO     Click 'job Plan'
+04-07 16:52 INFO     Send job id
+04-07 16:52 INFO     Send plan description
+04-07 16:52 INFO     Send my plant document number
+04-07 16:52 INFO     Send oracle activity
+04-07 16:52 INFO     Click save button
+04-07 16:52 INFO     Package Tintaburra Satellite - Piping Area - Pipe Supports And Structures has job plans ['Parent Asset']
+04-07 16:52 INFO     link ['Parent Asset - Maintenance covered by children'] to this job plan
+04-07 16:52 INFO     Click linked actions
+04-07 16:52 INFO     Click the plus button
+04-07 16:53 INFO     Get all the check box
+04-07 16:53 INFO     Get all the action names
+04-07 16:53 INFO     Number of rows assertion passed
+04-07 16:53 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 16:53 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 16:53 INFO     Go back to the package tab
+04-07 16:53 INFO     Closing the current package tab
+04-07 16:53 INFO     Finish processing package 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures' with 2 flocs and 1 job plans
+04-07 16:53 INFO     Finish processing current package in 193.65100741386414 seconds
+04-07 16:53 INFO     Start processing package 10/10 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages' with 2 flocs and 1 job plans
+04-07 16:54 INFO     Send package ID
+04-07 16:54 INFO     Select SAP Reference
+04-07 16:54 INFO     Send description
+04-07 16:54 INFO     Click Save
+04-07 16:54 INFO     Processing 1/2 flocs: 1650-SAT-PRO-REV
+04-07 16:55 INFO     click the plus button
+04-07 16:55 INFO     click the search button
+04-07 16:55 INFO     find asset text area
+04-07 16:55 INFO     send keys to asset text area
+04-07 16:55 INFO     Get search results
+04-07 16:55 INFO     Wait for the next search
+04-07 16:55 INFO     Get search results
+04-07 16:55 INFO     Wait for the next search
+04-07 16:55 INFO     Get search results
+04-07 16:55 INFO     Wait for the next search
+04-07 16:56 INFO     Get search results
+04-07 16:56 INFO     Wait for the next search
+04-07 16:56 INFO     Get search results
+04-07 16:56 INFO     Wait for the next search
+04-07 16:56 INFO     Get search results
+04-07 16:56 INFO     Wait for the next search
+04-07 16:56 INFO     Get search results
+04-07 16:56 INFO     Wait for the next search
+04-07 16:56 INFO     Get search results
+04-07 16:56 INFO     Wait for the next search
+04-07 16:56 INFO     Get search results
+04-07 16:56 INFO     Wait for the next search
+04-07 16:56 INFO     Get search results
+04-07 16:56 INFO     Wait for the next search
+04-07 16:56 INFO     Get search results
+04-07 16:56 INFO     Wait for the next search
+04-07 16:56 INFO     Get search results
+04-07 16:56 INFO     Filter finish
+04-07 16:56 INFO     find action text area
+04-07 16:56 INFO     send keys to action text area
+04-07 16:56 INFO     Looking for Select All action
+04-07 16:56 INFO     Click select all action button
+04-07 16:56 INFO     Click Add button
+04-07 16:56 INFO     Package Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages has linked asset ['1650-SAT-PRO-REV']
+04-07 16:56 INFO     Processing 2/2 flocs: 1650-SAT-PRO
+04-07 16:57 INFO     click the plus button
+04-07 16:58 INFO     click the search button
+04-07 16:58 INFO     find asset text area
+04-07 16:58 INFO     send keys to asset text area
+04-07 16:58 INFO     Get search results
+04-07 16:58 INFO     Wait for the next search
+04-07 16:58 INFO     Get search results
+04-07 16:58 INFO     Wait for the next search
+04-07 16:58 INFO     Get search results
+04-07 16:58 INFO     Wait for the next search
+04-07 16:58 INFO     Get search results
+04-07 16:58 INFO     Wait for the next search
+04-07 16:58 INFO     Get search results
+04-07 16:58 INFO     Wait for the next search
+04-07 16:58 INFO     Get search results
+04-07 16:58 INFO     Wait for the next search
+04-07 16:58 INFO     Get search results
+04-07 16:58 INFO     Wait for the next search
+04-07 16:58 INFO     Get search results
+04-07 16:58 INFO     Wait for the next search
+04-07 16:58 INFO     Get search results
+04-07 16:58 INFO     Wait for the next search
+04-07 16:59 INFO     Get search results
+04-07 16:59 INFO     Filter finish
+04-07 16:59 INFO     find action text area
+04-07 16:59 INFO     send keys to action text area
+04-07 16:59 INFO     Looking for Select All action
+04-07 16:59 INFO     Click select all action button
+04-07 16:59 INFO     Click Add button
+04-07 16:59 INFO     Package Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages has linked asset ['1650-SAT-PRO-REV', '1650-SAT-PRO']
+04-07 16:59 INFO     Adding 1/1 job_plan: Parent Asset
+04-07 16:59 INFO     Click the plus button
+04-07 16:59 INFO     Click 'job Plan'
+04-07 16:59 INFO     Send job id
+04-07 16:59 INFO     Send plan description
+04-07 16:59 INFO     Send my plant document number
+04-07 16:59 INFO     Send oracle activity
+04-07 16:59 INFO     Click save button
+04-07 16:59 INFO     Package Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages has job plans ['Parent Asset']
+04-07 16:59 INFO     link ['Parent Asset - Maintenance covered by children'] to this job plan
+04-07 17:00 INFO     Click linked actions
+04-07 17:00 INFO     Click the plus button
+04-07 17:00 INFO     Get all the check box
+04-07 17:00 INFO     Get all the action names
+04-07 17:00 INFO     Number of rows assertion passed
+04-07 17:00 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 17:00 INFO     'Parent Asset - Maintenance covered by children' found in action name list ['Parent Asset - Maintenance covered by children'] - Select this action 
+04-07 17:00 INFO     Go back to the package tab
+04-07 17:00 INFO     Closing the current package tab
+04-07 17:00 INFO     Finish processing package 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages' with 2 flocs and 1 job plans
+04-07 17:00 INFO     Finish processing current package in 462.3289713859558 seconds
+04-07 17:00 INFO     Finished processing 04 CSV/ASI/Tintaburra_prep_for_ASI.csv in 3154.5894889831543 seconds
