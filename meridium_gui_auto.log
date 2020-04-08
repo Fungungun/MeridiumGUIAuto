@@ -6706,3 +6706,626 @@
 04-07 17:00 INFO     Finish processing package 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages' with 2 flocs and 1 job plans
 04-07 17:00 INFO     Finish processing current package in 462.3289713859558 seconds
 04-07 17:00 INFO     Finished processing 04 CSV/ASI/Tintaburra_prep_for_ASI.csv in 3154.5894889831543 seconds
+04-07 17:14 INFO     -----------------------------------New Session-------------------------------------
+04-07 17:14 INFO     User Name: "shekx"
+04-07 17:14 INFO     CSV File Path: 04 CSV/ASI/Ticklara ASI prep_1.csv
+04-07 17:14 INFO     ChromeDriver Path: chromedriver.exe
+04-07 17:14 INFO     unique_package_id_list : ['Tickalara Satellite - Buildings - Office', 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks', 'Tickalara Satellite - Export - Control and Monitor', 'Tickalara Satellite - Export - Shipping Pumps', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002', 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002', 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003', 'Tickalara Satellite - Buildings - Workshop', 'Tickalara Satellite - Crude Oil Storage - Production Tanks', 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund', 'Tickalara Satellite - Export - Remote Telemetry Unit', 'Tickalara Satellite - Inlet Manifold - Control and Monitor', 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond', 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond', 'Tickalara Satellite - Produced Water Ponds - Holding Pond', 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund']
+04-07 17:14 INFO     package_job_plan_dict : {'Tickalara Satellite - Buildings - Office': ['KICK BLD 6M-11-00-001', 'KICK BLD 12M-11-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks': ['KICK CRUDE OIL STRG 12M-04-00-001', 'Maintenance covered by children', 'Managed by Parent Maintenance', 'Managed by Integrity'], 'Tickalara Satellite - Export - Control and Monitor': ['KICK EXP 5Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity'], 'Tickalara Satellite - Export - Shipping Pumps': ['KICK EXP 12M-01-00-001', 'KICK EXP 12M-01-00-002', 'KICK EXP 6M-04-00-001', 'KICK EXP 12M-04-00-001', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003': ['KICK INST AIR 12M-04-00-001', 'KICK INST AIR 6M-04-00-001', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001': ['KICK INST AIR 6M-04-00-002', 'KICK INST AIR 12M-04-00-002', 'KICK INST AIR 3M-04-00-001', 'KICK INST AIR 6M-01-00-001', 'KICK INST AIR 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002': ['KICK INST AIR 60W-01-00-001', 'KICK INST AIR 10W-04-00-001', 'KICK INST AIR 40W-04-00-001', 'KICK INST AIR 5W-04-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002': ['KICK PWR GEN 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003': ['KICK PWR GEN 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Buildings - Workshop': ['Managed by Parent Maintenance'], 'Tickalara Satellite - Crude Oil Storage - Production Tanks': ['Managed by Parent Maintenance', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund': ['Maintenance covered by children'], 'Tickalara Satellite - Export - Remote Telemetry Unit': ['Maintenance covered by children'], 'Tickalara Satellite - Inlet Manifold - Control and Monitor': ['Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Holding Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund': ['Maintenance covered by children']}
+04-07 17:14 INFO     package_floc_dict : {'Tickalara Satellite - Buildings - Office': ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS', '3800-BLD-001-BUFI-1', '3800-DB-N8', '3800-DB-N10', '3800-BLD-001', '3800-DB-007'], 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks': ['3800-TK-001B', '3800-TK-001C', '3800-SAT-STO-DEW', '3800-PX-003', '3800-TK-001A', '3800-LSHH-0055', '3800-SAT-STO-CHEM-BND'], 'Tickalara Satellite - Export - Control and Monitor': ['3800-FE-0129', '3800-FIT-0129', '3800-FE-0128', '3800-PIT-0138', '3800-PSV-0130', '3800-FIT-0128'], 'Tickalara Satellite - Export - Shipping Pumps': ['3800-P-001A', '3800-P-001B', '3800-V-001B', '3800-PX-001A', '3800-V-020', '3800-V-019', '3800-SAT-EXP-PUM-BND', '3800-PX-001B', '3800-PSLL-0004', '3800-V-018', '3800-V-021', '3800-V-001A', '3800-PSV-0001', '3800-PSV-0341', '3800-PSV-0340', '3800-LSHH-0086', '3800-PSHH-0004', '3800-PSL-0079', '3800-SAT-EXP-PUM', '3800-PSV-0002'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003': ['3800-K-0003', '3800-V-0003', '3800-PSV-00017', '3800-KX-0003', '3800-PSV-00017B'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001': ['3800-KX-001', '3800-K-001', '3800-K-001-EM'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002': ['3800-KX-002', '3800-K-002-EM', '3800-K-002'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002': ['3800-GX-002', '3800-DE-028', '3800-G-002', '3800-G-002-EGMD-2', '3800-G-002-EDVR-1'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003': ['3800-GX-003', '3800-G-003', '3800-DE-029', '3800-G-003-EGMD-2', '3800-G-003-EDVR-1'], 'Tickalara Satellite - Buildings - Workshop': ['3800-BLD-002', '3800-DB-003', '3800-BLD-004', '3800-DB-002', '3800-BLD-003'], 'Tickalara Satellite - Crude Oil Storage - Production Tanks': ['3800-LIT-0344', '3800-LSH-0087', '3800-LSHH-0053', '3800-TK-003C', '3800-LIT-0088', '3800-LSHH-0261', '3800-TK-003E', '3800-TK-003E-CO', '3800-TK-003B-CO', '3800-TK-003D', '3800-TK-003A-CO', '3800-LSHH-0345', '3800-SAT-STO-PRO', '3800-LIC-0059', '3800-TK-003D-CO', '3800-TK-048', '3800-TK-003A', '3800-TK-003B', '3800-LSLL-0004'], 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund': ['3800-SAT-STO-BND'], 'Tickalara Satellite - Export - Remote Telemetry Unit': ['3800-SAT-EXP-RTU', '3800-SAT-EXP-REV'], 'Tickalara Satellite - Inlet Manifold - Control and Monitor': ['3800-PSV-0144', '3800-PSV-0051', '3800-PSV-0037', '3800-PSV-0353', '3800-SAT-MAN-CO', '3800-SAT-MAN-BND', '3800-PSV-0050'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond': ['3800-SAT-PRO-INT'], 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond': ['3800-SAT-PRO-PON-PUM', '3800-SAT-PRO-PON'], 'Tickalara Satellite - Produced Water Ponds - Holding Pond': ['3800-SAT-PRO-HLD-B', '3800-SAT-PRO-HLD-A', '3800-SAT-PRO-HLD'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund': ['3800-SAT-PRO-BND']}
+04-07 17:14 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238910783', 'Tintaburra Satellite - (Review Items)': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Fire Water Pump': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0'}
+04-07 17:14 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 17:14 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO']}
+04-07 17:14 INFO     Start processing package 1/18 'Tickalara Satellite - Buildings - Office' with 13 flocs and 3 job plans
+04-07 17:14 INFO     Send package ID
+04-07 17:14 INFO     Select SAP Reference
+04-07 17:14 INFO     Send description
+04-07 17:14 INFO     Click Save
+04-07 17:14 INFO     Processing 1/13 flocs: 3800-SAT-BLD
+04-07 17:14 INFO     click the plus button
+04-07 17:15 INFO     click the search button
+04-07 17:15 INFO     find asset text area
+04-07 17:15 INFO     send keys to asset text area
+04-07 17:15 INFO     Get search results
+04-07 17:15 INFO     Wait for the next search
+04-07 17:15 INFO     Get search results
+04-07 17:15 INFO     Wait for the next search
+04-07 17:15 INFO     Get search results
+04-07 17:15 INFO     Wait for the next search
+04-07 17:15 INFO     Get search results
+04-07 17:15 INFO     Wait for the next search
+04-07 17:15 INFO     Get search results
+04-07 17:15 INFO     Wait for the next search
+04-07 17:15 INFO     Get search results
+04-07 17:15 INFO     Wait for the next search
+04-07 17:15 INFO     Get search results
+04-07 17:15 INFO     Wait for the next search
+04-07 17:15 INFO     Get search results
+04-07 17:15 INFO     Filter finish
+04-07 17:15 INFO     find action text area
+04-07 17:15 INFO     send keys to action text area
+04-07 17:15 INFO     Looking for Select All action
+04-07 17:15 INFO     Click select all action button
+04-07 17:15 INFO     Click Add button
+04-07 17:15 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD']
+04-07 17:15 INFO     Processing 2/13 flocs: 3800-DB-001
+04-07 17:15 INFO     click the plus button
+04-07 17:16 INFO     click the search button
+04-07 17:16 INFO     find asset text area
+04-07 17:16 INFO     send keys to asset text area
+04-07 17:16 INFO     Get search results
+04-07 17:16 INFO     Wait for the next search
+04-07 17:16 INFO     Get search results
+04-07 17:16 INFO     Wait for the next search
+04-07 17:16 INFO     Get search results
+04-07 17:16 INFO     Wait for the next search
+04-07 17:16 INFO     Get search results
+04-07 17:16 INFO     Wait for the next search
+04-07 17:16 INFO     Get search results
+04-07 17:16 INFO     Wait for the next search
+04-07 17:16 INFO     Get search results
+04-07 17:16 INFO     Wait for the next search
+04-07 17:16 INFO     Get search results
+04-07 17:16 INFO     Filter finish
+04-07 17:16 INFO     find action text area
+04-07 17:16 INFO     send keys to action text area
+04-07 17:16 INFO     Looking for Select All action
+04-07 17:16 INFO     Click select all action button
+04-07 17:16 INFO     Click Add button
+04-07 17:16 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001']
+04-07 17:16 INFO     Processing 3/13 flocs: 3800-BLD-001-BUFI-2
+04-07 17:16 INFO     click the plus button
+04-07 17:17 INFO     click the search button
+04-07 17:17 INFO     find asset text area
+04-07 17:17 INFO     send keys to asset text area
+04-07 17:17 INFO     Get search results
+04-07 17:17 INFO     Wait for the next search
+04-07 17:17 INFO     Get search results
+04-07 17:17 INFO     Wait for the next search
+04-07 17:17 INFO     Get search results
+04-07 17:17 INFO     Wait for the next search
+04-07 17:17 INFO     Get search results
+04-07 17:17 INFO     Wait for the next search
+04-07 17:17 INFO     Get search results
+04-07 17:17 INFO     Wait for the next search
+04-07 17:17 INFO     Get search results
+04-07 17:17 INFO     Wait for the next search
+04-07 17:17 INFO     Get search results
+04-07 17:17 INFO     Filter finish
+04-07 17:17 INFO     find action text area
+04-07 17:17 INFO     send keys to action text area
+04-07 17:17 INFO     Looking for Select All action
+04-07 17:17 INFO     Click select all action button
+04-07 17:17 INFO     Click Add button
+04-07 17:17 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2']
+04-07 17:17 INFO     Processing 4/13 flocs: 3800-DB-N6
+04-07 17:17 INFO     click the plus button
+04-07 17:18 INFO     click the search button
+04-07 17:18 INFO     find asset text area
+04-07 17:18 INFO     send keys to asset text area
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:18 INFO     Get search results
+04-07 17:18 INFO     Wait for the next search
+04-07 17:19 INFO     Get search results
+04-07 17:19 INFO     Wait for the next search
+04-07 17:19 INFO     Get search results
+04-07 17:19 INFO     Wait for the next search
+04-07 17:19 INFO     Get search results
+04-07 17:19 INFO     Wait for the next search
+04-07 17:19 INFO     Get search results
+04-07 17:19 INFO     Wait for the next search
+04-07 17:19 INFO     Get search results
+04-07 17:19 INFO     Filter finish
+04-07 17:19 INFO     find action text area
+04-07 17:19 INFO     send keys to action text area
+04-07 17:19 INFO     Looking for Select All action
+04-07 17:19 INFO     Click select all action button
+04-07 17:19 INFO     Click Add button
+04-07 17:19 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6']
+04-07 17:19 INFO     Processing 5/13 flocs: 3800-DB-006
+04-07 17:19 INFO     click the plus button
+04-07 17:19 INFO     click the search button
+04-07 17:19 INFO     find asset text area
+04-07 17:19 INFO     send keys to asset text area
+04-07 17:19 INFO     Get search results
+04-07 17:19 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:20 INFO     Get search results
+04-07 17:20 INFO     Wait for the next search
+04-07 17:21 INFO     Get search results
+04-07 17:21 INFO     Wait for the next search
+04-07 17:21 INFO     Get search results
+04-07 17:21 INFO     Wait for the next search
+04-07 17:21 INFO     Get search results
+04-07 17:21 INFO     Filter finish
+04-07 17:21 INFO     find action text area
+04-07 17:21 INFO     send keys to action text area
+04-07 17:21 INFO     Looking for Select All action
+04-07 17:21 INFO     Click select all action button
+04-07 17:21 INFO     Click Add button
+04-07 17:21 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006']
+04-07 17:21 INFO     Processing 6/13 flocs: 3800-DB-005
+04-07 17:25 INFO     -----------------------------------New Session-------------------------------------
+04-07 17:25 INFO     User Name: "shekx"
+04-07 17:25 INFO     CSV File Path: 04 CSV/ASI/Ticklara ASI prep_1.csv
+04-07 17:25 INFO     ChromeDriver Path: chromedriver.exe
+04-07 17:25 INFO     unique_package_id_list : ['Tickalara Satellite - Buildings - Office', 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks', 'Tickalara Satellite - Export - Control and Monitor', 'Tickalara Satellite - Export - Shipping Pumps', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002', 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002', 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003', 'Tickalara Satellite - Buildings - Workshop', 'Tickalara Satellite - Crude Oil Storage - Production Tanks', 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund', 'Tickalara Satellite - Export - Remote Telemetry Unit', 'Tickalara Satellite - Inlet Manifold - Control and Monitor', 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond', 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond', 'Tickalara Satellite - Produced Water Ponds - Holding Pond', 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund']
+04-07 17:25 INFO     package_job_plan_dict : {'Tickalara Satellite - Buildings - Office': ['KICK BLD 6M-11-00-001', 'KICK BLD 12M-11-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks': ['KICK CRUDE OIL STRG 12M-04-00-001', 'Maintenance covered by children', 'Managed by Parent Maintenance', 'Managed by Integrity'], 'Tickalara Satellite - Export - Control and Monitor': ['KICK EXP 5Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity'], 'Tickalara Satellite - Export - Shipping Pumps': ['KICK EXP 12M-01-00-001', 'KICK EXP 12M-01-00-002', 'KICK EXP 6M-04-00-001', 'KICK EXP 12M-04-00-001', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003': ['KICK INST AIR 12M-04-00-001', 'KICK INST AIR 6M-04-00-001', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001': ['KICK INST AIR 6M-04-00-002', 'KICK INST AIR 12M-04-00-002', 'KICK INST AIR 3M-04-00-001', 'KICK INST AIR 6M-01-00-001', 'KICK INST AIR 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002': ['KICK INST AIR 60W-01-00-001', 'KICK INST AIR 10W-04-00-001', 'KICK INST AIR 40W-04-00-001', 'KICK INST AIR 5W-04-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002': ['KICK PWR GEN 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003': ['KICK PWR GEN 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Buildings - Workshop': ['Managed by Parent Maintenance'], 'Tickalara Satellite - Crude Oil Storage - Production Tanks': ['Managed by Parent Maintenance', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund': ['Maintenance covered by children'], 'Tickalara Satellite - Export - Remote Telemetry Unit': ['Maintenance covered by children'], 'Tickalara Satellite - Inlet Manifold - Control and Monitor': ['Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Holding Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund': ['Maintenance covered by children']}
+04-07 17:25 INFO     package_floc_dict : {'Tickalara Satellite - Buildings - Office': ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS', '3800-BLD-001-BUFI-1', '3800-DB-N8', '3800-DB-N10', '3800-BLD-001', '3800-DB-007'], 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks': ['3800-TK-001B', '3800-TK-001C', '3800-SAT-STO-DEW', '3800-PX-003', '3800-TK-001A', '3800-LSHH-0055', '3800-SAT-STO-CHEM-BND'], 'Tickalara Satellite - Export - Control and Monitor': ['3800-FE-0129', '3800-FIT-0129', '3800-FE-0128', '3800-PIT-0138', '3800-PSV-0130', '3800-FIT-0128'], 'Tickalara Satellite - Export - Shipping Pumps': ['3800-P-001A', '3800-P-001B', '3800-V-001B', '3800-PX-001A', '3800-V-020', '3800-V-019', '3800-SAT-EXP-PUM-BND', '3800-PX-001B', '3800-PSLL-0004', '3800-V-018', '3800-V-021', '3800-V-001A', '3800-PSV-0001', '3800-PSV-0341', '3800-PSV-0340', '3800-LSHH-0086', '3800-PSHH-0004', '3800-PSL-0079', '3800-SAT-EXP-PUM', '3800-PSV-0002'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003': ['3800-K-0003', '3800-V-0003', '3800-PSV-00017', '3800-KX-0003', '3800-PSV-00017B'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001': ['3800-KX-001', '3800-K-001', '3800-K-001-EM'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002': ['3800-KX-002', '3800-K-002-EM', '3800-K-002'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002': ['3800-GX-002', '3800-DE-028', '3800-G-002', '3800-G-002-EGMD-2', '3800-G-002-EDVR-1'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003': ['3800-GX-003', '3800-G-003', '3800-DE-029', '3800-G-003-EGMD-2', '3800-G-003-EDVR-1'], 'Tickalara Satellite - Buildings - Workshop': ['3800-BLD-002', '3800-DB-003', '3800-BLD-004', '3800-DB-002', '3800-BLD-003'], 'Tickalara Satellite - Crude Oil Storage - Production Tanks': ['3800-LIT-0344', '3800-LSH-0087', '3800-LSHH-0053', '3800-TK-003C', '3800-LIT-0088', '3800-LSHH-0261', '3800-TK-003E', '3800-TK-003E-CO', '3800-TK-003B-CO', '3800-TK-003D', '3800-TK-003A-CO', '3800-LSHH-0345', '3800-SAT-STO-PRO', '3800-LIC-0059', '3800-TK-003D-CO', '3800-TK-048', '3800-TK-003A', '3800-TK-003B', '3800-LSLL-0004'], 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund': ['3800-SAT-STO-BND'], 'Tickalara Satellite - Export - Remote Telemetry Unit': ['3800-SAT-EXP-RTU', '3800-SAT-EXP-REV'], 'Tickalara Satellite - Inlet Manifold - Control and Monitor': ['3800-PSV-0144', '3800-PSV-0051', '3800-PSV-0037', '3800-PSV-0353', '3800-SAT-MAN-CO', '3800-SAT-MAN-BND', '3800-PSV-0050'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond': ['3800-SAT-PRO-INT'], 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond': ['3800-SAT-PRO-PON-PUM', '3800-SAT-PRO-PON'], 'Tickalara Satellite - Produced Water Ponds - Holding Pond': ['3800-SAT-PRO-HLD-B', '3800-SAT-PRO-HLD-A', '3800-SAT-PRO-HLD'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund': ['3800-SAT-PRO-BND']}
+04-07 17:25 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238910783', 'Tintaburra Satellite - (Review Items)': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Fire Water Pump': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tickalara Satellite - Buildings - Office': 'http://awsapmapp04.santos.com/meridium/#4;rte=home;rte=assets/hierarchy;rte=home;;rte=/asi/overview;rte=asi/package/0'}
+04-07 17:25 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 17:25 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO'], 'Tickalara Satellite - Buildings - Office': ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006']}
+04-07 17:28 INFO     Start processing package 1/18 'Tickalara Satellite - Buildings - Office' with 13 flocs and 3 job plans
+04-07 17:28 INFO     package created. Jump with url
+04-07 17:30 INFO     Processing 1/13 flocs: 3800-SAT-BLD
+04-07 17:30 INFO     Asset 3800-SAT-BLD already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:30 INFO     Processing 2/13 flocs: 3800-DB-001
+04-07 17:30 INFO     Asset 3800-DB-001 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:30 INFO     Processing 3/13 flocs: 3800-BLD-001-BUFI-2
+04-07 17:30 INFO     Asset 3800-BLD-001-BUFI-2 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:30 INFO     Processing 4/13 flocs: 3800-DB-N6
+04-07 17:30 INFO     Asset 3800-DB-N6 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:30 INFO     Processing 5/13 flocs: 3800-DB-006
+04-07 17:30 INFO     Asset 3800-DB-006 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:30 INFO     Processing 6/13 flocs: 3800-DB-005
+04-07 17:30 INFO     click the plus button
+04-07 17:31 INFO     -----------------------------------New Session-------------------------------------
+04-07 17:31 INFO     User Name: "shekx"
+04-07 17:31 INFO     CSV File Path: 04 CSV/ASI/Ticklara ASI prep_1.csv
+04-07 17:31 INFO     ChromeDriver Path: chromedriver.exe
+04-07 17:31 INFO     unique_package_id_list : ['Tickalara Satellite - Buildings - Office', 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks', 'Tickalara Satellite - Export - Control and Monitor', 'Tickalara Satellite - Export - Shipping Pumps', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002', 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002', 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003', 'Tickalara Satellite - Buildings - Workshop', 'Tickalara Satellite - Crude Oil Storage - Production Tanks', 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund', 'Tickalara Satellite - Export - Remote Telemetry Unit', 'Tickalara Satellite - Inlet Manifold - Control and Monitor', 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond', 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond', 'Tickalara Satellite - Produced Water Ponds - Holding Pond', 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund']
+04-07 17:31 INFO     package_job_plan_dict : {'Tickalara Satellite - Buildings - Office': ['KICK BLD 6M-11-00-001', 'KICK BLD 12M-11-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks': ['KICK CRUDE OIL STRG 12M-04-00-001', 'Maintenance covered by children', 'Managed by Parent Maintenance', 'Managed by Integrity'], 'Tickalara Satellite - Export - Control and Monitor': ['KICK EXP 5Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity'], 'Tickalara Satellite - Export - Shipping Pumps': ['KICK EXP 12M-01-00-001', 'KICK EXP 12M-01-00-002', 'KICK EXP 6M-04-00-001', 'KICK EXP 12M-04-00-001', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003': ['KICK INST AIR 12M-04-00-001', 'KICK INST AIR 6M-04-00-001', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001': ['KICK INST AIR 6M-04-00-002', 'KICK INST AIR 12M-04-00-002', 'KICK INST AIR 3M-04-00-001', 'KICK INST AIR 6M-01-00-001', 'KICK INST AIR 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002': ['KICK INST AIR 60W-01-00-001', 'KICK INST AIR 10W-04-00-001', 'KICK INST AIR 40W-04-00-001', 'KICK INST AIR 5W-04-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002': ['KICK PWR GEN 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003': ['KICK PWR GEN 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Buildings - Workshop': ['Managed by Parent Maintenance'], 'Tickalara Satellite - Crude Oil Storage - Production Tanks': ['Managed by Parent Maintenance', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund': ['Maintenance covered by children'], 'Tickalara Satellite - Export - Remote Telemetry Unit': ['Maintenance covered by children'], 'Tickalara Satellite - Inlet Manifold - Control and Monitor': ['Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Holding Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund': ['Maintenance covered by children']}
+04-07 17:31 INFO     package_floc_dict : {'Tickalara Satellite - Buildings - Office': ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS', '3800-BLD-001-BUFI-1', '3800-DB-N8', '3800-DB-N10', '3800-BLD-001', '3800-DB-007'], 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks': ['3800-TK-001B', '3800-TK-001C', '3800-SAT-STO-DEW', '3800-PX-003', '3800-TK-001A', '3800-LSHH-0055', '3800-SAT-STO-CHEM-BND'], 'Tickalara Satellite - Export - Control and Monitor': ['3800-FE-0129', '3800-FIT-0129', '3800-FE-0128', '3800-PIT-0138', '3800-PSV-0130', '3800-FIT-0128'], 'Tickalara Satellite - Export - Shipping Pumps': ['3800-P-001A', '3800-P-001B', '3800-V-001B', '3800-PX-001A', '3800-V-020', '3800-V-019', '3800-SAT-EXP-PUM-BND', '3800-PX-001B', '3800-PSLL-0004', '3800-V-018', '3800-V-021', '3800-V-001A', '3800-PSV-0001', '3800-PSV-0341', '3800-PSV-0340', '3800-LSHH-0086', '3800-PSHH-0004', '3800-PSL-0079', '3800-SAT-EXP-PUM', '3800-PSV-0002'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003': ['3800-K-0003', '3800-V-0003', '3800-PSV-00017', '3800-KX-0003', '3800-PSV-00017B'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001': ['3800-KX-001', '3800-K-001', '3800-K-001-EM'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002': ['3800-KX-002', '3800-K-002-EM', '3800-K-002'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002': ['3800-GX-002', '3800-DE-028', '3800-G-002', '3800-G-002-EGMD-2', '3800-G-002-EDVR-1'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003': ['3800-GX-003', '3800-G-003', '3800-DE-029', '3800-G-003-EGMD-2', '3800-G-003-EDVR-1'], 'Tickalara Satellite - Buildings - Workshop': ['3800-BLD-002', '3800-DB-003', '3800-BLD-004', '3800-DB-002', '3800-BLD-003'], 'Tickalara Satellite - Crude Oil Storage - Production Tanks': ['3800-LIT-0344', '3800-LSH-0087', '3800-LSHH-0053', '3800-TK-003C', '3800-LIT-0088', '3800-LSHH-0261', '3800-TK-003E', '3800-TK-003E-CO', '3800-TK-003B-CO', '3800-TK-003D', '3800-TK-003A-CO', '3800-LSHH-0345', '3800-SAT-STO-PRO', '3800-LIC-0059', '3800-TK-003D-CO', '3800-TK-048', '3800-TK-003A', '3800-TK-003B', '3800-LSLL-0004'], 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund': ['3800-SAT-STO-BND'], 'Tickalara Satellite - Export - Remote Telemetry Unit': ['3800-SAT-EXP-RTU', '3800-SAT-EXP-REV'], 'Tickalara Satellite - Inlet Manifold - Control and Monitor': ['3800-PSV-0144', '3800-PSV-0051', '3800-PSV-0037', '3800-PSV-0353', '3800-SAT-MAN-CO', '3800-SAT-MAN-BND', '3800-PSV-0050'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond': ['3800-SAT-PRO-INT'], 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond': ['3800-SAT-PRO-PON-PUM', '3800-SAT-PRO-PON'], 'Tickalara Satellite - Produced Water Ponds - Holding Pond': ['3800-SAT-PRO-HLD-B', '3800-SAT-PRO-HLD-A', '3800-SAT-PRO-HLD'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund': ['3800-SAT-PRO-BND']}
+04-07 17:31 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238910783', 'Tintaburra Satellite - (Review Items)': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Fire Water Pump': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tickalara Satellite - Buildings - Office': 'http://awsapmapp04.santos.com/meridium/#5;rte=home;rte=assets/hierarchy;rte=home;;rte=/asi/overview;rte=asi/package/0;rte=asi/package/1238921241'}
+04-07 17:31 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 17:31 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO'], 'Tickalara Satellite - Buildings - Office': ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006']}
+04-07 17:32 INFO     Start processing package 1/18 'Tickalara Satellite - Buildings - Office' with 13 flocs and 3 job plans
+04-07 17:32 INFO     package created. Jump with url
+04-07 17:32 INFO     Processing 1/13 flocs: 3800-SAT-BLD
+04-07 17:32 INFO     Asset 3800-SAT-BLD already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:32 INFO     Processing 2/13 flocs: 3800-DB-001
+04-07 17:32 INFO     Asset 3800-DB-001 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:32 INFO     Processing 3/13 flocs: 3800-BLD-001-BUFI-2
+04-07 17:32 INFO     Asset 3800-BLD-001-BUFI-2 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:32 INFO     Processing 4/13 flocs: 3800-DB-N6
+04-07 17:32 INFO     Asset 3800-DB-N6 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:32 INFO     Processing 5/13 flocs: 3800-DB-006
+04-07 17:32 INFO     Asset 3800-DB-006 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:32 INFO     Processing 6/13 flocs: 3800-DB-005
+04-07 17:32 INFO     click the plus button
+04-07 17:34 INFO     click the search button
+04-07 17:34 INFO     find asset text area
+04-07 17:34 INFO     send keys to asset text area
+04-07 17:34 INFO     Get search results
+04-07 17:34 INFO     Wait for the next search
+04-07 17:34 INFO     Get search results
+04-07 17:34 INFO     Wait for the next search
+04-07 17:34 INFO     Get search results
+04-07 17:34 INFO     Wait for the next search
+04-07 17:34 INFO     Get search results
+04-07 17:34 INFO     Wait for the next search
+04-07 17:34 INFO     Get search results
+04-07 17:34 INFO     Wait for the next search
+04-07 17:34 INFO     Get search results
+04-07 17:34 INFO     Wait for the next search
+04-07 17:34 INFO     Get search results
+04-07 17:34 INFO     Filter finish
+04-07 17:34 INFO     find action text area
+04-07 17:34 INFO     send keys to action text area
+04-07 17:34 INFO     Looking for Select All action
+04-07 17:34 INFO     Click select all action button
+04-07 17:34 INFO     Click Add button
+04-07 17:34 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005']
+04-07 17:34 INFO     Processing 7/13 flocs: 3800-DB-N4
+04-07 17:34 INFO     click the plus button
+04-07 17:35 INFO     click the search button
+04-07 17:35 INFO     find asset text area
+04-07 17:35 INFO     send keys to asset text area
+04-07 17:35 INFO     Get search results
+04-07 17:35 INFO     Wait for the next search
+04-07 17:35 INFO     Get search results
+04-07 17:35 INFO     Wait for the next search
+04-07 17:35 INFO     Get search results
+04-07 17:35 INFO     Wait for the next search
+04-07 17:35 INFO     Get search results
+04-07 17:35 INFO     Wait for the next search
+04-07 17:35 INFO     Get search results
+04-07 17:35 INFO     Wait for the next search
+04-07 17:35 INFO     Get search results
+04-07 17:35 INFO     Wait for the next search
+04-07 17:35 INFO     Get search results
+04-07 17:35 INFO     Wait for the next search
+04-07 17:35 INFO     Get search results
+04-07 17:35 INFO     Wait for the next search
+04-07 17:35 INFO     Get search results
+04-07 17:35 INFO     Filter finish
+04-07 17:35 INFO     find action text area
+04-07 17:35 INFO     send keys to action text area
+04-07 17:35 INFO     Looking for Select All action
+04-07 17:35 INFO     Click select all action button
+04-07 17:35 INFO     Click Add button
+04-07 17:35 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4']
+04-07 17:35 INFO     Processing 8/13 flocs: 3800-BLD-001-INS
+04-07 17:39 INFO     -----------------------------------New Session-------------------------------------
+04-07 17:39 INFO     User Name: "shekx"
+04-07 17:39 INFO     CSV File Path: 04 CSV/ASI/Ticklara ASI prep_1.csv
+04-07 17:39 INFO     ChromeDriver Path: chromedriver.exe
+04-07 17:39 INFO     unique_package_id_list : ['Tickalara Satellite - Buildings - Office', 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks', 'Tickalara Satellite - Export - Control and Monitor', 'Tickalara Satellite - Export - Shipping Pumps', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002', 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002', 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003', 'Tickalara Satellite - Buildings - Workshop', 'Tickalara Satellite - Crude Oil Storage - Production Tanks', 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund', 'Tickalara Satellite - Export - Remote Telemetry Unit', 'Tickalara Satellite - Inlet Manifold - Control and Monitor', 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond', 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond', 'Tickalara Satellite - Produced Water Ponds - Holding Pond', 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund']
+04-07 17:39 INFO     package_job_plan_dict : {'Tickalara Satellite - Buildings - Office': ['KICK BLD 6M-11-00-001', 'KICK BLD 12M-11-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks': ['KICK CRUDE OIL STRG 12M-04-00-001', 'Maintenance covered by children', 'Managed by Parent Maintenance', 'Managed by Integrity'], 'Tickalara Satellite - Export - Control and Monitor': ['KICK EXP 5Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity'], 'Tickalara Satellite - Export - Shipping Pumps': ['KICK EXP 12M-01-00-001', 'KICK EXP 12M-01-00-002', 'KICK EXP 6M-04-00-001', 'KICK EXP 12M-04-00-001', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003': ['KICK INST AIR 12M-04-00-001', 'KICK INST AIR 6M-04-00-001', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001': ['KICK INST AIR 6M-04-00-002', 'KICK INST AIR 12M-04-00-002', 'KICK INST AIR 3M-04-00-001', 'KICK INST AIR 6M-01-00-001', 'KICK INST AIR 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002': ['KICK INST AIR 60W-01-00-001', 'KICK INST AIR 10W-04-00-001', 'KICK INST AIR 40W-04-00-001', 'KICK INST AIR 5W-04-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002': ['KICK PWR GEN 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003': ['KICK PWR GEN 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Buildings - Workshop': ['Managed by Parent Maintenance'], 'Tickalara Satellite - Crude Oil Storage - Production Tanks': ['Managed by Parent Maintenance', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund': ['Maintenance covered by children'], 'Tickalara Satellite - Export - Remote Telemetry Unit': ['Maintenance covered by children'], 'Tickalara Satellite - Inlet Manifold - Control and Monitor': ['Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Holding Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund': ['Maintenance covered by children']}
+04-07 17:39 INFO     package_floc_dict : {'Tickalara Satellite - Buildings - Office': ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS', '3800-BLD-001-BUFI-1', '3800-DB-N8', '3800-DB-N10', '3800-BLD-001', '3800-DB-007'], 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks': ['3800-TK-001B', '3800-TK-001C', '3800-SAT-STO-DEW', '3800-PX-003', '3800-TK-001A', '3800-LSHH-0055', '3800-SAT-STO-CHEM-BND'], 'Tickalara Satellite - Export - Control and Monitor': ['3800-FE-0129', '3800-FIT-0129', '3800-FE-0128', '3800-PIT-0138', '3800-PSV-0130', '3800-FIT-0128'], 'Tickalara Satellite - Export - Shipping Pumps': ['3800-P-001A', '3800-P-001B', '3800-V-001B', '3800-PX-001A', '3800-V-020', '3800-V-019', '3800-SAT-EXP-PUM-BND', '3800-PX-001B', '3800-PSLL-0004', '3800-V-018', '3800-V-021', '3800-V-001A', '3800-PSV-0001', '3800-PSV-0341', '3800-PSV-0340', '3800-LSHH-0086', '3800-PSHH-0004', '3800-PSL-0079', '3800-SAT-EXP-PUM', '3800-PSV-0002'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003': ['3800-K-0003', '3800-V-0003', '3800-PSV-00017', '3800-KX-0003', '3800-PSV-00017B'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001': ['3800-KX-001', '3800-K-001', '3800-K-001-EM'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002': ['3800-KX-002', '3800-K-002-EM', '3800-K-002'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002': ['3800-GX-002', '3800-DE-028', '3800-G-002', '3800-G-002-EGMD-2', '3800-G-002-EDVR-1'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003': ['3800-GX-003', '3800-G-003', '3800-DE-029', '3800-G-003-EGMD-2', '3800-G-003-EDVR-1'], 'Tickalara Satellite - Buildings - Workshop': ['3800-BLD-002', '3800-DB-003', '3800-BLD-004', '3800-DB-002', '3800-BLD-003'], 'Tickalara Satellite - Crude Oil Storage - Production Tanks': ['3800-LIT-0344', '3800-LSH-0087', '3800-LSHH-0053', '3800-TK-003C', '3800-LIT-0088', '3800-LSHH-0261', '3800-TK-003E', '3800-TK-003E-CO', '3800-TK-003B-CO', '3800-TK-003D', '3800-TK-003A-CO', '3800-LSHH-0345', '3800-SAT-STO-PRO', '3800-LIC-0059', '3800-TK-003D-CO', '3800-TK-048', '3800-TK-003A', '3800-TK-003B', '3800-LSLL-0004'], 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund': ['3800-SAT-STO-BND'], 'Tickalara Satellite - Export - Remote Telemetry Unit': ['3800-SAT-EXP-RTU', '3800-SAT-EXP-REV'], 'Tickalara Satellite - Inlet Manifold - Control and Monitor': ['3800-PSV-0144', '3800-PSV-0051', '3800-PSV-0037', '3800-PSV-0353', '3800-SAT-MAN-CO', '3800-SAT-MAN-BND', '3800-PSV-0050'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond': ['3800-SAT-PRO-INT'], 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond': ['3800-SAT-PRO-PON-PUM', '3800-SAT-PRO-PON'], 'Tickalara Satellite - Produced Water Ponds - Holding Pond': ['3800-SAT-PRO-HLD-B', '3800-SAT-PRO-HLD-A', '3800-SAT-PRO-HLD'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund': ['3800-SAT-PRO-BND']}
+04-07 17:39 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238910783', 'Tintaburra Satellite - (Review Items)': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Fire Water Pump': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tickalara Satellite - Buildings - Office': 'http://awsapmapp04.santos.com/meridium/#5;rte=home;rte=assets/hierarchy;rte=home;;rte=/asi/overview;rte=asi/package/0;rte=asi/package/1238921241'}
+04-07 17:39 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset']}
+04-07 17:39 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO'], 'Tickalara Satellite - Buildings - Office': ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4']}
+04-07 17:39 INFO     Start processing package 1/18 'Tickalara Satellite - Buildings - Office' with 13 flocs and 3 job plans
+04-07 17:39 INFO     package created. Jump with url
+04-07 17:39 INFO     Processing 1/13 flocs: 3800-SAT-BLD
+04-07 17:39 INFO     Asset 3800-SAT-BLD already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:39 INFO     Processing 2/13 flocs: 3800-DB-001
+04-07 17:39 INFO     Asset 3800-DB-001 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:39 INFO     Processing 3/13 flocs: 3800-BLD-001-BUFI-2
+04-07 17:39 INFO     Asset 3800-BLD-001-BUFI-2 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:39 INFO     Processing 4/13 flocs: 3800-DB-N6
+04-07 17:39 INFO     Asset 3800-DB-N6 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:39 INFO     Processing 5/13 flocs: 3800-DB-006
+04-07 17:39 INFO     Asset 3800-DB-006 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:39 INFO     Processing 6/13 flocs: 3800-DB-005
+04-07 17:39 INFO     Asset 3800-DB-005 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:39 INFO     Processing 7/13 flocs: 3800-DB-N4
+04-07 17:39 INFO     Asset 3800-DB-N4 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 17:39 INFO     Processing 8/13 flocs: 3800-BLD-001-INS
+04-07 17:39 INFO     click the plus button
+04-07 17:39 INFO     click the search button
+04-07 17:39 INFO     find asset text area
+04-07 17:39 INFO     send keys to asset text area
+04-07 17:39 INFO     Get search results
+04-07 17:39 INFO     Wait for the next search
+04-07 17:39 INFO     Get search results
+04-07 17:39 INFO     Wait for the next search
+04-07 17:40 INFO     Get search results
+04-07 17:40 INFO     Wait for the next search
+04-07 17:40 INFO     Get search results
+04-07 17:40 INFO     Wait for the next search
+04-07 17:40 INFO     Get search results
+04-07 17:40 INFO     Wait for the next search
+04-07 17:40 INFO     Get search results
+04-07 17:40 INFO     Filter finish
+04-07 17:40 INFO     find action text area
+04-07 17:40 INFO     send keys to action text area
+04-07 17:40 INFO     Looking for Select All action
+04-07 17:40 INFO     Click select all action button
+04-07 17:40 INFO     Click Add button
+04-07 17:40 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS']
+04-07 17:40 INFO     Processing 9/13 flocs: 3800-BLD-001-BUFI-1
+04-07 17:40 INFO     click the plus button
+04-07 17:40 INFO     click the search button
+04-07 17:40 INFO     find asset text area
+04-07 17:40 INFO     send keys to asset text area
+04-07 17:40 INFO     Get search results
+04-07 17:40 INFO     Wait for the next search
+04-07 17:40 INFO     Get search results
+04-07 17:40 INFO     Wait for the next search
+04-07 17:40 INFO     Get search results
+04-07 17:40 INFO     Wait for the next search
+04-07 17:41 INFO     Get search results
+04-07 17:41 INFO     Wait for the next search
+04-07 17:41 INFO     Get search results
+04-07 17:41 INFO     Wait for the next search
+04-07 17:41 INFO     Get search results
+04-07 17:41 INFO     Wait for the next search
+04-07 17:41 INFO     Get search results
+04-07 17:41 INFO     Filter finish
+04-07 17:41 INFO     find action text area
+04-07 17:41 INFO     send keys to action text area
+04-07 17:41 INFO     Looking for Select All action
+04-07 17:41 INFO     Click select all action button
+04-07 17:41 INFO     Click Add button
+04-07 17:41 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS', '3800-BLD-001-BUFI-1']
+04-07 17:41 INFO     Processing 10/13 flocs: 3800-DB-N8
+04-07 17:41 INFO     click the plus button
+04-07 17:41 INFO     click the search button
+04-07 17:41 INFO     find asset text area
+04-07 17:41 INFO     send keys to asset text area
+04-07 17:41 INFO     Get search results
+04-07 17:41 INFO     Wait for the next search
+04-07 17:41 INFO     Get search results
+04-07 17:41 INFO     Wait for the next search
+04-07 17:41 INFO     Get search results
+04-07 17:41 INFO     Wait for the next search
+04-07 17:41 INFO     Get search results
+04-07 17:41 INFO     Wait for the next search
+04-07 17:42 INFO     Get search results
+04-07 17:42 INFO     Wait for the next search
+04-07 17:42 INFO     Get search results
+04-07 17:42 INFO     Wait for the next search
+04-07 17:42 INFO     Get search results
+04-07 17:42 INFO     Filter finish
+04-07 17:42 INFO     find action text area
+04-07 17:42 INFO     send keys to action text area
+04-07 17:42 INFO     Looking for Select All action
+04-07 17:42 INFO     Click select all action button
+04-07 17:42 INFO     Click Add button
+04-07 17:42 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS', '3800-BLD-001-BUFI-1', '3800-DB-N8']
+04-07 17:42 INFO     Processing 11/13 flocs: 3800-DB-N10
+04-07 17:42 INFO     click the plus button
+04-07 17:42 INFO     click the search button
+04-07 17:42 INFO     find asset text area
+04-07 17:42 INFO     send keys to asset text area
+04-07 17:42 INFO     Get search results
+04-07 17:42 INFO     Wait for the next search
+04-07 17:42 INFO     Get search results
+04-07 17:42 INFO     Wait for the next search
+04-07 17:42 INFO     Get search results
+04-07 17:42 INFO     Wait for the next search
+04-07 17:42 INFO     Get search results
+04-07 17:42 INFO     Wait for the next search
+04-07 17:42 INFO     Get search results
+04-07 17:42 INFO     Wait for the next search
+04-07 17:43 INFO     Get search results
+04-07 17:43 INFO     Wait for the next search
+04-07 17:43 INFO     Get search results
+04-07 17:43 INFO     Filter finish
+04-07 17:43 INFO     find action text area
+04-07 17:43 INFO     send keys to action text area
+04-07 17:43 INFO     Looking for Select All action
+04-07 17:43 INFO     Click select all action button
+04-07 17:43 INFO     Click Add button
+04-07 17:43 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS', '3800-BLD-001-BUFI-1', '3800-DB-N8', '3800-DB-N10']
+04-07 17:43 INFO     Processing 12/13 flocs: 3800-BLD-001
+04-07 17:43 INFO     click the plus button
+04-07 17:43 INFO     click the search button
+04-07 17:43 INFO     find asset text area
+04-07 17:43 INFO     send keys to asset text area
+04-07 17:43 INFO     Get search results
+04-07 17:43 INFO     Wait for the next search
+04-07 17:43 INFO     Get search results
+04-07 17:43 INFO     Wait for the next search
+04-07 17:43 INFO     Get search results
+04-07 17:43 INFO     Wait for the next search
+04-07 17:43 INFO     Get search results
+04-07 17:43 INFO     Wait for the next search
+04-07 17:43 INFO     Get search results
+04-07 17:43 INFO     Wait for the next search
+04-07 17:44 INFO     Get search results
+04-07 17:44 INFO     Filter finish
+04-07 17:44 INFO     find action text area
+04-07 17:44 INFO     send keys to action text area
+04-07 17:44 INFO     Looking for Select All action
+04-07 17:44 INFO     Click select all action button
+04-07 17:44 INFO     Click Add button
+04-07 17:44 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS', '3800-BLD-001-BUFI-1', '3800-DB-N8', '3800-DB-N10', '3800-BLD-001']
+04-07 17:44 INFO     Processing 13/13 flocs: 3800-DB-007
+04-07 17:44 INFO     click the plus button
+04-07 17:44 INFO     click the search button
+04-07 17:44 INFO     find asset text area
+04-07 17:44 INFO     send keys to asset text area
+04-07 17:44 INFO     Get search results
+04-07 17:44 INFO     Wait for the next search
+04-07 17:44 INFO     Get search results
+04-07 17:44 INFO     Wait for the next search
+04-07 17:44 INFO     Get search results
+04-07 17:44 INFO     Wait for the next search
+04-07 17:44 INFO     Get search results
+04-07 17:44 INFO     Wait for the next search
+04-07 17:44 INFO     Get search results
+04-07 17:44 INFO     Wait for the next search
+04-07 17:44 INFO     Get search results
+04-07 17:44 INFO     Wait for the next search
+04-07 17:44 INFO     Get search results
+04-07 17:44 INFO     Wait for the next search
+04-07 17:45 INFO     Get search results
+04-07 17:45 INFO     Filter finish
+04-07 17:45 INFO     find action text area
+04-07 17:45 INFO     send keys to action text area
+04-07 17:45 INFO     Looking for Select All action
+04-07 17:45 INFO     Click select all action button
+04-07 17:45 INFO     Click Add button
+04-07 17:45 INFO     Package Tickalara Satellite - Buildings - Office has linked asset ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS', '3800-BLD-001-BUFI-1', '3800-DB-N8', '3800-DB-N10', '3800-BLD-001', '3800-DB-007']
+04-07 17:45 INFO     Adding 1/3 job_plan: KICK BLD 6M-11-00-001
+04-07 17:45 INFO     Click the plus button
+04-07 17:45 INFO     Click 'job Plan'
+04-07 17:45 INFO     Send job id
+04-07 17:45 INFO     Send plan description
+04-07 17:45 INFO     Send my plant document number
+04-07 17:45 INFO     Send oracle activity
+04-07 17:45 INFO     Click save button
+04-07 17:45 INFO     Package Tickalara Satellite - Buildings - Office has job plans ['KICK BLD 6M-11-00-001']
+04-07 17:45 INFO     link ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] to this job plan
+04-07 17:46 INFO     Click linked actions
+04-07 17:47 INFO     Click the plus button
+04-07 17:47 INFO     Get all the check box
+04-07 17:47 INFO     Get all the action names
+04-07 17:47 INFO     Number of rows assertion passed
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Carry out service on split system (Indoor unit)' found in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Select this action 
+04-07 17:47 INFO     'Carry out service on split system (Outdoor unit)' found in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Select this action 
+04-07 17:47 INFO     'Carry out service on RAC' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Run To Failure' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Run To Failure' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Run To Failure' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Run To Failure' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Run To Failure' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Run To Failure' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Run To Failure' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Run To Failure' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     'Run To Failure' not in action name list ['Carry out service on split system (Indoor unit)', 'Carry out service on split system (Outdoor unit)'] - Skip this action 
+04-07 17:47 INFO     Go back to the package tab
+04-07 17:47 INFO     Adding 2/3 job_plan: KICK BLD 12M-11-00-001
+04-07 17:47 INFO     Click the plus button
+04-07 17:47 INFO     Click 'job Plan'
+04-07 17:47 INFO     Send job id
+04-07 17:47 INFO     Send plan description
+04-07 17:47 INFO     Send my plant document number
+04-07 17:47 INFO     Send oracle activity
+04-07 17:47 INFO     Click save button
+04-07 17:47 INFO     Package Tickalara Satellite - Buildings - Office has job plans ['KICK BLD 6M-11-00-001', 'KICK BLD 12M-11-00-001']
+04-07 17:47 INFO     link ['Carry out service on RAC'] to this job plan
+04-07 17:47 INFO     Click linked actions
+04-07 17:48 INFO     Click the plus button
+04-07 17:48 INFO     Get all the check box
+04-07 17:48 INFO     Get all the action names
+04-07 17:48 INFO     Number of rows assertion passed
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Carry out service on RAC' found in action name list ['Carry out service on RAC'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Carry out service on RAC'] - Skip this action 
+04-07 17:48 INFO     Go back to the package tab
+04-07 17:48 INFO     Adding 3/3 job_plan: Managed by Parent Maintenance
+04-07 17:48 INFO     Click the plus button
+04-07 17:48 INFO     Click 'job Plan'
+04-07 17:48 INFO     Send job id
+04-07 17:48 INFO     Send plan description
+04-07 17:48 INFO     Send my plant document number
+04-07 17:48 INFO     Send oracle activity
+04-07 17:48 INFO     Click save button
+04-07 17:48 INFO     Package Tickalara Satellite - Buildings - Office has job plans ['KICK BLD 6M-11-00-001', 'KICK BLD 12M-11-00-001', 'Managed by Parent Maintenance']
+04-07 17:48 INFO     link ['Managed by Parent Maintenance'] to this job plan
+04-07 17:48 INFO     Click linked actions
+04-07 17:48 INFO     Click the plus button
+04-07 17:48 INFO     Get all the check box
+04-07 17:48 INFO     Get all the action names
+04-07 17:48 INFO     Number of rows assertion passed
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Managed by Parent Maintenance' found in action name list ['Managed by Parent Maintenance'] - Select this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 17:48 INFO     'Run To Failure' not in action name list ['Managed by Parent Maintenance'] - Skip this action 
+04-07 17:48 INFO     Go back to the package tab
+04-07 17:48 INFO     Closing the current package tab
+04-07 17:48 INFO     Finish processing package 'Tickalara Satellite - Buildings - Office' with 13 flocs and 3 job plans
+04-07 17:48 INFO     Finish processing current package in 541.0116412639618 seconds
+04-07 17:48 INFO     Start processing package 2/18 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks' with 7 flocs and 4 job plans
+04-07 18:00 INFO     -----------------------------------New Session-------------------------------------
+04-07 18:00 INFO     User Name: "shekx"
+04-07 18:00 INFO     CSV File Path: 04 CSV/ASI/Ticklara ASI prep_1.csv
+04-07 18:00 INFO     ChromeDriver Path: chromedriver.exe
+04-07 18:00 INFO     unique_package_id_list : ['Tickalara Satellite - Buildings - Office', 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks', 'Tickalara Satellite - Export - Control and Monitor', 'Tickalara Satellite - Export - Shipping Pumps', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001', 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002', 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002', 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003', 'Tickalara Satellite - Buildings - Workshop', 'Tickalara Satellite - Crude Oil Storage - Production Tanks', 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund', 'Tickalara Satellite - Export - Remote Telemetry Unit', 'Tickalara Satellite - Inlet Manifold - Control and Monitor', 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond', 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond', 'Tickalara Satellite - Produced Water Ponds - Holding Pond', 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund']
+04-07 18:00 INFO     package_job_plan_dict : {'Tickalara Satellite - Buildings - Office': ['KICK BLD 6M-11-00-001', 'KICK BLD 12M-11-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks': ['KICK CRUDE OIL STRG 12M-04-00-001', 'Maintenance covered by children', 'Managed by Parent Maintenance', 'Managed by Integrity'], 'Tickalara Satellite - Export - Control and Monitor': ['KICK EXP 5Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity'], 'Tickalara Satellite - Export - Shipping Pumps': ['KICK EXP 12M-01-00-001', 'KICK EXP 12M-01-00-002', 'KICK EXP 6M-04-00-001', 'KICK EXP 12M-04-00-001', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003': ['KICK INST AIR 12M-04-00-001', 'KICK INST AIR 6M-04-00-001', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001': ['KICK INST AIR 6M-04-00-002', 'KICK INST AIR 12M-04-00-002', 'KICK INST AIR 3M-04-00-001', 'KICK INST AIR 6M-01-00-001', 'KICK INST AIR 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002': ['KICK INST AIR 60W-01-00-001', 'KICK INST AIR 10W-04-00-001', 'KICK INST AIR 40W-04-00-001', 'KICK INST AIR 5W-04-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002': ['KICK PWR GEN 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003': ['KICK PWR GEN 12M-01-00-001', 'Managed by Parent Maintenance'], 'Tickalara Satellite - Buildings - Workshop': ['Managed by Parent Maintenance'], 'Tickalara Satellite - Crude Oil Storage - Production Tanks': ['Managed by Parent Maintenance', 'Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund': ['Maintenance covered by children'], 'Tickalara Satellite - Export - Remote Telemetry Unit': ['Maintenance covered by children'], 'Tickalara Satellite - Inlet Manifold - Control and Monitor': ['Managed by Integrity', 'Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Holding Pond': ['Maintenance covered by children'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund': ['Maintenance covered by children']}
+04-07 18:00 INFO     package_floc_dict : {'Tickalara Satellite - Buildings - Office': ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS', '3800-BLD-001-BUFI-1', '3800-DB-N8', '3800-DB-N10', '3800-BLD-001', '3800-DB-007'], 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks': ['3800-TK-001B', '3800-TK-001C', '3800-SAT-STO-DEW', '3800-PX-003', '3800-TK-001A', '3800-LSHH-0055', '3800-SAT-STO-CHEM-BND'], 'Tickalara Satellite - Export - Control and Monitor': ['3800-FE-0129', '3800-FIT-0129', '3800-FE-0128', '3800-PIT-0138', '3800-PSV-0130', '3800-FIT-0128'], 'Tickalara Satellite - Export - Shipping Pumps': ['3800-P-001A', '3800-P-001B', '3800-V-001B', '3800-PX-001A', '3800-V-020', '3800-V-019', '3800-SAT-EXP-PUM-BND', '3800-PX-001B', '3800-PSLL-0004', '3800-V-018', '3800-V-021', '3800-V-001A', '3800-PSV-0001', '3800-PSV-0341', '3800-PSV-0340', '3800-LSHH-0086', '3800-PSHH-0004', '3800-PSL-0079', '3800-SAT-EXP-PUM', '3800-PSV-0002'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003': ['3800-K-0003', '3800-V-0003', '3800-PSV-00017', '3800-KX-0003', '3800-PSV-00017B'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001': ['3800-KX-001', '3800-K-001', '3800-K-001-EM'], 'Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002': ['3800-KX-002', '3800-K-002-EM', '3800-K-002'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002': ['3800-GX-002', '3800-DE-028', '3800-G-002', '3800-G-002-EGMD-2', '3800-G-002-EDVR-1'], 'Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003': ['3800-GX-003', '3800-G-003', '3800-DE-029', '3800-G-003-EGMD-2', '3800-G-003-EDVR-1'], 'Tickalara Satellite - Buildings - Workshop': ['3800-BLD-002', '3800-DB-003', '3800-BLD-004', '3800-DB-002', '3800-BLD-003'], 'Tickalara Satellite - Crude Oil Storage - Production Tanks': ['3800-LIT-0344', '3800-LSH-0087', '3800-LSHH-0053', '3800-TK-003C', '3800-LIT-0088', '3800-LSHH-0261', '3800-TK-003E', '3800-TK-003E-CO', '3800-TK-003B-CO', '3800-TK-003D', '3800-TK-003A-CO', '3800-LSHH-0345', '3800-SAT-STO-PRO', '3800-LIC-0059', '3800-TK-003D-CO', '3800-TK-048', '3800-TK-003A', '3800-TK-003B', '3800-LSLL-0004'], 'Tickalara Satellite - Crude Oil Storage - Tank Farm Bund': ['3800-SAT-STO-BND'], 'Tickalara Satellite - Export - Remote Telemetry Unit': ['3800-SAT-EXP-RTU', '3800-SAT-EXP-REV'], 'Tickalara Satellite - Inlet Manifold - Control and Monitor': ['3800-PSV-0144', '3800-PSV-0051', '3800-PSV-0037', '3800-PSV-0353', '3800-SAT-MAN-CO', '3800-SAT-MAN-BND', '3800-PSV-0050'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Pond': ['3800-SAT-PRO-INT'], 'Tickalara Satellite - Produced Water Ponds - Pump-out Pond': ['3800-SAT-PRO-PON-PUM', '3800-SAT-PRO-PON'], 'Tickalara Satellite - Produced Water Ponds - Holding Pond': ['3800-SAT-PRO-HLD-B', '3800-SAT-PRO-HLD-A', '3800-SAT-PRO-HLD'], 'Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund': ['3800-SAT-PRO-BND']}
+04-07 18:00 INFO     created_package: {'Tintaburra Satellite - Alternator  - Diesel Engine': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887610', 'Tintaburra Satellite - Crude Oil Storage - Tanks': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238887707', 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/1238910783', 'Tintaburra Satellite - (Review Items)': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Fire Water Pump': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': 'http://awsapmapp04.santos.com/meridium/#3;rte=home;rte=assets\\hierarchy\\-1;rte=/asi/overview;rte=asi/package/0', 'Tickalara Satellite - Buildings - Office': 'http://awsapmapp04.santos.com/meridium/#5;rte=home;rte=assets/hierarchy;rte=home;;rte=/asi/overview;rte=asi/package/0;rte=asi/package/1238921241'}
+04-07 18:00 INFO     created_job_plan: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['TINTA ALT 5Y-01-00-001', 'Parent Asset'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['TINTA CRUDE STRG 2Y-01-00-001', 'Managed by Parent Maintenance', 'Managed by Integrity', 'Parent Asset'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['TINTA EXP 6M-01-00-001', 'Managed by Parent Maintenance', 'Parent Asset', 'Managed by Integrity'], 'Tintaburra Satellite - (Review Items)': ['Parent Asset'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['Managed by Parent Maintenance', 'Managed by Integrity'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['Managed by Integrity'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['Managed by Integrity', 'Managed by Parent Maintenance'], 'Tintaburra Satellite - Fire Water Pump': ['Parent Asset'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['Parent Asset'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['Parent Asset'], 'Tickalara Satellite - Buildings - Office': ['KICK BLD 6M-11-00-001', 'KICK BLD 12M-11-00-001', 'Managed by Parent Maintenance']}
+04-07 18:00 INFO     linked_asset: {'Tintaburra Satellite - Alternator  - Diesel Engine': ['1650-EPL-001', '1650-SWBD-001'], 'Tintaburra Satellite - Crude Oil Storage - Tanks': ['1650-LIT-1062', '1650-LSHH-1065', '1650-LSHH-1064', '1650-TK-001B-CO', '1650-PRV-001', '1650-SAT-STO-BND', '1650-LI-1062A', '1650-PSV-0269', '1650-TK-001A', '1650-PSV-001', '1650-TK-001B', '1650-TK-001A-CO', '1650-SAT-STO', '1650-PSV-006'], 'Tintaburra Satellite - Export - Crude Oil Loadout Pump Package': ['1650-P-002', '1650-SP18-0003', '1650-SP62-0001', '1650-SAT-EXP', '1650-SP18-0004', '1650-PX-002', '1650-SP67-0001', '1650-PSV-259', '1650-SP62-0002', '1650-PSV-257', '1650-PSV-263'], 'Tintaburra Satellite - (Review Items)': ['1650-SAT-REV-VSCA-1', '1650-SAT-REV-VSCA-2', '1650-SAT-REV'], 'Tintaburra Satellite - Crude Fuel Storage - Control and Monitor': ['1658-SP58-003', '1650-TK-002-BND', '1650-TK-002', '1650-PSV-1079', '1650-SP36-001'], 'Tintaburra Satellite - Emergency Shutdown Valve - Control and Monitor': ['1650-HS-1067'], 'Tintaburra Satellite - Fire Water Tank - Control and Monitor': ['1650-TK-003', '1650-LG-0502'], 'Tintaburra Satellite - Fire Water Pump': ['1650-SAT-FIR'], 'Tintaburra Satellite - Piping Area - Pipe Supports And Structures': ['1650-SAT-PIP', '1650-SAT-PIP-STRUCT'], 'Tintaburra Satellite - Production Facilities - Chemical Injection Pump Packages': ['1650-SAT-PRO-REV', '1650-SAT-PRO'], 'Tickalara Satellite - Buildings - Office': ['3800-SAT-BLD', '3800-DB-001', '3800-BLD-001-BUFI-2', '3800-DB-N6', '3800-DB-006', '3800-DB-005', '3800-DB-N4', '3800-BLD-001-INS', '3800-BLD-001-BUFI-1', '3800-DB-N8', '3800-DB-N10', '3800-BLD-001', '3800-DB-007']}
+04-07 18:01 INFO     Start processing package 1/18 'Tickalara Satellite - Buildings - Office' with 13 flocs and 3 job plans
+04-07 18:01 INFO     package created. Jump with url
+04-07 18:01 INFO     Processing 1/13 flocs: 3800-SAT-BLD
+04-07 18:01 INFO     Asset 3800-SAT-BLD already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 2/13 flocs: 3800-DB-001
+04-07 18:01 INFO     Asset 3800-DB-001 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 3/13 flocs: 3800-BLD-001-BUFI-2
+04-07 18:01 INFO     Asset 3800-BLD-001-BUFI-2 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 4/13 flocs: 3800-DB-N6
+04-07 18:01 INFO     Asset 3800-DB-N6 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 5/13 flocs: 3800-DB-006
+04-07 18:01 INFO     Asset 3800-DB-006 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 6/13 flocs: 3800-DB-005
+04-07 18:01 INFO     Asset 3800-DB-005 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 7/13 flocs: 3800-DB-N4
+04-07 18:01 INFO     Asset 3800-DB-N4 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 8/13 flocs: 3800-BLD-001-INS
+04-07 18:01 INFO     Asset 3800-BLD-001-INS already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 9/13 flocs: 3800-BLD-001-BUFI-1
+04-07 18:01 INFO     Asset 3800-BLD-001-BUFI-1 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 10/13 flocs: 3800-DB-N8
+04-07 18:01 INFO     Asset 3800-DB-N8 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 11/13 flocs: 3800-DB-N10
+04-07 18:01 INFO     Asset 3800-DB-N10 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 12/13 flocs: 3800-BLD-001
+04-07 18:01 INFO     Asset 3800-BLD-001 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Processing 13/13 flocs: 3800-DB-007
+04-07 18:01 INFO     Asset 3800-DB-007 already linked to package Tickalara Satellite - Buildings - Office. Skip this one
+04-07 18:01 INFO     Adding 1/3 job_plan: KICK BLD 6M-11-00-001
+04-07 18:01 INFO     Job plan already created. Skip KICK BLD 6M-11-00-001
+04-07 18:01 INFO     Adding 2/3 job_plan: KICK BLD 12M-11-00-001
+04-07 18:01 INFO     Job plan already created. Skip KICK BLD 12M-11-00-001
+04-07 18:01 INFO     Adding 3/3 job_plan: Managed by Parent Maintenance
+04-07 18:01 INFO     Job plan already created. Skip Managed by Parent Maintenance
+04-07 18:01 INFO     Closing the current package tab
+04-07 18:01 INFO     Finish processing package 'Tickalara Satellite - Buildings - Office' with 13 flocs and 3 job plans
+04-07 18:01 INFO     Finish processing current package in 5.017632007598877 seconds
+04-07 18:01 INFO     Start processing package 2/18 'Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks' with 7 flocs and 4 job plans

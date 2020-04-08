@@ -263,15 +263,19 @@ def link_actions_to_jobplan(driver, job_plan_data):
     assert (len(potential_action_check_box_list) == len(potential_action_name_list))
     logging.info("Number of rows assertion passed")
 
+    selected_actions = []
     for i in range(len(potential_action_check_box_list)):
         if potential_action_name_list[i].text in action_name_list:
+            selected_actions.append(potential_action_name_list[i].text)
             potential_action_check_box_list[i].click()
             logging.info(f"'{potential_action_name_list[i].text}' found in action name list {action_name_list} - Select this action ")
         else:
             logging.info(f"'{potential_action_name_list[i].text}' not in action name list {action_name_list} - Skip this action ")
             
+    logging.info(f"Selected action {selected_actions} for this job plan")
     # Click the Link button
     find_element_and_click(driver, "//button//span[contains(text(),'Link')]", by="xpath")
+    logging.info("click the link button")
 
 
 def manage_actions_with_floc(driver, asset):
