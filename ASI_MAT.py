@@ -240,10 +240,14 @@ def add_job_plan(driver, row):
     find_element_and_click(driver, "//button[@title='Save']", by="xpath")
     logging.info("Click save button")
 
+def remove_special_characters(input_str):
+    return re.sub('[^A-Za-z0-9]+', ' ', input_str)
+
 
 def link_actions_to_jobplan(driver, job_plan_data):
     # Get all the action names
     action_name_list = job_plan_data["Action Name"].unique().tolist()
+    action_name_list = [remove_special_characters(x) for x in action_name_list]
     logging.info(f"link {action_name_list} to this job plan")
 
     # Click Linked Actions
@@ -265,12 +269,13 @@ def link_actions_to_jobplan(driver, job_plan_data):
 
     selected_actions = []
     for i in range(len(potential_action_check_box_list)):
-        if potential_action_name_list[i].text in action_name_list:
-            selected_actions.append(potential_action_name_list[i].text)
+        potential_action_name = remove_special_characters(potential_action_name_list[i].text)
+        if potential_action_name in action_name_list:
+            selected_actions.append(potential_action_name)
             potential_action_check_box_list[i].click()
-            logging.info(f"'{potential_action_name_list[i].text}' found in action name list {action_name_list} - Select this action ")
+            logging.info(f"'{potential_action_name}' found in action name list {action_name_list} - Select this action ")
         else:
-            logging.info(f"'{potential_action_name_list[i].text}' not in action name list {action_name_list} - Skip this action ")
+            logging.info(f"'{potential_action_name}' not in action name list {action_name_list} - Skip this action ")
             
     logging.info(f"Selected action {selected_actions} for this job plan")
     # Click the Link button
@@ -522,6 +527,7 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
 
 
 
+
 def get_input_csv_list(csv_path_file: str):
     if not os.path.exists(csv_path_file):
         raise Exception(f"ERROR[get_input_csv_list] {csv_path_file} does not exist")
@@ -554,3 +560,6 @@ if __name__ == "__main__":
     run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run_selenium_headless, username, password)
 
     logging.info(f"Finished processing {input_csv_path} in {time.time() - start_time} seconds")
+
+    while True:
+        time.sleep(1e5) # prevent the browser to be closed automatically. Otherwise the last job plan cannot link actions 
