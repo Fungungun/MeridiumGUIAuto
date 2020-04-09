@@ -318,6 +318,9 @@ def manage_actions_with_floc(driver, asset):
     while True:  # this is to make sure the search is finish
         try:
             # results found
+            all_returned_records = driver.find_elements_by_xpath("//div[@class='add-bulk-actions-container']//td[@aria-colindex='3']")
+            logging.info(f"Found {len(all_returned_records)} rows for this floc")
+
             first_filter_result, _ = find_element(driver, "//div[@class='add-bulk-actions-container']//tr[@aria-rowindex='1']//td[@aria-colindex='3']", by="xpath",
                                                 description="make sure search is finish")
             logging.info("Get search results")
@@ -325,11 +328,11 @@ def manage_actions_with_floc(driver, asset):
                 logging.info("Filter finish")
                 break
 
-            # Check if no data in the search result
-            no_data_span, _ = find_element(driver, "//span[@class='dx-datagrid-nodata']", by="xpath", wait_time_sec=1)
-            if no_data_span is not None:
-                no_data = True
-                break
+            # # Check if no data in the search result
+            # no_data_span, _ = find_element(driver, "//span[@class='dx-datagrid-nodata']", by="xpath", wait_time_sec=1)
+            # if no_data_span is not None:
+            #     no_data = True
+            #     break
             else:
                 logging.info("Wait for the next search")
                 time.sleep(5)
