@@ -450,25 +450,32 @@ def run_selenium_instance(chrome_driver_path, url_home_page, input_csv_list, run
         logging.info(f"Start processing package {i+1}/{len(unique_package_id_list)} '{package_id}' with {len(package_floc_dict[package_id])} flocs and {len(package_job_plan_dict[package_id])} job plans")
         start_time = time.time()
 
+        
         if package_id not in created_package:
             # click create new package 
             find_element_and_click(driver, "//div[@class='block-group page-filter-tools']//button[contains(text(),'New')]",
                                 by="xpath")
             # create new package
             create_new_package(driver, package_id)
+            # set the flag
+            new_package_created = True
+        else:
+            logging.info("package created. Jump with url")
+            driver.get(created_package[package_id])
+            new_package_created = False
+
+        # manage actions using floc
+        # click "Manage actions"
+        find_element_and_click(driver, "//span[contains(text(),'Manage Actions')]", by="xpath")
+
+        if new_package_created:
+            time.sleep(2) # wait for the url to change so that it can be saved in the file correctly
             # write created package id to csv 
             f_created_package.write(f"{package_id},{driver.current_url}\n")
             # record created_package
             created_package[package_id] = driver.current_url
             created_job_plan[package_id] = []
             linked_asset[package_id] = []
-        else:
-            logging.info("package created. Jump with url")
-            driver.get(created_package[package_id])
-
-        # manage actions using floc
-        # click "Manage actions"
-        find_element_and_click(driver, "//span[contains(text(),'Manage Actions')]", by="xpath")
 
         asset_list = package_floc_dict[package_id]
         for j, asset in enumerate(asset_list):
