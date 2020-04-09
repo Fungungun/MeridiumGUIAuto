@@ -18,6 +18,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
 from dotenv import load_dotenv
+import re
+from selenium.common import exceptions  
+
 
 load_dotenv()
 
@@ -279,8 +282,13 @@ def link_actions_to_jobplan(driver, job_plan_data):
             
     logging.info(f"Selected action {selected_actions} for this job plan")
     # Click the Link button
-    find_element_and_click(driver, "//button//span[contains(text(),'Link')]", by="xpath")
-    logging.info("click the link button")
+    if len(selected_actions) > 0:
+        find_element_and_click(driver, "//button//span[contains(text(),'Link')]", by="xpath")
+        logging.info("click the link button")
+    else:
+        find_element_and_click(driver, "//button//span[contains(text(),'Cancel')]", by="xpath")
+        logging.info("No action selected. Click the cancel button")
+    
 
 
 def manage_actions_with_floc(driver, asset):
@@ -307,15 +315,19 @@ def manage_actions_with_floc(driver, asset):
         raise Exception(f"ERROR[add_job_plan] Could not send keys to asset textbox")
 
     while True:  # this is to make sure the search is finish
-        first_filter_result, _ = find_element(driver, "//div[@class='add-bulk-actions-container']//tr[@aria-rowindex='1']//td[@aria-colindex='3']", by="xpath",
-                                            description="make sure search is finish")
-        logging.info("Get search results")
-        if asset in first_filter_result.text:
-            logging.info("Filter finish")
-            break
-        else:
-            logging.info("Wait for the next search")
-            time.sleep(5)
+        try:
+            first_filter_result, _ = find_element(driver, "//div[@class='add-bulk-actions-container']//tr[@aria-rowindex='1']//td[@aria-colindex='3']", by="xpath",
+                                                description="make sure search is finish")
+            logging.info("Get search results")
+            if asset in first_filter_result.text:
+                logging.info("Filter finish")
+                break
+            else:
+                logging.info("Wait for the next search")
+                time.sleep(5)
+        except Exception as e:
+            logging.error(e)
+            pass
             
 
     # scroll bar 
