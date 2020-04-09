@@ -314,13 +314,21 @@ def manage_actions_with_floc(driver, asset):
     except:
         raise Exception(f"ERROR[add_job_plan] Could not send keys to asset textbox")
 
+    no_data = False
     while True:  # this is to make sure the search is finish
         try:
+            # results found
             first_filter_result, _ = find_element(driver, "//div[@class='add-bulk-actions-container']//tr[@aria-rowindex='1']//td[@aria-colindex='3']", by="xpath",
                                                 description="make sure search is finish")
             logging.info("Get search results")
             if asset in first_filter_result.text:
                 logging.info("Filter finish")
+                break
+
+            # Check if no data in the search result
+            no_data_span, _ = find_element(driver, "//span[@class='dx-datagrid-nodata']", by="xpath", wait_time_sec=1)
+            if no_data_span is not None:
+                no_data = True
                 break
             else:
                 logging.info("Wait for the next search")
@@ -328,40 +336,45 @@ def manage_actions_with_floc(driver, asset):
         except Exception as e:
             logging.error(e)
             pass
-            
+    
+    if no_data:
+        logging.info("No data is found. Click the cancel button")
+        find_element_and_click(driver, "//span[contains(text(), 'Cancel')]", by="xpath")
+    else:
+        # scroll bar 
+        scrollbar, clickable = find_element(driver,
+                                "//div[@class='add-bulk-actions']//div[@class='dx-scrollable-scrollbar dx-widget dx-scrollbar-horizontal dx-scrollbar-hoverable']//div[@class='dx-scrollable-scroll-content']",
+                                by="xpath")
+        ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-300, 0).release().perform()
 
-    # scroll bar 
-    scrollbar, clickable = find_element(driver,
-                            "//div[@class='add-bulk-actions']//div[@class='dx-scrollable-scrollbar dx-widget dx-scrollbar-horizontal dx-scrollbar-hoverable']//div[@class='dx-scrollable-scroll-content']",
-                            by="xpath")
-    ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-300, 0).release().perform()
 
+        #  This is to drag the select all button into view
+        action_name, _ = find_element(driver,
+                                    "//td[@aria-label='Column Action, Filter cell']//input",
+                                    by="xpath", description="action name")
+        logging.info("find action text area")
+        try:
+            action_name.send_keys("")
+            logging.info("send keys to action text area")
+        except:
+            raise Exception(f"ERROR[add_job_plan] Could not send keys to action textbox")
+        #  This is to drag the select all button into view
 
-    #  This is to drag the select all button into view
-    action_name, _ = find_element(driver,
-                                "//td[@aria-label='Column Action, Filter cell']//input",
-                                by="xpath", description="action name")
-    logging.info("find action text area")
-    try:
-        action_name.send_keys("")
-        logging.info("send keys to action text area")
-    except:
-        raise Exception(f"ERROR[add_job_plan] Could not send keys to action textbox")
-    #  This is to drag the select all button into view
+        ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-50, 0).release().perform()
 
-    ActionChains(driver).click_and_hold(scrollbar).move_by_offset(-50, 0).release().perform()
+        logging.info("Looking for Select All action")
+        # click select all action
+        find_element_and_click(driver,
+                                "//div[@class='add-bulk-actions-container']//tr[@class='dx-row dx-column-lines dx-header-row']//span[@class='dx-checkbox-icon']",
+                                by="xpath")
+        logging.info("Click select all action button")
+                        
 
-    logging.info("Looking for Select All action")
-    # click select all action
-    find_element_and_click(driver,
-                            "//div[@class='add-bulk-actions-container']//tr[@class='dx-row dx-column-lines dx-header-row']//span[@class='dx-checkbox-icon']",
-                            by="xpath")
-    logging.info("Click select all action button")
-                    
+        # click Add
+        find_element_and_click(driver, "//span[contains(text(), 'Add')]", by="xpath")
+        logging.info("Click Add button")
 
-    # click Add
-    find_element_and_click(driver, "//span[contains(text(), 'Add')]", by="xpath")
-    logging.info("Click Add button")
+        
 
 
 def get_created_package_and_job_plan():
