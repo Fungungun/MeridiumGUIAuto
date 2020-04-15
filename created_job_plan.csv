@@ -21,3 +21,65 @@ Tickalara Satellite - Buildings - Office,KICK BLD 6M-11-00-001
 Tickalara Satellite - Buildings - Office,KICK BLD 12M-11-00-001
 Tickalara Satellite - Buildings - Office,Managed by Parent Maintenance
 Tickalara Satellite - Buildings - Office,Run To Failure-DISTRIBUTION BOARD
+Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks,KICK CRUDE OIL STRG 12M-04-00-001
+Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks,Maintenance covered by children
+Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks,Managed by Parent Maintenance
+Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks,Managed by Integrity
+Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks,Run To Failure-TANK
+Tickalara Satellite - Crude Oil Storage - Dewatering / Test Tanks,Run To Failure-CONTROLLER
+Tickalara Satellite - Export - Control and Monitor,KICK EXP 5Y-01-00-001
+Tickalara Satellite - Export - Control and Monitor,Managed by Parent Maintenance
+Tickalara Satellite - Export - Control and Monitor,Managed by Integrity
+Tickalara Satellite - Export - Shipping Pumps,KICK EXP 12M-01-00-001
+Tickalara Satellite - Export - Shipping Pumps,KICK EXP 12M-01-00-002
+Tickalara Satellite - Export - Shipping Pumps,KICK EXP 6M-04-00-001
+Tickalara Satellite - Export - Shipping Pumps,KICK EXP 12M-04-00-001
+Tickalara Satellite - Export - Shipping Pumps,Managed by Integrity
+Tickalara Satellite - Export - Shipping Pumps,Maintenance covered by children
+Tickalara Satellite - Export - Shipping Pumps,Run To Failure-PUMP
+Tickalara Satellite - Export - Shipping Pumps,Run To Failure-TANK
+Tickalara Satellite - Export - Shipping Pumps,Run To Failure-INSTRUMENT
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003,KICK INST AIR 12M-04-00-001
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003,KICK INST AIR 6M-04-00-001
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003,Managed by Integrity
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003,Maintenance covered by children
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-0003,Run To Failure-INSTRUMENT
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001,KICK INST AIR 6M-04-00-002
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001,KICK INST AIR 12M-04-00-002
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001,KICK INST AIR 3M-04-00-001
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001,KICK INST AIR 6M-01-00-001
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001,KICK INST AIR 12M-01-00-001
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001,Managed by Parent Maintenance
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-001,Run To Failure-INSTRUMENT
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002,KICK INST AIR 60W-01-00-001
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002,KICK INST AIR 10W-04-00-001
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002,KICK INST AIR 40W-04-00-001
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002,KICK INST AIR 5W-04-00-001
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-KX-002,Managed by Parent Maintenance
+Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002,KICK PWR GEN 12M-01-00-001
+Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-002,Managed by Parent Maintenance
+Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003,KICK PWR GEN 12M-01-00-001
+Tickalara Satellite - Power Generation - LV Alternator Package - 3800-GX-003,Managed by Parent Maintenance
+Tickalara Satellite - Buildings - Workshop,Managed by Parent Maintenance
+Tickalara Satellite - Buildings - Workshop,Run To Failure-DISTRIBUTION BOARD
+Tickalara Satellite - Buildings - Workshop,Run To Failure-PARENT ASSET
+Tickalara Satellite - Crude Oil Storage - Production Tanks,Managed by Parent Maintenance
+Tickalara Satellite - Crude Oil Storage - Production Tanks,Managed by Integrity
+Tickalara Satellite - Crude Oil Storage - Production Tanks,Maintenance covered by children
+Tickalara Satellite - Crude Oil Storage - Tank Farm Bund,Maintenance covered by children
+Tickalara Satellite - Export - Remote Telemetry Unit,Maintenance covered by children
+Tickalara Satellite - Inlet Manifold - Control and Monitor,Managed by Integrity
+Tickalara Satellite - Inlet Manifold - Control and Monitor,Maintenance covered by children
+Tickalara Satellite - Produced Water Ponds - Interceptor Pond,Maintenance covered by children
+Tickalara Satellite - Produced Water Ponds - Interceptor Pond,Run To Failure-PUMP
+Tickalara Satellite - Produced Water Ponds - Pump-out Pond,Maintenance covered by children
+Tickalara Satellite - Produced Water Ponds - Holding Pond,Maintenance covered by children
+Tickalara Satellite - Produced Water Ponds - Interceptor Tanks Bund,Maintenance covered by children
+Tickalara Satellite - Export - Discharge to JMOP Shutdown Valve,Run To Failure-VALVE
+Tickalara Satellite - Export - Discharge to JMOP Shutdown Valve,Run To Failure-SWITCH-VIBRATION
+Tickalara Satellite - Inlet Manifold - Shutdown Valve,Run To Failure-SWITCH-VIBRATION
+Tickalara Satellite - Inlet Manifold - Shutdown Valve,Run To Failure-VALVE
+Tickalara Satellite - Instrument Air - Air Compressor Package - 3800-PIT-00342,Run To Failure-INSTRUMENT
+Tickalara Satellite - Power Generation - Tank Diesel Fuel,Run To Failure-TANK
+Tickalara Satellite - Trunkline - Control and Monitor,Run To Failure-CONTROLLER
+Tickalara Satellite - Trunkline - Control and Monitor,Run To Failure-VALVE
